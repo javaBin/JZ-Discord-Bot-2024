@@ -1,34 +1,34 @@
 # RustBot
+RustBot is a simple Discord bot written in Rust. It provides various utility commands for the javazone discord server.
 
-RustBot is a simple Discord bot written in Rust. It provides various utility commands for managing your Discord server.
-
-## Features
-
+## structure
 - **Main**: Contains the main functionality of the bot.
 - **Discord**: Handles Discord-related operations and interactions.
-- **Utils**: Provides utility functions and helper methods.
+- **Utils**: Provides utility functions and models.
 
-## Installation
+## Features
+The bot is planned to have these commands:
+- `/signup` -- For volunteers to sign up and receive their role. This will be validated on an internally stored list of pre registered volunteers.
+- `/next` -- Fetches the next talks on the program, and displays them in a compact, tidy way.
+- `/announce`  -- allows the bot to send messages with @everyone in the announcement channel.
 
-To use RustBot, you need to have Rust installed on your system. Follow these steps to get started:
 
-1. Clone the repository: `git clone https://github.com/your-username/rustbot.git`
-2. Navigate to the project directory: `cd rustbot`
-3. Build the project: `cargo build`
-4. Run the bot: `cargo run`
+## Running the bot
+To run the bot, you need to have Rust installed on your system. Follow these steps to get started:
+1. The bot relies on secrets from .env, mainly this includes these fields:
+ * DISCORD_TOKEN
+ * DISCORD_CLIENT_ID
+ * SESSION_URL_PREFIX
+ * PROGRAM_URL
+ * ANNOUNCEMENT_WEBHOOK
+ * VOLUNTEER_SOURCEFILE
+2. Build the project: `cargo build`
+3. Run the bot: `cargo run`
+
 
 ## Usage
 
-Once the bot is running, you can invite it to your Discord server and start using its commands. Here are some examples:
+Once the bot is running, you can invite it to your Discord server and start using its commands. 
+    - Slash commands are deployed to discord when bot is started.
 
-- `!help`: Displays the list of available commands.
-- `!ping`: Checks the bot's latency.
-- `!say [message]`: Makes the bot say a custom message.
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
