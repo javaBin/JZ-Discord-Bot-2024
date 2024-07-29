@@ -1,5 +1,5 @@
 # JZ-discord-bot
-RustBot is a simple Discord bot written in Rust. It provides various utility commands for the javazone discord server.
+This is a simple Discord bot written in Rust. It provides various utility commands for the javazone discord server.
 
 ## structure
 - **Main**: Contains the main functionality of the bot.
