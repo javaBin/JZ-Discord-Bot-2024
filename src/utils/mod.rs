@@ -3,6 +3,7 @@ use reqwest::header::{HeaderMap, USER_AGENT};
 pub mod models;
 use crate::utils::models::Program;
 pub mod program;
+pub mod next_time_slot;
 use crate::utils::program::program;
 
 pub async fn fetch(url: &str) -> Result<String, reqwest::Error> {
@@ -48,4 +49,10 @@ pub fn get_sessions_with_speakers(program: &Program) -> String {
     }
     ).collect::<Vec<String>>()
     .join("\n")
+}
+
+fn get_datetime_from_string(date: &str) -> chrono::DateTime<chrono::Utc> {
+    // deal with timezone as well, string can be utc or local
+    let date = chrono::DateTime::parse_from_rfc3339(date).unwrap();
+    date.with_timezone(&chrono::Utc)
 }
