@@ -52,7 +52,6 @@ pub fn get_sessions_with_speakers(program: &Program) -> String {
 }
 
 fn get_datetime_from_string(date: &str) -> chrono::DateTime<chrono::Utc> {
-    // deal with timezone as well, string can be utc or local
     let date = chrono::DateTime::parse_from_rfc3339(date).unwrap();
     date.with_timezone(&chrono::Utc)
 }
