@@ -1,3 +1,4 @@
+use std::env;
 use reqwest::Client;
 use reqwest::header::{HeaderMap, USER_AGENT};
 pub mod models;
@@ -16,15 +17,20 @@ pub async fn fetch(url: &str) -> Result<String, reqwest::Error> {
     Ok(body)
 }
 
-
-pub async fn fetch_and_print() -> Result<(), reqwest::Error> {
-    let res = fetch("https://www.rust-lang.org");
-
-    res.await.map(|text| {
-        println!("{}", &text[..100]);
-    })
+pub fn get_program_url() -> Option<String> {
+    match env::var("PROGRAM_URL") {
+        Ok(url) => Some(url),
+        Err(_) => None,
+    }
 }
 
+
+pub fn get_session_url_prefix() -> Option<String> {
+    match env::var("SESSION_URL_PREFIX") {
+        Ok(url) => Some(url),
+        Err(_) => None,
+    }
+}
 
 // Parse JSON into Program struct
 pub fn parse_json(json: &str) -> Result<Program, serde_json::Error> {
