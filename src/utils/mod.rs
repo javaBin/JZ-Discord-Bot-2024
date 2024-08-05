@@ -1,8 +1,9 @@
-use std::env;
 use reqwest::Client;
 use reqwest::header::{HeaderMap, USER_AGENT};
+use std::env;
 pub mod models;
 use crate::utils::models::Program;
+use chrono_tz::Europe::Oslo;
 pub mod program;
 pub mod next_time_slot;
 use crate::utils::program::program;
@@ -57,7 +58,20 @@ pub fn get_sessions_with_speakers(program: &Program) -> String {
     .join("\n")
 }
 
-fn get_datetime_from_string(date: &str) -> chrono::DateTime<chrono::Utc> {
-    let date = chrono::DateTime::parse_from_rfc3339(date).unwrap();
-    date.with_timezone(&chrono::Utc)
+fn get_datetime_from_string(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz>> {
+    let date = chrono::DateTime::parse_from_rfc3339(date);
+
+    match date {
+        Ok(date) => Some(date.with_timezone(&chrono_tz::UTC)),
+        Err(_) => None,
+    }
+}
+
+fn get_datetime_from_string_with_local_tz(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz>> {
+    let date = chrono::DateTime::parse_from_rfc3339(date);
+
+    match date {
+        Ok(date) => Some(date.with_timezone(&Oslo)),
+        Err(_) => None,
+    }
 }

@@ -4,830 +4,54 @@ pub fn program() -> String {
     {
 "sessions": [
 {
-"intendedAudience": "Topic: General\nAudience: Everyone (no experience needed)\n\nWe live in the world of information chaos. Isn’t easier just to ask your colleague than to find an answer in documentation? Or probably there is no answer as the development team doesn't write documentation because of the \"it's obvious for me, so it's obvious to everyone\" trap. They don't write because they are too busy making the project exist. \nGood documentation remains the best communication tool for groups and projects. This is especially true considering that projects tend to get bigger over time.\nI will give an example of how to describe a routine process for creating documentation in a software development team, show tools and share tips how to do it. These are easy to implement and use in everyday software developers’ life.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Breaking news, Instagram Reels, TikTok, and YouTube Shorts,… Living in the era of information intoxication means the average person’s attention span was only ~8 seconds in 2022. No wonder it’s hard to conquer readers’ attention with your documentation. That’s why it’s important to make your documentation exciting and interesting to read still keeping it informative.\n\nDocumentation is communication. And it is an important part of a community builder. It is also a visit card of your project. Via documentation you bring a message to your clients or community. It is a way of communication. And without communication there is no sustainability, consistency, etc.\nHow to communicate to succeed with your community?\n\nDocumentation within a group or a company may also be a single source of truth.\nDocumenting processes and protocols may be even more important than documenting your project itself, especially if it is some kind of a library.\n\nAnother biggest issue in creating documentation is that your team doesn't know how to do it. If you make the process understandable and a standard one, there will be no problem.\n\nI will tell what types of documentation exist, share some tips and tools to simplify the process of writing documentation.",
-"title": "Does reading documentation make your eyes glaze over? 5 tips to make documentation more successful.",
-"id": "aa141e3a-32e5-4b53-997f-b1a875a3be32",
-"sessionId": "aa141e3a-32e5-4b53-997f-b1a875a3be32",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Olga Merkulova",
-"twitter": "",
-"bio": "I am a solutions analyst and a software engineer. Started as a Java developer back in 2007. After 4 years in the big international companies, realized I am also keen on analysis and requirements capture. Founded an IT consulting company in 2016 and worked as a solutions analyst optimizing processes, writing prototypes and proof of the concepts for laboratories in the big EU research facilities such as ESFR, DESY. Now I am a software engineer and project manager of the Information System for Protein Crystallography in DESY.\n\nI am an open-source enthusiast and most of the projects I have been working on were open-source, really support the idea of knowledge sharing. \n\nLove traveling and learning different cultures. That is the reason I have lived in different EU countries and the US. One of my most memorable adventures is the US coast to coast road trip."
-}
-]
-},
-{
-"intendedAudience": "developers interested in cross-platform development; project managers, technical leads and architects seeking insights into efficient code sharing strategies; anyone curious about Kotlin's capabilities & versatility beyond a single platform\n",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Do you have a complex business rule-set problem? You know the kind where you have business rules (logic) spread across multiple platforms, systems and applications? Some of them might even be alter egos of the same rule hiding in different apps. You never know which one might turn up where, there is no single source of truth, solving errors takes hours of debugging, and making changes requires (oftentimes) painful coordination across teams and applications (ugh). \n\nWe had that problem at Posten & Bring, and we solved it using Kotlin Multiplatform. \n\nIn my session I’m spilling the tea. \n\nWe’ll look through real-world use cases at Posten & Bring. We’ll reflect on what we did - key learnings, what went well and most importantly  - what didn’t quite go as planned. We’ll also look through some resources to get started. We'll learn how KMM provides a unified framework for code sharing and execution across various platforms to solve the challenge of different codebases targeting different runtimes.\n\nThis talk is for you if troublesome and unruly business logic keeps you up at night and you want that to end NOW. It is also for you if you like to hear a good story. ",
-"title": "Unraveling Chaos with Kotlin Multiplatform: Story of how we brought order to Business Rules Spaghetti at Posten & Bring",
-"id": "a1d9aeac-ffc3-4b1d-ba08-a0568f415a02",
-"sessionId": "a1d9aeac-ffc3-4b1d-ba08-a0568f415a02",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Anshika Koul",
-"twitter": "",
-"bio": "Anshika has 10 years experience developing software at Posten Bring, building the logistics systems and APIs that enable millions of people in the Nordics to order and receive packages. She values studying users, and fostering cross-departmental collaboration to demystify unruly business rules. A typical day at work involves climbing stairs to the 17th floor of Posthuset, where she will transform whiteboard scribbles into deployed features. Off-duty you'll find her chasing sunsets and culinary adventures, sampling flavours from around the globe."
-}
-]
-},
-{
-"intendedAudience": "Dette vil være en talk som er passende for utviklere som allerede jobber med Spring Boot, eller som kan tenke seg å utforske denne teknologien. Målet er at lytterene skal få et innblikk i mer deklarative metoder for å lage Spring Boot apper enn hva man tradisjonelt er vant til, og kunne få en bedre forståelse for hva \"automagien\" til Spring Boot vanligvis håndterer for deg. ",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Har du noen gang lurt på hvordan Spring Boot applikasjonen din fungerer, hva alle annotasjonene gjør, og ikke minst om det trenger å være på denne måten? Da er denne talken for deg. Jeg kommer til å vise konkrete kodeeksempler på hvordan man kan gjøre Spring Boot mer deklarativt og funksjonelt, og se på hvordan dette kan fungere veldig bra med Kotlin",
-"title": "Deklarativ Spring Boot med Kotlin, mindre automagi",
-"id": "e56a4835-0561-40db-a464-8644d99e2a85",
-"sessionId": "e56a4835-0561-40db-a464-8644d99e2a85",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ruben Eide Saur",
-"twitter": "",
-"bio": "Jobbet som utvikler i SpareBank 1 Utvikling DA i ca. 5 år, og har kjent på både fordelene og ulempene med Spring Boot"
-}
-]
-},
-{
-"intendedAudience": "Developers who want to improve their code reading skills. \nExamples will be in Java, the IDE used will be IntelliJ IDEA.\nWhile this talk is probably more useful for beginners, more experienced developers might pick up a trick or two. ",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "As developers, we spend a lot of time learning to write code, while spending little to no time learning to read code. Meanwhile, we often spend more time reading code than actually writing it. Shouldn’t we be spending at least the same amount of time and effort improving this skill? Deliberate practice can help us get better at reading code. Learning how to better read and understand code, can in turn teach us what makes code readable. This might even help us to write code that is easier to read.\n\nIn this talk we will discuss the benefits of deliberately practicing reading code in a code reading club or session without an IDE, as well as common strategies to navigate a new codebase and familiarise ourselves with the code using the IDE.",
-"title": "Reading code",
-"id": "e6abb708-8f32-41a8-9c37-26346226de0b",
-"sessionId": "e6abb708-8f32-41a8-9c37-26346226de0b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Marit van Dijk",
-"twitter": "@MaritvanDijk77",
-"bio": "Marit van Dijk is a software developer with 20 years of experience in different roles and companies. She is a Java Champion and works as a Developer Advocate at JetBrains. She loves building awesome software with amazing people and making developers lives better.\n\nShe enjoys learning new things as well as sharing knowledge on programming, software development, testing & test automation, and more. She has contributed to open-source projects like Cucumber and several other projects.\n\nMarit speaks at international conferences, in webinars, and on podcasts, occasionally writes blog posts, and contributed to the book “97 Things Every Java Programmer Should Know” (O’Reilly Media)."
-}
-]
-},
-{
-"intendedAudience": "Developers that interact with data both at frontend & backend",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "For a long time the first thing that came to mind when mentioning databases was relational data and SQL. This changed when the NoSQL wave came and an explosion of several formats for storing data came to light, with JSON becoming a favorite because it gain traction as the preferred format for interchanging data between clients (mobile & browsers) and servers. Both JSON and relational formats have their advantages and disadvantages, we'll have to pick one when implementing a given solution. But, this is not a zero-sum game. What if we're able to use both formats inside the same database engine? In this session we'll explore different options that relational databases offer for dealing with JSON data.",
-"title": "Dealing with JSON in the relational world",
-"id": "75aac348-0650-49ba-afdb-0e97a186ec77",
-"sessionId": "75aac348-0650-49ba-afdb-0e97a186ec77",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Andres Almiray",
-"twitter": "@aalmiray",
-"bio": "Andres is a Java/Groovy developer and a Java Champion with more than 2 decades of experience in software design and development. Andres is a true believer in Open Source."
-}
-]
-},
-{
-"intendedAudience": "Developers/architects interested in the \"cloud native\" ecosystem and improving build pipelines and Continuous Delivery\n",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Progressive Delivery makes it easier to adopt Continuous Delivery, by deploying new versions to a subset of users before rolling them to the totality of the users, and rolling them back if not matching some key metrics, using techniques like feature flags and canary deployments.\n\nFor workloads running on Kubernetes it is very easy to adopt Progressive Delivery using Argo Rollouts. At Adobe Experience Manager we deploy over 10k customer services to Kubernetes. Changes can occur multiple times per day both internal and from code. A new feature can work fine for 99% of customers but still affect the other 1%, and detecting this just from tests is costly.\n\nWe will show how to implement a Progressive Delivery pipeline with Argo Rollouts to improve the reliability of the service and prevent regressions. It allows the protection of the service and automation of roll backs to a previous version if needed. This allows for faster delivery with more confidence.\n",
-"title": "Progressive Delivery Made Easy with Argo Rollouts",
-"id": "6d5b81c2-8fdc-4f04-95a7-9cb2c4aa06ab",
-"sessionId": "6d5b81c2-8fdc-4f04-95a7-9cb2c4aa06ab",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Carlos Sanchez",
-"twitter": "csanchez",
-"bio": "Carlos Sanchez is a Principal Scientist at Adobe Experience Manager, specializing in software automation, from build tools to Continuous Delivery and Progressive Delivery. Involved in Open Source for over 15 years, he is the author of the Jenkins Kubernetes plugin, contributor to Kubernetes, and a member of the Apache Software Foundation amongst other open source groups.\n"
-}
-]
-},
-{
-"intendedAudience": "Java Developers and architects. Anyone interested in beautiful code.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Often times Java SDKs for APIs look more like the API they represent than idiomatic Java.\n\nThis talk examines how great SDKs are built using design patterns.\n\nIt covers: enforced separation of Java api and implementation, use of generics, a caching layer and hiding network traffic.\n\n---\n\nThe (now defunct) Stormpath SDK had a great design approach from its original author, Les Hazlewood.\n\nIt has an enforced separation of api and implementation. It does this by using the api module as a compile time dependency and the implementation module as a runtime dependency.\n\nIt has a DataStore interface that makes heavy use of generics to support CRUD operations for all objects represented in the API. The implementation hides the actual network traffic and includes rich support for retry with backoff and error handling. Developers only ever have to deal with the DataStore, POJOs and method calls to “interact” with the API.\n\nIt also has a rich, interface-based caching layer. The default implementation is robust and suitable for single-JVM environments. It’s easy to drop in a distributed caching layer, such as Redis or Hazelcast.\n\nAll of this combined makes this one of the best designed SDKs in Java. In this talk, all these secrets are revealed against a completely different API: DigitalOcean’s Droplet API. There’s a few slides and lots of code, including some live-coding.",
-"title": "Beautiful SDK Design in Java for APIs",
-"id": "2239b7c7-18e0-4aaa-95a3-f7aa3134528d",
-"sessionId": "2239b7c7-18e0-4aaa-95a3-f7aa3134528d",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Micah Silverman",
-"twitter": "",
-"bio": "Micah Silverman leads Security Advocacy for Snyk. With 29 years of Java Experience (yup, that's from the beginning), he's authored numerous articles, co-authored a Java EE book and spoken at many conferences. He's a maker, who's built full size MAME arcade cabinets and repaired old electronic games (http://afitnerd.com/2011/10/16/weekend-project-fix-dark-tower/). He brings his love of all things Security and Java to a conference near you!"
-}
-]
-},
-{
-"intendedAudience": "Utviklere med interesse for databaser.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Datomic er en jæskla interessant database fordi den er så radikalt annerledes. For de av oss som er melka opp på SQL, så er det spennende å se hvor nytt det kan tenkes rundt lagring og henting av data. Her forteller jeg litt om hva jeg har lært etter 11 år med Datomic og hva som gjør databasen så interessant.",
-"title": "11 innsikter etter 11 år med den rare databasen Datomic",
-"id": "bbbc0c4c-bb2e-4198-8c27-ffba112e3d63",
-"sessionId": "bbbc0c4c-bb2e-4198-8c27-ffba112e3d63",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Magnar Sveen",
-"twitter": "magnars",
-"bio": "Jeg heter Magnar og er en glad programmør hos Mattilsynet. Jeg har laget noen videoserier (ZombieTDD, Emacs Rocks! og Parens of the Dead), holder gjerne på med sånn open source-greier, og er begeistret for funksjonell programmering."
-}
-]
-},
-{
-"intendedAudience": "This session will mainly be for junior java developers or developers that never really thought about Garbage Collection but would like to know more. They don't need to be experienced to attend this session. This is NOT a garbage collector deep dive session but should more explain the principles and ideas behind the existing garbage collectors.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "In the realm of Java programming, understanding memory management and garbage collection mechanisms cannot only be helpful for optimizing performance and resource utilization but also in general will help you to use the right garbage collector for your application. This session will be about memory allocation, object lifecycle, and garbage collection strategies within the Java Virtual Machine (JVM). Attendees will gain insights into memory allocation strategies, object retention policies, and various garbage collection algorithms like generational and concurrent collection. So when you are interested in getting more knowledge about which garbage collector to use best for your application or about memory management in the JVM, this session is for you.",
-"title": "TrashTalk - Exploring the JVM memory management",
-"id": "842aa401-587b-4553-a17a-f01e099722b3",
-"sessionId": "842aa401-587b-4553-a17a-f01e099722b3",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Gerrit Grunwald",
-"twitter": "@hansolo_",
-"bio": "Gerrit Grunwald is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon). \nGerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines."
-}
-]
-},
-{
-"intendedAudience": "Utviklere og designere som er eller kan bli involvert i innkjøpsprosesser\n\nPresentasjonen krever ingen forkunnskaper, så passer for alle interesserte",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Både utviklere og brukere må forholde seg til innkjøpte systemer. Ofte kan de være tunge å bruke, og enda vanskeligere å integrere med nye og eksisterende IT-løsninger.\n\nKrav om APIer og design må komme når systemet kjøpes inn. Jeg deler mine erfaringer med innkjøp av nytt køsystem til legevakta i Oslo. Her jeg satte APIer på agendaen og stilte de nødvendige spørsmålene.",
-"title": "De beste råvarene finner kokkene selv - en utviklers erfaringer fra ny legevakt i Oslo",
-"id": "0b2b793d-124f-4ae4-94b0-14c20cad75b0",
-"sessionId": "0b2b793d-124f-4ae4-94b0-14c20cad75b0",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Marit Ånestad",
-"twitter": "",
-"bio": "Marit Ånestad har 12 års erfaring som utvikler. Hun er opptatt av å lage gode løsninger for brukerne. De siste to årene har hun jobbet i Oslo Origo  med systemer for legevakta i Oslo"
-}
-]
-},
-{
-"intendedAudience": "This talk is primarily for developers and technical architects who are interested in solving problems in a distributed environment using Redis, although techniques and algorithms described in this talk can also be implemented using other tools like PostgreSQL. Some basic coding skills would be beneficial to understand the code examples given in this talk.\n",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "If you are designing or building back-ends which are deployed as multiple instances, then chances are you  have come across challenges which require some sort of coordination across those instances. Redis is a brilliant lightweight in-memory key/value store which is easy to reason about, super fast and perfect for sharing short-lived state across instances to facilitate things like transactions, data consistency and enable reactive applications.\nWelcome to this deep dive into how we use Redis at the Norwegian Tax Administration to solve problems like: distributed locks, pushing events to frontends to create a responsive experience, managing background processes, producing large file downloads without blocking the frontend and managing Kafka consumers using Redis.\n",
-"title": "How Redis plays a key role in the world's coolest case management solution at the Norwegian Tax Administration",
-"id": "0748c9b0-f779-47af-ae5b-ef3fa678de00",
-"sessionId": "0748c9b0-f779-47af-ae5b-ef3fa678de00",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Sebastian Dehne",
-"twitter": "",
-"bio": "Sebastian Dehne is a senior consultant at Systek, with 20+ years experience in software engineering. His main expertise and passion lies in designing and building systems with regards to distributed computing, transaction handling, scalability, robustness and zero-downtime.\n"
-}
-]
-},
-{
-"intendedAudience": "Programmerere som jobber med eller kanskje kommer til å jobbe med en kodebase med Spring.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Jeg programmerer i Spring. Jeg lærer ting hver dag. Noen ganger går det galt. Her deler jeg tre feil jeg har gjort, som jeg egentlig visste var feil. Her deler jeg dem slik at du kanskje kan unngå dem.\n",
-"title": "Tre spring grøfter jeg har vært i",
-"id": "ef8f75cf-3c26-4c8d-b3b8-b9bd6ed9f9d7",
-"sessionId": "ef8f75cf-3c26-4c8d-b3b8-b9bd6ed9f9d7",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Anders Karlsen",
-"twitter": "",
-"bio": "Anders har blitt betalt for å programere i over 20 år. Han har jobbet både i store offentlige prosjekter og små private, Han får nå betalt som konsulent ansatt i Jpro. På fritiden hjelper han til med å arrangere JavaZone"
-}
-]
-},
-{
-"intendedAudience": "This talk is aimed at developers or infrastructure folks who use git as a part of their day job, but who are uncomfortable with their level of understanding of how git really works. Familiarity with basic usage of git (status/diff/add/commit/checkout) is assumed. However, if you understand how commits, trees, blobs, and the index are structured and how they work together, you already know what this talk will cover.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Do you use git while having a nagging feeling that you don't quite understand what's going on? Are you comfortable with day-to-day diffing, committing, and checking out, but struggle once you get to a complicated merge or rebase? Do you prefer not to think about what that \"index\" thing really is that the docs talk about all the time? This talk will explain the internal data model of git and connect it to the everyday git commands, to help you overcome tricky git situations.",
-"title": "Git demystified",
-"id": "bd6dd20a-4da6-4212-bed0-851b25a2b791",
-"sessionId": "bd6dd20a-4da6-4212-bed0-851b25a2b791",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Åsmund Eldhuset",
-"twitter": "@aasmundeldhuset",
-"bio": "Åsmund Eldhuset is a geek and a jack-of-all-trades software engineer who loves to spread knowledge about complicated subjects. He is a Principal Software Engineer at Cognite, and occasionally provides professional training at his side business Eld."
-}
-]
-},
-{
-"intendedAudience": "Experienced Java programmers who also need to do scripting/exploratory programming. ",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "For small projects, we often reach for a scripting language, such as Python or Bash, because Java seems too heavy handed. In this interactive presentation, I want to convince you to give Java a try for those tasks. With the right tooling (and some innovative features in Java 21 and 22), Java can be a great choice for scripts, Jupyter notebooks, and even code in the browser. The benefit: compile-time typing, great IDEs, and a growth path when those small projects don't stay small.",
-"title": "Java for Small Coding Tasks",
-"id": "d58af4f0-c5d7-4231-93c3-6dae254ce684",
-"sessionId": "d58af4f0-c5d7-4231-93c3-6dae254ce684",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Cay Horstmann",
-"twitter": "",
-"bio": "Cay has been involved with Java since 1995. In his copious spare time he writes books, including the international best-seller Core Java, and develops online learning experiences for beginning and professional programmers. "
-}
-]
-},
-{
-"intendedAudience": "Back-end software developers and architects",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Too often, truly intelligent software seems achievable only by AI experts wielding complex algorithms. What if that isn't the case? In this talk, you'll discover how leveraging basic event-driven architecture allows coherent behaviors to emerge spontaneously; no advanced degree is required!\n\nDrawing from biology and complex systems research, I'll explain how decentralized software components exhibiting simple stimulus-response logic can self-organize into an intelligent entity with capabilities far exceeding the sum of its parts. Like neurons forming a brain, the interactions between individual \"dumb\" nodes lead to emergent intelligence.\n\nYou will learn how shifting day-to-day coding practice toward reactive, event-driven programming opens the door to building surprisingly capable and scalable behaviors into your application architecture. I'll share Java code examples showing how this plays out in practice. You'll also see a unique 3D visualization showing how your software functions more like a mind than a ball of mud. \n\nLearn how clever, emergent behavior software does not exclusively belong to Ph.D. Roombas. By intelligently relinquishing control and letting order bubble up from the ground floor, developers of all skill levels can slash complexity while enabling their systems to display dynamic decision-making, environmental adaptation, resilience, and more!",
-"title": "No PhD Required: How to Build Smart Software Systems on Your Own",
-"id": "2315a135-faef-4f1b-b33f-760681e0679c",
-"sessionId": "2315a135-faef-4f1b-b33f-760681e0679c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Hugh McKee",
-"twitter": "mckeeh3",
-"bio": "Hugh McKee is a skilled back-end developer and developer advocate with decades of experience building enterprise applications, specializing in large-scale, cloud-based systems. As a developer advocate, he speaks at conferences worldwide. With a passion for teaching and evolving his software engineering skills, Hugh is a valuable contributor to the tech community."
-}
-]
-},
-{
-"intendedAudience": "This talk is for anyone.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "How do hidden vulnerabilities become a hacker's treasure trove and how can they be avoided? This talk addresses the underlying security issues that arises during application development, highlighting how a shift in mindset among developers and management can preemptively address and mitigate these risks.\nBy the end, you'll gain actionable insights to fortify your applications against unseen digital threats.",
-"title": "A hackers guide to software engineering",
-"id": "a50b04e0-f254-44cc-8aaa-80cff1e02245",
-"sessionId": "a50b04e0-f254-44cc-8aaa-80cff1e02245",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Martin Londal",
-"twitter": "",
-"bio": "Martin Londal, formerly a developer, now works as a penetration tester and security advisor at the Police IT Unit(PIT) in Oslo. I am one of the leaders of PIT's Security Champions, focusing on imparting security concepts through hands-on training and engaging presentations. I also lead PIT's after-work hacking team, Abyss. I travel to schools where I talk about a career in IT with a special focus on a job role in cybersecurity. I also holds talks, training and presentations for public & private cooperation focusing on cybersecurity for both technical and non-technical staff."
-}
-]
-},
-{
-"intendedAudience": "Interested into information security.\nWondering how the security industry manage to detect incidents.\nWanna hear about challenges and solutions with analyzing \"big\" data.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "The lightning talk will describe how the security incident detection pipeline works. And how to scale to be able to handle 70 billion security events a day. In order to find potential hacker activities.",
-"title": "Catch the hacker among 70 billion events per day",
-"id": "29f83286-431b-4cba-b555-5974465ed422",
-"sessionId": "29f83286-431b-4cba-b555-5974465ed422",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kai Cao",
-"twitter": "",
-"bio": "Team lead of Argus Distributed team at mnemonic AS, responsible for develop and maintain incident detection pipelines.\nBackend developers for 14 years. Worked with projects such as Rovio cloud platform to support Angry birds games. "
-}
-]
-},
-{
-"intendedAudience": "People working with people from other disciplines",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Most of my career I have been a part of the majority. As a developer working in large software organizations, most of the people I work with are also developers. Technical people. Same kind of technical as me. Programmers. Of course with other disciplines mixed in, but always outnumbered by programmers.\n\nA few years back I joined new organization. Suddenly I was not part of the majority. Software developers were not at the top of the food chain there either. And our competency were scarce compared to other discipline. This made me think.\n\nNow I am back in a typical software development set up, again, a part of the majority. However, my experiences from being a minority has changed how I interact with the minorities that I now work with.",
-"title": "Minority Report",
-"id": "f499a603-f463-4903-be18-5fb0a13fb0a9",
-"sessionId": "f499a603-f463-4903-be18-5fb0a13fb0a9",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Janniche Lange",
-"twitter": "",
-"bio": "Developer @ Storebrand. I like pair programming and delivering value to customers. Care about testing, readable code and frequent deliveries. And naming things. Also people and interactions more than processes and tools. And agile.\nInvolved in communities for knowledge sharing; javaBin, Stavanger Agile Meetup and the new software conference HelloStavanger.no\n"
-}
-]
-},
-{
-"intendedAudience": "De som jobber i produktutviklingsteam og ledere knyttet digitalisering og produktutvikling.",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Etter alt maset om at jurister må involveres i produktutvikling - hvordan er ståa? \n\nHar juristen blitt en masete bedreviter som tvinger seg på overalt? Eller, er juristen fremdeles en fjern slektning som ingen forholder seg til med mindre man må? Ligger jussen nå som en klam hånd på alle kreative initiativ og utviklerne får ikke jobbe i fred?  Eller har juristen blitt en naturlig del av  gjengen som bringer noe verdifullt til bords? \n\nVi vet ikke hva DU tenker, men vi har snakka med folka hos oss og vet hva vi selv mener. I Oslo Origo har vi inkludert jurister helt inn på teamnivå i produktutviklingen, og vi har fått erfaringer på godt og vondt. Disse erfaringene vil vi dele med dere! \n\nMed denne presentasjonen vil vi utfordre deg til å reflektere over din egen organisasjons kultur og kanskje se nye muligheter for hvordan jurister og utviklere kan samarbeide mer effektivt.\n",
-"title": "Jurist i produktutvikling - hår i suppa eller din beste venn?",
-"id": "591c5bad-d2e0-4c39-95f4-df3fe33a10db",
-"sessionId": "591c5bad-d2e0-4c39-95f4-df3fe33a10db",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kathinka Fjærli",
-"twitter": "",
-"bio": "Kathinka er utdannet jurist fra Universitetet i Oslo. Hun har lang erfaring med juss i krysningfeltet teknologi og tverrfaglighet, fra Tolletaten, Skattetaten og nå Oslo Origo. I Origo jobber hun i produktområdet \"Bo hjemme lenger\" med fokus på personvern og generell jus. Hun jobber aktivt inne i produktutviklingen sammen med både utviklere, designere, organisasjonsutviklere, forretningsutvikler og teamlead."
-},
-{
-"name": "Siri Eriksen",
-"twitter": "",
-"bio": "Siri har mange års erfaring med å jobbe med de særlige juridiske problemstillingene som oppstår ved digitalisering og datadeling. Hun har blant annet erfaring fra Skatteetaten, Nasjonalt ressurssenter for deling av data (Digdir) og jobber for tiden i Oslo Origo der hun er juridisk ressurs i produktområdet Helsedata i Oslo.\n"
-}
-]
-},
-{
-"intendedAudience": "Backend engineers, microservice developers, security engineers and architects, DevOps\n\nThe attendees will learn about the upcoming IETF specification which has been created to help make the internal microservice perimeter more secure. The talk will also feature a case study for Transaction Token Service implementation with a stripped-down, stateless variant of Keycloak, an highly extensible lightweight open-source IAM platform.\n\nThe participants should be familiar with OAuth and OpenID Connect, and should also understand the concept of workloads. Experience with Keycloak will be a plus.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "For the modern computing architectures involving multiple independent workloads, it is important that the calls between the workloads be properly authenticated and authorized. SPIFFE/SPIRE does solve the authentication part; however, it does not take into account the request context and other dynamic data.\n\nA new Internet draft called Transaction Tokens has been created by the IETF OAuth Working Group in order to address the authorization part. A transaction token is a short-lived, cryptographically signed, request-specific token obtained from the new Transaction Token Service in exchange for the external OAuth/OIDC access token and other context-dependent data. The token is then included into every inter-workload call, which guarantees that only non-spurious calls between the workloads can take place. From this talk, the attendees will learn about how Transaction Tokens work, how they help to make the internal perimeter more secure, how we implemented this upcoming specification using a customized version of Keycloak, what challenges we faced and how we solved them.",
-"title": "Securing workloads with Transaction Tokens and Minicloak",
-"id": "5e1526f2-c6a2-463a-8a6b-e20080f72ccb",
-"sessionId": "5e1526f2-c6a2-463a-8a6b-e20080f72ccb",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Dmitry Telegin",
-"twitter": "",
-"bio": "Principal backend engineer at Backbase UK, independent Keycloak expert and contributor, IETF OAuth WG participant.\n\nLinkedIn: https://www.linkedin.com/in/d-telegin/"
-}
-]
-},
-{
-"intendedAudience": "open for everyone",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "TV 2 is known by many for being one the most popular television broadcasters, while also being the largest commercial broadcaster in Norway. TV 2 is also the fourth largest online news outlet in Norway. But keeping everything alive requires efficient infrastructure, emergency response ability, availability and capacity planning.\n\nAt TV 2 our teams and developers create products that makes all of TV2's offers and content possible, and it is made possible through ElasticSearch, Aiven, Kafka and other platform-centric tech. In this talk I will share our real-life experiences with On-Site Reliability (SRE) within a big media outlet. You will not only how we do SRE, but more importantly we are able to coordinate the communication with all our teams across the whole of Norway.\n\nI will take you behind the scenes to show how we take care of some of the most important infrastructure that is critical for not only broadcasting but also all the online content. After listening to this talk you will have a good understanding of how modern open-source technology makes the foundation of TV 2.",
-"title": "On-Site Reliability For Uninterrupted Broadcasting at TV 2",
-"id": "2936cb83-f8bc-40e6-926e-a6a460f90600",
-"sessionId": "2936cb83-f8bc-40e6-926e-a6a460f90600",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ewa Kabza",
-"twitter": "ewakabza",
-"bio": "System architect at TV 2. Member of javaBin (the team behind JavaZone). I have M.Sc. in architecture, model-based system development & teaching."
-}
-]
-},
-{
-"intendedAudience": "Alle som er nysgjerrige på hvordan fremtidens strømnett blir utviklet. ",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Kraft er blitt en mangelvare, strømmen blir dyrere og samtidig foregår en hard kamp om tilgangen på den. Industrien står i kø for å koble seg på strømnettet og bedriftene stilles harde krav. Økningen av ulike fornybare energikilder medfører uforutsigbarhet og utfordrer tradisjonelle måter å drifte på. For å møte disse utfordringene står kraftbransjen ovenfor en radikal omstilling av energisystemet – verdens største og mest kompliserte maskin.\n\nDerfor satser Statnett stort på utvikling av automatiserte løsninger som tar oss fra reaktiv til proaktiv systemdrift. I dette foredraget skal jeg fortelle om hvordan vi bruker prediktive metoder for å varsle om kommende driftsforstyrrelser og hvordan dette tillater oss å presse ut de siste elektronene fra strømnettet imens vi ivaretar forsyningssikkerheten.",
-"title": "Hvordan Statnett gjør Smartnett",
-"id": "09e48339-45a0-4ce5-8688-e1f5660d6729",
-"sessionId": "09e48339-45a0-4ce5-8688-e1f5660d6729",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Nemanja Lakicevic",
-"twitter": "",
-"bio": "Nemanja Lakicevic jobber som utvikler i Team Volt på Statnett, elsker all-things Linux og bruker (for?) mye tid på å konfigurere vim og unix ricing. Er interessert i alle lag av techstacken, men fascineres mest av SRE hvor han skrev\nmasteroppgave om bruk av eBPF for sikkerhetsmonitorering. Oh, I use Arch btw. \n"
-}
-]
-},
-{
-"intendedAudience": "The story is mainly from a developers perspective. There other developers will benefit from attending this talk. It helps if participants have a few years of experience to recognise the problems I highlight.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Ever heard of the IKEA effect or the bandwagon-effect? In our efforts to delivering great software, there are numerous occasions where our brain tries to trick us. Don’t fall for them!\n\nIn this talk we will dive into some well-known and researched cognitive biases that impact our judgments in our day-to-day jobs as software creators.\nWhen do they typically occur? And why are we falling into these traps from time to time?\n\nAfter this talk you'll have a better understanding of how your brain tricks you, how to make better decisions and in the end how to deliver some great software.\n\nA word of warning; during this talk you may get tricked!",
-"title": "Battling your Biased Brain",
-"id": "049ff325-bc59-4582-9290-b8bde1453e5c",
-"sessionId": "049ff325-bc59-4582-9290-b8bde1453e5c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Peter Wessels",
-"twitter": "@peterwessels",
-"bio": "Peter Wessels is a Java Developer, Speaker, and Teacher at Info Support in the Netherlands. In addition, he leads the Java Community within Info Support. \n\nHe loves working with talented people to develop software that's not only effective but also fun to create. In his career, Peter has worn many hats, from lead engineer and project manager to scrum master and product owner. In Dutch, he would be described as a 'manusje van alles,' which roughly translates to a person who seizes every opportunity to learn new technologies and (soft)skills to create impact. This attitude helps him get diverse perspectives on software development. \n\nAs a speaker, Peter has had the privilege of presenting at prestigious events such as Devoxx Belgium, Devnexus, Devoxx UK, J-Fall, and Developer Week."
-}
-]
-},
-{
-"intendedAudience": "Java devs that love to work with things like Chat GPT and Co-pilot",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Explore the world of generative AI with us and learn about the hidden challenges it presents. Are you intrigued by how tools like Copilot, ChatGPT, and Code Whisperer can revolutionize your coding workflow? But did you know that GenAI can also introduce (new) problems? This hands-on session is designed for developers eager to leverage the speed of AI while avoiding the traps it might set, such as misleading information or \"AI hallucinations\" that compromise the security and reliability of your projects.\nJoin us as we live code a Spring coffee shop application, demonstrating in real-time how to spot and fix vulnerabilities introduced by AI, from simple SQL injections to more complicated issues. This session is crafted to provide practical insights into identifying and addressing the security risks of AI-generated code.\nThis session is all about balancing the excitement of fast-paced development with the crucial aspect of security. Maximizing AI's potential while safeguarding your code against its hidden dangers. \n",
-"title": "Secure Your Java: AI Hallucinations Demystified",
-"id": "a01a3109-e019-413f-89ce-426f3ebda191",
-"sessionId": "a01a3109-e019-413f-89ce-426f3ebda191",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Brian Vermeer",
-"twitter": "@BrianVerm",
-"bio": "Brian Vermeer is a Staff Developer Advocate for Snyk, Java Champion, and Software Engineer with over a decade of hands-on experience in creating and maintaining (web)applications. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is a JUG leader for the Virtual JUG and the NLJUG. He also co-leads the DevSecCon community and is a community manager for Foojay. He is a regular international speaker on mostly Java-related conferences like JavaOne, Devnexus, Devoxx, Jfokus, JavaZone and many more. Besides all that, Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher."
-}
-]
-},
-{
-"intendedAudience": "Engineers who are responsible for running services in production. They will learn about best industry practices in general, and lessons learned at Grafana when adopting these best practices.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "This talk highlights industry best practices for setting up a healthy SRE culture, and lessons learned when implementing these practices at Grafana labs.\n\nWe will cover dashboarding strategies, alerting best practices, healthy on-call team structures, service level objectives, how to manage incidents, production readiness reviews, post mortems, and more.\n\nWe'll use Grafana as an example, but we believe that the general lessons learned and best practices are independent of the tools being used, and can be applied in any engineering organization.",
-"title": "The SRE Journey - Best Practices at Grafana Labs",
-"id": "68f693b8-1003-4d89-a5d1-56d5db4d05a5",
-"sessionId": "68f693b8-1003-4d89-a5d1-56d5db4d05a5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Fabian Stäber",
-"twitter": "",
-"bio": "Dr. Fabian Stäber is engineering manager and observability enthusiast at Grafana. He is a member of the Prometheus open source project, where he is maintainer of the Prometheus Java client library and the JMX exporter. At Grafana Fabian has his focus on application observability with OpenTelemetry."
-}
-]
-},
-{
-"intendedAudience": "Frontend developers, no experience needed.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Det er blitt en hype rundt signals i det siste, flere og flere frontendrammeverk kaster seg på. Men hva er egentlig signals? Og hvordan ser TC39 sitt proposal ut for at det implementeres direkte i JavaScript?",
-"title": "Signals i frontend, og kan det bli en JavaScript standard?",
-"id": "d1f7e34d-c482-4fab-bfb9-4f1e6cad695e",
-"sessionId": "d1f7e34d-c482-4fab-bfb9-4f1e6cad695e",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Gaute Meek Olsen ",
-"twitter": "GauteMeekOlsen",
-"bio": "Gaute er en utvikler med ekstra lidenskap for frontend. Gaute er konsulent i Capra og med i fagteamet frontend. "
-}
-]
-},
-{
-"intendedAudience": "Anyone who works in a team or with teams. The audience will receive valuable input to start the necessary disussions regarding team autonomy that need to happen both within the team and with the teams surroundings. ",
-"length": "10",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "The goal of the talk is to give the audience some input to the necessary disussions regarding team autonomy that need to happen both within the team and with the teams surroundings. The talk discusses different areas in which a team can be autonomous, and what might constitute a low and a high level of autonomy within these areas. In addition, I give input to what type of organizational or situational settings might play a part in how autonomous a team can ever become. This is a presentation for anyone who is a part of a team or who contributes to the teams goals and direction.\n",
-"title": "Autonomy aint anarchy ",
-"id": "1c226c1a-4a0f-44ae-b5b5-c63f6ef96f09",
-"sessionId": "1c226c1a-4a0f-44ae-b5b5-c63f6ef96f09",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Anne Høymyr",
-"twitter": "",
-"bio": "Anne leder  seksjonen for prosjektledere og teamledere i Politiets IT-enhet og vil sette søkelyset på at det ikke bare er å sette sammen tverrfaglige team og tro at de blir autonome av seg selv. Både innad i teamet og med teamets omgivelser må man diskutere: \"Hvordan bør teamautonomi se ut for vårt team?\""
-}
-]
-},
-{
-"intendedAudience": "This talk is for all Java developers who would like to taste functional programming. Modern Java seems to take a lot of inspiration from Scala - after this talk you will be able to think in a more functional way and implement some functional concepts in Java.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "For newcomers with a Java background, Functional Programming can seem counter-intuitive at first. Using immutable values and data structures, pattern matching, handling errors without exceptions, or avoiding dependency injection frameworks, not to mention dealing with abstractions like product/union types or monads - all these can blow your mind. But fear not the unknown, my friend. \n\nIn this session I’m going to demonstrate to you a couple of common battle-proven techniques from the Scala (and FP) world that can be easily applied to modern Java. Come and see how you can write even better code!",
-"title": "Pain-free Functional Programming with Java 22",
-"id": "6aab0e8e-0851-4450-9b39-a3555949cb03",
-"sessionId": "6aab0e8e-0851-4450-9b39-a3555949cb03",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jacek Kunicki",
-"twitter": "@rucek",
-"bio": "I'm a passionate software engineer living in the JVM land, where I mostly code and teach Scala and functional programming.\n\nI believe that software craftsmanship is technology-agnostic, thus I try not to limit my portfolio to a narrow set of technologies.\n\nWhen sharing my knowledge, I always keep in mind that a working example is worth a thousand words, so you are very likely to see me in action during a live coding session."
-}
-]
-},
-{
-"intendedAudience": "Man bør helst ha brukt noe kodekvalitetsverktøy før, men ellers ingen erfaring påkrevd.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Har du opplevd verktøy som skal holde kvaliteten på koden oppe, gjør det motsatte? Jeg også.\n\nI dette foredraget skal vi se på hvordan slike verktøy, som er satt opp i beste mening, i noen tilfeller kan skape frustrasjon og hvordan utviklere finner kreative måter å omgå reglene på.\n\nVi skal se på for eksempel \"hvordan lure code coverage\" og noen kreative omveier rundt regler og standarder satt opp for å sjekke koden. Kanskje er det reglene som bør endres, eller er det utviklerne som må bruke verktøyene annerledes? Forhåpentligvis får jeg deg til å tenke litt, men ikke forvent noen fasitsvar.\n\nHusk, dette foredraget er ment for å være morsomt og jeg anbefaler IKKE på noen som helst måte å bruke noen av disse \"triksene\" selv.",
-"title": "Statisk kodeanalyse for den late utvikler",
-"id": "b87dfe61-03da-409b-90dc-41006f1e1fff",
-"sessionId": "b87dfe61-03da-409b-90dc-41006f1e1fff",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jarle Hansen",
-"twitter": "",
-"bio": "Jarle har mer enn 17 års erfaring som utvikler og arkitekt og er ansatt i Systek.\nHan har lenge hatt en kjærlighet for Kotlin, og var med på å starte opp og driver Oslo Kotlin meetup.\n\nHar erfaring fra en rekke bransjer som feks bank og finans, telekom, olje og gass og er for tiden hos Skatteetaten hvor han jobber med skyplattformen."
-}
-]
-},
-{
-"intendedAudience": "Alle kan delta på dette foredraget, men de som får mest ut av dette vil være de som er interessert i å utvikle seg selv enten personlig eller som en form for leder.",
+"intendedAudience": "Utviklere, arkitekter, produkteiere, designere, ledere og andre som har en interesse for modernisering og transformering av eksisterende kodebaser",
 "length": "60",
 "format": "presentation",
 "language": "no",
-"abstract": "Det er to grunner til at alle bør bry seg om transformerende ledelse. 1) Ledelse er ikke noe som blir gjort på andre, men det er en gjensidig prosess. 2) Vi er alle ledere, og hvis du vil være del av et høytpresterende selvorganisert team, så må du ta din del av ansvaret. \n\nI dette foredraget går vi kort gjennom de viktigste elementene i transformerende ledelse, før vi dykker inn i et lederutviklingsrammeverk basert på forskning innen utviklingspsykologi. \n\nEtter foredraget vil du sitte igjen med et nytt perspektiv på deg selv som leder og teammedlem. Du også vil sitte igjen med konkrete tips om hvordan du kan utvikle deg personlig og i din karriere. Og ikke minst du vil vite hvordan du bedre kan lede og møte andre der de faktisk er, på en måte som gir mening for dem. ",
-"title": "Transformerende ledelse for alle",
-"id": "93598c63-5b10-483b-bd5f-ee2e71b6a1e3",
-"sessionId": "93598c63-5b10-483b-bd5f-ee2e71b6a1e3",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "NAV sin pensjonsløsning, Pesys, har i mange år vært blant Norges største og mest komplekse kodebaser. Opprinnelig skrevet med teknologi, som i dag, ville fått utviklere til å gråte. Vi skal i dette foredraget fortelle hvordan vi har modernisert det grafiske brukergrensesnittet. Vi skal rett og slett fortelle deg en ærlig historie om hvordan vår erfaring med dette var. Vi kommer til å snakke om den moderne retningen som premissgiver, hvor vi måtte ta tak i både menneskelige og tekniske utfordringer. På veien skal vi også prate om hvordan vi organiserte teamene og folkene, og fortelle hvordan vi tok tak i arkitekturen og det sosiotekniske aspektet av det. Du skal på den måten lære hvorfor vi mener dette økte selvsikkerheten og eierskapet til alle involverte.  Videre deler vi hvordan vi har løst de tekniske utfordringene omkring implementasjon; integrasjon og sikkerhet ved å blant annet bruke api gateways og micro-frontends. Etter å ha hørt foredraget vil du være i stand til å bedre ta tak i modernisering av legacy-kodebase i din organisasjon.",
+"title": "Moderne brukergrensesnitt i en legacy kodebase",
+"room": "Room 7",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T11:20",
+"video": "861629688",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T09:20:00Z",
+"id": "18aaf407-ff02-4f49-b11d-29877a9de906",
+"sessionId": "18aaf407-ff02-4f49-b11d-29877a9de906",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
 "speakers": [
 {
-"name": "John Inge S Hervik",
+"name": "Per Christian Moen",
 "twitter": "",
-"bio": "John Inge er en engasjerende Enterprise Agile Coach med mer enn 15 års erfaring i smidige arbeidsmåter og organisasjoner. Han begynte som utvikler med interesse for metodikk i arkitektonisk arbeid, og har tatt videreutdannelse i psykologi og profesjonell coaching (sertifisert på PCC-nivå fra ICF). Han bruker sin kunnskap og reflekterende praksis for å støtte organisasjoner, team og ledere til å utvikle seg mot høyere prestasjon og bedre resultater. Hans fremgangsmåte basert på systemisk coaching og vertikal ledelsesutvikling, hjelper kundene hans til å navigere i de komplekse tidene vi lever i, og han får stadig skryt for å kunne engasjere og lede andre til nye perspektiver. John Inge tar oppdrag som mentor og coach for ledere, team, smidige coacher, produkteiere med flere – i tillegg til at han holder foredrag, kurs og workshops. John Inge leder coaching- og kursarbeidet for Adventures with Agile i Norden."
+"bio": "Har over 20 års erfaring med utvikling i både prosjekt og forvaltning. Lidenskapelig opptatt av alt som har med programvareutvikling å gjøre. Brenner for tilegne og dele kunnskap, forbedre prosesser og kodebaser, hjelpe team, med mer. Stikker nesa borti i alt, gjerne det andre ikke ønsker å ta tak i. \n \nHar siden 2020 jobbet med å modernisere, Pesys, som er pensjonsløsningen til NAV. Her har han hatt en ledende rolle i transformasjonen fra hovedleveranser til kontinuerlige leveranser, han har vært initiativtaker for micro frontends og er deltakende i flere andre moderniseringstiltak."
+},
+{
+"name": "Tordbjørn Wang Eriksen",
+"twitter": "",
+"bio": "Tordbjørn har 10 års erfaring som utvikler og er lidenskapelig opptatt av teknologi, programvareutvikling og kompetansedeling. Han har jobbet både som in-house utvikler og konsulent innen et bredt spekter av domener i både privat og offentlig sektor. Tordbjørn søkte seg til NAV IT og har jobbet med Pesys siden 2022. Hans største motivasjon er å kunne være med og bidra til moderniseringen av Pesys og samfunnsoppdraget som er gitt. Utenfor jobb er han med i Fredrikstad Tech Community og jobber for at utviklere skal ha et felles møtepunkt for å dele kompetanse uavhengig av tilhørighet.  "
 }
 ]
 },
 {
-"intendedAudience": "Developers/architects collecting ideas and inspiration for integrated solutions.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Device integrations have for decades been a problem for many business web apps. Input devices, printers, sensors and security gadgets would have their use case in many typical business apps. The \"sandbox\" by browsers has been worked around with several hacks ranging from browser plugins to native wrappers, but native apps have ruled when you need to connect to custom devices. Emerging new web standards may be changing the game forever.\n\nThis presentation will overview the possibilities (including workarounds and dirty hacks) to connect to various devices from your web apps. As a hands-on code example, we use Web Bluetooth API available in Chrome to collect ECG precise data from a wireless heart monitor belt. The data is then moved over to a Java server for further analysis.",
-"title": "Web apps and device integrations - Analyzing heart arrhythmias using Java and Web Bluetooth API",
-"id": "f104c1a4-3142-48eb-9e85-3e23bbe9f3fc",
-"sessionId": "f104c1a4-3142-48eb-9e85-3e23bbe9f3fc",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Matti Tahvonen",
-"twitter": "@MattiTahvonen",
-"bio": "Java and OSS enthusiast working at Vaadin.\n\nMatti Tahvonen has worked on web apps for over two decades. The first-ever JS developer at Vaadin has turned into Java/JVM enthusiast over the years when working with a pure Open Source Java web framework and doing some business on top of it. When Matti is not working, time is mostly spent on nature-related hobbies and software to support those."
-}
-]
-},
-{
-"intendedAudience": "If you want to solve your tasks faster and be more effective, this talk is for you",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "There are myriads of ideas on how to improve the way you work inside software and outside. They all boil down to two simple tricks: Understand the goal state and check your thinking at multiple levels. In this talk, I will show examples on how to approach programming tasks, skills acquisition, software architecture, project planning and life effectively\n\nThere will be examples from code, from professional work and from purely non-work settings\n\nUnlocking these skills can help you be more productive and achieve goals that matter for you. It will probably make you more successful in your career. But I cannot claim that it will make you happy or loved.",
-"title": "Secrets of effective software development",
-"id": "06004f26-84b8-4d1c-8fde-2ac7db352fb7",
-"sessionId": "06004f26-84b8-4d1c-8fde-2ac7db352fb7",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Johannes Brodwall",
-"twitter": "jhannes",
-"bio": "Johannes Brodwall is principal software engineer for Sopra Steria. He currently works in public safety in Norway where he writes code to save lives. He works part time as a teacher in Java, React and GIS for Høyskolen Kristiania (Kristiania University College). In addition, he juggles responsibilities like being the treasurer of the local school marching band, representing the Green party in local (burrough) and AI politics, promoting the professional community for developers and being a dad of two boys. He just manages to fit everything into a 26-hour daily schedule."
-}
-]
-},
-{
-"intendedAudience": "Any developer can follow the presentation, but some previous experience with using cryptographic protocols such as TLS, SSH or JWS, as well as some knowledge of hash functions will make it easier to follow.\n\nParticipants will learn how to avoid many of the common pitfalls when trying to use cryptographic primitives. The talk will give practical advise that will aid the participants in choosing suitable algorithms for future problems, as well as some of the theory behind these algorithms. The talk will also give some (very limited) practical advise regarding post-quantum readiness. ",
+"intendedAudience": "Software developers who want to gain a better understanding of software licensing.",
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "Have you ever wondered about the difference between a Digital Signature and a Message Authentication Code? Or what security guarantees you actually get from a Hash function such as SHA-256?\nThis talk will do an intermediate-level dive into the various properties of the most used cryptographic primitives and give practical advise to aid you in choosing between the various constructions.",
-"title": "The Cryptographer's Toolbox",
-"id": "2ee6a5c8-5d01-48cd-a371-e75882582b70",
-"sessionId": "2ee6a5c8-5d01-48cd-a371-e75882582b70",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Stian Svedenborg",
-"twitter": "SSvedenborg",
-"bio": "Stian is a cryptographer by education and is currently working as the Security Architect for BankID. Stian has a talent for simpifying difficult security topics to make them more accessible for a wider audience."
-}
-]
-},
-{
-"intendedAudience": "Experienced developers with basic knowledge of Gradle looking for a tool to coordinate the release process of services inside monorepo.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "There are few tools for mono repo and JVM applications. Unlike Bazel or Gradle Multi-Project, NX offers robust CI/CD tools tailored for monorepo, simplifying service management and deployment, including generating changelogs and enforcing semantic versioning. In this talk, I’ll show how to integrate NX into a repository with Gradle services.",
-"title": "Using NX for Monorepo with Gradle Services",
-"id": "175b58d9-2778-4e63-b74b-97c3c675ca16",
-"sessionId": "175b58d9-2778-4e63-b74b-97c3c675ca16",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Matěj 'Horm' Horák",
-"twitter": "HormCodes",
-"bio": "Backend developer focused on clean code, functional programming, and testing.\n\nBesides work and personal projects, I'm a smart home enthusiast and a big fan of developer communities.\n\n🇨🇿 living in 🇳🇴"
-}
-]
-},
-{
-"intendedAudience": "This session is designed for any developer not already familiar with the Java Microbenchmark Harness.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Some years ago, I wrote a program whose purpose was to demonstrate the performance of different Java collections when searching for, inserting, and deleting items to my students. The differences between the collections were what I expected but the actual values varied significantly for each run. Then I discovered the Java Microbenchmark Harness or JMH. Think of it as unit testing for performance rather than correctness. In this presentation I will talk about the original performance program and the enhanced version using JMH. Along the way you will learn how to configure and use the JMH.",
-"title": "I Just Discovered the Java Microbenchmark Harness and You Should To",
-"id": "18784091-0370-44b4-94cf-3cb6028a80a6",
-"sessionId": "18784091-0370-44b4-94cf-3cb6028a80a6",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ken Fogel",
-"twitter": "@omniprof",
-"bio": "Ken is a Java Champion and member of the Java Community Process Executive Committee. He is also the organizer of the annual JChampions Conference, He retired from the classroom after 31 years teaching software development at Dawson College, 25 of those years as the chair and program coordinator of the Computer Science Technology Program. He is currently a Research Scholar in Residence at the college. His first book, Transitioning to Java, was recently published by Packt. He has spoken at numerous conferences. "
-}
-]
-},
-{
-"intendedAudience": "All developers that use, like or would like to create or contribute to open-source projects. \nOpen source 101",
-"length": "10",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Creating and open-sourcing a rather small project for the first time. What did this teach us, what should one be aware of before doing this, what caveats are there and would we do it againg?\nFocused on the process around this and how one should proceed if you want to do this for yourself.",
-"title": "Ten things I wish I knew before i created my first piece of open-source software",
-"id": "2d24450d-ec8f-4002-a47d-6fb19776d844",
-"sessionId": "2d24450d-ec8f-4002-a47d-6fb19776d844",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Andreas Thuen",
-"twitter": "",
-"bio": "Andreas is a Platform developer and product owner of the platform team in Sparebanken vest. Really enjoys working in the intersection between technology and process, and is passionate about explaining complex tech in an understandable way."
-}
-]
-},
-{
-"intendedAudience": "This session should be interesting for anyone contributing to open source projects or aspiring to do so as well as other committers/maintainers.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Almost exactly 10 years ago, I had the first discussions about how to keep evolving JUnit at conferences. I had been a maintainer for JUnit for 2 years and recently been promoted to ”keeper of the green bar,“ i.e., project/team lead of the project. While being a wildly popular testing framework, maintaining JUnit was challenging due to IDEs, build tools, and third-party extensions relying on implementation details. Plus, I felt I never had enough time to even work through my GitHub notifications.\n\nAs I shared these frustrations with fellow developers at conferences, the idea arose to start a crowdfunding campaign to have actual dedicated time to solve the underlying issues. The campaign launched a few months later and came to a successful conclusion in September 2015. We formed a team, had a kickoff with relevant stakeholders (IDEs, build tools, …), and set to work. Finally, six weeks of time to work on JUnit! As you can imagine, that time passed relatively quickly and the project was far from finished. Despite that we eventually released JUnit 5.0 in September 2017. But development didn’t stop there and has kept going since. In this talk, I will share insights about the most important factors for keeping the project running successfully.",
-"title": "Running an independent open source project by example",
-"id": "203ec22b-ec45-41c5-9f61-e29b0ff01538",
-"sessionId": "203ec22b-ec45-41c5-9f61-e29b0ff01538",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Marc Philipp",
-"twitter": "marcphilipp",
-"bio": "Marc Philipp is a software engineer with extensive experience in developing business and consumer applications, as well as training and coaching other developers. One of his focus areas has always been providing tools for fellow software developers and improving their productivity. He is a long-time core committer and maintainer of JUnit and initiator of the JUnit Lambda crowdfunding campaign that started what has become JUnit 5."
-}
-]
-},
-{
-"intendedAudience": "Developers with an interest in learning/trying Golang",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "This session is a quick practical start guide, exploring core Golang concepts compared to Java language. We will discuss Golang best use-cases and go through code examples to make the comparison clear.",
-"title": "Introduction to Golang for Java developers",
-"id": "bd8879b9-f64c-42b7-8e2c-f222c6f3d1ce",
-"sessionId": "bd8879b9-f64c-42b7-8e2c-f222c6f3d1ce",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Oleksandr Dushyn",
-"twitter": "https://twitter.com/ODushyn",
-"bio": "I am a software developer who believes in using the right tool for the job and like to explore and experiment with a wide range of technologies to achieve that. Java has been my primary language, but I'm always eager to explore new frontiers, like Golang, which I've been actively using for the past two and a half years."
-}
-]
-},
-{
-"intendedAudience": "Enterprise Java developers",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "In this session, we'll have a look why you want to try out \"supersonic, subatomic Java\" with Quarkus. If you're familiar with enterprise development with Spring or Java/Jakarta EE, you'll be delighted to see the effective way of working that Quarkus provides. We'll why coding with Quarkus not only makes our work more effective but is also fun. We will have a look at the coding experience, turnaround times, Quarkus' dev mode, container & Kubernetes support, persistence, and templating. Join us for this live-coding-only session!",
-"title": "Why You Should Use Quarkus For Your Next Project",
-"id": "256d34b4-8645-4034-939d-2113e6ec3f2b",
-"sessionId": "256d34b4-8645-4034-939d-2113e6ec3f2b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Sebastian Daschner",
-"twitter": "@DaschnerS",
-"bio": "Sebastian Daschner is a self-employed Java consultant, author and trainer and is enthusiastic about programming and Java. He is the author of the book “Architecting Modern Java EE Applications”. Sebastian is participating in open source standardization processes such as the JCP or the Eclipse Foundation, helping forming the future standards of Enterprise Java, and collaborating on various open source projects. For his contributions in the Java community and ecosystem he was recognized as a Java Champion, Oracle Developer Champion, and JavaOne Rockstar. Besides Java, Sebastian is a heavy user of cloud native technologies and anything related to enterprise software. Sebastian evangelizes computer science practices on his blog, newsletter, podcast, and videos. He kickstarted the JOnsen and jSpirit unconferences that connect Java developers throughout the globe."
-}
-]
-},
-{
-"intendedAudience": "All developers with intermediate knowledge of Java ",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Event streaming will fix all your problem!\nBut why this approach, and how can you pull off your changes, ensuring compatibility and minimizing risk, without introducing new complex, expensive systems?\nThis talk is based on the speakers experience in rewriting complex, distributed systems, showcasing a small toolbox based on the Xorcery project.",
-"title": "Tricks when rewriting a complex app/distributed system",
-"id": "56e2637a-5065-4b10-874f-7333ae4603b1",
-"sessionId": "56e2637a-5065-4b10-874f-7333ae4603b1",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Stig Lau",
-"twitter": "",
-"bio": "Contributor to XORcery and Java dev since 2004."
-}
-]
-},
-{
-"intendedAudience": "Software Security is on everyone's mind. We devs depend on open source so much but can we trust it. The aim of this talk is to educate the audience on the basics of supply chain security and show me some tools and techniques that can be used to mitigate risk",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "We depend on OSS so much; no one is writing a cURL or Math Library anymore; everyone is just maven or npm pulling a bunch of stuff from the Internet, and that’s scary. How do you know your dependencies are free of backdoors or vulnerabilities? Have you heard of SLSA, SBOM, or the new fuzzy word in the street, “Software Supply Chain Security'' before? Maybe yes, if you are an avid reader of some tech publications. But what does this all mean? Or rather, should you care? Well, the answer is it depends. In this talk, the speaker will attempt to clarify these words and what they mean and present a state of the security world with tools and methodologies people and organizations are implementing to ensure the software is secured from dev to production.",
-"title": "Our dependency on Open Source is scary. SLSA, SBOM and Sigstore to the rescue",
-"id": "12f0f8f3-c1fb-4c3e-840f-2287c8e84455",
-"sessionId": "12f0f8f3-c1fb-4c3e-840f-2287c8e84455",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Abdel Sghiouar",
-"twitter": "boredabdel",
-"bio": "GKE/Kubernetes & Service Mesh Senior Developer Advocate\nBio: Abdel Sghiouar is a senior Cloud Developer Advocate @Google Cloud. A co-host of the Kubernetes Podcast by Google and a CNCF Ambassador. His focused areas are GKE/Kubernetes, Service Mesh, and Serverless. Abdel started his career in data centers and infrastructure in Morocco, where he is originally from, before moving to Google's largest EU data center in Belgium. Then in Sweden, he joined Google Cloud Professional Services and spent five years working with Google Cloud customers on architecting and designing large-scale distributed systems before turning to advocacy and community work."
-}
-]
-},
-{
-"intendedAudience": "This presentation is tailored for a wide audience, including professionals in the transportation and technology sectors and researchers interested in the application of quantum computing and AI.\nAnyone interested in learning about Quantum computing and its real world use cases would benefit from this talk. This is not a technical talk",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Ruter (together with TET Digital), has done two projects which use Quantum Computing (QC) and Artificial Intelligence (AI):\n\n1. Passenger Quantity Prediction: In our first project we used QC with AI, to accurately predict passenger volumes. \n2. Route Optimization for Ticket Controllers: Building on our initial successes, we further explored the capabilities of QC by applying it to optimize the routes of our ticket controllers. \n\nIn this talk, I will show how we worked Quantum Computing, highlighting the challenges encountered along the way and the valuable insights we learned. \n",
-"title": "Quantum computing at Ruter (& TET Digitial)",
-"id": "f16ae659-1576-4680-829c-a731b3aced81",
-"sessionId": "f16ae659-1576-4680-829c-a731b3aced81",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Umair Mehmood Imam",
-"twitter": "https://twitter.com/Umair_",
-"bio": "Umair is the CDO, CAIO at TET Digital (Ruter). Additionally he is also the Founder for a startup called Bineric AI and Bineric Data. In the academic world, he is working as an assistant professor at OsloMet."
-}
-]
-},
-{
-"intendedAudience": "Developers interested in the progress of programming languages, especially Kotlin enthusiasts.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Kotlin 2.0 just shipped. The huge enabler for the new major version is the new compiler front-end, codenamed K2. The release delivered better performance and stabilization of the language features and library functions across multiple compilation targets. Even though 2.0 is a major release, it brings no major language changes, providing a smooth migration path for the users. But the progress doesn’t stop, and now it’s time for more experiments!\n\nIn this talk, we will provide an overview of the state of Kotlin at the point of the 2.0 release: the outcomes of K2 stabilization and the state of Kotlin Multiplatform, including the WASM target.\n\nNext, we will dive into the upcoming ideas – what’s on Kotlin’s roadmap for the next year. You’ll see static extensions, collection literals, named-based destructuring, explicit fields, and context parameters design proposals.\n",
-"title": "Kotlin 2.0 and beyond",
-"id": "cf39cb14-3786-45df-a1bc-d14f70bb9d78",
-"sessionId": "cf39cb14-3786-45df-a1bc-d14f70bb9d78",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Anton Arhipov",
-"twitter": "@antonarhipov",
-"bio": "Anton is a Developer Advocate in the Kotlin team at JetBrains. With a professional background in server-side development, Anton has been building tools for developers for more than ten years. He has been recognized as a Java Champion since 2014. He often presents as a speaker at large software conferences and contributes to the Kotlin YouTube channel.\n"
-}
-]
-},
-{
-"intendedAudience": "Developers, architects, product people, managers, and others who are curious about data mesh",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Today, many organizations have a data mess where data are not discoverable and are hard to understand and use. How can we go to data mesh where we avoid bottlenecks and have clear data products that are available, discoverable, complete, and easy to use? This talk will introduce data mesh, and show what we have done so far in FINN.no / Schibsted Nordic Marketplaces.",
-"title": "From Data Mess to Data Mesh",
-"id": "2f4903b4-fdf6-435a-ac6b-253e677a95f5",
-"sessionId": "2f4903b4-fdf6-435a-ac6b-253e677a95f5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Lotte Johansen",
-"twitter": "@lotte_johansen",
-"bio": "has talked at JavaZone 5 times before. She has worked as a backend Java developer since 2006, and since 2008 in FINN. She is enthusiastic about accessibility, process, and development, and is now an Engineering Manager for the Data Enablement & Infrastructure team. "
-}
-]
-},
-{
-"intendedAudience": "Målgruppen er alle som er interessert i generativ AI for norske forhold. Det kreves ingen spesielle forkunnskaper, men det er en fordel med en viss kjennskap til generativ AI.",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Målgruppen er alle som er interessert i generativ AI for norsk. Jeg vil fortelle hva Nasjonalbiblioteket gjør på generativ AI-området, og hvordan Nasjonalbiblioteket bidrar til at maskinene kan forstå norsk språk, kultur, kunst, historie, geografi og samfunnsliv - den norske erfaringen. \n\nJeg kommer inn på:\n• Nasjonalbibliotekets digitalisering av den norske kulturarven\n• Utvikling av et norsk tekstkorpus (datasett) for trening av generative modeller\n• Trening av språkmodeller på ulike infrastrukturer\n• Evaluering/testing av språkmodeller for norsk\n• NB-Whisper - tale til tekst for norsk",
-"title": "Hvordan få maskinene til å forstå norsk og den norske erfaringen?",
-"id": "d441d220-4494-40a1-a1e1-84eab6c0ff06",
-"sessionId": "d441d220-4494-40a1-a1e1-84eab6c0ff06",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Wilfred Østgulen",
-"twitter": "",
-"bio": "Wilfred Østgulen er IT-direktør i Nasjonalbiblioteket og leder også AI-laben der. Jeg har 30 års erfaring fra utvikling av digitale løsninger og organisering og ledelse av IT. Jeg har tidligere jobbet i Forsvaret, Accenture, Aetat/NAV, Altinn, Sykehuspartner og politiet."
-}
-]
-},
-{
-"intendedAudience": "Any developer dealing with DTO or database layers of any experience level.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "One of Java's most prominent features is its type system. While its strict typing is normally a useful aid in writing consistent programs, it can also lead to verbosity. This is especially the case when processing similar types that represent the same or similar data, something that is common in DTO layers, or when versioning data types, two problems that are also current at the Norwegian tax authority (Skatteetaten). This presentation showcases how the introduction of structural types avoids boilerplate in the Norwegian taxation process, without loosing any type safety.",
-"title": "Bringing structural types to Java and Typescript",
-"id": "43583af3-0362-403c-a454-e85d134f9159",
-"sessionId": "43583af3-0362-403c-a454-e85d134f9159",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "In the fast-paced world of software development, it is critical for developers to have a clear understanding of the legal landscape surrounding the software that they develop. This presentation will look into the different branches of software licenses and open source. In this context, the presentation will discuss common terms of commercial agreements and what pitfalls to avoid. Finally, this presentation will look into the OpenJDK project and its formal organization. Attendees will gain a solid understanding of the legal and technical considerations of choosing licensed software, enabling them to make informed decisions about their projects.",
+"title": "A software developer's guide to licenses and other legalities",
+"room": "Room 1",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T14:00",
+"video": "861665089",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T12:00:00Z",
+"id": "37cdf4dd-4f9a-4d93-ad9f-eb4994cb2f52",
+"sessionId": "37cdf4dd-4f9a-4d93-ad9f-eb4994cb2f52",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
 "speakers": [
 {
 "name": "Rafael Winterhalter",
@@ -837,1594 +61,1225 @@ pub fn program() -> String {
 ]
 },
 {
-"intendedAudience": "The workshop targets an intermediate Java user, however, a beginner should be able to follow too.",
-"length": "120",
-"format": "workshop",
-"language": "en",
-"abstract": "Join us for an in-depth workshop designed for developers looking to understand better how to use GraalVM Native Image via a Maven plugin and build size-optimized Java applications.\nDiscover ways to minimize application footprint taking advantage of different Native Image linking options and packaging into various base container images. Finally, streamline your development process by automating builds with CI/CD pipelines. Enhance your multi-cloud application development skills and take your applications to the next level with GraalVM!",
-"title": "Multi-Cloud Apps with GraalVM - Up and Running",
-"workshopPrerequisites": "The attendees are not required to install any software for or during the workshop.\nThe session will run on an interactive workshop platform in the Oracle Cloud Infrastructure (OCI): https://luna.oracle.com/. Some key facts:\n• A user is provided with an ephemeral Oracle Cloud account and necessary OCI resources for the time of a workshop.\n• The development environment is pre-configured with GraalVM JDK as a default JDK.\n• All resources will be cleaned up after completing a workshop.\n• Remote control over users' sessions is possible in case of trouble.\n• The desktop environment runs as a container image with 32GB of memory and 2 CPUs.\n• A user only needs to sign in to the workshop platform with a regular Oracle account that he can create in advance at \nhttps://profile.oracle.com/myprofile/account/create-account.jspx",
-"id": "a519538a-4ebc-4c44-a722-3ec159d5d809",
-"sessionId": "a519538a-4ebc-4c44-a722-3ec159d5d809",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Olga Gupalo",
-"twitter": "@Olya_Gupalo",
-"bio": "A member of the GraalVM Developer Relations team.My current focus is the GraalVM website (graalvm.org), content and documentation management, accessibility, public outreach, producing different learning materials, and participation in the GraalVM releases."
-},
-{
-"name": "Kris Foster",
-"bio": "Kris Foster has been working in software development for over 20 years, a large part of that work building Java applications as an independent consultant. Currently works at Oracle as a part of the GraalVM team. Focused on the product management of the developer tooling for GraalVM, Micronaut® framework, and the Graal Development Kit. We have released several VS Code extensions that aim to make the life of Java developers better."
-}
-]
-},
-{
-"intendedAudience": "Arkitekter og utviklere som er interesserte i sikkerhet, ytelse og applikasjonsarkitektur, eller er interesserte i den nasjonale felleskomponenten ID-porten.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "ID-porten har 300 millioner innlogginger i året.  Det siste året er ID-porten omskrevet fra bunnen av og all trafikken er flyttet til ny løsning - uten nedetid.  \n\nModerniseringen har vært omfattende: Vi har skrevet all kode på nytt, fra Java 8/11 til Java 21 og tilpasset til en Kubernetes-basert plattform.  Fra å bestille manuell deploy til automatisering på Kubernetes-plattform.  Byttet ut kjerneprogramvare.  Konvertert data fra ldap til nye databaser.  Sikkerhetsprotokollene OpenID Connect og SAML2 har byttet plass.  Samtidig har ikke verden stått stille: Antall tjenester som er integrert med ID-porten øker og stadig flere logger seg inn til offentlige tjenester.  Eksterne avhengigheter har endret seg.  Skyplattformen vi skulle bruke kunne ikke brukes likevel.\n\n\nVi har planlagt og bommet, feilet og krasjet og blitt overrasket mange ganger.  Likevel rakk vi å få kundene over til nye ID-porten før kontrakten på den gamle driftsplattformen gikk ut.  Vi vil dele våre erfaringer med transisjonsarkitektur: Om å kjøre to versjoner av et system samtidig med full trafikk, om både å migrere kunder brått, men skånsomt eller migrere gradvis, om å ha data 2 ulike steder på helt ulike formater. Vi har designet tjenester bare for å kaste dem etter kort tid, utvidet sikkerhetsprotokoller for å koordinere ulike sikkerhetsmodeller og laget mye testverktøy.\n\nKom og le av våre feil! (Kanskje vi har noe å lære bort?)\n",
-"title": "ID-porten til sky uten nedetid",
-"id": "fcb7a30d-0482-4193-97e2-3ae82c2feb3b",
-"sessionId": "fcb7a30d-0482-4193-97e2-3ae82c2feb3b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Thomas Reppesgård",
-"twitter": "",
-"bio": "Thomas er protokollnerd og utvikler i Digitaliseringsdirektoratet.  Han har jobbet mer enn 24 år som utvikler innen offentlig sektor, bank og forsikring.  Han har jobbet som utvikler på ID-porten og relaterte systemer i over 10 år.  "
-},
-{
-"name": "Anne Marte Hjemås",
-"twitter": "",
-"bio": "Anne Marte er en utvikler og arkitekt i JProfessionals som har jobbet med utvikling og applikasjonsarkitektur i Java-økosystemet i over 25 år. Hun er interessert i sikkerhet, integrasjon og arkitektur.\nDe siste 5 årene har hun jobbet med ID-Porten og Maskinporten for Digitaliseringsdirektoratet."
-}
-]
-},
-{
-"intendedAudience": "This talk is for anyone interested in learning about geodata, geometric processing and how to create data sets suitable for 3D visualization. The main takeaway is that it is not hard to create great-looking models of the surroundings when you are a bit familiar with the domain, and use the right tools.\n\nParticipants should have a software development background, but otherwise no particular skill set is required.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "We use computers to model and simulate the physical world - both for entertainment (games) and for business (construction and manufacturing). With increasing computational power, and VR headsets on top of that, we are able to make more and more immersive experiences. In short, our virtual and physical worlds blend together. Graphics technology has made it possible, and open geodata has made it accessible.\n\nThis talk will walk you through how you can create your own virtual 3D model of some location on the globe. You will learn how to find, evaluate, gather, process, compose and visualize geodata, and we will end up with (in my opinion) a rather nice 3D model.\n\nWe will use data sets describing terrains, buildings, roads and aerial views, and all of them will be open and free. You will also learn more about the geodata domain and common techniques, and the main software tools and libraries in use (mostly in Python and JavaScript). You will get links to further resources, including documentation and code for the model building process shown in this presentation.",
-"title": "Building virtual worlds using open geodata",
-"id": "c9ed22e0-1417-4ae5-af9e-b489a9374123",
-"sessionId": "c9ed22e0-1417-4ae5-af9e-b489a9374123",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kristoffer Dyrkorn",
-"twitter": "kristofd",
-"bio": "Kristoffer is a senior principal software engineer at Autodesk. He holds an MSc in computer graphics and computational geometry, and works on processing, optimizing and visualizing geodata for architectural design."
-}
-]
-},
-{
-"intendedAudience": "The talk is intended for anyone wanting to stop using passwords. There will be some technical details on how the technology works.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Who doesn’t want to get rid of passwords and all the problems they bring us? This is why passwordless is probably one of the greatest buzzwords ever made. But can passwordless deliver on such a utopic future?\nThe goal of the talk is to introduce passwordless, and more specifically FIDO2. How does it work and is it safer than your standard passwords and other MFAs like time-based one-time passwords? Even passwords we consider safe due to length and entropy are a risk factor. The talk will give quick real-life coverage of how no password is truly safer. It will go through what FIDO2 is, details on the CTAP2 and Webauthn specifications that FIDO2 encompasses, including covering what passkeys are.\nAt the end you should know what options you have right now as an end user to start going passwordless, and what you as a developer can do to help secure others.\n",
-"title": "Imagine: A world without passwords, it is easy if you try",
-"id": "fa614957-9dbb-4726-b5d1-73239e3474eb",
-"sessionId": "fa614957-9dbb-4726-b5d1-73239e3474eb",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Sigurhjörtur Snorrason",
-"twitter": "",
-"bio": "Sigurhjörtur currently works as the Head of Software Development for Pone Biometrics AS in Oslo. He has done multiple FIDO implementations, both as virtual devices and as real hardware devices in a multitude of programming languages. He has previously worked as Head of Architecture and Security at Distribution Innovation."
-}
-]
-},
-{
-"intendedAudience": "Etter vår erfaring er kurset givende både for begynnere og for erfarne utviklere. En grunnleggende forståelse for objektorientering er nyttig, men ingen forutsetning. Ingen Rust-forkunnskaper kreves. ",
-"length": "240",
-"format": "workshop",
-"language": "no",
-"abstract": "Bli fortrolig med programmeringsspråket Rust gjennom å implementere sjakk!\n\nRust har i åtte år blitt kåret til det høyest elskede programmeringsspråket på Stack Overflow. Også i SpareBank 1 Utvikling er vi flere som har lagt vår elsk på språket, og vi har laget denne workshopen for å gi en god innføring i idiomatisk Rust og hvordan det lar oss skrive bedre og mer konsis kode – gjennom praktisk erfaring.\n\nI kurset starter du med et tomt sjakkbrett, og ender opp (om du er rask, eller flittig til å bruke hint) med et fullverdig sjakkspill. Underveis blir du eksponert for syntaks og datastrukturer i Rust, blir kjent med Rust-tankegangen og lånesjekkeren, og ikke minst Cargo, vårt essensielle Rust-verktøy.\n\nNB! Det er stor fare for at du selv blir glad i Rust i løpet av workshopen. Vi tar ikke ansvar for eventuelle konsekvenser av dette.",
-"title": "Idiomatisk Rust for begynnere",
-"workshopPrerequisites": "For å delta i kurset behøver du en bærbar PC med git, og en kodeeditor du er komfortabel med. Du kan installere Rust ved å følge instruksjoner på https://doc.rust-lang.org/book/ch01-01-installation.html for å komme fort i gang, men dette kan fint gjøres ved starten av workshopen.",
-"id": "b5cc6d47-d9d7-4bf1-a229-9fbcb796d1e3",
-"sessionId": "b5cc6d47-d9d7-4bf1-a229-9fbcb796d1e3",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Isak Kyrre Lichtwarck Bjugn",
-"twitter": "",
-"bio": "Isak er siving i Nanoteknologi og Entreprenørskap fra NTNU, og engasjert mannskorsanger. Han er fagleder i SpareBank 1 Utvikling, og trives både fremst og bakerst i teknologistakken, med henholdsvis React/TypeScript og Kotlin/Spring Boot. Han er dessuten svært språkinteressert, og har utviklet Fagord.no for å gjøre norsk fagspråk mer tilgjengelig."
-},
-{
-"name": "Geir Olav Alsvik",
-"twitter": "",
-"bio": "Geir Olav har i et tidligere JavaZone-foredrag blitt omtalt som «fullstack-ninja». Han har studert informatikk ved UiO – men rakk også to år med japansk, og lager for tiden et verktøy i Rust for å lære seg koreansk – som gjør ham allsidig i verdensspråk så vel som programmeringsspråk.  I SpareBank 1 Utvikling er han fullstack-utvikler i Bli kunde-teamet, og engasjert leder i Rust-faggruppen."
-}
-]
-},
-{
-"intendedAudience": "Everybody has used CSS at some point. This talk gives you an opportunity to hear about it from the person who created it.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "In my talk, I plan to tell why CSS was invented, tell some stories from the early days, outlining the philosophy behind CSS: aestetics is important! keep things simple! Don't create another programming language!\n",
-"title": "CSS @ 30, join the party!",
-"id": "7356d949-ab6d-41ba-9c44-e5727b47d70e",
-"sessionId": "7356d949-ab6d-41ba-9c44-e5727b47d70e",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Håkon Wium Lie",
-"twitter": "",
-"bio": "Håkon Wium Lie created Cascading Style Sheets (CSS) while working with Tim Berners-Lee at CERN in 1994. Along with Bert Bos, he developed CSS into a W3C standard. As CTO of Opera Software he but browsers into mobile devices, and he proposed the Acid2 test make sure all browser supported the same standard. He is the chairman of YesLogic, which makes the Prince CSS-to-PDF formatter. In 2015, Håkon sailed from Lima to Easter Island on a balsa raft, making sure the world-wide web is truly world-wide. In 2023 he sailed a viking ship down the Danube. He has an apple orchard (real apples, not computers) in his native Norway, and also owns a pipe organ workshop there. He holds degrees from West Georgia College, the MIT Media Lab, and the University of Oslo.\n"
-}
-]
-},
-{
-"intendedAudience": "Target audience is anyone interested in practical applications of Large Language Models (LLMs) and Generative AI. This includes AI and machine learning engineers, data scientists, business leaders and decision-makers, CIOs, as well as legal professionals. ",
+"intendedAudience": "Session is targeted towards experienced developers, consultants or DevOps folks willing to integrate enterprise search in their organization or projects.\n",
 "length": "45",
 "format": "presentation",
 "language": "en",
-"abstract": "In the past year, the conversation in AI has been dominated by the remarkable capabilities of Large Language Models, with ChatGPT leading the charge. These models, such as those developed by OpenAI, have changed our approach to tasks ranging from text to image generation. However, these closed source models are not without their shortcomings, particularly in areas of information security and GDPR compliance – restricting their applicability beyond Proof of Concepts (PoCs)\n\nOpen-source models, for example Llama from Meta, on the other hand fall short in handling specific languages, for example, Norwegian. \n\nWe developed RuterGPT to tackle these challenges related to the Norwegian language and AI privacy concerns. \n\nIn this session, we'll explore the inspiration behind RuterGPT, its development journey, and the challenges we faced along the way. Additionally, we'll share insights into how RuterGPT is being utilized inside Ruter by combining the capabilities of Large Language Models with Ruter's specialized domain data using RAG (Retrieval Augmented Generation). ",
-"title": "RuterGPT: Unveiling an Open-Source Large Language Model for Norwegian",
-"id": "5b67ff17-28b7-4112-9f6f-8c3ce598e021",
-"sessionId": "5b67ff17-28b7-4112-9f6f-8c3ce598e021",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Elasticsearch is nowdays a preferred solution for enterprise search. You may be aware that not all of its features are available for free but did you know there is a solid open source alternative created by Amazon called OpenSearch ? And in fact this free alternative is based on a fork of Elasticsearch ? There are however certain pitfalls if you prefer to go the OpenSearch route. In this session we will make a comparison between traditional Elasticsearch and OpenSearch to understand is going completely free and open source a save path.",
+"title": "Free enterprise search with OpenSearch",
+"room": "Room 5",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T09:45",
+"video": "861949288",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T07:45:00Z",
+"id": "3ba51b2d-c986-4678-8b74-c40257576cb6",
+"sessionId": "3ba51b2d-c986-4678-8b74-c40257576cb6",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
 "speakers": [
 {
-"name": "Jawad Saleemi",
-"twitter": "",
-"bio": "Jawad Saleemi is the team lead in Data & AI department in Ruter and is responsible for leading AI initiatives. He led the team which developed and released RuterGPT."
-},
-{
-"name": "Alexander Amiri",
-"twitter": "",
-"bio": "Alexander is datascientist in Ruter who works on Generative AI initiatives."
+"name": "Martin Toshev",
+"twitter": "@martin_fmi",
+"bio": "Martin is a solution architect and IT consultant conducting professional trainings for novice and experienced developers. He is a Java enthusiast and one of the leads of the Bulgarian Java User group (BG JUG). \n"
 }
 ]
 },
 {
-"intendedAudience": "Anyone who builds software with other people. (Or at least tries to.)",
+"intendedAudience": "Java Developers that are interested in understanding more about all the different OpenJDK distributions",
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "We make decisions all the time in software - our architectures are the sum of them; both conscious and unconscious.\n\nYet we have so little awareness about *what* decisions are and *how* we decide. This is not only the source of great friction and waste, it is leading to terrible outcomes for our software.\n\nIn this talk I’ll describe what architectural decisions are, and the different ways that we approach them (individually and collectively) making clear the pros and cons of each. I’ll then compare them all, describing the ideal characteristics of a decision-process for modern software development.\n\nAs a consequence of this talk not only will you be able to decide better as an individual, you will also be able to diagnose failings in your group decision processes and resolve them.",
-"title": "How we Decide",
-"id": "9574e6dc-483b-46e4-bbd1-c4bb9002f13c",
-"sessionId": "9574e6dc-483b-46e4-bbd1-c4bb9002f13c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "OpenJDK with it’s Java Virtual Machine is great but there is not only one flavour but many. There is Oracle OpenJDK, Eclipse Temurin, IBM Semeru, Amazon Corretto, Azul Zulu, Alibaba Dragonwell, Huawei Bi Sheng, Tencent Kona and many more. Did you ever ask yourself which one is better, faster, free or something similar? Or do you want to know where the differences are in those distributions, well then this session might bring some answers to your questions. It will give you an idea about what the JVM is and will cover all the available distributions not only of OpenJDK but also of GraalVM and will try to explain the differences and features of the available distributions. It will also try to give you an idea what JVM to use for specific use cases.",
+"title": "Welcome to the Jungle - A safari through the JVM landscape",
+"room": "Room 7",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T14:00",
+"video": "861645054",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T12:00:00Z",
+"id": "88d67125-288c-499c-85af-e0b6bab2316f",
+"sessionId": "88d67125-288c-499c-85af-e0b6bab2316f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
 "speakers": [
 {
-"name": "Andrew Harmel-Law",
-"twitter": "@al94781",
-"bio": "A Tech Principal at Thoughtworks and author/trainer for O'Reilly, Andrew specialises in Java / JVM technologies, agile delivery, build tools and automation, and domain driven design. Experienced across the software development lifecycle and in many sectors what motivates him is the efficient delivery of large-scale software solutions, fulfilling complex user needs. He understands that people, architecture, process and tooling all have key roles to play in achieving this. Andrew has a passion for open source software and its communities. He has been involved with OSS to a greater or lesser extent since his career began; as a user, contributor, expert group member, or paid advocate - most famously as one of the Jenkins JobDSL originators. Andrew enjoys sharing his experience as much as possible. This sharing is not only seen in his formal consulting engagements, but also informally through mentoring, blog posts, conferences (speaking and organising), and open-sourcing his code"
+"name": "Gerrit Grunwald",
+"twitter": "@hansolo_",
+"bio": "Gerrit Grunwald is a software engineer that loves coding for around 40 years already. He is a true believer in open source and has participated in popular projects like JFXtras.org as well as his own projects (TilesFX, Medusa, Enzo, SteelSeries Swing, SteelSeries Canvas, JDKMon). \nGerrit blogs regularly at http://harmonic-code.org, he is an active member of the Java community, where he founded and leads the Java User Group Münster (Germany), he is a JavaOne rockstar and a Java Champion. He is a speaker at conferences and user groups internationally and writes for several magazines."
 }
 ]
 },
 {
-"intendedAudience": "Utviklere som har mange applikasjoner å vedlikeholde, er lei av Maven eller bare har lyst til å lære noe nytt.",
-"length": "120",
-"format": "workshop",
-"language": "no",
-"abstract": "Med mikroarkitektur kommer flere apper, som alle gjerne skal bygges, testes og kjøres lokalt. I tillegg skal man ha CI pipeline med statisk kodeanalyse, produsering og signering av containere, autodeployment, notifications ved feilede bygg og så videre.\n\nMed et monorepo kan man få samme CI pipeline for flere applikasjoner i samme språk, men hva om man kunne bruke den for flere språk, og i tillegg få synergier mellom forskjellige teknologier?\n\nI Fremtind har vi brukt Bazel for produksjonsbygg i over ett år, og har per nå 60 applikasjoner og 70 biblioteker som bygger med samme GitHub Workflows.\n\nKom hit for å lære om Bazel og hva som gjør det til et bra verktøy for monorepo både med et eller flere språk! Etter denne workshoppen vil du ha oversikt over hvordan man kan bruke Bazel både til lokal utvikling, og et eksempeloppsett for en CI pipeline i GitHub Workflows.",
-"title": "Bygg et flerspråklig monorepo med Bazel",
-"workshopPrerequisites": "Linux/Mac laptop - kan ikke garanterere at det funker på Windows (selv om Bazel fungerer der)\n\nInstaller Bazelisk (https://github.com/bazelbuild/bazelisk)\n\nVi tar utgangspunkt i dette git repoet: https://github.com/fremtind/bazel_workshop",
-"id": "2a43f2c7-d45f-4dc6-9e47-ded5d0088317",
-"sessionId": "2a43f2c7-d45f-4dc6-9e47-ded5d0088317",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Knut Eirik Leira Hjelle",
-"twitter": "",
-"bio": "Knut Eirik jobber med arkitektur og utvikleropplevelse i Fremtind og har 15 år bak seg som profesjonell utvikler i hele stacken, og er vandt til å jobbe med forskjellige programmeringsspråk. Etter mange år i forskjellige bransjer har han vært innom mange forskjellige byggsystemer og behov.\n\nNår Knut Eirik ikke programmerer, finner du han på konserter, på pub eller i skogen på en stisykkel."
-},
-{
-"name": "Magnus Raaum",
-"twitter": "",
-"bio": "Magnus er Techlead for motor-relaterte produkter for privatmarkedet i Fremtind. Han har mer enn 10 års erfaring som Java utvikler, og er ikke redd for å bryne seg på arkitektur og infrastruktur! \n\nNår Magnus ikke er på jobb, finner du ham gjerne på en golfbane der han øver på svingen sin."
-}
-]
-},
-{
-"intendedAudience": "Developers working on microservices setups who are interested in how to better organize testing them. This is a relatively introductory session, so no major experience is required, ",
-"length": "45",
+"intendedAudience": "Most of the developers could improve by learning a bit (more) about tests. If you're working with microservices (or big but connected services) you need to know about contract tests, and how to use them for evolving the system without breaking it. \n\nThe experience of working with microservices will help to appreciate the problem better, but even junior developers will find this session inspiring and educational! ",
+"length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "Starting with cloud-native apps may represent a steep learning curve! It’s not only a matter of architecture or technology but also a paradigm shift on developer experience and workflow. Even before writing code, configuring your entire test environment might be intimidating! And after that you still have to figure out how to validate your microservices with great confidence to release them independently!\n\nIn this session, we present tools to ease your life when setting up your development environment and testing with databases, middlewares, cloud services and your regular business services and API! Considering the diversity of styles and protocols - REST, gRPC, GraphQL, Async - and cloud-native stacks - this latter is not an easy task.\n\nThis session provides hands-on experience on: how to equip your team with a consistent and polyglot approach. And how to let them develop locally, but providing confidence with a unified policy between the inner and the outer loops.",
-"title": "Smooth Sailing in the Cloud-Native Storm: Tools for better confidence in microservices development",
-"id": "d42eb9e5-1d6f-4652-9d69-e6f6f62fc37e",
-"sessionId": "d42eb9e5-1d6f-4652-9d69-e6f6f62fc37e",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Verifying behaviors of the cloud-native applications and ensuring that all of the services in the system work correctly together is both crucial and challenging. Manually maintaining environments to test the correctness of the entire system is undevops-like and fragile.\n\nLuckily, modern tools can help you to build automated, reliable test pipelines, and in this session, we explore how using Spring Cloud Contract and Testcontainers together can improve your testing and deployment processes.\n\nSpring Cloud Contract is an implementation of Consumer-Driven Contracts, an approach that provides a way to easily describe and verify APIs, at the same time allowing building API backward compatibility verification into the deployment process.\n\nTestcontainers lets developers programmatically build test environments consisting of real services running in lightweight and disposable containers. It turns the process of integration testing into a seamless, unit-test-like experience.\n\nIn this presentation, we’ll show how contract and integration tests complement each other and explore one of the most natural and reliable approaches to service evolution with contract testing. We’ll discuss why in Spring Cloud Contract, we’ve decided to switch to using Testcontainers as the solution for Kafka and AMQP messaging verification and demonstrate practical use-cases and code examples of how to set up both types of tests in your applications and deployment pipelines.",
+"title": "Stop breaking stuff all the time!",
+"room": "Room 6",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:40",
+"video": "862083847",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:40:00Z",
+"id": "3a06f863-c1ee-4d15-be2e-3cc53ae473a9",
+"sessionId": "3a06f863-c1ee-4d15-be2e-3cc53ae473a9",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
 "speakers": [
 {
 "name": "Oleg Šelajev",
 "twitter": "shelajev",
-"bio": "Oleg Šelajev is a developer advocate at Docker working mainly on developer productivity, Testcontainers, and improving how we set up local development environments and tests. Developer. Author. Speaker. Java Champion. Docker captain.\nLoves all languages."
+"bio": "Oleg Šelajev is a developer advocate at AtomicJar working on making integration tests with Testcontainers better for everyone in the community. VirtualJUG leader. In 2017 became a Java Champion."
+},
+{
+"name": "Olga Maciaszek-Sharma",
+"twitter": "olga_maciaszek",
+"bio": "Olga Maciaszek-Sharma is a Senior Software Engineer in the Spring Cloud Team at VMware, where she works primarily on Spring Cloud LoadBalancer, Spring Cloud Contract (of which she was the first user and one of the first contributors), Spring Cloud OpenFeign and Spring Cloud Netflix projects. She also works on native image support for Spring Cloud projects and contributes to RSocket Broker projects from time to time. She programs mostly using Java and Groovy."
 }
 ]
 },
 {
-"intendedAudience": "Dette fordraget er for alle som utvikler eller dokumenterer API-er eller jobber med integrasjon. Det kan også være nyttig for produkteiere som har API-er i sin portefølje.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Open API Specification (OAS) er blitt vår standard for å dokumentere i detalj hver enkelt operasjon i vårt API. Vi har også AsyncAPI for å dokumentere event-drevne og asynkrone API-er, men alle disse har én mangel: Hvordan kan vi dokumentere i hvilken sekvens API-operasjonene skal kalles for å få gjennomført en større, forretningsmessig transaksjon som å opprette handlekurv, legge produkter i den, sjekke ut og betale? Arazzo-spesifikasjonen fra OpenApi Initiative (OAI) er definert nettopp for å dokumentere slike arbeidsflyter i API-et på en menneskelig og maskinlesbar måte, slik som OAS er for enkelt-operasjoner i API-et.\n\nI dette foredraget vil jeg si noe om bakgrunnen for denne spesifikasjonen, vise noen ekle eksempler og si noe kort om hvilke verktøy som er kommet rundt denne spesifikasjonen.",
-"title": "Bedre API-dokumentasjon med Arazzo",
-"id": "9b4811ec-2a9f-429d-9712-d3a06b2afee9",
-"sessionId": "9b4811ec-2a9f-429d-9712-d3a06b2afee9",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Bjørn Hamre",
-"twitter": "@javaguruen",
-"bio": "Bjørn jobber som løsningsarkitekt med spesielt ansvar og interesse for det meste relatert til API-er. Han har holdt en rekke foredrag og workshops på konferanser og i communities de siste årene. Har en forkjærlighet for Kotlin og funksjonell programmering og er ellers engasjert i javaBin Bergen."
-}
-]
-},
-{
-"intendedAudience": "This presentation is for developers and anyone else that would like to learn how to build shared understanding on data. There will be no code lines in the presentation, but intuitive visual graph nodes that anyone can understand.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "The Norwegian Police is all about protecting human beings, fighting crime, and adding light to difficult cases. This is managed through many valuable datasets stored in different formats and systems. Would it be possible to understand our data better, and even save lives if our data was linked together and optimized for reuse? This talk is for developers and everyone else who wants to understand Semantic Web and Data Mesh concepts for achieving exactly that.\n\nTeam Knowledge Graphs at the Norwegian Police IT Unit have started a journey to explore how to make data a first-class citizen of our ecosystem. In this talk we will share our data-centric approach on saving lives through building meaningful data products and generic applications. By listening to this talk, you will learn how we are working to transform the Police into a data-centric organization.\n\nAs a developer, you will learn how to reduce application complexity and build knowledge that will outlive the lifespan of any application that you will ever build. Not convinced? I will present how it can be done through real use case examples from our work at the Norwegian Police.",
-"title": "Norwegian Police Knowledge Graph: How to save lives through shared understanding of data",
-"id": "5aa3c7fb-68ad-4745-8d20-cd16fc97ac8c",
-"sessionId": "5aa3c7fb-68ad-4745-8d20-cd16fc97ac8c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Lars Berg Hustveit",
-"twitter": "hustveit",
-"bio": "Lars is a system/knowledge architect at the Norwegian Police IT Unit. He has been fascinated with using web technologies for knowledge representation ever since he studied and wrote a master thesis about the topic at the University of Bergen. Throughout his career he has been developing semantic knowledge graphs within the fields of cultural history archives, life science, banking, and marine vessel regulations."
-}
-]
-},
-{
-"intendedAudience": "Developers, AI Enthusiasts, Computer Vision interested\nNo experience needed. ",
+"intendedAudience": "Data Engineers, analytic engineers, data practitioners",
 "length": "45",
 "format": "presentation",
 "language": "en",
-"abstract": "We introduce an innovative application of computer vision and artificial intelligence to analyze training videos of canoe athletes preparing for the Olympic Games. Our method employs foreground-background separation for canoe detection and waterline derivation. Through pose detection, we identify the paddle and have trained a neural network to recognize essential paddle positions for routine training analysis. Additionally, we incorporate biomechanical insights in a post-processing step to refine AI results and enhance analysis accuracy. Traditionally, biomechanics engineers manually screen training videos frame by frame to locate specific paddle positions and measure the paddle's angle relative to the waterline; a process taking about 20 minutes per athlete. Our approach significantly streamlines this process, reducing the workload by an order of magnitude.",
-"title": "From Athlete to Algorithm: Transforming Canoe Technique Analysis with AI",
-"id": "2a3b78a2-935a-4f2a-8706-8e155aeb73a5",
-"sessionId": "2a3b78a2-935a-4f2a-8706-8e155aeb73a5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "At Br Karlsen we make, buy and sell fish of all kinds, here are our experience in deploying the modern data stack , built on Airbyte, dbt , BigQuery and Apache Superset. Why we chose the components we did, and what our experience has been. When did we choose the managed version vs the open source version of a product? ",
+"title": "Building a fishy cloud datawarehouse in 2023",
+"room": "Room 3",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:25",
+"video": "862067862",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:25:00Z",
+"id": "6f9c99a8-2aab-4473-a848-34b4492acb8f",
+"sessionId": "6f9c99a8-2aab-4473-a848-34b4492acb8f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
 "speakers": [
 {
-"name": "Marc Schuh",
-"twitter": "",
-"bio": "Dr. Marc Schuh is a Principal Consultant at TNG Technology Consulting in Munich. In addition to managing customer projects, ranging from the development of a Data Lake in the AWS Cloud to the migration of legacy applications (e.g. Visual Basic) to Azure, he works on various innovative prototype projects together with the Innovation Hacking. Among them are the automated technical analysis of high-performance canoe athletes of the German National Team, and experiments with a Brain Computer Interface.\n\nPrior to his start at TNG, Marc Schuh received his doctorate in physics and was a wheelchair sprinter over 400m at three Paralympic Games, in addition to being a World Champion and holding the European record."
+"name": "Magnus Fagertun",
+"twitter": "db_magnus",
+"bio": "With a long background in databases and data, Magnus went from Google in Oslo to the small island Husøy on Senja up far north to work with fish, aquaculture and data at Brødrene Karlsen. He's currently building an analytics environment in the Cloud. "
 }
 ]
 },
 {
-"intendedAudience": "Denne lyntalen vil være interessant for utviklere som jobber med eller er interessert i infrastruktur og testing, samt arkitekter eller andre med teknisk ledelse som er opptatt av automatisering og metrikker.",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Samordna opptak er det systemet de fleste bruker når de søker til høyere utdanning i Norge. Vi som jobber med Samordna opptak lever i en verden der lasten er svært ujevnt fordelt utover året. Det betyr at vi jobber lenge med kode og system mellom hver gang vi blir utsatt for mye trafikk. Det har derfor vært vanlig prosedyre å bruke Gatling for å gjøre lasttesting av Samordna opptak i forkant av de to periodene i året med høyest last. Lasttestene har vært svært nyttige og har hjulpet oss med å finne og forbedre ytelsesutfordringer.\n\nI denne lyntalen vil dere høre om hvordan vi nå har automatisert lasttest-riggen vår. Dere vil lære litt om Gatling som lasttest-verktøy, samt om hvordan vi har automatisert lasttestene gjennom GitLab pipeline. Dere vil også se hvordan man kan bruke Opentelemetry for å spore metrikker som vises på Grafana. Vi vil dele de viktigste lærdommene fra dette arbeidet og gi noen tips til de som kan tenke seg å gjøre lignende.",
-"title": "Automatisk lasttesting av Samordna opptak",
-"id": "16de8fc2-4e54-4432-977a-e4400de271b1",
-"sessionId": "16de8fc2-4e54-4432-977a-e4400de271b1",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Karl Yngve Lervåg",
-"twitter": "",
-"bio": "Karl Yngve er en utvikler med forskerbakgrunn som nå jobber i Sikt. Han har skiftet karriere fordi han synes det er spesielt artig å jobbe med kode og systemer som er i produksjon og som påvirker mange folks liv. Han bryr seg spesielt om dokumentasjon, kodekvalitet og infrastruktur og er en engasjert Neovim-bruker."
-}
-]
-},
-{
-"intendedAudience": "Utviklere i alle aldre",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Når man lager nye systemer, påvirker man fremtiden til alle de som skal vedlikeholdet systemet. Det gjelder både teknologivalg, teststrategi og hvordan koden er strukturert. I dette foredraget vil jeg dele anektoder, både fra ting jeg har overtatt, og fra intervjuer jeg har gjort med de som har måttet leve med mine valg. For vi må finne ut hvorfor vedlikehold blir så dyrt og vanskelig, sånn at vi kan lage flere nye system!",
-"title": "Tanker om vedlikehold versus nyutvikling",
-"id": "888fe26f-7652-434c-a984-7f410c06e393",
-"sessionId": "888fe26f-7652-434c-a984-7f410c06e393",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Trond Pedersen",
-"twitter": "",
-"bio": "I have developed solutions for businesses for 20 years, as a consultant, as an employee or as part of a startup, and see no reason to stop. Sometimes I do this as a manager or architect, sometimes I help with advice or finding out what we need to make, and a lot of the time I do full-stack development as well.\n\nI am a proud member of the Agile Community in Oslo, and have been an advocate for lean self-organizing development teams since 2001. Enabling a team to do quality work, by giving them the power and authority to make the right decisions is key to a successful product. \n\nTo contribute to my professional community, and to share what I learn makes me happy. That is one of the reasons I started the Agile Conference with some friends back in 2007, a conference that is still going strong. Nowadays I contribute as a organizer of the Lean Coffee meetup, and as a speaker at conferences.\n\nMy friends described me as energetic, pragmatic and inspiring to work with."
-}
-]
-},
-{
-"intendedAudience": "Foredraget passer for alle som har en interesse for teknologi og miljø. Vi kommer til å introdusere konseptene rundt digitale utslipp fra bunnen av. Foredraget vil  passe for en et tverrfaglig publikum - både de med mye og mindre erfaring. ",
-"length": "60",
-"format": "presentation",
-"language": "no",
-"abstract": "Den økende bruken av teknologi, spesielt den eksplosive bruken av kunstig intelligens, vil få store konsekvenser for IT-bransjens klimautslipp og vår bransjes evne til å støtte målet om bærekraftig vekst. \n \nVi lever i et stadig mer digitalisert samfunn, der IT-sektoren er en bærebjelke for å holde livsviktige tjenester oppe. Med kunnskapen og erfaringen vi har som teknologer har vi ansvaret for å ta gode valg når vi bygger, drifter, og videreutvikler digitale løsninger. Et godt valg i 2024 skal også være det mest bærekraftige valget. Dette gjør det helt nødvendig at teknologene må med i selskapenes samtaler om bærekraft og utslippskutt. \n \nI dette foredraget vil Thea og Hans Kristian snakke om IT-bransjens utslipp, hvordan AI setter fart på dette og hva vi kan gjøre for å utvikle bærekraftige digitale løsninger. De vil vise til konkrete eksempler for hvordan man kan måle digitale utslipp, kutte utslipp på systemnivå og i produktutvikling. Samt diskutere hvordan du kan gå frem for å bygge en digital bærekraftskultur som ivaretar bærekraftig utvikling over tid. \n",
-"title": "Med AI i førersetet blir IT-sektoren en klimaversting: Nå må teknologene på banen! ",
-"id": "c88c5bcd-3e45-4b4c-aa83-ddffa93bf517",
-"sessionId": "c88c5bcd-3e45-4b4c-aa83-ddffa93bf517",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Hans Kristian Henriksen",
-"twitter": "",
-"bio": "Hans Kristian er sikkerhetsutvikler i Bekk og brenner for klima og bærekraft. Han har siden ungdomstiden vært opptatt både av IT og miljø, og bruker nå hverdagen til å forsøke å gjøre produkter og systemer hos noen av Norges største selskaper litt bedre for verden. Han har praktisk erfaring med reduksjon av utslipp fra IT-systemer, og rådgir selskaper på hvilke tiltak de kan gjennomføre for å levere grønnere digitale løsninger."
-},
-{
-"name": "Thea Thorleifsson",
-"twitter": "",
-"bio": "Thea er siviløkonom med spesialisering i energi og bærekraft. Hun er opptatt av at vi som jobber med teknologi må integrere bærekraft i håndtverket vårt, for at teknologi skal forbli drivkraften til et bedre og mer bærekraftig samfunn for alle. I rollen som forretningsutvikler og bærekraftsansvarlig i Bekk er Thea sterkt engasjert i å spre kunnskap og interesse for digital bærekraft i IT-bransjen\n"
-}
-]
-},
-{
-"intendedAudience": "Developers, architects, designers, management, anyone interested in product development",
+"intendedAudience": "No experience is required, but interest in / knowledge about DevOps is beneficial.",
 "length": "45",
 "format": "presentation",
 "language": "en",
-"abstract": "When designing products for large organizations, it's easy to get carried away trying to understand the user's combined and complex overall needs.  WHY are we making this software? What VALUE are we trying to deliver? We've all heard the story of the bricklayers asked about what they are doing - are they laying bricks or are they building a cathedral? Software is a tool that we use to achieve some goal. It's important to focus on the goal - the cathedral,  but should we be delivering \"cathedral building\" products? \nNo.\nIn order to build a cathedral, we need a large set of _simple_ tools. The tools themselves need little knowledge of the overall goals involved. Building in this knowledge makes them complex and inflexible. To build a cathedral, one needs hammers, drills, bricks... simple tools that can be composed with others to achieve the overall goal. The same goes for software",
-"title": "To build a cathedral, the user needs brick laying tools",
-"id": "92f3bc90-e257-4ef8-854f-d4521de74349",
-"sessionId": "92f3bc90-e257-4ef8-854f-d4521de74349",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Christin Gorman",
-"twitter": "ChristinGorman",
-"bio": "Christin has more than 20 years experience as a software developer, and 13 years experience as a speaker at JavaZone. Her talks are generally seen as both informative and entertaining.  For the last 7 years, she's been working as a contractor/consultant for Kodemaker. "
-}
-]
-},
-{
-"intendedAudience": "Dette foredraget krever hverken høy teknisk eller juridisk kompetanse. Foredraget er veldig aktuelt for personer som har en interesse for kunstig intelligens og/eller personvern samt de som skal jobbe med anskaffelse av fremtidig teknologi i virksomheten. \n",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Kunstig intelligens (KI) er ikke lenger en fjern fremtidshorisont, men en realitet som griper inn i stadig flere aspekter av våre liv og samfunn. Som med enhver teknologisk revolusjon, kommer også KI med utfordringer som krever grundig forberedelse og regulering. I 2016, da GDPR trådte i kraft, var denne forordningen et banebrytende skritt mot å regulere hvordan personlig data behandles og beskyttes i en digital tidsalder. Mens det primært fokuserer på personvern, kan vi trekke verdifulle lærdommer fra GDPR som er relevante for å forberede oss på KI. \nI dette foredraget skal vi ta opp både suksesser og smertepunkter fra GDPR og se på hvilke praktiske læringspunkter vi kan ta med oss videre for å sikre god etterlevelse av regelverket ved implementering av KI. ",
-"title": "Hvordan forbereder vi oss på KI - læringspunkter fra GDPR",
-"id": "ce4d3d75-0989-4e6e-a6ea-76fc8d108662",
-"sessionId": "ce4d3d75-0989-4e6e-a6ea-76fc8d108662",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Katarina Torgersen",
-"twitter": "",
-"bio": "Katarina er personvernsjurist og jobber hos Oslo Origo, digitaliseringsetaten til Oslo kommune. Hun skrev masteroppgaven sin om de rettslige problemstillingene rundt opplæring av maskinlæringsmodeller i forvaltningen og har stor interesse for forholdet mellom KI og personvern. \n"
-}
-]
-},
-{
-"intendedAudience": "Alle programmerere som har lyst til å lage bedre API'er.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Har du noen gang bestilt noe på nett, hvor du har fått samme \"vare\" mange ganger? Har du noen sinne opplevd feilmelding på feilmelding, men så viser det seg at ting gikk bra likevel?\n\nI denne lyntalen vil jeg demonstrere og forklare en robust teknikk for å få bukt med denne type problemer.",
-"title": "Nøkkelen til robuste API'er",
-"id": "35d8c1c7-122e-4c79-b077-5b3174d7834d",
-"sessionId": "35d8c1c7-122e-4c79-b077-5b3174d7834d",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Alf Kristian Støyle",
-"twitter": "",
-"bio": "Alf Kristian er konsulent i Kodemaker med 20 års erfaring. Han har jobbet backend, frontend, fullstack, og med med mange programmeringsspråk. Han mener at det er en ting vi alle kan bli bedre på uavhengig av teknologi og plattform, lage bedre API'er."
-}
-]
-},
-{
-"intendedAudience": "The talk is designed to be accessible to a broad audience covering attendees with a basic understanding of AI concepts or a keen interest in art and digital humanities ",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "This talk showcases a collaborative project between the Munch Museum in Norway and Bineric (startup in Norway), leveraging Dall-E and NorskGPT to explore Edvard Munch's extensive archive of 47,000 artworks and texts. We introduce an innovative approach to cultural heritage, using Dall-E for detailed analysis of Munch's paintings and NorskGPT, the leading Scandinavian language LLM, for interpreting texts. Our project aims to make Munch's legacy accessible and navigable through advanced AI, offering fresh insights into his work. This presentation is designed for AI enthusiasts, digital humanities scholars, and art lovers eager to see how technology transforms our understanding of cultural artifacts. Attendees will learn about the integration of AI in art analysis, challenges in digital heritage preservation, and the potential of AI to bridge history with the future. Join us for a glimpse into how art and AI converge to preserve and interpret Munch's profound legacy.",
-"title": "Art Meets AI: Understanding Munch Museums art through Dall-E and NorskGPT",
-"id": "3ff39708-fa60-4db4-b1dc-6ab993f0b6dc",
-"sessionId": "3ff39708-fa60-4db4-b1dc-6ab993f0b6dc",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Bjørn Erik Lie",
-"twitter": "",
-"bio": "Bjørn Erik Lie is the CTO at Munch Museum."
-},
-{
-"name": "Hira Mehmood",
-"twitter": "https://www.linkedin.com/in/hiramehmood/",
-"bio": "Hira is the CEO and cofounder for Bineric AI and Bineric Data. \nShe has an MBA from INSEAD business school, France and is also a chartered accountant by education.\nShe has around 15 years of professional experience."
-}
-]
-},
-{
-"intendedAudience": "Utviklere, tech-leads, arkitekter og alle som er interessert i mikrotjenester",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Mikrotjenester. For omtrent ti år siden ble vi for alvor kjent med konseptet som tok oss med storm. Det var spennende, hipt, moderne og gøy. \nTilhengerene ble flere og flere, de samlet seg, grupperte seg, marsjerte taktfast, fant frem fakler og høygafler. Revolusjonen var nært forestående.\n\"Død over monolitten! Lenge leve Mikrotjenester!\"\n\nTiden var endelig kommet, monolittene skulle slaktes. Monolitt-forkjemperne skulle  brennes. \nEn ny verden skulle formes.\n\nI denne praten legger vi vekk de rosefargede brillene, går back to basics og tar en pragmatisk titt på mikrotjenester. Når skal vi bruke dem? Når skal vi ikke? Hvor store skal de være? Og har monolitten utspilt sin rolle?",
-"title": "Og så skulle alle lage mikrotjenester",
-"id": "fb2193e4-9516-47a7-8741-b84eb3242d4d",
-"sessionId": "fb2193e4-9516-47a7-8741-b84eb3242d4d",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Erik Dahl",
-"twitter": "dahlsdata",
-"bio": "Erik er java-programmer / techlead / arkitekt med et stort hjerte for arkitektur. Til daglig jobber han som uavhengig freelance-konsulent på offentlige og private prosjekter i Oslo-regionen. Han er alltid på utkikk etter nye perspektiver, ny forbedret forståelse og elsker å ha diskusjoner om arkitektur. "
-}
-]
-},
-{
-"intendedAudience": "Ingen erfaring kreves. Det er en fordel om du har jobbet med en database før, enten en relasjon-, vektor- eller grafdatabase. Ingen dyp kunnskap om PostgreSQL eller andre databasemotorer er forventet.",
-"length": "60",
-"format": "presentation",
-"language": "no",
-"abstract": "Populariteten til vektordatabaser har skutt i været det siste året, takket være LLMer og Retrieval Augmented Prompting. Databasene Qdrant, Pinecone og Milvus har sett dagens lys, og blitt verdsatt til flere hundre millioner dollar. I 2014 så vi den samme trenden, med grafdatabasenes inntog. Neo4J ble populært, og \"alle\" skulle nå modellere dataene sine som en graf fremfor tabeller. Enda lenger tilbake i 2009 var det MongoDB som stod for mye av hypen, med sin enkle dokumentmodell og JavaScript-liknende spørrespråk. Gjennom alle disse trendperiodene er det likevel noe som har bestått: PostgreSQL, som ble lansert allerede i 1996. Verdens mest populære open-source database lever i beste velgående, og har utviklet seg i takt med tiden. \n\nTrenger man egentlig alle disse andre databasene? Bli med på et dypdykk i verdenen av muligheter innen PostgreSQL og finn ut hvordan du kan erstatte store deler av din teknologistack med et par enkle spørringer.",
-"title": "Alt du trenger er PostgreSQL",
-"id": "ee9c247a-226c-4453-8e67-9890bf8a0f3b",
-"sessionId": "ee9c247a-226c-4453-8e67-9890bf8a0f3b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Vemund M Santi",
-"twitter": "",
-"bio": "Vemund er en fullstack-utvikler med en lidenskap for databaser og SQL. Han har erfaring fra både store enterprise-bedrifter og knøttsmå startuper han har vært med på å bygge. Med denne bakgrunnen har han fått et unikt innblikk i ulike måter å benytte seg av verdens mest populære relasjonsdatabase, PostgreSQL, og strukket strikken for hvor mye man faktisk kan benytte denne databasemotoren til."
-}
-]
-},
-{
-"intendedAudience": "Anyone interested in reflections on learning.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "A lot of people in the IT industry get themselves certifications and do courses, but not so many do extra degrees. In the midst of the pandemic when the world was shut down I decided to go back to school. A few years later I had an extra degree.\n\nIn this lightning talk, I’ll give my reflections on my extra degree and what they can tell us about learning, inside and outside of formal degree programs.\n\nThey tell you that at university you learn how to learn. This is not necessarily so, but it may be so. And I’ll tell you how it may be so.",
-"title": "Boost Your Development: Should You Get Another Degree?",
-"id": "daa26792-ced3-4bd7-9acd-6d193739d2d8",
-"sessionId": "daa26792-ced3-4bd7-9acd-6d193739d2d8",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jørn K Baltzersen",
-"twitter": "@jkbaltzersen",
-"bio": "Jorn K. Baltzersen is an experienced developer through more than a couple of decades. He holds an M.Sc. in engineering and computer science from the previous century and an M.Sc. (summa cum laude) in blockchain and digital currency (2023) from the University of Nicosia. He is a Principal Solution Consultant at Tietoevry."
-}
-]
-},
-{
-"intendedAudience": "Alle som er opptatt av at teamene skal være innovative og få rom til å gjøre en best mulig jobb. Alle som er opptatt av at vi skal kaste bort minst mulig penger på løsninger som ikke brukerne vil ha. ",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Bestiller du output fra teamet så senker du innovasjonsgraden til teamet betraktelig. Du senker også teamets mulighet til å lykkes med å lage noe som brukerne vil ha. Derfor forteller jeg i min PhD-avhandling at man i digital produktutvikling må gi teamet resultatautonomi, og vil forklare dette i denne lyntalen. ",
-"title": "Støyreduksjon (outcome) eller støyskjerm (output)?",
-"id": "d8658b3b-15d2-4ca7-8128-dd92acb02874",
-"sessionId": "d8658b3b-15d2-4ca7-8128-dd92acb02874",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kristin Wulff",
-"twitter": "",
-"bio": "Har jobbet med prosessforbedring i IT-bransjen i mange år, som leder og konsulent. Tok en PhD fra 2018-2023 på organisasjonsdesign og spesifikt på hva slags autonomi digitale produktutviklingsteam trenger. "
-}
-]
-},
-{
-"intendedAudience": "Alle som bygger programvare og ønsker å gjøre det på mest mulig givende og effektivt vis.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Forskning viser at \"Continuous Integration\" og \"Continuous Delivery\" gir økt hastighet, økt kvalitet og økt trivsel for oss som lager programvare. Men hvordan? Jo, med \"Trunk based development\", \"feature toggles\", automatiserte bygg, og par/mob programmering i stedet for å kaste pull requests på hverandre. Hvordan får vi til dette i praksis? Det skal jeg fortelle deg i dette foredraget, med praktiske eksempler.",
-"title": "Slik leverer du kontinuerlig",
-"id": "944da7b7-9c3f-414a-8368-e0d21be9aba3",
-"sessionId": "944da7b7-9c3f-414a-8368-e0d21be9aba3",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Christian Johansen",
-"twitter": "cjno",
-"bio": "Jeg har bygget webløsninger i over 20 år, og jobber nå i et lite team hos Mattilsynet der vi er to utviklere. Jeg har committa til master/main og bygget rett til prod i over 10 år og har bred erfaring med å finne gode løsninger og få ting levert uten så altfor mye seremoni. Jeg skriver jevnlig om utvikling på https://parenteser.mattilsynet.io"
-}
-]
-},
-{
-"intendedAudience": "Java developers who are interested in how the language, APIs, and runtime evolve - either because they're about to use the newest versions or because they just want to know what's happening.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Java 21 was an explosive release, but 22 and 23 are no slouches either:\n\n* from unnamed patterns to string templates\n* from the foreign-function and memory API to Stream gatherers and the class-file API\n* from a simpler main to launching multi-source-file programs\n\nThere are plenty of improvements to the language, API, and VM to discuss - whether new, improved, or finalized. So let's go over them!",
-"title": "Java 23 - Better Language, Better APIs, Better Runtime",
-"id": "9b81c061-10e5-4f0f-97c0-e15a62e759cc",
-"sessionId": "9b81c061-10e5-4f0f-97c0-e15a62e759cc",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Nicolai Parlog",
-"twitter": "nipafx",
-"bio": "Nicolai (aka nipafx) is a Java enthusiast focused on language features, core APIs, and runtime evolution with a passion for learning and sharing. He does that mostly at conferences and in his biweekly Inside Java Newscast, but also occasionally in live streams, articles, and books - more on all that on [nipafx.dev]. He's a Java Developer Advocate at Oracle and otherwise best known for his haircut.\n\n[nipafx.dev]: https://nipafx.dev"
-}
-]
-},
-{
-"intendedAudience": "Passer for alle. Du trenger ikke være utvikler eller ha nostalgibrillene på for å få glede av dette foredraget. Er du interessert i hvordan gamle datamaskiner fungerer? Eller lurer på hvordan man laget spill før? Lurer du på hva demoscenen er? Kom og lær!",
-"length": "60",
-"format": "presentation",
-"language": "no",
-"abstract": "Commodore Amiga var verdens beste hjemmedatamaskin på slutten av 80-tallet, og et stykke inn i 90-tallet, i følge de troende. Ricki var en av dem. Amiga var frøet som startet karrieren til mange spillutviklere, musikere og film-produsenter. Den hadde god grafikk, fantastiske spill, og man kunne også gjøre leksene på den, hvis man ville. \n\nDe siste par årene har Ricki funnet tilbake til Amigaen, etter noen år med spillutvikling på C64. Ricki vil fortelle om sine opplevelser med Amiga på tidlig 90-tallet, historien til Amiga, og hvordan det er å lage spill til Amiga idag.\n\nDu får et innblikk og i verktøy og teknikker i moderne retro utvikling, og hvordan komme i gang.",
-"title": "Retro-nerding med Commodore Amiga",
-"id": "7fad2630-74d1-4275-a2d0-aeed0cc9f409",
-"sessionId": "7fad2630-74d1-4275-a2d0-aeed0cc9f409",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ricki Sickenger",
-"twitter": "@bag_of_hats",
-"bio": "Ricki Sickenger har 10 års erfaring fra spillbransjen, og ble konsulent i 2009. I 2012 var han en av gründerne av Sonat Consulting Bergen, der han fremdeles jobber som utvikler og tech lead. På fritiden utvikler han spill på gamle plattformer som C64 og Amiga."
-}
-]
-},
-{
-"intendedAudience": "Are any Java developers interested in Quarkus. Spring Boot developers investigating dev mode.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "If you are a Java developer, chances are you’ve already heard about Quarkus. You may have heard about the developer joy that Quarkus provides. But what exactly is it? How does it enhance your day-to-day tasks? What benefits and shortcuts does it offer for your work? These are the questions we will address in this talk.\n\nDuring this live-coded session, we will create a new Quarkus project and demonstrate how it can expedite the development of Java microservices by leveraging its multitude of out-of-the-box features. The session will be interactive, so if there is something specific you want to see, we will gladly demonstrate it. Our primary focus, however, will be showcasing typical user application development scenarios, including database integration, remote connections using both blocking and asynchronous APIs, and implementing security measures. Naturally, we cannot overlook the crucial aspects of packaging applications into containers and deploying them to the cloud.\n\nQuarkus is a framework that places developer productivity as a top priority, fostering a sense of joy throughout the development process. You will witness the remarkable things we can achieve with Quarkus within the given time. By the end of the session, you will truly grasp the essence of Quarkus' development joy.",
-"title": "A day in the life of a Quarkus developer",
-"id": "21bf0c09-c247-489f-9fa3-bbae1cb1e8f3",
-"sessionId": "21bf0c09-c247-489f-9fa3-bbae1cb1e8f3",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Martin Stefanko",
-"twitter": "xstefank",
-"bio": "Principal software engineer at Red Hat, BrnoJUG leader, author Quarkus in Action book, MicroProfile committer, working on Red Hat middleware technologies like Quarkus, SmallRye, Wildfly, JBoss middleware (RESTEasy, Weld, …​), programming and microservices enthusiast."
-}
-]
-},
-{
-"intendedAudience": "Anyone involved in software development can get something from this talk. Participants will benefit from a new perspective on their work. It will also satisfy any nerdy interest in aviation and break up a day of more specific/technical sessions.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "What can aviation teach us about software? More specifically, what can aviation disasters teach us?\n\nA lot actually.\n\nIn the first edition of this talk, I focused on the human factor of aviation disasters. An important element of both software engineering and aviation. But that is just the tip of the iceberg.\n\nIn this talk, I will go deeper into the technical oddities of some of the most famous aviation disasters. Buckle up for more case studies, more geeky stuff, and yeah, also some more human stuff.\n\nWe will cover\n- Most common causes of aviation disasters and how that has changed over time\n- Redundancy in systems\n- Deadly UX\n- Project failures and (wrong) incentives\n\nDespite the subject matter, this talk is not doom and gloom. It is a practical look at the methods and insights that almost 100 years of investigating commercial aviation disasters can teach us as software engineers.",
-"title": "Mayday Mark 2! More Software Lessons From Aviation Disasters.",
-"id": "0b40a4c8-5a56-4798-a930-75f40797b9f5",
-"sessionId": "0b40a4c8-5a56-4798-a930-75f40797b9f5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Adele Carpenter",
-"twitter": "iam_carpenter",
-"bio": "\nAdele is a software engineer at Trifork Amsterdam (and aviation geek in her spare time), where she is working on backend systems for the educational sector. Most of her work day is spent in the JVM/Spring ecosystems. Adele got the coding bug later in life but since then has been making up for lost time, going from command line noob to employed software engineer in just one year. Her experiences both in and out of tech have given her a unique perspective on the art of programming together with humans, which she hopes is useful to other humans who program with humans."
-}
-]
-},
-{
-"intendedAudience": "People interested in building their careers and understanding why contributing to communities is a powerful process that benefits contributors, employers, and the community. Remember, everyone benefits when everyone contributes!",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "The world has changed — everything is fast. You’re busy updating your technical skills and leveraging the latest tools, but are you using the most efficient learning techniques to improve yourself? Are you building your own network in a systematic way by contributing to FOSS communities?\nThere are massive benefits to contributing to Open Source projects, especially Java as one of the largest and most innovative software development communities in the world. But remember that although communities are fun and valuable they can also be fragile and change radically. They need continual nurturing so they can support opportunities for contributors.\n\nIn this session, we’ll explore the skills necessary to learn new things deeply, offer contributions of value to communities, and build our own networks to leverage markets. The result is that we benefit, the community benefits, and our employers benefit. These three levels represent critical reciprocal relationships that need careful consideration.\n\nWe'll touch on concepts from network science, neuroscience, education, and history to help promote innovation and learning. We’ll also cover the who, what, where, when, why, and how of contributing to FOSS communities, highlighting Java specifically and the Japan Java User Group. And finally, I’ll share some career success stories of my own and also some of my catastrophic failures. I've photographed thousands of developers and interviewed hundreds of them for videos, streams, and podcasts, so we surely have many images to show and lessons to learn as we become inspired to thrive in this crazy fast world.",
-"title": "Developers — Contribute to FOSS Communities Now!",
-"id": "b0dfb362-91b2-4d19-aa0b-4ec26097af40",
-"sessionId": "b0dfb362-91b2-4d19-aa0b-4ec26097af40",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jim Grisanzio",
-"twitter": "@jimgris",
-"bio": "I’ve managed projects in software, biotech, publishing, and construction. I’ve navigated multiple economic and political systems, sparred with several unions, survived a few near-death experiences, and overcame serious medical limitations. I’m lucky to be alive and thankful to be working.\n\nI ran my own excavating and real estate development business, and I was also a mechanic and a truck driver. After everything crashed I picked up the pieces, went back to school, and eventually became a publicist, an editor, and a writer. I’ve worked with the global news media and local, state, and federal government officials; I’ve interviewed hundreds of engineers, scientists, and clinicians; and I’ve produced thousands of articles, photos, videos, and podcasts. In recent years I’ve been building FOSS communities at Sun and Oracle, managing developer events globally, and delivering my own community sessions at conferences.\n\nCurrently, I'm the host of the Duke's Corner Podcast on Oracle's Java Developer Relations team and I profile Java developers.\n\nFull Bio: https://jimgrisanzio.wordpress.com/"
-}
-]
-},
-{
-"intendedAudience": "Hvis du er interessert i å lære mer om hendelsesdrevne systemer og hvordan vi jobber i NAV er denne workshopen for deg! Vi anbefaler at du har noe kjennskap til Python og/eller programmering, men du trenger ikke være en ekspert.\n",
-"length": "240",
-"format": "workshop",
-"language": "no",
-"abstract": "I NAV utvikler vi moderne systemer i hendelsesdrevet mikrotjenestearkitektur som skal løse fremtidens arbeids- og velferdsbehov. Nå vil vi lære dere mer om hvordan vi bygger applikasjoner og hvordan hendelsesdrevne systemer kan brukes til å løse komplekse utfordringer.\n\nVi kommer til å presentere viktige prinsipper bak hendelsesdrevne systemer før vi kjører i gang med et “gamified” opplegg hvor dere koder sammen to og to. Gjennom kurset skal dere utvikle en applikasjon som kobles mot Kafka for å motta utfordringer deres applikasjon må håndtere. Dette blir en morsom workshop med litt utfordring og mye moro!\n\nTania Holst, Emil Elton Nilsen, Øydis Kind Refsum, Helene Arnesen og Kyrre Havik er alle utviklere som jobber innenfor forskjellige produktområder i NAV. De har forskjellige erfaringer fra både teknologier og kunnskap, og utvikler dette kurset for å selv bli bedre på hendelsesdrevne systemer og programmering.",
-"title": "Hendelsesdrevet utvikling med Leesah Game",
-"workshopPrerequisites": "Før du kommer til kurset:\n\n* Installer en valgfri IDE\n* Installér Python 3.10 (eller nyere) – https://www.python.org/downloads/\n* Ta gjerne en titt på https://kafka.apache.org/\n\nTa med pc/mac til kurset",
-"id": "003748cd-a212-493d-bdad-83d27209d05f",
-"sessionId": "003748cd-a212-493d-bdad-83d27209d05f",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Øydis Kind Refsum",
-"twitter": "",
-"bio": ""
-},
-{
-"name": "Kyrre Havik",
-"twitter": "",
-"bio": ""
-},
-{
-"name": "Emil Elton Nilsen",
-"twitter": "",
-"bio": ""
-}
-]
-},
-{
-"intendedAudience": "Who I believe will benefit from this workshop:\nSoftware Developers/Engineers, Data Engineers, Solutions Engineers/Architects, AI Engineers, and Technical Decision Makers\n\nHow will the participants benefit from attending:\n* Learn the fundamental building blocks about building GenAI/ChatGPT apps\n  - LLMs\n  - Agents\n  - Chains\n  - Memory\n  - Model I/O\n* Build a basic ChatGPT app that interacts with LLMs\n",
-"length": "240",
-"format": "workshop",
-"language": "en",
-"abstract": "With ChatGPT taking center stage since the beginning of 2023, developers who have not had a chance to work with any forms of Artificial Intelligence or Machine Learning systems may find themselves either intrigued by the “maze” of new terminologies, or some may be eager to learn more, while perhaps a smaller group may not actually want to get themselves into a territory that’s unknown to them. \n\nThis workshop is catered for developers from all backgrounds (Java, Javascript, Python, etc), as we start by having a quick introduction to GenAI, ChatGPT, and all of those new terminologies around generative AI.  Then we’ll dive right into the hands-on part, about how we can construct a ChatGPT-based app quickly, using state-of-the-art tools such as PgVector, which provides vector extension to the popular open source Postgres.\n\nHands-on lab will cover:\n- Vector Search with PgVector\n- LLM providers and APIs\n- Integrating with ChatGPT models\n- Generating embeddings\n- Prompt engineering\n- Building generative AI applications\n",
-"title": "Demystifying GenAI: Building a ChatGPT App with Spring, LangChain4J, and Vector Store",
-"workshopPrerequisites": "* Java 8 or above installed\n* OpenAI API Key ready for use",
-"id": "492896b6-5307-482d-801f-62d4afac5873",
-"sessionId": "492896b6-5307-482d-801f-62d4afac5873",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Mary Grygleski",
-"twitter": "@mgrygles",
-"bio": "Mary is a Java Champion, and an experienced, passionate Developer Advocate.  She has serviced companies as an advocate, such as IBM and DataStax in topic areas that include, most recently, GenAI, Streaming systems, Open source, Java, Cloud, and Distributed Messaging systems..  She started as an engineer in Unix/C, then transitioned to Java around 2000 and has never looked back since then.   She is an active tech community builder outside of her day job, and currently the President of the Chicago Java Users Group (CJUG), as well as the Chicago Chapter Co-Lead for AICamp."
-}
-]
-},
-{
-"intendedAudience": "Anyone who wants to see how cool CSS has gotten recently 🤓",
-"length": "10",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "How often do you take the time to read about all the cool new stuff that's been added to CSS in the last few years? I did exactly that, so you don't have to, and I want to share the awesome features I found with you!\n\nDid you know that changing the styling of an element based on the width of its parent is actually really easy? And how about custom colors for native input elements or a powerful way to organize selector specificity? It's all just a few lines of CSS away!\n\nJoin me in this lightning talk as we take a quick look at 7 CSS features that range from relatively new to cutting edge. We of course also cover how these can be used in practice without throwing older browsers to the wolves.",
-"title": "Exploring Features in Modern CSS",
-"id": "34839cbc-fa7c-4450-b0ae-cd13f43dd86b",
-"sessionId": "34839cbc-fa7c-4450-b0ae-cd13f43dd86b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jakob Endrestad Kielland",
-"twitter": "@itzjacki",
-"bio": "Jakob works as a developer and consultant in Variant Trondheim, and has been a proper nerd his entire life. Right now he is building Norway's student platform of the future together with a very skilled group of people, and focuses on the frontend.\n\nIn addition to a solid interest for technology, Jakob has a passion for teaching. He loves the challenge of communicating something complex in a simple and engaging way, something which should shine through in his talk!"
-}
-]
-},
-{
-"intendedAudience": "Developers interested in learning more about how to get into hacking and pentesting.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Have you ever been hacked or wondered how people figure out how to compromise systems? What tools do they use? What skill sets are involved? And how can you and your team gain knowledge on better securing your systems and service?\nLet us venture on a journey into the wonderful world that is web exploitation and learn how to use gamified safe environments to build skillsets to help us write better and safer software. Because once you learn how to hack, you never go back. This session is all about exploiting web tech, so no binary voodoo or super low level skills required.",
-"title": "How hacking works - Web edition",
-"id": "c0e267b2-59ec-4f68-9e0d-82417c4694c2",
-"sessionId": "c0e267b2-59ec-4f68-9e0d-82417c4694c2",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Espen Sande-Larsen",
-"twitter": "",
-"bio": "Making rocks think since 1986...\n\nEspen is a developer and architect with over 25 years of experience. He has worked on everything from embedded systems, electronics and games to large scale cloud applications. He is as full-stack as they come. Espen started coding at age six on a C64, and has been cranking out software ever since.\n\nHe served as the principal architect, tech lead and lead security\nengineer on the compensation scheme for Covid-19 suffering\nbusinesses released by the Norwegian government.\n\nEspen was the Senior VP of Technology Exploration for DNB in San Fransisco and is currently doing technology and security research in DNB NewTechLab."
-}
-]
-},
-{
-"intendedAudience": "Alle deltakere på JavaZone på tvers av alle kjønn og roller. Du vil få konkrete tips som vil gjøre deg bedre rustet til å skape et bredere mangfold i ditt arbeidsmiljø.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Hvor er damene? Vi har sett på kvinneandelen i tekniske roller i et av Norges største IT-miljøer, NAV IT. Spesielt offentlig sektor burde være best i klassen, men tallene er ikke oppmuntrende. Bli med og utforsk IT-verdenens usynlige barrierer og hva vi kan gjøre for å rive de ned og skape et mer inkluderende arbeidsliv. Vi vil dele personlige erfaringer som belyser utfordringene vi står ovenfor i 2024, samtidig som vi ser på forskning og statistikk på området. \n\nVi ser på hvor tidlig vi introduserer kjønnsroller, utforsker viktigheten av tekniske rollemodeller og ser på behovet for endring i hvordan vi snakker om utviklerrollen. Hvordan kan vi skape ringvirkninger ved hjelp av økt oppmerksomhet rundt ubevisste bias og sørge for at ingen kvinner på JavaZone trenger å bli spurt om de jobber i HR! \n\nDenne talken gir deg en mulighet til å høre direkte fra kvinner i tech, og du får med deg fem konkrete tips for å skape et arbeidsmiljø vi alle vil være en del av. Fokuset ligger på kjønnsdimensjonen, men tipsene er i stor grad overførbare for å øke inkludering av andre underrepresenterte grupper, noe som igjen vil føre til økt trivsel for oss alle! \n",
-"title": "Hvor er damene?",
-"id": "74ae82c0-cb34-4dcb-a35b-28fe9ea42bb6",
-"sessionId": "74ae82c0-cb34-4dcb-a35b-28fe9ea42bb6",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Caroline Winther",
-"twitter": "",
-"bio": "Caroline jobber i dag som data engineer i NAV IT, men har siden ingeniørutdannelsen tatt veien via analytiker-roller i både kraftbransjen og i folketellingen på New Zealand. Siden hun kom inn i IT-verdenen i 2020, har hun tenkt mye hvor kult det egentlig er å jobbe i IT, men også blitt nysgjerrig på hvorfor det er så få damer her. Caroline har jobbet med å samle inn data for å belyse nettopp dette og gjøre organisasjonen bedre rustet til å øke mangfoldet! "
-},
-{
-"name": "Aurora Christine Hofman",
-"twitter": "",
-"bio": "Aurora jobber som data scientist og gledesspreder i NAV IT. I det siste har hun også fått prøve seg som utvikler og storkoser seg med det! Når hun ikke er med teamet er sjansen stor for at hun er et eller annet sted og presenterer eller har dratt med seg intetanende kollegaer på spaserturer i nærområdet. Aurora er brennende engasjert for å øke kvinneandelen i tekniske roller i NAV og øke forståelsen for hvorfor dette er essensielt for å lage gode løsninger for Norges befolkning.  "
-}
-]
-},
-{
-"intendedAudience": "This presentation is aimed at developers (both novice and experienced) and technology enthusiasts looking to enhance their demo presentations by integrating storytelling as an effective tool. The goal is to inspire and guide participants to create more engaging and persuasive presentations that appeal to emotions and establish a deeper connection with the audience.\n\nParticipants will learn how to thoroughly prepare for their presentation, both technically and in terms of content, enabling them to maximize the impact of storytelling and avoid common mistakes that can weaken the message. This talk is ideal for developers who want to stand out from the crowd and make an impact with their demo presentations.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "As developers we sometimes have to conduct demos, and we all know they can be a bit dull. But demo presentations aren't going away, so why not add some ingredients to make the story shine?\n\nBecause demo presentations aren't just about showing what we can do. They're an opportunity to convey a story, to draw in those watching into a narrative that evokes emotions and inspires action. Whether it's customers, colleagues, or partners.\n\nAs a developer, I've conducted many demo presentations, and I want to use this talk to be inspire others to use communication techniques that not only explain how the solution works but also capture the interest of the listeners. Because that might be the most important thing.",
-"title": "How to Use Storytelling in Demo Presentations",
-"id": "3334d800-83d4-41cb-96c0-9094b3afe360",
-"sessionId": "3334d800-83d4-41cb-96c0-9094b3afe360",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Elise Johnsen",
-"twitter": "",
-"bio": "I am a senior consultant at Netcompany with experience in system development and customer collaboration. Over the past years, I’ve been a developer in the DigiBarnevern project, where we are developing a new case management system for child welfare services in selected municipalities in Norway. Throughout this project, I have engaged closely with our clients, primarily social workers within the child welfare sector. My experience with demo presentations stems from the need to communicate complex technical solutions in a simple and understandable way for non-technical users. In such a context, it is crucial to focus on the functionality of the solution and how it effectively addresses existing problems. As a technology advisor, I am aware of the importance of oral communication and the ability to convey technical concepts in an accessible manner."
-}
-]
-},
-{
-"intendedAudience": "Denne presentasjonen passer for utviklere på alle nivå som er interessert i en effektiv måte å bryte ned større oppgaver til flere mindre, men konstruktive, endringsforslag.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "I forbindelse med moderniseringen av Felles studentsystem og Samordna opptak, opplevde vi en betydelig oppskalering av antall team og utviklere. En uheldig konsekvens av denne utvidelsen var en vesentlig økning i tidkrevende og frustrerende merge-konflikter. Etter litt research fant vi ut at dette er et vanlig problem som kan løses ved å implementere Trunk Based Development.\n\nDet er lett å forstå at det vil oppstå færre og enklere merge-konflikter hvis en branch bare eksisterer i en dag eller to. Men å forstå hvordan man utfører en større endring under dette regimet er en større utfordring, spesielt når ingen av oss har gjort det før.\n\nNettstedet https://trunkbaseddevelopment.com/ har vist seg å være en utmerket ressurs, men det var først da jeg kom over boken \"The Mikado Method\" av Ola Ellnestam og Daniel Brolund at ting virkelig begynte å falle på plass.\n\nDenne boken introduserer Mikado-metoden, en teknikk som hjelper deg å utføre store, komplekse endringer på en trygg og forsvarlig måte. Metoden er spesielt nyttig når man arbeider med Trunk Based Development, da den gir en strukturert tilnærming til hvordan du stykker opp arbeidet til flere endringer som kan merges fortløpende.\n\nKom og lære mer om hva Mikado-metoden handler om, hvordan den fungerer, og hvordan den kan hjelpe deg og ditt team å håndtere store endringer mer effektivt. Jeg tør påstå at etter bare 10 minutter så har du lært nok til å prøve på egenhånd.\n",
-"title": "Hva har egentlig Mikado med programmering å gjøre?",
-"id": "5b1b94fe-29cd-4a9c-bd52-1719c96b34e8",
-"sessionId": "5b1b94fe-29cd-4a9c-bd52-1719c96b34e8",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Alf Lervåg",
-"twitter": "",
-"bio": "Velkommen til denne lyntalen om Mikado-metoden. Jeg er Alf Lervåg, en kodende\narkitekt i produktområdet Studieadministrasjon i Sikt. Jeg har en lidenskap for\nåpen kildekode og tilgjengeliggjøring av offentlige APIer, og jeg trives best\nnår jeg finner elegante løsninger som gjør komplekse problemer enkle å forstå.\nJeg har lite tålmodighet for dårlig datakvalitet, ineffektivitet og unødvendig\nkompliserte løsninger. Sistnevnte gjelder forøvrig ikke for min egen datamaskin. Her kjører jeg nemlig NixOS med Emacs som window manager."
-}
-]
-},
-{
-"intendedAudience": "Developers, developers, developers, developers (and other tech minded people)",
-"length": "240",
-"format": "workshop",
-"language": "en",
-"abstract": "OpenTelemetry might be the biggest thing that has happened in the OpenSource ecosystem since Kubernetes. With a much steeper contribution graph, and the recent General Availability of the specification, OpenTelemetry is now ready for prime time with more and more observability vendors supporting the standard.\n\nGetting insights from your applications is absolutely vital for modern software development teams that want to release new functionality with confidence. The process of programming your application to give this insight is often called instrumentation and we often refer to the three pillars of observability; logs, metrics and tracing.\n\nThe instrumentation itself can be a hassle and will take some time depending on the size and of the application and how modern the framework and libraries are, but it is manageable. The real value comes when you instrument enough of the applications within a team or a business domain. \n\nThis also brings us to the challenge – instrumentation technology that works across different languages and frameworks without having to rewrite those applications from scratch. Different vendors have been providing this as their secret sauce if you accept to be cemented into their walled garden and lock this vital information in their monitoring system. Until now with OpenTelemetry! The universal telemetry toolkit for all your observability needs. \n\nOpenTelemetry is a graduated CNCF project with first release in 2019 after OpenCensus and OpenTracing decided to merge. It has support for all major programming languages (Java, .NET, Go, Python, ++) and more and frameworks such as (Spring ++) has built in support for OpenTelemetry. All major monitoring tools and platforms (such as the Grafana stack) are contributing and supporting OpenTelemetry in one way or another.\n\nIn this workshop, you will learn how to get a modern observability stack up and running with the open source monitoring platform from Grafana – the LGTM stack (Loki, Grafana, Temp and Mimir). You will also learn how to instrument different applications with OpenTelemetry SDK and agent, to gain insight into the application’s performance. ",
-"title": "Observability with OpenTelemetry: From Idea to Insight",
-"workshopPrerequisites": "* Laptop with Docker\n* Intellij/Visual Studio Code",
-"id": "d1a9a205-4330-4920-bea9-01b6ad342a99",
-"sessionId": "d1a9a205-4330-4920-bea9-01b6ad342a99",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Øyvind Randa",
-"twitter": "",
-"bio": "Technology enthusiast and Leader for Google Developer Group Bergen. Working as Solution Architect for NextGenTel."
-},
-{
-"name": "Hans Kristian Flaatten",
-"twitter": "https://www.linkedin.com/in/hansflaatten/",
-"bio": "Dad to three kids, loves open source and being outdoor. Platform developer in NAV with responsebility for the observability stack for the NAIS-platform."
-}
-]
-},
-{
-"intendedAudience": "Alle",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "I dette foredraget snakker jeg om hvordan TV 2 bruker AI for å levere høydepunkter fra Eliteserien i produksjon. Foredraget tar for seg bakgrunnen til prosjektet, utfordringer møtt underveis, den tekniske løsningen, arkitektur og sluttresultatet.\n\nForedraget passer godt for de som enten er interesserte i hvordan AI kan anvendes i produksjon, er interessert i sport eller bare er nysgjerrig. \n\n\n\n\n\n",
-"title": "Hvordan TV 2 bruker AI for å levere høydepunkter fra Eliteserien i (nesten) Sanntid",
-"id": "40bca3d4-f94c-4b7e-985e-d85f90f02f11",
-"sessionId": "40bca3d4-f94c-4b7e-985e-d85f90f02f11",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Casper Feng",
-"twitter": "",
-"bio": "Casper er en utvikler som trives i alle deler av stacken, og har erfaring fra flere bransjer."
-}
-]
-},
-{
-"intendedAudience": "Any developer wanting to stay up to date on whats happening on the frontend side of things. As a web dev, they will get the tools needed to start developing with React Server Components. Frontend and React experience is ideal.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "React Server Components are a new feature that lets you render React components on the server and stream them to the client. This enables you to build rich user interfaces with minimal client-side code, while still preserving interactivity and performance.\n\nIn this talk, you will learn how React Server Components work, how to use them in your web apps, and what benefits they offer over traditional approaches. You will also see some real-world examples of React Server Components in action and get some tips and best practices for adopting them in your projects.",
-"title": "React Server Components: A New Way to Build Fast and Interactive Web Apps",
-"id": "15a66f1c-91ca-481d-9d9c-ba4630ea9249",
-"sessionId": "15a66f1c-91ca-481d-9d9c-ba4630ea9249",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Aurora Scharff",
-"twitter": "https://twitter.com/aurorascharff",
-"bio": "Aurora Scharff is a full-stack cloud developer from Norway. She is skilled in multiple technologies and domains, such as React, Angular, .NET, and Azure, and has recently gained a great interest in web development specifically. She holds a bachelor's degree in Robotics and Intelligent Systems, with knowledge of engineering mathematics, robotics, algorithms, data structures, and computer architecture. After working for a couple of years at a financial technology startup, she continues developing as a consultant at Inmeta."
-}
-]
-},
-{
-"intendedAudience": "Key takeaways:\n - Why architecture failed and was effectively killed\n - Why agile has been a bit of a disappointment\n - Some ideas about what needs to be done if we want to do better",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Twenty years ago, Architecture was murdered in its sleep by Agile, as part of the assassination plot against the arch-enemy Waterfall. Fast forward to today, and Agile isn't looking too healthy either: reduced to hollow-eyed cargo culting and pointless rituals, wading through the debris of methodology pop culture, or bloated to a monstrous parody of itself in order to scale. But death aside, they are both still among us, and moaning for brains. Why?\n\nOne reason might be that the problems that Architecture and Agile set out to fix have not been solved. Or they need continuous solving, and in the absence of new life to tackle them, we animate our dead. What are these problems, and how do we see them today?\n\nHave we learned anything from the death of these two grand attempts at fixing software development, and their refusal to lie down even in the face of death? Is there still something that can be found in the black hearts of the undead that can be of use in addressing the problems we face? Should Agile and Architecture be revived or put out of their misery for good? Will we be able to? What new kind of life do these two half-lives point towards? What acts of bravery will be required of us going forward?",
-"title": "Agile and Architecture: a meeting of the undead",
-"id": "a96ef1b7-68fb-4c50-ba09-e8014c287bda",
-"sessionId": "a96ef1b7-68fb-4c50-ba09-e8014c287bda",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Einar W. Høst",
-"twitter": "@einarwh",
-"bio": "Einar W. Høst is a socio-technical advisor at the Norwegian Labour and Welfare Administration. He enjoys collaborative modelling, API design and computer programming. Over the past ten years, he has done talks on a variety of topics, including hypermedia, resiliency, recursive art and lambda calculus. He has a PhD in Computer Science from the University of Oslo."
-}
-]
-},
-{
-"intendedAudience": "Anyone who wants to know more about the theoratical side of monads. It helps if there is a bit of coding experience since we will learn mostly by giving examples and look at what aspect the examples all share. This way people can learn though pattern recognition instead of theoretical knowledge.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Functional programming terminology can be quite intimidating, but it does not have to be.\nLearning this terminology actually helped me in becoming a better problem solver, and therefor better at programming (in any language).\nIn this talk we will go into what all these fancy words like monad, monoid, functor etc. actually mean.\nWe will go into a bit of theory (but not as far as category theory), and there will be a strong focus on practical everyday examples.\nAfter this talk you will see that you have been using monads all along, know why the Java Optional is not a monad, and your abstract thinking skills will level up.",
-"title": "Monads explained",
-"id": "25d7aeb9-6d82-406a-a4c0-a5f946c9a0ef",
-"sessionId": "25d7aeb9-6d82-406a-a4c0-a5f946c9a0ef",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ties van de Ven",
-"twitter": "@ties_ven",
-"bio": "Ties is a software engineer with passion for concepts, sofware engineering fundamentals and helping others. He combines these passions by doing public speaking, volenteer work for organisations like Devoxx4kids and codingcoach and working as a Software Quality Expert at Alliander.\n"
-}
-]
-},
-{
-"intendedAudience": "The entire team: Developers, designers, tester and more. No previous knowledge is required, but any experience with web development and accessibility is an advantage.",
-"length": "120",
-"format": "workshop",
-"language": "en",
-"abstract": "One thing we rarely have enough of when working on web development is time. There is always some new feature that is needed, a bug to be fixed or some pressing matter that requires you to speed up the time to release. Unfortunately, this can come at the expense of accessibility. While I maintain that ensuring accessibility is just another part of development, just like design, JavaScript coding, testing or security, reality is that sometimes we are not given enough time to check the product before releasing it to the users.\n\nAs such, we need to make sure we spend the time we have as efficiently as possible. To help us do that, I have come up with my very own Accessibility Testing Pyramid. To be clear, that is an entirely un-scientific method. Not founded in research, exposed to peer review, etc. Just based on more than a decade of experience working on accessibility as a frontend developer.\n\nHowever, I do think it has a lot of value, especially because it helps you prioritise which tests provides best value for the time you have available. It also lets you get started with the minimum amount of tools and provides a lot of testing that anyone on your team can perform, regardless of whether they are a developer, designer, tester, subject matter expert, product owner or something else. I want the entire team to have a stake in the accessibility of the product, and this method helps with that.\n\nAttending this workshop will teach you cheap and quick methods for testing for accessibility, as well as what you should test for with each method. These are highly practical tips that you should be able to use as soon as you are back to work. Combined, the methods also provide a quite thorough accessibility test of your product.",
-"title": "Accessibility testing for the entire team",
-"workshopPrerequisites": "Participants needs to bring a computer, but nothing more.",
-"id": "909123ff-a497-4ab5-8a08-c67928d95137",
-"sessionId": "909123ff-a497-4ab5-8a08-c67928d95137",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Vegard Haugstvedt",
-"twitter": "it_vegard",
-"bio": "An experienced frontend developer who has worked with accessibility for over a decade, Vegard started is working for NAV's design system team, Aksel. There, he gets to work in the cross-section between frontend development, design and accessibility, just like he likes it!\n\nHe is a recurring speaker at several Norwegian conferences, primarily trying to spread the good word about accessibility, to help others learn how they can make their websites work for everyone. His career goal is to make the web a more accessible space."
-}
-]
-},
-{
-"intendedAudience": "Everyone, but especially architects and management roles. Patterns is a universal concept that is mostly talked about at the lower levels of an organisation, but has the highest consequences when misapplied by upper management. \n\nNo prior experience is needed, but experience with microservices, agile, or digitalisation is beneficial.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Architecture, at every level, is about finding the right balance between capabilities and costs to maximise value. Whether we're discussing strategic, organisational, or system structures, we often rely on established patterns to guide quality. However, while the core literature may highlight the numerous benefits of these patterns, Magnus aims to shed light on the often-overlooked aspect: patterns come with costs. They represent trade-offs that have been effective in specific scenarios for certain companies. In this talk, discover how to critically analyse and adeptly apply patterns to enhance the architecture of your software, organization, or entire company, with three example patterns: Microservices, Agile, Digitalisation. Understanding, not familiarity, allows you to choose the right pattern, and the right parts of the pattern, to apply to your challenges.",
-"title": "The dark side of patterns",
-"id": "9f16c779-79c9-42ab-8a87-59f908207291",
-"sessionId": "9f16c779-79c9-42ab-8a87-59f908207291",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Magnus Elden",
-"twitter": "",
-"bio": "Magnus is a seasoned architect that brings a unique blend of expertise to the table, with an extensive background that spans from hands-on development to strategic oversight as a Chief Technology Officer. His holistic approach to architecture allows him to integrate diverse experiences, offering fresh insights on traditional subjects while shedding light on overlooked challenges."
-}
-]
-},
-{
-"intendedAudience": "Anyone interested in learning more about machine learning. No coding experience needed, the code and environment is ready to go in the cloud.",
-"length": "120",
-"format": "workshop",
-"language": "en",
-"abstract": "At Norkart we aim to develop the best AI models for automatic mapping of objects from aerial imagery. With a wealth of already labeled objects, such as buildings, we find ourselves in a somewhat unique position - we are able to train precise Machine Learning models without the need of manually annotating data.\n\nIn this workshop you will be guided through the process of collecting training data, training machine learning models to identify objects in aerial imagery and validating those models on new regions the model hasn't seen yet. No coding experience needed. The code and environment is set up in the cloud, just bring your laptop.\n\nJoin us for an inspiring session about Machine Learning in the geospatial domain - maybe you'll learn a thing or two as well!",
-"title": "GeoAI - From Pixels to Patterns: Image Segmentation from Aerial Imagery",
-"workshopPrerequisites": "No preparations needed",
-"id": "66395699-71d6-4859-86e4-3ed1429ee1cb",
-"sessionId": "66395699-71d6-4859-86e4-3ed1429ee1cb",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Malte Loller-Andersen",
-"twitter": "@realMalte",
-"bio": "Malte is a passionate machine learning engineer working for Norkart, operating in the geospatial domain. Through various projects for big Norwegian companies, he has gathered knowledge about data engineering, machine learning and MLOps.\n\nIn addition to diving deep into the technicalities, Malte enjoys sharing knowledge and holding talks at various conferences. Since starting his career he has held workshops and talks at several international conferences, and he will continue doing exactly that until a global pandemic stops him. If a global pandemic even can stop him!"
-},
-{
-"name": "Mathilde Ørstavik",
-"twitter": "",
-"bio": "Mathilde is the head of AI at Norkart. She has broad experience in applied AI on geospatial data, in particular in semantic segmentation from aerial high-resolution data. She enjoys sharing her vision and inspiring audiences at the intersection of geospatial data and artificial intelligence."
-}
-]
-},
-{
-"intendedAudience": "The session is primarily aimed at software engineers and architects without need for particular previous experience.\n\nThe desired takeaways of this session:\n- Lessons learned for integrating (very) old software systems\n- pitfalls and solutions for related problems such as encryption/SSL, distributed systems and transactions, mismatching staging concepts, testing, load/performance + non-functional requirements\n- strategies for planning and implementation of legacy integration\n- thoughts on future-proof systems, documentation and organizations (is future-proofing an illusion?)\n- smart ways of integrating legacy systems in my project/work environment\n\nI would imagine that working with a system this old should be out of the ordinary and interesting even for seasoned industry veterans.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Over the past years we have rebuilt the sales platform of Deutsche Bahn with over 100 microservices, 400 people in over 30 teams and thereby (re-)created one of the biggest e-commerce platforms in Germany.\n\nDuring this process we felt increasingly like Marty McFly because in order to get early user feedback we began by integrating the \"Elektronische Platzbuchungsanlage\" (EPA), a software system for seat reservations that went into production in 1983(!). With system integration being a core activity in enterprise software engineering and architecture, and legacy systems in particular being a common occurrence in the everyday work of many software engineers we would like to share some in-the-trenches experiences of the problems we faced. Let's embark on a journey through the past beginning with poorly accessible documentation and experts threatened by extinction, over generational leaps in technology for example regarding interfaces, unclear non-functional requirements up to mismatching concepts with respect to staging and testing and the pitfalls of distributed systems and transactions. We will reflect on the difficult and painful solutions and discoveries we made and smarter ways of doing a legacy integration like this.\n\nUltimately, we are all building legacy systems of tomorrow, so let us share our thoughts about \"future-proof\" software, documentation and organizations. After all: \"The only real mistake is the one from which we learn nothing.\"",
-"title": "Back to the future - how we integrated a 40 year old software system",
-"id": "8beb375f-fc35-4461-8b97-3578276b9f88",
-"sessionId": "8beb375f-fc35-4461-8b97-3578276b9f88",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Lukas Pradel",
-"twitter": "@lukaspradel",
-"bio": "Lukas Pradel is a Software Engineer at DB Fernverkehr AG. He likes to spend the time he saves by automating everything on riding his motorcycle."
-}
-]
-},
-{
-"intendedAudience": "Anyone interested in knowing more about how computer chips are created and how Java is involved in the process.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "We all use computer chips such as processors, memory and sensors in our daily lives. But how are they created? How did the chip creation process evolve and what future changes can we expect?\n\nThis session explains how computer chips are physically created by some of the most advanced machines on the planet. Did you know that these chips, nowadays, can contain more than one hundred million transistors per square millimeter?\n\nJava software is used everywhere, also in the process of chip manufacturing. In my project at ASML we’re working on a relatively new analytics platform which is used to process the data from the machines. The application then visualizes the results in order to find issues or improvement areas. This information is used to change the configuration parameters of the physical machine in order to create more and better chips. I will explain, on a high level, how our applications look like and which Java technologies we use.\n",
-"title": "How sand and Java are used to create the world’s most powerful chips",
-"id": "57d1a518-26c7-4afc-abcf-a4fc9528d97b",
-"sessionId": "57d1a518-26c7-4afc-abcf-a4fc9528d97b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Johan Janssen",
-"twitter": "@johanjanssen42",
-"bio": "Johan is working as software architect at ASML. He has been working for various demanding companies where rapidly delivering high-quality software was very important. Johan regularly writes articles for InfoQ and Java magazines, mainly around Java. He presented more than 90 conference sessions in 24 countries at conferences such as JavaOne, GOTO, Devoxx, JavaZone, J-Fall, J-Spring, Jfokus and JavaLand. Johan received the JavaOne Rock Star, Oracle Code One Star and Oracle ACE Pro awards."
-}
-]
-},
-{
-"intendedAudience": "Utviklere som vil samarbeide bedre med hverandre og andre som vil ha et annet argument for å skrive tester.",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Et av de andre teammedlemmene er blitt syk, men oppgaven hen satt på har høy prioritet.\n\nDu sjekker ut branchen i git og prøver å forstå hva hen har tenkt for å løse problemet.\n\nHvordan skal du få oversikt over hva personen har gjort og hva som gjenstår?\n\nI løpet av denne lyntalen vil du se at å skrive tester tidlig i utviklingen kan hjelpe den neste personen som ser på koden til å forstå hvordan du har tenkt.",
-"title": "Test tidlig for å utvikle sammen",
-"id": "f3753e32-8c4f-4328-8928-d928404ac438",
-"sessionId": "f3753e32-8c4f-4328-8928-d928404ac438",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Peter Stensby Norstein",
-"twitter": "",
-"bio": "Peter er medeier av Kantega AS i Oslo der han jobber som systemutvikler.\n\nHan er lidenskapelig opptatt av utvikleropplevelse, automasjon og bærekraftige samarbeidsformer."
-}
-]
-},
-{
-"intendedAudience": "Developers and others interested in technology and the origins of the universe. \n\nBonus: If you´re like me and thinks that CERN is damned cool, this should be a good fit. ",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Handling thousands of petabytes of data produced annually by the Large Hadron Collider at CERN in the experiment ALICE, requires immense computing resources. To support the upgraded LHC detectors a new grid middleware, the Java ALICE Environment (JAliEn) was developed. Millions of CPU cores spread across over 60 computing centers worldwide that work together to provide the computational resources required to process data from physics  experiments. \n\nJoin me for a short sneak peak behind the curtain to see what goes on at CERN and being part of a research project of this scale.  I will talk about how I collaborated with experts at CERN to solve a database locking issue causing havoc in production.\n\nThe project is A Large Ion Collider Experiment (ALICE) which is focused on researching quark gluon plasma. A state of matter that existed shortly after the Big Bang. In other words, quark gluon plasma is the glue that appear to hold quarks and gluons together. ",
-"title": "Optimizing job management on the LHC Computing Grid.",
-"id": "9cb40bd0-aaa6-4599-9f36-62ba13b2c927",
-"sessionId": "9cb40bd0-aaa6-4599-9f36-62ba13b2c927",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jørn-Are Flaten",
-"twitter": "",
-"bio": "My name is Jørn-Are Flaten and have been working with technology for the past 8 years and the last 5 as a developer. I´m writing a Master's thesis in Software Engineering on the side. I currently work at NAV IT and my Master's thesis is related to a CERN project through Høgskulen på Vestlandet(HVL) in Bergen. I think software development, the universe and space is super interesting and I´m thrilled to be able to work with this project and would like to talk about it. "
-}
-]
-},
-{
-"intendedAudience": "Alle deltagere i et team og ledere av team.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Hva kjennetegner autonome team som lykkes? Hva er de beste smidige praksisene? Hvor stort skal et team være? Hvordan kan smidige team ta i bruk OKR? Hva skjer når du flytter en senior med stort nettverk fra et team til et annet? Hvordan bruker suksessfulle team Generativ AI?\n\nVi har de siste 10 årene gjort forskning på team hos virksomheter som Sparebank1, Entur, Oslo kommune, Spotify, Ericsson, NAV, Storebrand, Det Norske Veritas, Finn, DnB, m.fl. \n\nEn forsker og en praktiker presenterer de viktigste faktabaserte suksesskriteriene for å lykkes med smidige team og produktutvikling.",
-"title": "10 resultater fra 10 år med forskning på team",
-"id": "7b58c0a3-3a45-469b-9039-131b17b7c6bd",
-"sessionId": "7b58c0a3-3a45-469b-9039-131b17b7c6bd",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jan Henrik Gundelsby",
-"twitter": "janhenrik",
-"bio": "Jan Henrik har over 25 års erfaring som utvikler, arkitekt og teknologileder i store prosjekter og programmer. Han har jobbet med store strategiske satsninger på digitalt førstevalg og digital transformasjon, og har vært sentral i å bygge DevOps-kultur, mikrotjenestearkitektur og produktorganisasjon hos store virksomheter. Jobber tett med forskningsmiljøer rundt autonome team og digitale plattformer. Jan Henrik var tidligere CTO i Knowit, og er nå leder for forskning og utvikling, der han jobber med å tette gapet mellom akademia og praksis - med fokus på digitalisering, storskala smidig og plattformtankesett. "
-},
-{
-"name": "Nils Brede Moe",
-"twitter": "nilsbm",
-"bio": "Sjefforsker på SINTEF Digital med godt humør.  Han forsker på virtuelt arbeid, hjemmekontor, prosessforbedring, autonome team og global systemutvikling. Han jobber tett med mange globalt firma innen bransjene energi, telekom, transport og finans. I tillegg jobber han med flere konsulentfirma, programvarehus og offentlig sektor i Norge. Han har også en forskningsstilling ved Blekinge Institute of Technology i Sverige og er fast spaltist i e24."
-}
-]
-},
-{
-"intendedAudience": "This talk will attract anyone who works in a cross-functional team. (Product owners, developers, designers, testers). Also, managers and team leaders will find the story inspirational. \n\nCross domain problem is very common in organisations which runs several cross-functional teams. However, very little improvement is done in this field. Understanding the Hosting Day will encourage the attendees to apply Hosting Day in their organisations.\n",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "Cross-functional teams easily fall into an isolated room, especially in large scale organisations. The developers know little about business domain, people, and technology stack in other teams. At Fremtind, we have been running Hosting Day activities among front-end developers to target this common problem. Hosting Day is a half-day activity where front-end developers from two product teams get together and introduce their products to each other. Besides, they also solve their tasks with developers from other teams in pair programming sessions. \n\nThis talk will firstly identify the cross domain challenges of developers and it will also share the experiences of Hosting Day. I will also touch upon how we managed to spread this new practice across the organisation and made it become a part of Fremtind's organisational culture.\n",
-"title": "How does Fremtind solve cross domain problem of its developers?",
-"id": "34551b81-0fad-4090-b6d8-bdb507f50ff9",
-"sessionId": "34551b81-0fad-4090-b6d8-bdb507f50ff9",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Sercan Leylek",
-"twitter": "",
-"bio": "Front-end developer at Fremtind. Delivers programming articles via his blog website and coding tutorial videos. Sercan Leylek has published several sci-fi and fantasy novels in Norway and Turkey."
-}
-]
-},
-{
-"intendedAudience": "Alle som er interessert i webteknologi og IT-historie. Utviklere, teknologer, designere, UX.",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Bli med på en reise tilbake i tid og opplev Norges aller første nettsted fra 1993. En tid da nyheter på nett, fildeling av musikk og videoklipp fra kommende Nintendo-spill framsto som revolusjonerende!\n\nMultiTorg ble publisert våren 1993. Nettstedet for lengst er borte, men Nasjonalbiblioteket har rekonstruert det, basert på en 30 år gammel kopi av webtjeneren. Gjennom metodisk og tverrfaglig arbeid har vi gjenopplivet en viktig del av norsk IT-historie og kulturhistorie. \n\nHva kan vi lære av MultiTorgs enkelhet og fokus på innhold? Og hvordan ble nøkkelpersonene i MultiTorg sentrale i den internasjonale utviklingen av webteknologi?\n\nVi tar deg med tilbake til webmediets fødsel, og lar deg oppleve en glemt bit av norsk og internasjonal internetthistorie.",
-"title": "REBOOT: En reise tilbake til Norges første nettsted",
-"id": "5f408bac-1233-4f93-9045-e16208547ed5",
-"sessionId": "5f408bac-1233-4f93-9045-e16208547ed5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jon Tønnessen",
-"twitter": "@nettarkivet",
-"bio": "Jon Tønnessen er historiker, med bakgrunn fra webdesign og medieproduksjon. I dag jobber han som webarkeolog ved Nasjonalbibliotekets nettarkiv, og er en ettertraktet formidler."
-},
-{
-"name": "Thomas Langvann",
-"twitter": "@nettarkivet",
-"bio": "Thomas Langvann er produkteier i Nasjonalbibliotekets nettarkiv. Han har bakgrunn fra FAST, Telenor, ..."
-}
-]
-},
-{
-"intendedAudience": "My talk is designed for Java developers, security professionals, and software architects. Attendees will benefit from understanding how Rust's safety features can enhance Java applications' security and performance. The presentation will be particularly valuable for those with experience in Java development and an interest in security and software architecture. Basic familiarity with Rust would be beneficial but is not required. This session aims to provide practical insights and methodologies for integrating Rust into Java environments, fostering a new perspective on secure software development.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "This presentation delves into the innovative integration of Rust's safety features within Java environments, aiming to enhance security and reliability in software development. It targets Java developers, security specialists, and software architects interested in exploring advanced security methodologies. The session will outline the process of incorporating Rust into Java projects, emphasizing the benefits of Rust's compile-time safety and zero-cost abstractions. We will discuss practical strategies for interlanguage communication, ensuring seamless operation between Java and Rust components. Case studies will be presented to demonstrate the effectiveness of this hybrid approach in real-world applications, highlighting significant improvements in security and performance. By the end of this talk, attendees will acquire valuable insights into leveraging Rust's robust safety mechanisms in Java applications, a strategy that not only boosts security but also fosters innovation in multi-language software development.",
-"title": "Enhancing Java Security with Rust: A Hybrid Approach for Robust Software Development",
-"id": "99bf5d46-d634-4c41-8ec2-4646ab8c84e2",
-"sessionId": "99bf5d46-d634-4c41-8ec2-4646ab8c84e2",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Dr Mohammadreza Ashouri, PhD",
-"twitter": "",
-"bio": "Mohammadreza (Mo) Aahouri, PhD, is a computer scientist specializing in Java and JVM ecosystems, focusing on integrating Rust and LLVM technologies. His expertise extends to improving JVM security and functionality during his tenure at SAP, where he played a pivotal role in enhancing system security and performance through innovative Rust integrations. With a PhD in Software Security from the University of Potsdam, Mo combines academic rigor with practical experience, significantly contributing to JVM security enhancements and Rust-based solutions in enterprise environments. His work at SAP is notable for its impact on secure and efficient software development, leveraging his deep understanding of both Rust and JVM technologies."
-}
-]
-},
-{
-"intendedAudience": "Developer, Architect, Platform Engineer",
-"length": "240",
-"format": "workshop",
-"language": "en",
-"abstract": "During this workshop we will teach how to create Roblox games integrated with a Java / Quarkus backend to manage teams, quiz, coding challenges and also cool integrations with IoT sensors, musical instruments using Fast Fourier Transform with Java / Processing.org and also camera with AI to detect objects in the real players.\n\nWe will explain the basics of Roblox development and show detailed architecture and challenges we have integrating Roblox with AWS Cloud. All the code is available to anyone that want to create your own game, demos for booths and amazing integration between virtual world and real world and vice-versa.\n\nAll the participant will create:\n\nA Roblox game with quiz and coding challenge A Quarkus backend to manage quiz / teams / other data in a noSQL database Deployment backend in AWS Lambda with AWS DynamoDB and Amazon Codewhisperer Optional: Test FFT integration with processing.org Optional: use camera with AI to recognize objects in real players (if the player is wearing a hat, then the avatar inside the game wear a hat) AWS Temporary Accounts will be provided - \"all you can eat\" accounts for 12 hours.",
-"title": "Hands-on-lab: Creating Game with Roblox, Quarkus, IoT devices, musical instruments and AI",
-"workshopPrerequisites": "The participants need to bring their own laptops then we'll provide the workshop environment on AWS. No requirements to create am AWS account at all.",
-"id": "9a54b377-90ae-47bf-ae85-4339fbedc12d",
-"sessionId": "9a54b377-90ae-47bf-ae85-4339fbedc12d",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Daniel Oh",
-"twitter": "@danieloh30",
-"bio": "Daniel Oh is Java Champion and Senior Principal Developer Advocate at Red Hat to evangelize developers for building cloud-native apps and serverless ob Kubernetes ecosystems. He's also contributing to various cloud open-source projects and ecosystems as a CNCF ambassador for accelerating DevOps adoption in enterprises. He's speaking at lots of technical seminars, workshops, and meetups to elaborate on new emerging technologies for enterprise developers & DevOps teams."
-},
-{
-"name": "Kevin Azijn",
-"twitter": "",
-"bio": "Kevin Azijn is a Senior Solutions Architect and Head of Solutions Architecture in Public Sector Benelux at Amazon Web Services (AWS). He started as a Java Developer more than 15 years ago, rolled into mobile development, DevOps and managing teams before joining AWS in 2019."
-}
-]
-},
-{
-"intendedAudience": "Everyone who is interested in data and how to treat facts, and bring some sanity into the predictive madness of AI!",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "A Knowledge Graph works as a unifying logical language for data, equally interpretable by both humans and machines, not depended on natural language. \nIn a world with huge amount of information, knowledge becomes valuable. This talk will put the spotlight on an immensely under communicated technology within the AI umbrella: Knowledge Graphs! \nIt holds properties and relations between these entities, including the meaning of what is. A knowledge graph holds semantics — the meaning of things— in your domain, and the facts and logic of your world. \nGraphs are all around us. They are all about reflecting reality in the data itself. It lets data flourish in its natural way of patterns and connectivity, and not forcing information into tables.\n\nLet us explore the wonders of Semantic Knowledge Graphs together!",
-"title": "Knowledge Graphs for Dummies!",
-"id": "27dae678-79ea-412f-af37-d7f40455db4b",
-"sessionId": "27dae678-79ea-412f-af37-d7f40455db4b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Veronika Heimsbakk",
-"twitter": "veronikaheim",
-"bio": "Veronika is a dedicated and enthusiastic outreach of the wonders of semantic knowledge graphs. And an advocate for bringing the knowledge of AI as more than just machine learning to the world. Recently awarded among Norway’s Top 50 Women in Tech. "
-}
-]
-},
-{
-"intendedAudience": "Utviklere, produktledere, designere, leder utenfor produktteam, jurister",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "\"Compliance\" gjør ikke at folk hopper av entusiasme. \n\nSmidig produktutvikling handler om å løse problemer gjennom å bryte de ned i små deler og håndtere risiko underveis. Compliance går gjerne mer på siden, der det enten gjøres i forkant eller samles opp og gjøres \"etterpå\".\n\nMen compliance er viktig! For oss handler det om at vi kun bruker dine opplysninger til det vi skal. At det er tydelig hvordan vi kommet frem til et vilkår slik at det er mulig å ettergå det.\n\nKan vi få compliance til å gå mer hånd i hånd med det vi gjør i det daglige? Vi har ikke fasiten, men har lyst til å dele våre refleksjoner og erfaringer rundt det å ivareta compliance på en måte som gjør at vi kan levere *bedre* produkter til folk.",
-"title": "Compliance og produktutvikling -- hånd i hånd!",
-"id": "c956c7cc-639f-41fc-a05a-3e02c2a3e00c",
-"sessionId": "c956c7cc-639f-41fc-a05a-3e02c2a3e00c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Louis Dieffenthaler",
-"twitter": "",
-"bio": "Louis er produktleder for compliance-løsninger og dataplattformen i NAV. Hans motivasjon er å lage gode produkter til folk i Norge slik at folk får ytelsene og hjelpen de skal ha raskt og riktig.\n\nSpunnet ut fra utfordringer med å bruker målinger til å ta bedre valg i produktutvikling, har han lyst til å gjøre det lettere for team å forstå når det de gjør er \"godt nok\" -- og hva teamene kan gjøre for å komme seg innenfor igjen."
-}
-]
-},
-{
-"intendedAudience": "Utviklere og ledere som vil endre interne prosesser, få ting gjort, og se innovasjonen spire. Ingen spesiell kompetanse kreves.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Hva skal til for å få bruk av KI inn i den hverdagslige produktutviklingen? Det er lett å sette opp slides med høy buzzwordfaktor, men verre er det å endre eksisterende prosesser og videreutvikle produkter som fungerer ved bruk av ny teknologi. Denne presentasjonen gir deg en praktisk innføring i hvordan du kan få til dette, fortalt både fra utviklerperspektiv og lederperspektiv. Hva er forutsetningene for innovasjon, på team- og applikasjonsnivå og på virksomhetsnivå? Mads og Vilde forteller fra hvert sitt perspektiv hvordan du kan være lur og få ting gjort.",
-"title": "Innovation for Dummies - en praktisk guide til KI i produktutvikling",
-"id": "80279b72-4f87-45c7-8d42-b613bdceee06",
-"sessionId": "80279b72-4f87-45c7-8d42-b613bdceee06",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Mads Steenfeldt-Foss",
-"twitter": "",
-"bio": "Mads Steenfeldt-Foss is a developer turned product manager at Schibsted Marketplaces in the Real Estate vertical. With a background in full-stack development at Finn, Mads combines technical expertise with a passion for AI, prompting his way to success."
-},
-{
-"name": "Vilde Opsal",
-"twitter": "",
-"bio": "Vilde Opsal is the Principal Engineer for Real Estate in Schibsted Nordic Marketplaces. She studied Symbolic Systems at Stanford University before developing applications for game developer Wooga and streaming platform SoundCloud in Berlin. The last few years, Vilde returned to her roots in two ways - relocating to her native Norway and diving back in to systems thinking through architecture and engineering leadership. She's passionate about storytelling, analogies, and learning new things."
-}
-]
-},
-{
-"intendedAudience": "Utviklere (backend, frontend) i alle typer programmeringsspråk,team ledere,produkteiere",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Våren 2022 hadde vi problemer i SpareBank 1 Utvikling. Noen av våre mest sentrale APIer hadde kommet i en tilstand der vi ikke klarte å forvalte dem skikkelig. Høy teknisk gjeld. Høy test-gjeld. For mange kokker hadde laget mye søl. Vi trodde selv vi hadde “jobbet riktig”, men nå trengte vi hjelp. Da ringte vi Anders Sveen. Han fortalte om Test Double fra Martin Fowler, og en teknikk som heter Fakes. Dette skulle vise seg å totalt endre måten vi skrev kode på.\n\nDette er en historie om hvordan vi i SpareBank 1 Utvikling gjennom årene alltid har jaktet rask feedback-loop når vi koder, tester og prodsetter løsningene våre. Vi forteller hvordan vi mener bruk av Fakes i dag har bidratt til raskere feedback-loop, men også pushet et mer domenedrevet design med heksagonal arkitektur(ports and adapters). \nOg vi har fullstendig fjernet lange ende-til-ende tester. \n\nÅ levere flere ganger til produksjon om dagen har blitt en vane, og en avhengighet. For store endringer gjør oss nervøse, og vi vil ikke gå tilbake. Om man går noen år tilbake så kunne man ofte høre noe sånt som “det går ikke i en bank”, men i SB1 Utvikling har vi gjort det. Det er til og med mye bedre enn alternativet.\n\nAsgaut og Anders har diskutert i det uendelige om kontinuerlige leveranser, TDD og fakes. Dette er en oppsummering av det de har kommet frem til, og implementert i av noen av teamene i SpareBank 1 Utvikling.\n",
-"title": "Bruk av Fakes for domenedrevet design og rask feedback-loop i SpareBank 1 Utvikling",
-"id": "66a525c4-6e7b-4b62-a1fc-528ed3434196",
-"sessionId": "66a525c4-6e7b-4b62-a1fc-528ed3434196",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Asgaut Mjølne",
-"twitter": "",
-"bio": "Utvikler i SpareBank 1 Utvikling DA. Backend-utvikler som elsker svensk mörkrost kaffi og koding sammen med andre. 18 års erfaring med utvikling og parprogrammering fra bla FINN, Bouvet, TietoEVRY, Telia, egen startup, SpareBank1 Utvikling."
-},
-{
-"name": "Anders Sveen",
-"twitter": "",
-"bio": "Anders har jobbet med utvikling i 20 år. I løpet av disse årene har han hatt mange forskjellige roller, men alltid søkt mot utvikling og koding. Mange år som konsulent, men de siste 5 årene som lead developer hos start-upene Porterbuddy og ZTL Payments. Han er brennende opptatt av enkel og effektiv utvikling av systemer for å løse reelle forretningsproblemer. Kompleksiteten i tech stacken må ned. Dette har gjort at han opp igjennom årene har jobbet mye med DevOps, TDD og kontinuerlige leveranser. Han jobber nå som selvstendig teknisk coach med fokus på kontinuerlige leveranser.\n"
-}
-]
-},
-{
-"intendedAudience": "Alle utviklere og teknologer er i målgruppen. Målet er å gjøre utviklere kjent med en teknologi som garantert kommer til å berøre dem om kort tid, både som utvikler og privatperson. Utviklere skal kunne gå fra presentasjonen med nok kunnskap til å bli nysgjerrig på teknologien og vite hvor de skal begynne for å ta den i bruk allerede nå.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Vi står på trappene av en ID-revolusjon i Europa. EU vil å gi alle borgere tilgang på en \"Digital lommebok\", som kan brukes til elektronisk identifisering, signering og lagring av verifiserte digitale dokumenter. Lommeboken bygger på en teknologi som kalles \"Desentralisert ID\", og i denne presentasjonen dykker vi inn i grøten for å se på hva som ligger bak teknologien, hva som får den til å tikke, og hvordan du kan ta den i bruk allerede nå! ",
-"title": "Desentralisert ID - teknologien bak EU's neste supersatsing",
-"id": "bd5e1c0a-4ff1-4e1a-8626-62c4f5cadc28",
-"sessionId": "bd5e1c0a-4ff1-4e1a-8626-62c4f5cadc28",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Eirik Ølberg",
-"twitter": "",
-"bio": "Eirik jobber med Desentralisert ID og digitale lommebøker som en del av en større satsning i Kantega. Her er han en del av et tverrfaglig team som har som mål å være Norges fremste eksperter på denne teknologien. Som konsulent arbeider Eirik med Desentralisert ID i form av utvikling av løsninger, og rådgivning for strategi og posisjonering, og ikke minst undervisning og formidling for å senke terskelen for å komme i gang med pilotering av fremtidens digitale lommebøker allerede i dag."
-}
-]
-},
-{
-"intendedAudience": "Workshoppen er midt i blinken for alle som jobber med å skape digitale tjenester og produkter. Uansett om du skriver kode, bruker mye post-its, leder folk, styrer pengesekken, pixel-pusher eller er en slags potet.",
-"length": "120",
-"format": "workshop",
-"language": "no",
-"abstract": "Har du noen gang tatt i bruk en skikkelig bra tjeneste, men så klarer du ikke helt sette fingeren på hva det er som gjør den bra? Eller brukt en utrolig dårlig tjeneste, hvor ting åpenbart ikke er gjort helt «etter boka»?\n\nVi bruker alle normer og konvensjoner for å utforme digitale løsninger, både bevisst og ubevisst. Ikke alle vet at det finnes en samling av disse, bedre kjent som UX Laws eller UX lover, som mannen Jon Yablonski har samlet i boka «Laws of UX». Tiltross for et formelt navn, er ikke disse UX lovene lovfestet, men heller en slags samling av etablerte og uoffisielle normer og konvensjoner.\n\nI denne workshoppen gir vi deg en innføring i UX lovene – før alt er lov! For her blir det konkurranse om å lage den dårligste brukeropplevelsen på kort tid, ved å være bevisst på hvilke UX lover som brytes. Vi lover en gøy workshop litt utenom det vanlige, med materiell du får med deg hjem og morsomme erfaringer i baggasjen. Mulig du også stikker av med en premie, hvem vet?",
-"title": "Alt er lov! La oss bryte noen lover",
-"workshopPrerequisites": "Ingen forkunnskaper eller forberedelser er nødvendig for delta på workshoppen.",
-"id": "0ca39e20-0a26-4eda-8898-c8100c506b37",
-"sessionId": "0ca39e20-0a26-4eda-8898-c8100c506b37",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Helene Storstrøm",
-"twitter": "",
-"bio": "Helene er designer hos Kantega i Oslo og jobber for tiden med Posten sin app. Hun er utdannet designer med både bachelorgrad og fagbrev, i tillegg har hun også et år med læringspsykologi i bagasjen. Dette gir henne et unikt perspektiv som designer. For med dette kan hun kombinere atferd, design og teknologi når hun jobber med løsninger for å finne ut hva som er best for brukeren. Etter jobb finner du henne ofte ute på treninger med hunden, som hun også konkurrerer aktivt med."
-},
-{
-"name": "Elen Haksø",
-"twitter": "",
-"bio": "Elen er designer hos Kantega i Oslo, og jobber for tiden med bedriftsnettbanken til Sparebank 1. Hun har en master i interaksjonsdesign fra Norges teknisk-naturvitenskapelige universitet, og en bachelor i mediedesign fra Høyskolen i Volda og Griffith University. Hun har også studert UX Design hos Noroff. Etter jobb finner du henne ofte med kamera i hånda, eller på tur i skogen med hunden Ted og hesten Rosie."
-}
-]
-},
-{
-"intendedAudience": "My talk is for Software Developers, Tech Leads, and Managers. Whether you're coding daily, leading a team, or overseeing projects, my insights on leveraging Error Prone will be helpful. \n\nError Prone offers the flexibility to create custom rules, proving invaluable in addressing various coding challenges. Whether it is updating deprecated APIs, handling common issues, refining code style, transitioning between libraries, or reducing technical debt, these rules can streamline the development process, saving time and manual effort.\n\nBesides demonstrating and explaining the tools, we’ll dive into how this tool can become a core part of the development workflow.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Are you tired of constantly fixing the same bugs and anti-patterns in your codebase? At Picnic, we've found a solution that not only resolves bugs once and for all, but also leads to a more consistent and high-quality codebase. Enter Error Prone: a tool that automates large-scale refactorings in your Java codebase. As a compiler plugin, it is capable of automatically suggesting and applying fixes at scale.\n\nFor years, Picnic has been using Error Prone to streamline our development process. In this talk, we will provide a comprehensive demonstration of Error Prone's capabilities, as well as offer practical guidance on how to set it up for your own team. Additionally, we will share our experiences and learnings, including creating and enabling our own set of custom rules. These are now open-sourced in Picnic's Error Prone Support repository.\n\nCome and learn how you can use Error Prone to streamline your development process as well!",
-"title": "Say goodbye to bugs and anti-patterns with Error Prone",
-"id": "35cc30a9-d68a-4c4c-948b-cd25e58636d9",
-"sessionId": "35cc30a9-d68a-4c4c-948b-cd25e58636d9",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Rick Ossendrijver",
-"twitter": "rick_ossies",
-"bio": "Rick Ossendrijver is a Software Engineer at Picnic, a fast-growing online supermarket. He is part of the Java Platform team, which supports over 300 engineers within the company. Rick is a committer and enthusiast of the Error Prone project. Moreover, he is passionate about improving software quality through static analysis and automation, and works on Picnic's open-source Error Prone Support project."
-}
-]
-},
-{
-"intendedAudience": "Folk som er nysgjerrige på utvikling av AR eller VR applikasjoner. \n\n\nVi vet at AI er framtiden, men har du tenkt på hvor den skal bo?\nI AR og VR headset så klart! Denne presentasjonen vil gjøre deg klar for framtiden.\n",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "\"AR og VR er fremtiden!\", spås det, men hvordan i alle dager lager man en AR eller VR applikasjon! \n\nI løpet av denne presentasjonen kommer du til å innse hvor enkelt AR/VR utvikling er, og at du kan begynne allerede i dag.\nJeg tar deg gjennom hvordan du kan lage AR- og VR-applikasjoner i spillmotoren Unity, og du vil lære alt du trenger for å komme i gang.\n\nDette er en gylden mulighet til å slenge deg med på en av de største teknologiske flodbølgende i nyere tid! \n\nBli med!\n",
-"title": "Bli AR/VR utvikler på 45 min!",
-"id": "a019ef7e-9a49-4562-a06f-ed63b0178436",
-"sessionId": "a019ef7e-9a49-4562-a06f-ed63b0178436",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kristoffer Håkon Håkonsen",
-"twitter": "",
-"bio": "Kristoffer ble ferdig utdannet i 2022 og har jobber som fulltack Utvikler i SpareBank 1 Utvikling siden. Han jobber med XR utvikling på fritiden og leder en faggruppe innen XR utvikling på fagdagene på torsdager. "
-}
-]
-},
-{
-"intendedAudience": "This session is for all Java developers who are interested in learning about what it takes to make Java fast, really fast.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Your mission, should you decide to accept it, is the following: aggregate temperature values from a CSV file and group them by weather station name. There’s only one caveat: the file has one 1,000,000,000 rows!\n\nThis is the task of the \"One Billion Row Challenge\" which went viral within the Java community earlier this year. Come and join me for this talk where I’ll dive into some of the tricks employed by the fastest solutions for processing the challenge’s 13 GB input file within less than two seconds. Parallelization and efficient memory access, optimized parsing routines using SIMD and SWAR, as well as custom map implementations are just some of the topics which we are going to discuss.\n\nI will also share some of the personal experiences and learnings which I made while running this challenge for and with the community.\n",
-"title": "1️⃣🐝🏎️ 1BRC–Nerd Sniping the Java Community",
-"id": "3bf29139-5af9-4dee-b01d-228d053d2091",
-"sessionId": "3bf29139-5af9-4dee-b01d-228d053d2091",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Gunnar Morling",
-"twitter": "@gunnarmorling",
-"bio": "Gunnar Morling is a software engineer and open-source enthusiast by heart, currently working at Decodable on real-time ETL based on Apache Flink. In his prior role as a software engineer at Red Hat, he led the Debezium project, a distributed platform for change data capture. He is a Java Champion and has founded multiple open source projects such as JfrUnit, kcctl, and MapStruct. Gunnar is an avid blogger (morling.dev) and has spoken at various conferences like QCon, Java One, and Devoxx. He lives in Hamburg, Germany."
-}
-]
-},
-{
-"intendedAudience": "This talk is great for both beginners as well as more experienced engineers. I'll be talking about multiple things that are usually less discussed about vector search, however, I'll keep the topic simple and engaging, so that everyone can follow.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "It's fascinating how vector search boosted the usage of contextual search across numerous applications.\n\nThe underlying idea is quite straightforward. For example, let's take a movie recommendation system. The idea is first to represent each movie in our catalog as a vector, a numerical representation of a piece of text. Next we also convert the search phrase into a vector. Having done that we enter a whole new realm — a multidimensional space where these vectors replace the original text values. Now through some mathematical techniques, we can determine which movie representations are closest to each other and to our search phrase!\n\nBut how do we create such vector representations? We need an AI model trained on vast amounts of data to recognize patterns and effectively convert text phrases into vectors. We also need proper tools to run the model and do the inferences.\n\nAll of this and more you’ll learn in this session. We'll try out different data solutions - ClickHouse, OpenSearch, PGVector and others. We'll also explore different models that are available depending on your language preference and programming skills. Or, if you don’t want to run the model locally, what APIs you can use to do the inference for free.\n\nPlenty of demos and a bit of coding for each of the options. This session will be useful for anyone who is intrigued by contextual search and usage of AI, but might find themselves overwhelmed by the complexities to get started.",
-"title": "Contextual search with vector search: exploring your options with open source tools",
-"id": "134e0f01-d50f-4714-90a1-f3c5f403ff5c",
-"sessionId": "134e0f01-d50f-4714-90a1-f3c5f403ff5c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Olena Kutsenko",
-"twitter": "https://twitter.com/OlenaKutsenko",
-"bio": "Olena is passionate about data and its applications, sustainable software development, and teamwork. With a background in computer science, she's led teams and developed mission-critical applications at Nokia, HERE Technologies, and AWS. Currently, she works at Aiven where she supports developers and customers in using open-source data technologies such as Apache Kafka, ClickHouse, and OpenSearch. She is also a AWS Community Builder, a Confluent Catalyst, a volunteer teacher at non-profit tech school and an international public speaker, who regularly present at conferences around the world."
-}
-]
-},
-{
-"intendedAudience": "Utviklere som ikke alltid klare å få til best practise selv om man har kompetanse og vilje. Her kan du få noen tips til hvordan du kan håndtere en ikke-optimal arbeidshverdag.  Kanskje kan du også få noen tips på veien for å gå fra worst practise til mediocre practise og dermed unngå et par katastrofer. ",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Det er enkelt å gjøre ting riktig. Du følger bare oppskriften for Best Practise så blir koden sikker, med 80% testdekning, skalerbar, driftssikker, har høy ytelse og future proof for alt av kommende endringer. Hvis du har det slik  på jobb så er dette ikke lyntalen for deg. Har du derimot litt utfordringer med å få gjort alt etter “boka” så kan det være greit å følge med. Vi skal se litt på forskjellige grunner til at ting kommer skjevt ut slik at du i hvert fall kan være forberedt og kanskje kan gjøre noe med det. ",
-"title": "Er det så jævlig vanskelig å gjøre ting riktig?",
-"id": "167b0d02-34e5-4fff-8a35-255c0c35b561",
-"sessionId": "167b0d02-34e5-4fff-8a35-255c0c35b561",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Morten Udnæs",
-"twitter": "",
-"bio": "Morten jobber som TechLead i Fremtind Forsikring. Etter mer enn 30 år som utvikler lurer han fremdeles på om man blir klokere av erfaring eller bare skadet."
-}
-]
-},
-{
-"intendedAudience": "Java developers",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Application and Infrastructure configuration is usually an easy place to make catastrophic mistakes.  The new Pkl configuration language brings a safer and more maintainable approach to defining and managing configuration.  It works with Kubernetes, Spring applications, and really anywhere that you have Yaml or other unstructured configuration.  This talk will introduce Pkl and teach you how to use it in your Java applications and infrastructure.",
-"title": "Pkl: Safe and Maintainable Config for Java Apps and Infrastructure",
-"id": "255b334b-29f6-49ef-9de9-667c32e60b38",
-"sessionId": "255b334b-29f6-49ef-9de9-667c32e60b38",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "James Ward",
-"twitter": "_JamesWard",
-"bio": "Professional software developer since 1997, with much of that time spent helping developers build software that doesn't suck. A Typed Pure Functional Programming zealot who often compromises on his ideals to just get stuff done. Currently a Developer Advocate for AWS."
-}
-]
-},
-{
-"intendedAudience": "Any Java developer with a faire experience on concurrent programming and reactive programming, aware of the benefits and problems this programming paradigm are bringing. \nThe main takeaway is a good understanding of the patterns that virtual threads and structured concurrency are bringing, and how they compare to reactive programming, including from the performance perspective. ",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Java 21 was released about a year ago, and among all the features that this version brings, Loom virtual threads are probably the most exciting and promising one. One of the promise was to enable the \"simple thread-per-request style to scale with near-optimal hardware utilization\", something that could only be achieved by reactive style programming. How can virtual threads achieve this kind of performance? Can virtual threads make the asynchronous programming model obsolete? Is this model going to disappear? These are the questions we cover in this presentation. Virtual threads are cheap to create, to a point where you can have as many as you need. It allows for a new API, Structured Concurrency, that brings a new asychronous programming model, simpler than the reactive programming model. The last element you need to create complete applications are Scoped Values, a replacement of Thread local variables, that we also cover.",
-"title": "Are Virtual Threads Going to Make Reactive Programming Irrelevant?",
-"id": "648e3ca3-0d4d-4f3a-9d98-174803d1689e",
-"sessionId": "648e3ca3-0d4d-4f3a-9d98-174803d1689e",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "José Paumard",
-"twitter": "@JosePaumard",
-"bio": "José works as Java Developer Advocate at Oracle. PhD in applied maths and computer science, assistant professor at the University Sorbonne Paris Nord for 25 years, he is a Java Champion Alumni and JavaOne Rockstar. He is a member of the french Paris Java User Group, has been a co-organizer of the conference Devoxx France, and is a disorganizer of JChateau, an unconference held in the Chateau of the Loire Valley. He works on the dev.java documentation and community website, publishes the JEP Café, a monthly video cast on YouTube, and maintains a french YouTube channel with more than 80 hours of Java courses. He is also a Pluralsight author in the Java space.\nI selected 60mn because I like to have more time, including for questions, but this talk is fine in 45mn."
-}
-]
-},
-{
-"intendedAudience": "Developers",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Verdikjede angrep ser ut til å ha kommet for å bli. For å ha en forhåpning om å komme seg helskinnet gjennom de neste rundene med verdikjedeangrep vil det være nyttig å vite hvilken programvare, og hvilke versjoner som inkluderes i din programvare. For å få og beholde kontroll på dette vil en S-BOM (software bill of materials) kunne hjelpe. I denne lyntalen skal vi se på hvordan du også enkelt kan generere og inkludere en S-BOM i din neste release og alle releaser etter ved bruk av både kjente og kjære verktøy (og noen utvidelser).",
-"title": "Lag deg en S-Bom på 10 minutt",
-"id": "ca583f36-6cc6-476b-9b2a-0b8e7bc1e3b4",
-"sessionId": "ca583f36-6cc6-476b-9b2a-0b8e7bc1e3b4",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kent Inge Fagerland Simonsen",
-"twitter": "",
-"bio": "Kent Inge har vært programvareutvikler i snart 20 år. I løpet av den tiden har han vært opptatt av sikkerheten (og usikkerheten) i datamaskinsystemer og ble smertelig klar over at det kunne være lurt å vite hvilke moduler man til enhvertid kjørte rundt samme tid som den såkallede log4shell sårbarheten herjet som værst. Etter det har han vært med på et internt prosjekt for å utforske mulige verktøy for S-BOM'er og S-BOM generering."
-}
-]
-},
-{
-"intendedAudience": "Utviklere og alle andre som liker å programmere. Foredraget krever ingen forkunnskaper i spesifikke programmeringsspråk.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Hvert år i desember samles hundretusener av utviklere for å delta i Advent of Code (adventofcode.com), en kodeadventskalender som byr på en ny kodeoppgave hver dag frem til jul. I mitt foredrag vil jeg dele hvordan jeg tok utfordringen et skritt videre ved å løse disse oppgavene med et nytt programmeringsspråk hver dag. Fra de populære språkene som Java og Python, til de mer obskure som Brainfuck og LOLCODE, vil jeg gi et innblikk i hvert språks særegenheter, styrker og svakheter.\n\nMålet med foredraget er å gi et innblikk i programmeringsspråkenes mangfold og hvordan de kan berike vår forståelse av kode og problemløsning. Ved å dele mine erfaringer, håper jeg å inspirere andre til å utforske og lære seg nye programmeringsspråk.",
-"title": "Advent of programming languages - en lynrask innføring i 25 programmeringsspråk",
-"id": "3a11953f-8955-49ce-a9df-32be00f8ee26",
-"sessionId": "3a11953f-8955-49ce-a9df-32be00f8ee26",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Hogne Jørgensen",
-"twitter": "",
-"bio": "Techlead i SpareBank 1 Utvikling DA. Elsker å lære nye ting. Har deltatt i Advent of Code siden starten i 2015 og har løst alle oppgavene de siste 4 årene."
-}
-]
-},
-{
-"intendedAudience": "Alle",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Kontinuerlige leveranser har etablert seg som en forventning for å oppnå velfungerende, fremragende team. Praksisen påvirker både utviklingshastighet og utviklings- og produktkvalitet. Samtidig har kontinuerlige leveranser innvirkning på vår egen og teamets velvære. Hva skal til for å oppnå kontinuerlige leveranser, hva skjer når smerten for å deploye er høy og hvordan påvirker velvære arbeidet vårt?\n\nDenne talken ser nærmere på to capabilities fra forskningsprogrammet dora.dev; well-being og continous delivery. Vi går gjennom de begge, samt går inn på hvordan de påvirker hverandre. Vi ser på hva velvære er i kontekst av utvikling og hvordan det vi kan måle det. Med både personlige erfaringer og erfaringer fra NAV IT ser vi på hvordan velvære og kontinuerlige leveranser kan øke kvalitet og hastighet for deg og ditt team.",
-"title": "Kontinuerlige leveveranser og velvære med DevOps-capabilities",
-"id": "67548ebd-21cb-495f-a21a-5432e95757d4",
-"sessionId": "67548ebd-21cb-495f-a21a-5432e95757d4",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Line Moseng",
-"twitter": "@linemos",
-"bio": "Line er utvikler og tech lead i NAV. Hun har holdt foredrag om både nasjonalt og internasjonalt om mangfold og inkludering i IT-bransjen og brenner for og jobber aktivt med å skape en mer inkluderende bransje for alle."
-}
-]
-},
-{
-"intendedAudience": "Folk som lager viktige ting på internett",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Vi lager nettbank, og gjør alt vi kan for å gjøre den sikker. Likevel var vi overbevist om at vi hadde sårbarheter vi ikke hadde funnet ennå. Det stemte!\n\nLa oss snakke om hva SpareBank 1 lærte av å innføre finnerlønn for sårbarheter, og hvorfor du er sprø om du ikke gjør det samme. Hva gjør bug bounties unikt, og hvordan reddet det rumpa til foredragsholderen?",
-"title": "Sett skuddpremie på sårbarhetene dine",
-"id": "70e744ed-8eba-49ef-a650-98d54fd4e4b5",
-"sessionId": "70e744ed-8eba-49ef-a650-98d54fd4e4b5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jon Are Rakvåg",
-"twitter": "",
-"bio": "Sikkerhetsgartner i SpareBank 1 Utvikling. Driver SpareBank 1 Utviklings bug bounty-program. Finner som regel flere sårbarheter enn han forårsaker selv."
-}
-]
-},
-{
-"intendedAudience": "Intermediate audience.\n\nWe will explore how to test distributed and monolithic systems effectively, easing the effort needed to write and maintain tests. ",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Testing in modern software development is, and has always been, a \nchallenge for the industry. Everyone claims to want to do more of it but often finds themselves falling short. Some find testing to be the most tedious part of their job.\n\nTesting has become more complicated in recent years due to the popularity of microservices and other distributed architectures. However, the way we tested it mostly stayed the same.\n\nThis talk will explore practical techniques, tools, and more to make testing easier and more approachable, to test more with less. Some of the things we will look at are TestContainers, contract testing and testable code and architectures.",
-"title": "Modern testing - Test more and better with less friction",
-"id": "d521c0f1-9e2a-40ff-b288-2c60df85c947",
-"sessionId": "d521c0f1-9e2a-40ff-b288-2c60df85c947",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "John Mikael Lindbakk",
-"twitter": "",
-"bio": "John is a tech lead/architect with 10+ years of experience with a passion for developer processes. His experience lies in scalable distributed systems working within various of high-profile industries such as banking, healthcare and insurance.\n\nHe is currently a consultant at bspoke, where he also is the JVM subject manager (fagansvarlig)."
-}
-]
-},
-{
-"intendedAudience": "Utviklere",
-"length": "240",
-"format": "workshop",
-"language": "no",
-"abstract": "Har du noen gang splittet en streng med data på en delimiter, for å så måtte splitte hvert element igjen \nmed en annen delimiter, da er denne workshoppen for deg.\n\nVi bruker parsere hver dag, men ofte er vi ikke klar over at vi gjør dette. Vi ønsker i denne workshoppen\nå sette lys på en teknikk som kalles Parser kombinatorer. \n\nVi kommer til å bruke Scala 3 med implementasjonen cats-parse. Vi vil også gi deg noen ressurser som du kan bruke\nfor å implementere dine egne parsere.\n\nDenne workshoppen kommer til å bestå av et foredrag, pluss oppgaveløsning.",
-"title": "Parser Combinators - En parser som spiser parsere",
-"workshopPrerequisites": "- Java 21\n- Intellij IDEA med Scala plugin eller Visual Studio Code med Metals plugin\n- [scala-cli](https://scala-cli.virtuslab.org/)\n- Ønske om å lære",
-"id": "5ad28847-cdc1-483a-b045-388e56895f88",
-"sessionId": "5ad28847-cdc1-483a-b045-388e56895f88",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Erlend Hamnaberg",
-"twitter": "https://snabelen.no/@hamnis",
-"bio": "Utvikler og konsultent hos Arktekk.\nHar 20 års erfaring som åpen kildekode utvikler. (http4s, http4s-netty, http4s-grpc, immutable-json, )\nHar jobbet med Scala siden 2011. Begynte å leke med det i 2009.\n\n\nhttps://snabelen.no/@hamnis"
-},
-{
-"name": "Eirik Meland",
-"twitter": "",
-"bio": "Utvikler og konsultent hos Arktekk.\nAlltid på utkikk etter en anledning til å skrive en parser.\nGodt over gjennomsnittet interessert i tastaturer.\n\nHar jobbet med Scala siden 2013. \n"
-}
-]
-},
-{
-"intendedAudience": "This talk is accessible to everybody, as it won't be too technical. We'll share some experiences from what we did, and provide you with some tips and tricks on how you can do the same in your organisation.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Sometimes deadlines are made up – and sometimes you don't really have a choice but to ship in time. This is a story of the latter.\n\nIn the fall of 2023, a motley crew of engineers, designers, editors and product owners got to rewrite two gigantic websites from an old web platform to a modern stack based on Sanity and Remix. This talk will dive into our mission, what challenges we faced, and how we launched both incrementally and successfully well within our deadline.",
-"title": "Replatforming Giants: How we modernized two huge websites in 3 months",
-"id": "6faffebe-5ed3-41d0-ac56-fc7ffb520fc8",
-"sessionId": "6faffebe-5ed3-41d0-ac56-fc7ffb520fc8",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Sandra Lekve",
-"twitter": "",
-"bio": "Sandra is a fullstack developer, with one year of experience building neat products for clients."
-},
-{
-"name": "Kristofer Giltvedt Selbekk",
-"twitter": "selbekk",
-"bio": "Kristofer is a seasoned speaker, fullstack developer and frontend enthusiast, with 11 years of experience building cool stuff."
-}
-]
-},
-{
-"intendedAudience": "Most developers are struggling with interconnecting different applications or services during their local development. This talk should help them get some ideas on how to ease that pain. ",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "You’ve all been there, haven’t you? You are developing an application that needs to connect to something else in order to function properly, yet you can’t (or don’t want to) run that “something else” on your local developer laptop. What are some of the tools and technologies that could help in this situation?\n\nIn this talk, you will learn about some potential solutions you can use to help tackle some of these challenges by either running services locally in a more efficient way or by interacting with external dependencies/systems remotely.  \n\nYou should come away from this session with some new ideas on how to work with distributed applications using technologies such as Docker Compose, Podman Desktop, TestContainers, Quarkus Dev Services, Remote Development, Skupper, and Eclipse JKube.",
-"title": "Taming Kubernetes: Streamlining Inner-loop Development for Distributed Systems",
-"id": "5c9394e0-0309-412d-863f-106fc88949e3",
-"sessionId": "5c9394e0-0309-412d-863f-106fc88949e3",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Kevin Dubois",
-"twitter": "@kevindubois",
-"bio": "Kevin is a Java Champion, software engineer, author and international speaker with a passion for open source, Java, and cloud native development & deployment practices. He currently works as developer advocate at Red Hat where he gets to enjoy working with open source projects and improving the developer experience. \nKevin is actively involved in open source communities, contributing to projects such as Quarkus, Knative, Apache Camel, and Podman (Desktop). He is also a member of the Belgian CNCF and the Belgian Java User Group.\n"
-}
-]
-},
-{
-"intendedAudience": "Alle utviklere og alle andre som er interessert i å utvikle egne organisasjoner og seg selv",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "IT-industrien i Norge er i sterk endring, og kommer ikke til å være den samme om noen få år. Etter mange år med tydelig mangel på utviklere og utvikler-kompetanse, har videregående skolene begynt å utdanne lærlinger i IT-utviklingfaget. Dette vil påvirke industrien, ikke bare i forhold til fagmiljøer, innovasjon og kultur, men det vil også sette forventninger til hvordan organisasjoner bør endre seg.\n\nI lyntalen skal vi snakke om hvordan lærlinger endrer spillet i offentlig IT-utvikling. Bli med en lærling og hans mentor på en dykk lærlingenes verden i en stor og samfunnskritisk organisasjon. Vi vil avdekke hvordan lærlinger ikke bare lærer fra boken, men også bidrar med friske perspektiver til feltet, og hvordan deres mentorer formgir fremtidens IT-eksperter. \n\nEtter presentasjonen, vil du se verdien lærlinger bringer til organisasjoner, sett gjennom øynene på både mentor og lærling. Du vil også forstå bedre hvilke krav og forventninger som er nødvendig å ta vare på for å ta inn lærlinger i egen bedrift eller organisasjon.\n",
-"title": "Perspektiver på IT-Utvikling lærlinger i offentlig sektor",
-"id": "bcc32bc9-d544-4674-8a7c-3d3334c5716c",
-"sessionId": "bcc32bc9-d544-4674-8a7c-3d3334c5716c",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Lucas William Bateson",
-"twitter": "",
-"bio": "Lucas is a 17 year old developer who has had a keen interest in programming and computers throughout his life. He has a special interest for AI, databases, OOP and DSL's. Lucas first started his programming journey in primary school, and his interest has grown exponentially from there. He is about to start his journey as a trainee to complete his education as a software developer."
-},
-{
-"name": "Dervis Mansuroglu",
-"twitter": "dervismn",
-"bio": "Dervis er en utvikler og leder med 15 års erfaring fra IT-bransjen fra både privat og offentlig sektor. Han jobber i dag som leder for en gruppe utviklere i NAV IT. På fritiden er Dervis leder for JavaBin, den norske Java-brukerforeningen, og er engasjert i flere non-profit initiativer i det norske fagmiljøet. Dervis koder aktivt i fritiden, og er spesielt interessert i både funksjonelle og objektorienterte programmeringsspråk. Han er aktiv foredragsholder på norske og internasjonale konferanser."
-}
-]
-},
-{
-"intendedAudience": "This talk has something for everyone.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Embark on a captivating journey through the vibrant tapestry of computer programming as a realm of boundless creativity and expression. From the LSD-fueled hacking subculture in the 1960s San Francisco Bay Area to the dynamic web gallery of today, discover how programming has evolved into a breathtaking art form.\n\nThis talk delves into the awe-inspiring stories of artists who, coming from fine arts backgrounds, stumbled upon the magic of computers in the 1970s. We'll unravel the mysteries of mathematical algorithms that have become the still lives and croquis nudes of computer art, adding a touch of beauty and emotional resonance to the digital canvas.\n\nRelive the rebellious 1980s, where amateur programmers ignited the demoscene movement, echoing the ethos of the street art. Explore the fusion of technology and rebellion, where code became a medium for expressing raw, unbridled creativity.\n\nIn the digital age, witness the internet transform into a global gallery, showcasing not only the final masterpieces but also the code itself as a form of art. Marvel at the unexpected instances where a computer printout of a well-known algorithm commands thousands at art auctions, blurring the lines between traditional and digital markets.\n\nWe'll unravel the artistic potential of mathematical algorithms, exploring how they breathe life into digital works. Moreover, we'll showcase instances where the code itself is the masterpiece, challenging conventional perceptions of art.\n\nBe prepared for a visually engaging experience supported by stunning imagery and beautiful code, aiming to inspire you to dive into the rich world of computerized art. Gain insights into the frameworks and tools that empower you to channel your creativity through code. Join us in embracing the fusion of technology and imagination, where the possibilities for artistic expression are as limitless as lines of code on a screen.\n\nMaybe you'll even have an answer to the everlasting question of \"What is art?\".",
-"title": "The History of Computer Art",
-"id": "6bccdf91-bb6a-4ed1-a78e-31603492a339",
-"sessionId": "6bccdf91-bb6a-4ed1-a78e-31603492a339",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Anders Norås",
-"twitter": "",
-"bio": "Originally educated in arts and design, Anders has spent the last twenty years writing code.\n\nHe has given numerous talks and keynotes at conferences such as JavaZone, NDC, J-Fall, Øredev and many more. Have given 100+ conference talks to a variety of audiences including media, design and hardcore computer science. Known for an energetic and highly engaging presentations."
-}
-]
-},
-{
-"intendedAudience": "Both beginners & seasoned professionals in data streaming and microservices development and operations.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Today, when you think about building event-driven and real-time applications, the words that come to you spontaneously are probably: RabbitMQ, ActiveMQ, or Kafka. These are the solutions that dominate this landscape. But have you ever heard of Apache Pulsar?\n\nAfter a brief presentation of the fundamental concepts of messaging, you'll discover the Apache Pulsar features that enable you to build amazing event-driven applications.\nYou'll learn the following:\n- how Apache Pulsar architecture differs from other brokers\n- how it enables scaling processing power & data independently, quickly, and with no hassle\n- how it guarantees high durability of messages across nodes and different data centers\n- how it covers the use cases of both RabbitMQ & Kafka while involving a single broker\n- how to integrate Pulsar with your existing application portfolio\n- and more",
-"title": "Apache Pulsar: Finally an Alternative to Kafka?",
-"id": "49a79606-e850-4e89-80ce-7b570c61b721",
-"sessionId": "49a79606-e850-4e89-80ce-7b570c61b721",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Julien Jakubowski",
-"twitter": "jak78",
-"bio": "Julien Jakubowski is a Developer Advocate at StreamNative with over 20+ years of experience as a developer, staff engineer, and consultant. He has built several complex systems with distributed, scalable, and event-driven architecture for various industrial sectors such as retail, finance, and manufacturing.\n\nJulien delivers talks at conferences on software engineering, specializing in the Java community: Devoxx, VoxxedDays, Berlin Buzzwords, Java User Groups, and Google Developer Groups, among others.\n\nJulien is located in France. He's also one of the founders and leaders of the Ch'ti JUG - Java User Group of Lille, France."
-}
-]
-},
-{
-"intendedAudience": "Anyone who is interested in ways to increase their productivity by making mundane project setup tasks more convenient. It will be interesting from developer to platform engineer of any experience. You could be a Maven novice or  a Maven Guru. No prior experience is required, thought some Maven knowledge can be useful.\n\nBy attending the participants achieve a new tool in their tool belt to automate these mundane tasks which will result in less error prone project creation. They will gain valuables insights in my experience of using these archetypes on my projects and what to look out for when trying it yourself.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "If you've ever utilized tools or websites to kickstart your application development, such as Spring Initializr, Micronaut Launch, Quarkus starter or even the classic copy-paste-rename-method. You're likely familiar with the convenience it offers in avoiding standard project setups. As microservices have gained traction, repetitive setup tasks are one of the many items on our lists as developers. But what if there was a way to elevate this process further? What if I told you, we can do better. Even without AI.\n\nThis talk dives into the workings of Maven Archetypes, highlighting their strengths and addressing common pitfalls. Learn how to leverage this plugin to streamline development workflows, adhere to architectural decisions, and boost productivity. \nWhether you're new to Maven or a seasoned developer, discover practical insights to optimize your development process and deliver high-quality software efficiently.",
-"title": "Maven Marvels: Project Generation at Warp Speed",
-"id": "3dc8c301-b05e-4c37-aa61-db0563c01404",
-"sessionId": "3dc8c301-b05e-4c37-aa61-db0563c01404",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Giovanni van der Schelde",
-"twitter": "https://twitter.com/gvdschelde",
-"bio": "An adventurous developer and trainer that enjoys trying out new things. Sharing knowledge and learning from each other is one of the best ways to improve ourselves and others. Oh, and I love to do outdoor activities, good food and play all sort of games."
-}
-]
-},
-{
-"intendedAudience": "Beginners",
-"length": "120",
-"format": "workshop",
-"language": "en",
-"abstract": "Distributed batch processing can be quite a challenge in Java. How do you manage task coordination and data consistency? What to do with the complexities of concurrency?\n\nThis workshop offers a practical exploration of JobRunr, an open-source Java library recommended by ThoughtWorks. It leverages your existing infrastructure and facilitates efficient job scheduling using only a Java 8 lambda. The workshop is designed to provide you with a thorough understanding of JobRunr's capabilities in a real-world application context.\n\nThroughout the session, you will learn how to integrate JobRunr into Java applications, emphasising its use for distributed batch job processing. The lab will cover the setup and configuration of JobRunr, demonstrating its adaptability across various Java frameworks.\n\nKey takeaways from this workshop include:\n- Fundamentals of JobRunr for distributed batch job scheduling in Java.\n- Practical steps for integrating JobRunr into Java projects, including Spring Boot and Quarkus.\n- Techniques for optimizing distributed job execution.\n- Approaches to manage and monitor background tasks in distributed systems.",
-"title": "Distributed Batch Processing using only a Java lambda: a hands-on JobRunr workshop",
-"workshopPrerequisites": "There are no prerequisites for this workshop except a laptop.",
-"id": "58694ad7-0eeb-4faa-9a5a-20d8e1c35920",
-"sessionId": "58694ad7-0eeb-4faa-9a5a-20d8e1c35920",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ronald Dehuysser",
-"twitter": "rdehuyss",
-"bio": "Meet Ronald Dehuysser, a full-time open-source developer from Belgium and creator of JobRunr. Seamlessly integrating with Spring Boot, Micronaut, and Quarkus, JobRunr is Ronald's solution for efficient distributed background job processing.\n\nWhen he's not working on open-source software, he is probably either rock climbing or sipping a fine Belgian Duvel beer."
-}
-]
-},
-{
-"intendedAudience": "No experience is required. I will show Python code for the application, which will be understandable for any developer. ",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Trend waves come and go, but should you ride them? Let me take you on a practical walkthrough of how we innovate with generative AI through validated learning.\nData-driven decision making is fundamental to the finance business. However, decision makers are often not proficient in the tools we use for data extraction, and rely on technical resources to run data extractions and report back on the results. Such tasks add a significant work load on technical resources who much rather would focus on more complex tasks, so what if we could automate it away using AI?\nIn this talk, I will walk you through our process of innovation with generative AI to create chatbots that aim to increase the efficiency of internal processes. You will meet \"Eglev\", our AI analyst designed to empower non-technical personnel in data extraction tasks to better inform decision making, while allowing our data scientist to focus their time on more interesting and complex tasks. Learn how we turned Eglev from idea to production with over 91% accuracy in only 6 weeks from both a practical coding perspective, as well as the method behind working as a lean startup in a large (and less lean) organisation.",
-"title": "Pivot or Persevere: Should you ride that (AI) trend wave?",
-"id": "46f60322-ecb0-413c-8919-4885d741abb2",
-"sessionId": "46f60322-ecb0-413c-8919-4885d741abb2",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "What does a team of developers do in a BI and Analytics environment? The use of data analysis within a modern technology stack is at the core of a successful insurance business. Gjensidige, Norway's largest insurance company, has recently begun it's journey of moving all data operations from an on-prem data warehouse solution into the cloud. With almost 30 individual analyst teams in the mix, this task is no mean feat. Everything we do is data-driven with the goal to provide the best possible customer experience: from pricing to marketing and sales, as well as direct customer service, and claims handling. To succeed in this journey, we utilise the power of software best practices and DevOps culture: Product thinking, end-to-end responsibility, cross-team collaboration, and early problem solving. In this talk I will show how developers are a crucial resource to our success in publishing and maintaining high quality data products into our data platform by both growing and rooting DevOps culture and software best practices within our analyst teams.",
+"title": "DevOps revolutionised software development. It's time to revolutionise data.",
+"room": "Room 3",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:25",
+"video": "861721829",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:25:00Z",
+"id": "036d16a0-59e0-4001-b7b3-08d30cf01a6a",
+"sessionId": "036d16a0-59e0-4001-b7b3-08d30cf01a6a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
 "speakers": [
 {
 "name": "Alexandra Diem",
 "twitter": "",
-"bio": "I'm a former academic turned data scientist with a passion for data mesh architectures.\n\n🔬 Background in applied mathematics and statistics, adept at leveraging data-driven insights to solve complex problems. Experienced in diverse domains spanning the private and public sectors.\n\n🧠 Made significant contributions to research in physiological modeling, successfully debunking a leading biomedical hypothesis on Alzheimer's disease during my PhD. Developed innovative approaches to quantify blood supply to the heart.\n\n💡 Solution-oriented thinker with a track record of efficiently tackling challenging problems and adapting to novel scenarios.\n\n⚙️ Expertise: Team Leadership • Data Platform • MLOps • Data Mesh • Artificial Intelligence (AI)\n\nIn my spare time, you'll find me exploring the great outdoors—whether it's pedaling through scenic landscapes on a bike or riding down the slopes on a pair of skis."
+"bio": "Former academic turned data scientist turned data mesh frontrunner. \n\nAlexandra has a background in applied mathematics and statistics, and holds a PhD in mathematical and computational modelling of physiological processes. As an academic Alexandra championed reproducible and reusable science, recognising and utilising the benefits of version control and containerised development early on. Following her academic career, Alexandra worked as both a software development and data science consultant in several domains in both the private and public sector. Her solution-oriented approach allowed her to recognise the potential of DevOps best practices within data science, becoming a frontrunner in implementing DevOps culture within the data world. Today, Alexandra leads team Cloud Analytics and MLOps at Gjensidige, Norway’s largest insurance company. The team’s mission is to empower analysts by facilitating self-service analytics, encouraging cross-team collaboration, and promoting software best practices.\n\nIn my spare time you'll find me either on a bike or a pair of skis."
 }
 ]
 },
 {
-"intendedAudience": "Alle kan få mye verdi fra denne talken",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Progress baren er en designkomponent som viser brukeren hvor langt maskinen har kommet med en gitt oppgave. Høres jo ganske enkelt ut eller? Men hvorfor klarer da ingen å lage en perfekt progress bar? Hvordan kan noe som ser så enkelt ut være så komplekst? \n\nI denne talken skal jeg presentere problemstillinger som omfatter progress baren som kanskje er DET mest krevende designkomponenten å designe og implementere. Nettopp fordi den krever ressurser fra både frontend og backend, men rører andre fagfelt som UX og psykologi. I tillegg, vil jeg komme med en egen erfaring som konsulent om hvordan jeg håndterte denne problemstillingen hos en kunde.",
-"title": "Maskinen lyver til deg!",
-"id": "d51aa204-144a-40a4-8b6d-a2b215649116",
-"sessionId": "d51aa204-144a-40a4-8b6d-a2b215649116",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"intendedAudience": "The talk does not require any prior knowledge, but some points will be lost to non-technical participants.\n\nDevelopers, Tech Leads and Architects will get the most out of the talk, but the content is adapted to a varied audience so managers of technology businesses would also benefit. ",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "You might have heard that the advent of Quantum Computers heralds the end of commonly used cryptography, but what does that mean, and why does it concern you?\n\nIn this talk, I will help answer some of these questions. You will learn what a Quantum Computer is, why they are such a bad thing for cryptography, and what you should do about it.",
+"title": "Post-Quantum Cryptography 101 - aka. The end of the world as we know it",
+"room": "Room 1",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T13:45",
+"video": "862026553",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T11:45:00Z",
+"id": "83e6d221-af8f-4c57-9d5f-81a6aff39a4e",
+"sessionId": "83e6d221-af8f-4c57-9d5f-81a6aff39a4e",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
 "speakers": [
 {
-"name": "Uy Tran",
+"name": "Stian Svedenborg",
+"twitter": "@SSvedenborg",
+"bio": "Stian is a security enthusiast with a passion for cryptography. He graduated from NTNU in 2014 specializing in cryptography and spent a number of years as a developer. He has entered the eID space as the Security Architect for BankID."
+}
+]
+},
+{
+"intendedAudience": "Anyone interested in the leading-edge features of recent Java releases would get a good overview from this talk. Anyone interested in Ruby on the JVM would see how we are making use of these features. Intermediate experience is probably best, but nothing I show would be too difficult for a beginner to understand.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "JRuby brought Ruby to the JVM years ago, and since then we have pushed JVM developers for the features we need: dynamic invocation, virtual threads, native function calls. Now in 2023, we have nearly all of these features available! This talk will survey key features of the modern JVM: invokedynamic to optimize dynamic code, Loom for true userland threading, and Panama for native operations. We'll show how JRuby builds on these features to support Ruby, and how they will eventually help all JVM users, regardless of your chosen language.",
+"title": "Ruby on the Modern JVM Using Loom, Panama, and More",
+"room": "Room 4",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T10:00",
+"video": "861951420",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T08:00:00Z",
+"id": "a10ed0ff-e95c-4663-b9c6-74ed54abf7a4",
+"sessionId": "a10ed0ff-e95c-4663-b9c6-74ed54abf7a4",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Charles Oliver Nutter",
+"twitter": "headius",
+"bio": "Charles has worked at Red Hat for the past decade as a JRuby core developer and JVM language advocate. He believes the JVM is the best general-purpose platform for language development, and has spent the last 20 years working with JVM developers to add features that benefit all languages."
+}
+]
+},
+{
+"intendedAudience": "The expected audience are frontend developers wanting to learn about Svelte and SvelteKit. The talk will start with an empty slate and build up a full web application from start to finish, developing an API as development progress. ",
+"length": "240",
+"format": "workshop",
+"language": "en",
+"abstract": "Single page apps and the library frameworks that supports them have transformed the web and moved the post regarding what the users expects from a web application. \n\nIn all their glory, however, they do come with some drawbacks. For starters they mostly have a steep learning curve, forcing the developer to invest a significant amount of time to get acquainted with their library of choice.\n\nThe nature of SPAs mean that the size of the application grows along the apps’ functionality, while often forcing the developers into a complex programming regime. \n\nIn between SPAs and traditional web apps we find Svelte, occupying a new segment - transitional apps. As Svelte is a compiler and not a library, it gets around some of the constraints of the SPA libraries, being able to build extremely fast websites with a small footprint - as svelte can include only the parts you actually use instead of the whole library. This also means that the feature set offered with Svelte can grow without impacting the size and complexity of your own app. \n\nThe development process is easy to get started with, while retaining the power needed to build complex apps that have the features a user have come to expect from a web app in 2021. \n\nIn this workshop you will learn to build a complete website with SvelteKit, complete with backend requests, API development, server side rendering, and the reactivity you have come to expect from a modern web app. ",
+"title": "Making the web Svelter (tm) with SvelteKit",
+"workshopPrerequisites": "Some tools should be installed before attending the workshop: \n- Git\n- NPM\n- Node (a recent version)",
+"room": "Workshop E",
+"startTime": "2023-09-05T09:00",
+"endTime": "2023-09-05T13:00",
+"registerLoc": "https://moosehead.javazone.no/#/register/making_the_web_svelter_tm_with_sveltekit",
+"startTimeZulu": "2023-09-05T07:00:00Z",
+"endTimeZulu": "2023-09-05T11:00:00Z",
+"id": "12606bcd-4e08-44e1-820a-658f3be4efbd",
+"sessionId": "12606bcd-4e08-44e1-820a-658f3be4efbd",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T09:00",
+"startSlotZulu": "2023-09-05T07:00:00Z",
+"speakers": [
+{
+"name": "Joachim Haagen Skeie",
+"twitter": "joachimhs",
+"bio": "Joachim Haagen Skeie is a full stack developer, and author of Ember.js in Action (Manning Publications), have been involved with javaBin and Teknologihuset during the mid 2010s, and run a makerspace for kids in Oslo up until the pandemic hit. Joachims current role is as a tech lead at NorgesGruppen Data, from august 2023 as a senior consultant/tech lead at Experis. "
+}
+]
+},
+{
+"intendedAudience": "Intermediate engineers, doing events.\nThose who have not ground their teeth building event-based systems - to see what are errors, why are they errors, and how to build around.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Some say: Use events, events are great, all will be great and rosy. Then reality bites, and.. let's talk about strangers you'd rather avoid - mistakes to make when building using events. Things change, evolve, are not and overdelivered, old events start taking a lot of space, and someone is already using the name you wanted?! Expect: problems, symptoms, consequences, and some 'get-out-of' cards. Come for the experience others gained first-hand, so you know what to avoid.",
+"title": "Avoiding mistakes with events, one event at a time",
+"room": "Room 6",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T10:00",
+"video": "861948180",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T08:00:00Z",
+"id": "1306f8e9-af1b-4e2c-9ba3-7c4771b6aba1",
+"sessionId": "1306f8e9-af1b-4e2c-9ba3-7c4771b6aba1",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Andrzej Grzesik",
+"twitter": "ags313",
+"bio": "ags likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since 'most software problems are people problems”, he stirs communities, organizes and speaks at conferences. And he is a Java Champion!"
+},
+{
+"name": "Wojtek Ptak",
+"twitter": "wjptak",
+"bio": "Wojtek works as Head of Product Engineering and Engineering Executive at Revolut. Before, he worked as CTO for several companies, provided consulting, training, and assisted in building various data collecting, analytics, and applied ML/AI solutions, including Big Data implementations, data stream processing systems, and data insight projects.\n\nHe worked with multiple Forbes 500 brands in the US, UK, and the Netherlands, including The Coca-Cola Company, the American Bankers Association, Macy’s, Bloomingdales, Heineken, Saks 5th Avenue, BP, Boots, Polo Ralph Lauren, Porsche, HSBC, and others."
+}
+]
+},
+{
+"intendedAudience": "The workshop is intended for any developer who have basic knowledge of SQL, but want to understand how to improve their queries, or are just curious as to how a relational database works.",
+"length": "120",
+"format": "workshop",
+"language": "no",
+"abstract": "Bad SQL statements can ruin both performance and user experience. And in some cases, they can be quite hard to fix. Luckily most relational databases have a tool we can use to analyse the execution of queries, and understand where the problem lies.\n\nIn this workshop we will be taking a look at Postgres' implementation of this functionality, called Explain. We'll use Postgres as it is a popular open-source alternative, but the principles you'll learn are transferrable to most other relational databases.\n\nWe will talk about how to interpret the execution plans and get to know some of the most common operations. Underway, we'll be testing the theory on a supplied dataset to see how it works in practice. After completion, you should be able to read and analyse most queries.\n\nThe workshop is intended for any developer who have basic knowledge of SQL, but want to understand how to improve their queries, or are just curious as to how a relational database works.",
+"title": "Explain Postgres Explain",
+"workshopPrerequisites": "Laptop with Git and Docker installed.\n\nIf you have a preferred database client, it would be advisable to install it before the workshop. If not, a client will be supplied.",
+"room": "Workshop E",
+"startTime": "2023-09-05T15:45",
+"endTime": "2023-09-05T17:45",
+"registerLoc": "https://moosehead.javazone.no/#/register/explain_postgres_explain",
+"startTimeZulu": "2023-09-05T13:45:00Z",
+"endTimeZulu": "2023-09-05T15:45:00Z",
+"id": "04831fc3-0b49-4517-93fc-ccbf98987c2b",
+"sessionId": "04831fc3-0b49-4517-93fc-ccbf98987c2b",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T15:45",
+"startSlotZulu": "2023-09-05T13:45:00Z",
+"speakers": [
+{
+"name": "Jørgen Langemyr",
 "twitter": "",
-"bio": "Uy er en utvikler med fokus på frontend. Han har jobbet i bransjen i 6 år og har vært storfan av Javazone siden studiene og kommer derfor tilbake i år. Utenom frontend, har han jobbet med Java i backend og en del DevOps med konfigurering av pipelines og deploy rutiner. "
+"bio": "Jørgen works as a senior consultant for Kantega, with previous experience from Kongsberg Gruppen. And he is passionately interested in all things backend."
+}
+]
+},
+{
+"intendedAudience": "Foredraget er for alle, og det kreves ingen forkunnskaper for å forstå innholdet. Foredraget tar for seg en nisje problemstilling som de fleste kan lære fra.",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "En redegjøring for hva CAPTCHA er og hvorfor dagens CAPTCHA løsninger ikke er tilstrekkelig universelt utformet. Dersom man ser på CAPTCHA som bruk av harde AI problemer for å oppnå sikkerhet, er det da konseptuelt mulig å oppnå universell utforming? Foredraget tar for seg dagens situasjon og mulige løsninger for fremtiden.",
+"title": "Universelt utformet CAPTCHA - er det mulig?",
+"room": "Room 5",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T15:05",
+"video": "862045944",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T13:05:00Z",
+"id": "f422a137-ccc2-4336-844f-eca42ac8a7a9",
+"sessionId": "f422a137-ccc2-4336-844f-eca42ac8a7a9",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Levi Sørum",
+"twitter": "",
+"bio": "Levi er en dev-ops og fullstack utvikler hos Kraftlauget som også interesserer seg for inkludering i utvikling og universell utforming.\n\nGjennom sin rolle som teknisk ansvarlig i den frivillige skeiv-samiske organisasjonen Garmeres har han møtt på flere nisje-problemstillinger i forsøk på å utvikle løsninger som er inkluderende for kryss-minoriteter."
+}
+]
+},
+{
+"intendedAudience": "The expected audience for this talk would be Java developers who are interested in learning about the new concurrency model and how to take advantage of virtual threads and structured concurrency in their applications. They should have some basic knowledge of Java and multithreading, but don't necessarily need to be experts in the field.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Java 20 will preview one of the most anticipated features, virtual threads, and structured concurrency. It rethinks the way multithreading works in Java. It was born out of the idea that reactive Java is too complicated and blocking threads has to be cheap. Resulting in the new virtual threads that we run thousands of! \n\nThe aim of virtual threads and structured concurrency is to have high-throughput lightweight threads and new programming models on the Java platform. \n\nIn this talk, I will demonstrate virtual threads and how to create and manage them using structured concurrency. Furthermore, I'll provide some practical advice to avoid pitfalls when you start using virtual threads in your application.   ",
+"title": "Introduction and pitfalls of Java's new concurrency model",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:25",
+"room": "Room 5",
+"video": "862083576",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:25:00Z",
+"id": "bfbc0c41-fc9f-4392-89a1-be70ec389ac1",
+"sessionId": "bfbc0c41-fc9f-4392-89a1-be70ec389ac1",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
+"speakers": [
+{
+"name": "David Vlijmincx",
+"twitter": "@David_Vlijmincx",
+"bio": "David is an experienced Java developer who has been working with the programming language since 2016. He is highly active in the Java community and shares his knowledge through his blog, where he writes about Java-related topics. In addition to his writing, he is also an international speaker who has given talks on Java at various events. Furthermore, he is also an author, writing a book about Jakarta EE 10"
+}
+]
+},
+{
+"intendedAudience": "Every person that uses JVM as the daily driver and is also interested in managing infrastructure programatically, typically mixed devops teams members.\n",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Infrastructure-as-code is a constantly growing field where the need for reliability necessitated by operations meets with application developer knowledge and experience. JVM platform is well known for it's robustness and JVM languages are known for being awesome choices to build reliable software. In my talk I will introduce and compare 3 language SDKs - Java, Kotlin and Scala for Pulumi - a terraform alternative that allows you to use a full programming language to declare infrastructure. I will present what benefits they bring to the table and how you can leverage your knowledge to build scalable and maintainable platform for your team.",
+"title": "Infrastructure as code done right with JVM",
+"room": "Room 4",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T15:20",
+"video": "861667150",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T13:20:00Z",
+"id": "444fd903-4857-4591-b0c2-a824ccf5d3af",
+"sessionId": "444fd903-4857-4591-b0c2-a824ccf5d3af",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Łukasz Biały",
+"twitter": "lukasz_bialy",
+"bio": "Polyglot full-stack developer and functional programming enthusiast. PSE @ VirtusLab. Values quality over quantity. Permanent learner with a severe information dependency problem. Enjoys conversations about philosophy and all things related to mind's inner workings. Loves mountains, biking and hiking."
+}
+]
+},
+{
+"intendedAudience": "Developers with any experience level can take something away from this talk. ",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Are you a software engineer? You may want to think twice before answering... Looking closely, our collective software development practices may not be so rigidly engineered as we'd like to think. And you know what? That's ok! Let's embrace the art of software development and see where this takes us. In this keynote, we'll look at software development as a craft combining art and engineering. What does this mean for coding, testing, architecture and design, and other important aspects of our work? And more importantly: what does this tell us about learning and growing as software developers? Our obsession with tools may cloud what software development is really about. Join this keynote to unlock your inner artist!",
+"title": "The Art of Software Development",
+"room": "Room 6",
+"startTime": "2023-09-06T18:20",
+"endTime": "2023-09-06T19:05",
+"video": "861739113",
+"startTimeZulu": "2023-09-06T16:20:00Z",
+"endTimeZulu": "2023-09-06T17:05:00Z",
+"id": "3c966990-920a-448e-bf78-0e6ae30119c0",
+"sessionId": "3c966990-920a-448e-bf78-0e6ae30119c0",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T18:20",
+"startSlotZulu": "2023-09-06T16:20:00Z",
+"speakers": [
+{
+"name": "Sander Mak",
+"twitter": "@Sander_Mak",
+"bio": "Sander is part of the tech leadership team at Picnic —the Dutch online grocery scale-up— building Java-based systems at scale. He also is a Java Champion and author of the O'Reilly book 'Java 9 Modularity' (see javamodularity.com). As an avid conference speaker, Sander loves sharing knowledge, and also does so as a Pluralsight instructor."
+}
+]
+},
+{
+"intendedAudience": "Alle som jobber med utvikling av software!",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "\"Softwarekrisen\" ble i industriens barndom brukt om utfordringene med å utvikle nyttige og effektive dataprogrammer på tilmålt tid. Nå, 50 år senere, er det mye som tyder på at software er i ferd med å kollapse under sin egen vekt: Det lages for mye software og for dårlig software. Vi som industri er sjanseløse på å forvalte den. Det finnes ingen magiske løsninger, men denne problemstillingen må få konsekvenser for /hva/ vi lager og /hvordan/ vi lager det.",
+"title": "Software kollapser under sin egen vekt",
+"room": "Room 7",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T15:05",
+"video": "862044885",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T13:05:00Z",
+"id": "a49db1ec-cda5-402a-8674-398206352871",
+"sessionId": "a49db1ec-cda5-402a-8674-398206352871",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Trond Arve Wasskog",
+"twitter": "ilmyggo",
+"bio": "Trond Arve har vært utvikler og arkitekt i Bekk, og er nå Principal i NAV IKT. Han har jobbet med forvaltning og modernisering hos store norske virksomheter, og er stadig overrasket over at ting henger sammen."
+}
+]
+},
+{
+"intendedAudience": "Nerds, Developers, Decision Makers, Project Manager",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "What can Artificial Intelligence achieve today? In this lecture, we will show numerous live examples to point out whether the term is an overhyped buzzword or the key technology of our digital future.\n\nThe TNG Innovation Hacking Team has been working on numerous AI projects in the field of computer vision and natural language processing for years. Thomas Endres, Martin Förtsch and Jonas Mayer take you on a journey through the world of Artificial Intelligence and its architecture. Based on various innovation projects, the speakers will illuminate the basic structure of the underlying neural networks, but also their limitations.\n\nA firework of live demonstrations and showcases completes the entertaining experience. There will be neural networks creating art, deep fakes in real time, an NLP chatbot, and an AI that can generate social media comments.",
+"title": "The future of AI is now - Transformations in Vision and Language Processing",
+"room": "Room 3",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T10:00",
+"video": "861949568",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T08:00:00Z",
+"id": "4cb1c2d9-0c3c-49cf-8037-5936b285da98",
+"sessionId": "4cb1c2d9-0c3c-49cf-8037-5936b285da98",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Thomas Endres",
+"twitter": "originalone1984",
+"bio": "In his role as a Partner for TNG Technology Consulting in Munich, Thomas Endres works as an IT consultant. Besides his normal work for the company and the customers he is creating various prototypes - like a telepresence robotics system with which you can see reality through the eyes of a robot, or an Augmented Reality AI that shows the world from the perspective of an artist. He is working on various applications in the fields of AR/VR, AI and gesture control, putting them to use e.g. in autonomous or gesture controlled drones. But he is also involved in other Open Source projects written in Java, C# and all kinds of JavaScript languages.\n\nThomas studied IT at the TU Munich and is passionate about software development and all the other aspects of technology. As an Intel Software Innovator and Black Belt, he is promoting new technologies like AI, AR/VR and robotics around the world. For this he received amongst others a JavaOne Rockstar award."
+},
+{
+"name": "Martin Förtsch",
+"twitter": "MartinFoertsch",
+"bio": "Martin Förtsch is an IT-consultant of TNG Technology Consulting GmbH based in Unterföhring near Munich who studied computer sciences. Work wise his focus areas are Agile Development (mainly) in Java, Search Engine Technologies, Information Retrieval and Databases.\n\nAs an Intel Software Innovator and Intel Black Belt Software Developer he is strongly involved in the development of open-source software for gesture control with 3D-cameras like e.g. Intel RealSense and has built an Augmented Reality wearable prototype device with his team based on this technology.\n\nFurthermore, he gives many talks at national and international conferences about Artificial Intelligence, Internet of Things, 3D-camera technologies, Augmented Reality and Test Driven Development as well. He was awarded with the Oracle JavaOne Rockstar."
+},
+{
+"name": "Jonas Mayer",
+"bio": "Jonas Mayer is a Senior Consultant at TNG Technology Consulting. As Head of Innovation Hacking, his main focus lies on creating innovative showcases and prototypes in soft- and hardware. Since 2018 he's been working on numerous projects ranging from market-leading Realtime Deepfakes, an LLM Shitposting AI, all the way to autonomous drone racing. As a keynote speaker, he has been talking about the Innovation Hacking projects at over a hundred conferences all across IT and Tech. Prior to joining TNG, Jonas studied Informatics: Games Engineering at TU Munich. More information can be found at innovation-hacking.com."
+}
+]
+},
+{
+"intendedAudience": "The expected audience for this conference talk are Java developers who are interested in deploying their applications to the cloud and optimizing the performance of their Java applications. Specifically, the talk will be beneficial to Java developers who are concerned about JVM startup time and want to learn how to improve it. Additionally, the talk will be relevant to developers who use scale-to-zero policies for clusters, as it will discuss how checkpoint and restore can help improve startup times while working with unprivileged/root-less modes in containers.This talk is applicable to seasoned veterans and newcomers to the industry.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Fast JVM Startup or Dynamic JVM Capabilities, why not both?\n\nStatically compiled applications can significantly improve startup time, but they may not be suitable for existing applications that rely on the dynamic functionalities of a JVM. However, with checkpoint and restore, you can now enjoy the lightning-fast startup time of native images while keeping all the capabilities of a JVM.\n\nJoin us in this session to learn how checkpoint and restore can revolutionize the way you approach JVM startup. Discover how this approach can help you improve your Java application's startup performance, while maintaining its dynamic features. We'll explore the challenges and solutions in implementing checkpoint and restore with unprivileged/root-less modes in containers, and how you can overcome these hurdles to improve your application's startup.\n\n\n",
+"title": "Lightning-Fast JVM Startup without compromise",
+"room": "Room 6",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:25",
+"video": "861612487",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:25:00Z",
+"id": "46936190-72ed-4f7b-a674-3f7a5826f328",
+"sessionId": "46936190-72ed-4f7b-a674-3f7a5826f328",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Tobi Ajila",
+"twitter": "@tobi_ajila",
+"bio": "Tobi is a Java Runtime developer for the OpenJ9 VM team in Ottawa, Canada. In the past he has worked on Interpreter optimizations, JVMTI enhancments, Modularity, JSR 335 and more. Currently, his main focus is on investigating checkpoint/restore technology at the JVM level. and Project Panama where he collaborates with other developers in the Valhalla expert group."
+}
+]
+},
+{
+"intendedAudience": "Java developers looking for an introduction to Micronaut and GraalVM",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "In this talk, Micronaut creator Graeme Rocher will demonstrate how to build fast efficient Cloud Native applications with Micronaut 4 and GraalVM. Taking advantage of the latest features of the Micronaut 4 and GraalVM, Graeme will use live coding demonstrations to showcase the simplifications offered by Micronaut and efficient deployment options with GraalVM.",
+"title": "GraalVM Cloud Native applications with Micronaut 4",
+"room": "Room 5",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T15:05",
+"video": "861666089",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T13:05:00Z",
+"id": "033d0201-1063-4694-9e0e-e7201160b41a",
+"sessionId": "033d0201-1063-4694-9e0e-e7201160b41a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Graeme Rocher",
+"twitter": "graemerocher",
+"bio": "Graeme Rocher is the creator of several popular Open Source projects including Grails (https://grails.org) and Micronaut (https://Micronaut.io) and co-author of \"The Definitive Guide to Grails\" (Apress - http://apress.com/book/view/1590599950). Graeme currently works as an Architect at Oracle. Graeme is a member of the Java Champions (https://twitter.com/java_champions) and 2018 was awarded the Groundbreaker award by Oracle (https://developer.oracle.com/groundbreakers/) for his work on Open Source."
+}
+]
+},
+{
+"intendedAudience": "Utviklere, sikkerhetsfolk, og personer som er interessert i hvordan utvikle software som kunden definitivt ikke vil at du skal produksjonssette!",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Datasystemer blir bare mer viktige og mer integrerte i livene våre. De siste tiårene har gjort livene våre digitale og nå følger også industrien vi tar for gitt etter. vann, kraft, mat og all industriell aktivitet går mot å digitaliseres og kobles på nett. Det gir økt effektivitet og innsikt i de viktigste bærebjelkene i samfunnet, men det åpner også for nye sårbarheter.\n\nHar du hørt navn som Industroyer, NoPeyta eller Sandworm eller annen skadevare og lurt på hvordan de egentlig fungerer? Hvordan går man frem når man skal bygge software for å bryte seg inn, få fotfeste i et system og oppnå målet, ødeleggelse?\n\nI denne presentasjonen skal vi se på hvordan malware fungerer ved å utvikle vår egen command and control (C2) applikasjon. Med funksjonalitet for å generere payloads for å bryte seg inn i et system, unngå deteksjon og tilslutt ringe hjem for å motta nye instrukser. Ved å forstå hvordan hacking software fungerer, og hvilke mål de prøver å oppnå, kan vi bedre forsvare oss mot det.",
+"title": "Hvordan bygge software for å ødelegge",
+"room": "Room 6",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T13:45",
+"video": "861642841",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T11:45:00Z",
+"id": "a98ce483-fd28-4ab0-8834-92089f01618b",
+"sessionId": "a98ce483-fd28-4ab0-8834-92089f01618b",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
+"speakers": [
+{
+"name": "Sondre Halvorsen",
+"twitter": "",
+"bio": "Sondre Halvorsen, utvikler i Omny AS (https://omnysecurity.com/). Vårt oppdrag hos Omny er å beskytte samfunnets mest kritiske infrastruktur fra den stadig økende kompleksiteten til cyber og fysiske trusler.\n\n"
+}
+]
+},
+{
+"intendedAudience": "Åpen for alle. Relevant både for utviklere, designere, prosjektledere - og kanskje spesielt for de som er foreldre i tillegg. Vi håper at flere blir inspirert til å satse på sine hobbyprosjekt!",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Hva har en utvikler, en designer, en lege og en influenser til felles? - Vi er alle mødre! Og vi er ganske lei av manglende og dårlige verktøy som liksom skal organisere familielivet. Såååå - vi har bestemt oss for å lage en app selv. Vi ønsker å lage et verktøy som hjelper småbarnsfamilier til å fjerne litt av kaoset i hverdagen. Vi ønsker at hverdagsoppgavene skal fordeles likt mellom partnere og at det tredje skiftet ikke kun er forbeholdt mødre. Dette er historien om hvordan det har gått hittil - med innblikk i prosess, teknologivalg og brukertesting.",
+"title": "Historien om fire mammaer som lagde en app",
+"room": "Room 1",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:25",
+"video": "861712117",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:25:00Z",
+"id": "442d4982-f852-416b-95a3-eb4eeac280f5",
+"sessionId": "442d4982-f852-416b-95a3-eb4eeac280f5",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Ellen Wagnild-Antonsen",
+"twitter": "",
+"bio": "Ellen Wagnild-Antonsen jobber som tjenestedesigner i Variant Trondheim. Ellen er utdannet sivilingeniør i Industriell design og har i tillegg en bachelorgrad i markedsføringskommunikasjon. Hun elsker å jobbe i team for å utvikle kreative løsninger til komplekse problem. Ellen er også en mamma, entreprenør og feminist."
+},
+{
+"name": "Sarah Serussi",
+"twitter": "",
+"bio": "Sarah jobber i Variant Trondheim som utvikler. Hun er utdannet sivilingeniør i data og foretrekker frontend-utvikling. I Variant er hun mangfoldsansvarlig og ellers er hun mamma, entreprenør og feminist. "
+}
+]
+},
+{
+"intendedAudience": "Alle. Er du interessert i hvordan C64 fungerer, eller lurer på hva assembly er for noe? Har du lyst å vite hvordan man laget spill på 80-tallet?",
+"length": "60",
+"format": "presentation",
+"language": "no",
+"abstract": "Utvikling har de siste årene blitt redusert til Jira-oppgaver, forutsigbare prosesser, og høynivå-språk. La oss ta et langt steg tilbake og se på hvordan man utvikler spill på en av meste solgte hjemmedatamaskinene noensinne.\n\nI dette foredraget vil Ricki fortelle om sin reise inn i moderne spillutvikling på den over 40 år gamle Commodore 64 maskinen.",
+"title": "Moderne Retro-utvikling på Commodore 64",
+"room": "Room 7",
+"startTime": "2023-09-06T18:20",
+"endTime": "2023-09-06T19:20",
+"video": "861737315",
+"startTimeZulu": "2023-09-06T16:20:00Z",
+"endTimeZulu": "2023-09-06T17:20:00Z",
+"id": "4c0f1d7a-1866-4931-9423-82ae00961ce9",
+"sessionId": "4c0f1d7a-1866-4931-9423-82ae00961ce9",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T18:20",
+"startSlotZulu": "2023-09-06T16:20:00Z",
+"speakers": [
+{
+"name": "Ricki Sickenger",
+"twitter": "@bag_of_hats",
+"bio": "Ricki Sickenger har 10 års erfaring fra spillbransjen, og ble konsulent i 2009. I 2012 var han en av gründerne av Sonat Consulting Bergen, der han fremdeles jobber som utvikler og agile lead. På fritiden utvikler han spill på gamle plattformer som C64 og Amiga.\n"
+}
+]
+},
+{
+"intendedAudience": "Utviklere som interesserer seg for byggverktøy, og/eller irriterer seg over mange PRer for oppdateringer av avhengigheter og plutselige breaking changes når du endelig har tid til å oppdatere den interne pakken som du ligger bakpå.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Historien om hvordan noen av teamene i Fremtind gikk fra polyrepo, Jenkins og Maven over til Bazel og monorepo. Nå bygges applikasjoner i både Java, Kotlin, Javascript og Typescript (fortsatt plass til flere!) med samme byggverktøy, fra samme repository og med samme workflows. Lær mer om hvorfor vi valgte Bazel og hva som skiller det fra andre byggsystemer, utfordringer underveis og hvordan vi løste dem og veien videre for oss.",
+"title": "Hjelp, vi bygger med Bazel!",
+"room": "Room 2",
+"startTime": "2023-09-07T13:30",
+"endTime": "2023-09-07T13:50",
+"video": "862029410",
+"startTimeZulu": "2023-09-07T11:30:00Z",
+"endTimeZulu": "2023-09-07T11:50:00Z",
+"id": "ed28bc79-5aed-475d-8f86-9737a2262402",
+"sessionId": "ed28bc79-5aed-475d-8f86-9737a2262402",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Knut Eirik Leira Hjelle",
+"twitter": "",
+"bio": "Knut Eirik Leira Hjelle er utvikler i Fremtind med 14 års erfaring innen utvikling i hele stacken, med alt fra restaurantløsninger, online dating til forsikringløsninger og infrastruktur. Det har foregått i en rekke forskjellige språk, og mange byggverktøy og CI/CD-løsninger. Når Knut Eirik ikke programmerer, finner du han på konserter, på pub eller i skogen på en stisykkel."
+}
+]
+},
+{
+"intendedAudience": "For anyone interested in what data the government has and shares. No prior experience with government data needed.",
+"length": "10",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "What data is being shared by the government and what is not (yet) shared?\n\nThere’s a lot of data available from the Norwegian government, from company registry to weather data. You can find most of what’s currently shared via the the national data-portals data.norge.no and geonorge.no. But what data is not yet shared?\nWe recently created an overview on data.norge.no of who is sharing (or not) and of known requests for data to be shared. We’ll give you an overview of the status, and tips for finding data/APIs and how you can request data which is not yet available.",
+"title": "Mapping what data the norwegian government has yet to share",
+"room": "Room 2",
+"startTime": "2023-09-06T14:40",
+"endTime": "2023-09-06T14:50",
+"video": "861699562",
+"startTimeZulu": "2023-09-06T12:40:00Z",
+"endTimeZulu": "2023-09-06T12:50:00Z",
+"id": "0f5ceec5-89f7-4d9b-93d5-4aea120d354b",
+"sessionId": "0f5ceec5-89f7-4d9b-93d5-4aea120d354b",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Livar Bergheim",
+"twitter": "livarb",
+"bio": "Livar has been working with sharing of government data for many years, and is currently a data hunter at the Norwegian Digitalisation Agency (Digdir)"
+}
+]
+},
+{
+"intendedAudience": "Rastløse utviklere (og deres ledere) som ønsker fornyet pågangsmot, inspirasjon og mulighet til å skape noe nytt.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Ansatte bør få regelmessig fri fra daglige oppgaver til å oppdage nye evner og gjøre uvanlige ting. Men, hvordan gjør du dette internt og hvordan overbeviser du sjefen om å gi deg tid til det? Du vil få høre om hvordan Fremtind kjører halvårlige skaperdager for alle ansatte hvor det lages teknologiske løsninger på samfunnsproblemer på tre dager.",
+"title": "Laserkuttere + forsikringsselskap = Lykkeligere utviklere",
+"room": "Room 2",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T13:20",
+"video": "862030016",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T11:20:00Z",
+"id": "fe59b93f-23ba-48d2-b095-1cc89939c5cf",
+"sessionId": "fe59b93f-23ba-48d2-b095-1cc89939c5cf",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Glenn Brownlee",
+"twitter": "",
+"bio": "Med bakgrunn som utvikler, jobber Glenn nå som engineering manager i Schibsted Accelerator hos FINN. Der er han en av tech-hodene som er med på å sparke i gang de ferskeste markedsplassene i Norden."
+}
+]
+},
+{
+"intendedAudience": "People who use networking tools and would like to understand what happens when they get a cryptic error message involving an IPv6 address.\nPeople who are curious about how IPv6 differs from IPv4.",
+"length": "10",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "IPv6 has slowly started to appear and people may be using it without knowing it,... and be baffled when a DNS name resolves to an IPv6 address instead of an IPv4 address and e.g. ping suddenly can't route.\n\nThis lightning talk aims to help people quickly troubleshoot and work around IPv6 problems they stumble over, explain why there may seemingly be an IPv6 address on your NIC but you still can't route, how to read and understand the cryptic and long hex strings that are IPv6 addresses, what it means if you have multiple IPv6 addresses on a NIC and more.\n\nAlso a super-brief history lesson and why NAT sidelined IPv6 for so many years, as well as why IPv6 is making a comeback. And about what IPv6 can do that NAT'ed IPv4 can't.\n\nMuch will be done in a live demo from a GNU/linux bash command line.",
+"title": "A lightning fast practical intro to IPv6",
+"startTime": "2023-09-06T13:20",
+"endTime": "2023-09-06T13:30",
+"room": "Room 2",
+"video": "861674793",
+"startTimeZulu": "2023-09-06T11:20:00Z",
+"endTimeZulu": "2023-09-06T11:30:00Z",
+"id": "b4b5a624-a38f-414a-873a-225da6e4e698",
+"sessionId": "b4b5a624-a38f-414a-873a-225da6e4e698",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
+"speakers": [
+{
+"name": "Steinar Bang",
+"twitter": "@steinarba",
+"bio": "Certified IPv6 newbie\n(The certifcation is real: I had to get certified to be allowed to post at https://forums.he.net )"
+}
+]
+},
+{
+"intendedAudience": "Anyone interested in quantum computing with any role, such as developers, testers, managers, etc.",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "Quantum Computing (QC) is maturing to become a reality as a large amount of money worldwide is being poured into building quantum computers with varying technologies, such as superconducting, optics-based, and ion-trapping. Indeed, having functional, powerful, and error-free quantum computers together with relevant development platforms is essential. However, the breakthrough applications promised by QC, e.g., in medicine, healthcare, finance, and simulations discovery, finance, are empowered with quantum software. Therefore, there is a need for methods for efficient and intuitive development of quantum software for quantum computers to build QC applications. This lighting talk will start with a brief introduction to quantum computing, including the state of current quantum computers, QC platforms, programming languages, and development platforms. Next, the talk will dig deep into the current practice of programming quantum computers as low-level circuits. Subsequently, the talk will provide ideas on how the current practice can be improved to enable the masses to program quantum computers as opposed to the current practice where only specialists program quantum computers. In addition, the talk will present challenges in testing QC applications to ensure their correctness. Finally, the talk will provide a teaser of quantum software testing tools developed by our team. Such tools are the first in the world to automate the testing of quantum software.",
+"title": "Quantum Computing - an army of Schrödinger's cats is heading our way",
+"room": "Room 2",
+"startTime": "2023-09-06T09:40",
+"endTime": "2023-09-06T10:00",
+"video": "861596110",
+"startTimeZulu": "2023-09-06T07:40:00Z",
+"endTimeZulu": "2023-09-06T08:00:00Z",
+"id": "51500138-ad34-45e4-a6cc-19c586c79708",
+"sessionId": "51500138-ad34-45e4-a6cc-19c586c79708",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Noah Hegerland Oldfield",
+"twitter": "@OldfieldHNoah",
+"bio": "Noah Hegerland Oldfield is a Ph.D student at Simula Research Laboratory, Norway. Under the supervision of Shaukat Ali, he researches novel methods for testing quantum circuits by drawing upon his previous background in theoretical physics from the University of Oslo. His current research aims at exploiting quantum mechanical properties of quantum programs to perform more efficient and effective error discovery in ways not possible with classical programs. He has a passion for communicating science and particularly quantum computing in the hopes of increasing the general body of knowledge in the computer science community in preparation for the coming 3rd quantum revolution."
+}
+]
+},
+{
+"intendedAudience": "Developers of any experience level.  Some Java experience and familiarity with Maven or containers is helpful but not required.",
+"length": "240",
+"format": "workshop",
+"language": "en",
+"abstract": "Java is a great programming language, however 'traditional' Java isn't so great to work with when it comes to modern, Cloud Native development. Quarkus is a (fairly) new Java stack that addresses issues such as the typical slow startup time and rather large memory usage that hinder the adoption of Java in container and/or Serverless workloads. Quarkus is not just useful for optimizing resource usage though. There is also a big focus on improving the developer experience.\n\nIn this session we'll take a look at how Quarkus is very easy to work with and allows developers to work with containers and external dependencies such as databases, Kafka clusters, Kubernetes etc without being experts in any of these technologies.  Not to mention that there is no need to manually recompile/redeploy to see any of these changes. \n\nAfter this session, the audience should come away with inspiration to build modern Cloud Native applications with Java and Quarkus, and have fun doing so!\n",
+"title": "Quarkus Deep Dive",
+"workshopPrerequisites": "We'll go through setup/signup instructions at the beginning of the lab. \n\nWindows users: You may need WSL2 and/or a VM with Linux or containerized environment for some of the advanced commands. If you do not have WSL enabled please install Podman Desktop (https://podman-desktop.io/docs/Installation/windows-install) or Docker Desktop beforehand.  \n\nLinux or MacOS users should be good to go. ",
+"room": "Workshop A",
+"startTime": "2023-09-05T09:00",
+"endTime": "2023-09-05T13:00",
+"registerLoc": "https://moosehead.javazone.no/#/register/quarkus_deep_dive",
+"startTimeZulu": "2023-09-05T07:00:00Z",
+"endTimeZulu": "2023-09-05T11:00:00Z",
+"id": "ec146183-6412-4751-a484-bd09e3bfaade",
+"sessionId": "ec146183-6412-4751-a484-bd09e3bfaade",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T09:00",
+"startSlotZulu": "2023-09-05T07:00:00Z",
+"speakers": [
+{
+"name": "Kevin Dubois",
+"twitter": "@kevindubois",
+"bio": "Kevin is a software engineer and developer advocate at Red Hat who is on a mission to supercharge developer joy and productivity using Open Source as the guiding light. He is a frequent conference speaker, talking mostly about Java, Quarkus and Cloud Native Development and Deployment practices. \nKevin previously worked as a (Lead) Software Engineer at a variety of organizations ranging from small startups to large US enterprises and even the Belgian public sector. \nIn his free time you can find Kevin somewhere in the wild hiking, gravel biking, snowboarding down mountains or packrafting (up and) down WW rivers."
+}
+]
+},
+{
+"intendedAudience": "Spring Boot application developers ",
+"length": "120",
+"format": "workshop",
+"language": "en",
+"abstract": "Platform teams define Golden Paths to specify the standard way to create, build and deploy an application or library. These are usually applied using templates, such as Cookiecutter. This provides autonomy to stream aligned teams to customize them.\n\nAre you faced with upgrading dozens of services to Spring Boot 3? Want an easier way to apply all that you’ve seen at work? In this workshop we’ll explore automation to get your old Spring projects onto the new Spring Boot 3.1. And we’re not just changing version numbers; we’re actually changing code to adopt breaking changes.\n\nCurrently, there are several solutions to automatically upgrade the dependencies. However, in order to take advantage of the Spring API functionalities, it is necessary to also upgrade the source code, which usually conflicts with product priorities.\n\nIn this workshop, we will explore tooling to migrate to Spring Boot 3.1 and beyond, centered around OpenRewrite. Topics include OpenRewrite itself, writing migration recipes, Spring Tool Suite and Spring Boot Migrator. We’ll explore challenges and limitations along the way, such that you can migrate on your own.\n",
+"title": "Spring Boot 3 is here. where are you?",
+"workshopPrerequisites": "Intellij\n\nGradle\n\nJDK 17 and JDK 8\n\nMaven \n\nGitHub account\n\nGit",
+"room": "Workshop A",
+"startTime": "2023-09-05T13:30",
+"endTime": "2023-09-05T15:30",
+"registerLoc": "https://moosehead.javazone.no/#/register/spring_boot_3_is_here_where_are_you",
+"startTimeZulu": "2023-09-05T11:30:00Z",
+"endTimeZulu": "2023-09-05T13:30:00Z",
+"id": "106f0d9f-3d6b-4131-be6b-36612dd29f97",
+"sessionId": "106f0d9f-3d6b-4131-be6b-36612dd29f97",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T13:30",
+"startSlotZulu": "2023-09-05T11:30:00Z",
+"speakers": [
+{
+"name": "Raquel Pau",
+"twitter": "@raquelpau",
+"bio": "Raquel Pau is Engineering Manager at Moderne, which automates software refactoring at scale. She has extensive experience building developer tools (e.g walkmod) to improve the developer productivity. Previously, she worked as a growth product manager at CloudBees and Athenean, designing a new generation of developer tools. She also worked as a software engineer at Schibsted designing developer workflows to reduce the lead time for more than 1000 developers. She has also completed an EMBA at ESADE Business School.\n"
+},
+{
+"name": "Tim te Beek",
+"twitter": "",
+"bio": "Tim te Beek is a staff software engineer at Moderne, which automates software refactoring at scale. He has extensive experience contributing to and presenting on Open Source software within the Java ecosystem. Previously he worked as a consultant specializing in migration engineering and developer productivity.\n"
+}
+]
+},
+{
+"intendedAudience": "Any level / role should get something out of this workshop; some coding experience will help. \nThe workshop will provide a code example and some exercises to look at this code from looking at the structure of the code, to trying to summarize it's purpose. Attendees can learn ways to approach unfamiliar code, to think about what they notice and why, and learn from each other's perspective.",
+"length": "120",
+"format": "workshop",
+"language": "en",
+"abstract": "As developers, we spend a lot of time learning to write code, while spending little to no time learning to read code. Meanwhile, we often spend more time reading code than actually writing it. Shouldn't we be spending at least the same amount of time and effort improving this skill? Deliberate practice can help us get better at reading code. Learning how to better read and understand code, can in turn teach us what makes code readable. This might even help us to write code that is easier to read.\nIn this workshop we will practice our code reading skills by reading an unfamiliar piece of code (possibly in an unfamiliar language), using structured exercises. Participants will practice reading code, and take away knowledge about how they can continue to improve this important skill.\n",
+"title": "Code reading workshop",
+"workshopPrerequisites": "This workshop does not have any technical prerequisites.\nI will provide a printed version of code (1 A4 paper) which they can annotate on paper. \nIf desired, participants can bring a device with internet access to annotate the code digitally. This works only if the venue has wifi for participants)",
+"room": "Workshop E",
+"startTime": "2023-09-05T13:30",
+"endTime": "2023-09-05T15:30",
+"registerLoc": "https://moosehead.javazone.no/#/register/code_reading_workshop",
+"startTimeZulu": "2023-09-05T11:30:00Z",
+"endTimeZulu": "2023-09-05T13:30:00Z",
+"id": "19170259-bb96-495e-851f-49b73f8e3fb3",
+"sessionId": "19170259-bb96-495e-851f-49b73f8e3fb3",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T13:30",
+"startSlotZulu": "2023-09-05T11:30:00Z",
+"speakers": [
+{
+"name": "Marit van Dijk",
+"twitter": "@MaritvanDijk77",
+"bio": "Marit van Dijk is a software developer with 20 years of experience in different roles and companies. She loves building awesome software with amazing people and has contributed to open-source projects like Cucumber and various other projects. She enjoys learning new things as well as sharing knowledge on programming, test automation, Cucumber/BDD, and software engineering. She speaks at international conferences, in webinars, and on podcasts, occasionally writes blog posts, and contributed to the book \"97 Things Every Java Programmer Should Know\" (O'Reilly Media)."
+}
+]
+},
+{
+"intendedAudience": "Denne workshopen er myntet på utviklere med lite eller ingen erfaring med Figma. Deltakere vil få innblikk i det grunnleggende i Figma, som de vil kunne bruke i arbeidet sitt, og for å samarbeide bedre med designere på teamet sitt.",
+"length": "240",
+"format": "workshop",
+"language": "no",
+"abstract": "Har du noen gang hatt lyst til å bli bedre kjent med Figma? Denne workshoppen er myntet på utviklere som har lite eller ingen kjennskap til verktøyet, men som gjerne vil bli bedre kjent med det. Du blir kjent med frames, components og prototyping for å nevne noe. I løpet av workshopen vil jeg også dele av mine erfaringer og fortelle om noen av mine snarveier til design med Figma. Vi vil jobbe i et figma-brett jeg har laget – hver deltaker får sin egen kopi som kan brukes som referanse etter konferansen.\n\nEtter workshoppen vil du være i stand til å lage skisser og prototyper, og du vil ha et innblikk i økosystemet til Figma.\n\nFigma er et verktøy for grensesnittdesign, der utviklere og designere kan samarbeide på designprosjekter i sanntid. Figma brukes av de fleste virksomheter som utvikler programvare, og omtales ofte som “Google Docs for design”.\n\nTa med egen PC. Jeg anbefaler å laste ned Figma på forhånd, men om nødvending kan det også brukes i nettleseren.",
+"title": "Første flytur i Figma",
+"workshopPrerequisites": "Ta med egen pc. Jeg anbefaler dog deltakere å laste ned Figma og lage en konto på forhånd. ",
+"room": "Workshop C",
+"startTime": "2023-09-05T09:00",
+"endTime": "2023-09-05T13:00",
+"registerLoc": "https://moosehead.javazone.no/#/register/forste_flytur_i_figma",
+"startTimeZulu": "2023-09-05T07:00:00Z",
+"endTimeZulu": "2023-09-05T11:00:00Z",
+"id": "692e1e48-e67b-43cd-a71d-28112d13101a",
+"sessionId": "692e1e48-e67b-43cd-a71d-28112d13101a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T09:00",
+"startSlotZulu": "2023-09-05T07:00:00Z",
+"speakers": [
+{
+"name": "Andreas Wisle",
+"twitter": "",
+"bio": "Andreas er en dyktig designer, med høy kompetanse, spesielt rundt Universell utforming. Han er en god kommunikator, og liker å dele kunnskap med andre, i både formelle og uformelle settinger."
+},
+{
+"name": "Vegard Hesselberg",
+"twitter": "",
+"bio": "Hei! Jeg heter Vegard Hesselberg og er født og oppvokst i Oslo. Jeg er utdannet på NTNU Trondheim, med bachelor i Informatikk og mastergrad i Interaksjonsdesign. Denne kombinasjonen hjelper meg stort i mitt arbeid, der jeg brenner for samarbeidet og samhandlingen mellom utvikler og designer.\n\nJeg er en relativt nyutdannet designer som begynte i Knowit høsten 2021. Jeg har tidligere holdt foredrag på interne seminarer om Figma og Innsiktssamling. Jeg har brukt Figma til designarbeid siden 2018 og har god kontroll over verktøyet."
+}
+]
+},
+{
+"intendedAudience": "This talk is aimed at developers without any Rust experience.\nYou should have at least a little bit of programming experience (no matter the language)",
+"length": "240",
+"format": "workshop",
+"language": "en",
+"abstract": "Learn the basics of the Rust programming language by implementing the world's most iconic cellular automaton: Conway's Game of Life.\n\nThe Rust programming language is a modern high-level language that offers memory-safety and thread-safety guarantees, great tooling and extremely high performance.\nIt has repeatedly been voted the most loved programming language on Stack Overflow's developer survey and has been added as an officially supported language in Linux kernel development.\nIf you want to get in on the fun or just see what this language is all about, this workshop is for you!\n\nIn this workshop we will take a look at how to write Rust programs and how to build them using cargo.\nWe will explore Rust's approach to object-oriented programming and tackle some of its more unique features like the borrow-checker.\nThe goal is to get a good understanding of the basics of Rust and get some hands-on experience in using it.",
+"title": "Learn Rust with Conway's Game of Life",
+"workshopPrerequisites": "Bring a laptop with the following installed:\n - git\n - a code editor of your choice\nAnd preferably already installed:\n - rust tool-chain for your architecture",
+"room": "Workshop D",
+"startTime": "2023-09-05T09:00",
+"endTime": "2023-09-05T13:00",
+"registerLoc": "https://moosehead.javazone.no/#/register/learn_rust_with_conways_game_of_life",
+"startTimeZulu": "2023-09-05T07:00:00Z",
+"endTimeZulu": "2023-09-05T11:00:00Z",
+"id": "fd163d3b-32da-4c99-9015-50e4ecfc4706",
+"sessionId": "fd163d3b-32da-4c99-9015-50e4ecfc4706",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T09:00",
+"startSlotZulu": "2023-09-05T07:00:00Z",
+"speakers": [
+{
+"name": "Julian Philipp Merlin Ertel",
+"twitter": "",
+"bio": "Julian works as a senior consultant for Miles Bergen.\nHis main competence is C++ development, but over the years he has gathered experience in a variety of different languages and technologies.\nAs a developer he has mainly worked in the domains of video processing and seismic data acquisition.\nWhen given the option Julian's language of choice is Rust."
+}
+]
+},
+{
+"intendedAudience": "Primarily directed at frontend developers.\n\nParticipants will learn how to add different levels of accessibility testing to their projects, and which tools work best for different types of errors.\n\nSome previous experience with frontend (React/NodeJS) development is beneficial.",
+"length": "120",
+"format": "workshop",
+"language": "en",
+"abstract": "In modern software development, with short sprints or even continuous deployment of code, time for manual testing can often be scarce. If we want to properly test for accessibility, we need to make every effort to automate what can be automated, so we can spend our time where it is most valuable.\n\nBy attending this workshop, you will get hands-on experience with different tools to test for accessibility. We will cover linting, unit testing and ui-/integration testing using Eslint, React Testing Library, Cypress and Axe. You will also learn about which types of tests you can't automate, and be introduced to some tools to aid your manual testing.\n\nThis workshop is best suited for developers and technical testers, or others who know how to run a Node.js application. In order to get the most out of the time at the workshop, it is beneficial to pre-install Git and Node beforehand.",
+"title": "Continuous accessibility testing",
+"workshopPrerequisites": "Participants should bring a laptop with Node, Git and their choice of IDE pre-installed.",
+"room": "Workshop C",
+"startTime": "2023-09-05T15:45",
+"endTime": "2023-09-05T17:45",
+"registerLoc": "https://moosehead.javazone.no/#/register/continuous_accessibility_testing",
+"startTimeZulu": "2023-09-05T13:45:00Z",
+"endTimeZulu": "2023-09-05T15:45:00Z",
+"id": "605331d0-940a-4acf-8d01-5e84b062511f",
+"sessionId": "605331d0-940a-4acf-8d01-5e84b062511f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T15:45",
+"startSlotZulu": "2023-09-05T13:45:00Z",
+"speakers": [
+{
+"name": "Vegard Haugstvedt",
+"twitter": "@it_vegard",
+"bio": "An experienced frontend developer who has worked with accessibility for almost a decade, Vegard started working for NAV's design system team, Aksel, this year. There, he gets to work in the cross-section between frontend development, design and accessibility, just like he likes it!\n\nHe is a recurring speaker at several Norwegian conferences, primarily trying to spread the good word about accessibility, to help others learn how they can make their websites work for everyone. His career goal is to make the web a more accessible space."
+}
+]
+},
+{
+"intendedAudience": "nothing specific other than being a Java developer",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Java 17 announced the depreciation of the Security Manager (which is ok since hardly anyone used it) but that doesn’t mean the JVM leaves you vulnerable.  There are many design features in the JVM and the JDK that are there to help keep your application safe from harm.  \n\nIn this session, we’ll walk through these points - from compiler, to bytecode to runtime and give you a refresher on how to get the best from these features.  We’ll also look at new things in the works, compile-to-native consequences and even some off-the-wall “it’s just an idea”  thoughts about how to make the JVM an even more secure environment.  ",
+"title": "Hidden security features of the JVM - everything you didn’t know and more ",
+"room": "Room 4",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:40",
+"video": "861611326",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:40:00Z",
+"id": "243609e5-4340-49bd-b2dc-9db5f6689146",
+"sessionId": "243609e5-4340-49bd-b2dc-9db5f6689146",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Steve Poole",
+"twitter": "@spoole167",
+"bio": "Developer Advocate, Security Champion, DevOps practitioner (whatever that means) Long time  Java developer, leader and evangelist. I’ve been working on  Java SDKs and JVMs since Java was less than 1.  JavaOne Rockstar,  JSR leader and representation, Committer on  open source projects including ones at Apache, Eclipse and OpenJDK.  A seasoned speaker and regular presenter at international conferences on technical and software engineering topics."
+}
+]
+},
+{
+"intendedAudience": "Alle utviklere",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Som utviklere og teknologer opplever vi stadig mange forskjellig situasjoner på både jobb, hos kunder, og i livene våre. Vi opplever oppturer og nedturer både alene og sammen med andre mennesker. Noen ganger kan vi le og smile av det, andre ganger lar vi tiden gå i stillhet. Noen situasjoner er derimot spesielle; de setter oss i en posisjon der vi må velge en retning, en reaksjon eller et svar. Dette er en historie om mentoring, en historie om ledelse, og en historie om det å bry seg om folk. I lyntalen skal jeg dele litt om min erfaring som leder for utviklere, og hvorfor stillhet ikke alltid er det rette svaret. \n\nTalken handler om det å vokse som utvikler eller ta på seg lederansvar, og som en effekt av å vokse er det avgjørende å klare å håndtere den økte mengden med ansvar. Det vil være situasjoner når du vil føle deg alene, situasjoner der teamet er splittet, situasjoner der du bevitner alt fra urettferdighet, mobbing og dårlig holdninger\n\nØnsker du å vokse i din rolle må du kunne håndtere og prate om slike situasjoner. Når avstanden til dialog er mye lenger enn vanlig, er dialog fremdeles det beste verktøyet du har. Når dialog ikke virker, er fremdeles dialog det beste du har. Når heller ikke dette virker, må ansvarlighet og integritet bli til ord, for at endringer skal bli til handlinger.",
+"title": "Fra utvikler til leder: En erfaringshistorie om ansvarlighet og integritet",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T10:40",
+"room": "Room 2",
+"video": "861983350",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T08:40:00Z",
+"id": "28a1d79d-fdbd-482d-8e95-a7f2dd1cd6e2",
+"sessionId": "28a1d79d-fdbd-482d-8e95-a7f2dd1cd6e2",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Dervis Mansuroglu",
+"twitter": "dervismn",
+"bio": "Dervis is an experienced Java-developer, currently working for the Norwegian Labour and Welfare Administration. He is passionate about programming languages, functional programming and algorithms. Dervis is a Java Champion and the leader of the Norwegian JUG JavaBin (Dukes Choice Award winner in 2019). Dervis has spoken at several international conferences as well as being a regular speaker at local meetups in Norway."
+}
+]
+},
+{
+"intendedAudience": "Engineers, architects and directors, that are making systems design choices on domain-driven low latency data platforms that can serve data to consumers to all types: transactional (application), search, analytics, and ML and soft AI.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "The Accord Consensus Protocol, providing global leaderless single-network-round-trip consensus using commodity clocks.\n\nResearch from University of Michigan & Apple Inc. introduces ACID-compliant, strict serialisable transactions possible globally at any scale, at high throughput, with low latency.\n\nMove over Paxos, ePaxos, Raft, Janus, Calvin, all now outdated consensus protocols, slow and fault intolerant.\n\nWe'll explain why your database must be leaderless, scalable & fast. The notion of copying data to analytics platforms is dead weight in the age of Data Mesh & Soft-AI. Your database can no longer be a single-process monolith from ages decades old if you are to be David against the Goliath of Big Tech. \n\nMick will explain hard problems in computer science solving elastic scalable ACID-compliant low-latency databases, explaining trade-offs from sharding data, shadow paging, sagas, to choosing eventual consistency & isolation consistency from the database. ",
+"title": "The Accord Consensus Protocol, how to do ACID transactions at scale",
+"room": "Room 1",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T11:20",
+"video": "861981051",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T09:20:00Z",
+"id": "c0ebbd09-9ff0-4307-891b-49f59e79c3e6",
+"sessionId": "c0ebbd09-9ff0-4307-891b-49f59e79c3e6",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Mick Semb Wever",
+"twitter": "mck_sw",
+"bio": "A 11-year Cassandra veteran, a member of the Cassandra Project Management Committee (PMC), this year's PMC Chair, and an Apache Member. Among the top 15 committers to the project. \n \nIn Norway I have worked at FINN.no, Sesam.no, and Bokklubben.\n\nBi-cultural with homes in both Australia and Norway.\n\nCurrently working at DataStax, as a Principal Architect and Technical Lead for Open Source. Our Open Source solutions: Apache Cassandra, Apache Pulsar, K8ssandra, Stargate, Astra, and Kaskada, provides real-time data platforms for AI-Driven Applications to the world's biggest clusters and global enterprises.\n\nI love engineering and coding, but nothing beats being helping others become successful. "
+}
+]
+},
+{
+"intendedAudience": "Beginner to Intermediate. Some familiarity with the JVM/Java/Clojure is ideal.",
+"length": "120",
+"format": "workshop",
+"language": "en",
+"abstract": "Babashka is a native Clojure interpreter for scripting with fast startup. Its main goal is to leverage Clojure in places where you would be using scripting otherwise. By the end of the workshop you will know Babashka, it's ecosystem, and know when and how to use it. This is a great way to leverage our JVM experience in a scripting context and this workshop provides a practical way to learn and use it.",
+"title": "Elegant and Maintainable scripting with Clojure and Babashka",
+"workshopPrerequisites": "- Have the ability to pull repositories from GitHub\n- https://github.com/babashka/babashka#installation\n- https://clojure.org/guides/install_clojure\n- Use one of the popular supported editors like Neovim, VSCode, Emacs, IntelliJ etc.\n- Have a look at https://practical.li/clojure/clojure-editors/",
+"room": "Workshop C",
+"startTime": "2023-09-05T13:30",
+"endTime": "2023-09-05T15:30",
+"registerLoc": "https://moosehead.javazone.no/#/register/elegant_and_maintainable_scripting_with_clojure_and_babashka",
+"startTimeZulu": "2023-09-05T11:30:00Z",
+"endTimeZulu": "2023-09-05T13:30:00Z",
+"id": "19a5cab3-7afd-4dc1-b60a-bea8562d3186",
+"sessionId": "19a5cab3-7afd-4dc1-b60a-bea8562d3186",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T13:30",
+"startSlotZulu": "2023-09-05T11:30:00Z",
+"speakers": [
+{
+"name": "Anupriya Johari",
+"twitter": "anupriyajo",
+"bio": "I am software engineer by profession and a knowledge hungry researcher by heart. Over the years spending a lot of time in the industry and in and around the JVM, I can bring in the enterprise experiences and the need to have a robust scripting foundation and specially when its generally nowhere near what we are used to from the JVM."
+},
+{
+"name": "Rahul De",
+"twitter": "lispyclouds",
+"bio": "I'm an SRE and developer dedicated to making simpler tools to bridge the gap between Dev and Ops. As one of the maintainers of the Babashka project and a die hard Clojure fan, I am fascinated to use its power and simplicity to make infra simple too; a place where it is rarely seen but can be of immense value. I love to organise and attend meetups and conferences around increasing diversity in tech, functional programming and food."
+}
+]
+},
+{
+"intendedAudience": "Any level",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "If Log4Shell, Spring4Shell, etc. have taught us anything, it's that we need to keep our dependencies up to date. But updating our applications can take a lot of time. How do we stay on top of that, while also continuing to deliver business value?\nLuckily, there are plenty of tools that can help us with this, from package managers to bots that can automatically create changes on our repositories. Let's go over some of the different options, so we can make informed choices about what's best for us in a particular situation.",
+"title": "Keep your dependencies in check",
+"room": "Room 5",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T17:45",
+"video": "861716570",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T15:45:00Z",
+"id": "b8e3b5e1-8313-409b-8f6f-037a402c97a2",
+"sessionId": "b8e3b5e1-8313-409b-8f6f-037a402c97a2",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Marit van Dijk",
+"twitter": "@MaritvanDijk77",
+"bio": "Marit van Dijk is a software developer with 20 years of experience in different roles and companies. She loves building awesome software with amazing people and has contributed to open-source projects like Cucumber and various other projects. She enjoys learning new things as well as sharing knowledge on programming, test automation, Cucumber/BDD, and software engineering. She speaks at international conferences, in webinars, and on podcasts, occasionally writes blog posts, and contributed to the book \"97 Things Every Java Programmer Should Know\" (O'Reilly Media)."
+}
+]
+},
+{
+"intendedAudience": "Anyone interested in the latest developments in AI",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "With ChatGPT taking center stage since the beginning of 2023, developers who have not had a chance to work with any forms of Artificial Intelligence or Machine Learning systems may find themselves either intrigued by the “maze” of new terminologies, or some may be eager to learn more, while perhaps a smaller group may not actually want to get themselves into a territory that's unknown to them.\n\nThe truth is that, whether we like it or not, we have all been “thrust” into this new era of computing. Instead of procrastinating, let's start by learning about Generative AI specifically with this presentation. We will go over the history and evolution of AI and ML, then look at how it has evolved to where it is today. We will touch upon as many new concepts that have popped up in the last 6-9 months, which include: Generative AI (GenAI), ChatGPT, Large Language Models (LLMs), Natural Language Processing (NLP), Vector DB, and the growing importance of Vector Search. We will also point out the new operational concerns when it comes to managing the life-cycle of a machine learning environment. We will then look at a demo on how Vector Search is being done behind the scenes. We will discuss the benefits of this new wave of technology as well as the challenges that it brings to the industry and the marketplace.",
+"title": "Enter the Brave New World of GenAI with Vector Search",
+"room": "Room 3",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T14:00",
+"video": "861681521",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T12:00:00Z",
+"id": "e87fe57f-b55e-4864-b5cd-482e50b21ab9",
+"sessionId": "e87fe57f-b55e-4864-b5cd-482e50b21ab9",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
+"speakers": [
+{
+"name": "Mary Grygleski",
+"twitter": "mgrygles",
+"bio": "Streaming Developer Advocate at DataStax, Java Champion, President of Chicago-JUG\n\nMary is a Java Champion and a passionate Senior Developer Advocate at DataStax, a leading data management company that champions Open Source software and specializes in Big Data, DB-as-a-service, Streaming, and Cloud-Native systems. She spent 3.5 years as a very effective advocate at IBM, focusing on Java, Jakarta EE, OpenJ9, Open Source, Cloud, and Distributed Systems. She transitioned from Unix/C to Java around 2000 and has never looked back since then. She considers herself a polyglot and loves to continue learning new and better ways to solve real-life problems. She is an active tech community builder outside of her day job, and currently the President of the Chicago Java Users Group (CJUG), as well as a co-organizer for several IBM-sponsored meetup groups in the Greater Chicago area."
+}
+]
+},
+{
+"intendedAudience": "Developers/DevOps engineers interested in CI/CD automation with GitHub Actions",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "It's been said that automating oneself out of a job is one of the best qualities of a software engineer. When it comes to building and releasing software that statement becomes more relevant than ever. GitHub is a popular choice for hosting code and since a few years ago offers a native CI/CD solution: GitHub Actions. They are a powerful tool that's worth adding to your development toolbox but getting started might be a bit daunting. In this session we'll cover the basics of working with GitHub Actions and their structure, moving into more advanced topics such as inputs/outputs, job dependencies, reusable workflows, composite actions, and secrets.",
+"title": "Lights, Camera, GitHub Actions!",
+"room": "Room 7",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T14:00",
+"video": "862027491",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T12:00:00Z",
+"id": "6dbf2d97-e4bc-4dbb-8546-60948be7c3e1",
+"sessionId": "6dbf2d97-e4bc-4dbb-8546-60948be7c3e1",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Andres Almiray",
+"twitter": "aalmiray",
+"bio": "Andres is a Java/Groovy developer and a Java Champion with more than 2 decades of experience in software design and development. Andres is a true believer in Open Source."
+},
+{
+"name": "Ixchel Ruiz",
+"twitter": "",
+"bio": "Ixchel Ruiz has developed software applications and tools since 2000. Her research interests include Java, dynamic languages, client-side technologies, DevSecOps, and testing. Ixchel travels around the world (sometimes virtually) sharing knowledge. "
+}
+]
+},
+{
+"intendedAudience": "Developers, managers, business strategists and anyone who enjoys a good rant.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "There's a good chance that you - yes you - are currently working on making a \"new platform\" of some kind. I have lost count of how many \"new platforms\" I've been asked to help out making. \nWhy are we always working on these \"new platforms\"? Why is there always something so fundamentally wrong with the old ones that we need a whole new platform? Do they end up delivering the value they promise? Value for whom?  The users of the software? The business owners? The project managers? The developers? Who are we making these platforms for? \nLet's get to the bottom of this, and figure out who's problems we should be solving, and who's money we should be saving and how we can make these platforms worth their investment. ",
+"title": "Who needs a platform?",
+"room": "Room 6",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T09:45",
+"video": "861598414",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T07:45:00Z",
+"id": "ba595f56-5e3f-437d-b1f2-85bcb90f4cf0",
+"sessionId": "ba595f56-5e3f-437d-b1f2-85bcb90f4cf0",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Christin Gorman",
+"twitter": "@christingorman",
+"bio": "Christin is an experienced public speaker who has worked as a developer for more than 20 years.  She is currently working as a contractor/consultant at Kodemaker.  \nHer enthusiasm for software development is catching and her talks are generally seen as both entertaining and thought provoking."
+}
+]
+},
+{
+"intendedAudience": "Intermediate audience\nattendee will learn the characteristics of each JVM GC, how to choose and how to tune depending on their workload/applications",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "OpenJDK brings GCs with different characteristics and not always easy to understand. Those GCs allows the JVM to adapt to different workloads in terms of latency or throughput. I will explain how to tame those beasts and how to take advantage of them to improve your applications and resources.",
+"title": "Mastering GC: tame the beast and make it your best ally",
+"room": "Room 1",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T10:00",
+"video": "861586790",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T08:00:00Z",
+"id": "ae187257-582d-4041-aba7-52ca4ff13d93",
+"sessionId": "ae187257-582d-4041-aba7-52ca4ff13d93",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Jean-Philippe Bempel",
+"twitter": "@jpbempel",
+"bio": "Developer and Java Champion passionate by performance, runtimes (JVM, CLR) and Mechanical Sympathy supporter, Jean-Philippe has more than 8 years experience in low latency trading systems. After He brings his expertise on the JVM at Criteo in order to optimize resources on thousand node clusters, He is now at Datadog to evaluate & improve both profiler & tracer agent. He is also committer on the OpenJDK's project JDK Mission Control."
+}
+]
+},
+{
+"intendedAudience": "Developers or designers interested in Spatial Computing, Virtual Reality, Augmented Reality, Mixed Reality, XR and Metaverse concepts.\nNo required experience.",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "What is the state of Mixed Reality in 2023, and how did we get here? \n\nStarting with an accelerated history of Virtual Reality and Augmented Reality, we will look at the current state of the art of Mixed Reality in terms of hardware and software, and have a look forward to the near future to see what is just around the corner for this relatively new medium.\n\nAs Apple (Apple Vision Pro), Meta (Meta Quest 3), and Microsoft (HoloLens 2) carve out their own respective visions for the future of Mixed Reality, it's never been a more important time to stop and take a look at how far the technology has come, and where it might take us in the future. ",
+"title": "Mixed Reality check",
+"room": "Room 2",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T09:20",
+"video": "861590477",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T07:20:00Z",
+"id": "4f42bd4a-4905-4a7f-8551-f5ad25034698",
+"sessionId": "4f42bd4a-4905-4a7f-8551-f5ad25034698",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Scott Leaman",
+"twitter": "",
+"bio": "Scott Leaman is one of Europe's foremost experts in Mixed Reality (MR) consulting, a Microsoft MVP for Mixed Reality, and the Mixed Reality Lead for Sopra Steria Norge. He has been using VR/AR/MR to bring value to the enterprise domain for many years, based on a background of 18 years IT consulting experience in Australia, America and Europe. He has been building software for the Microsoft HoloLens since 2015, and has long experience with development, design and project management for Mixed Reality projects. "
+}
+]
+},
+{
+"intendedAudience": "Er du interessert i maskinlæring og kunstig intelligens? Liker du å grave deg ned i ny teknologi og test ut nye løsninger? Bli med og lær litt av vår reise der vi tester ut en objektgjennkjenningsmodell fra \"The TensorFlow Model Garden\" på Vegvesenets webkamerabilder",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Bli med på en liten reise sammen med Statens vegvesen der vi har prøvd ut en maskinlæringsmodell for å telle kjøretøy. Vi ser på de praktise utfordringene som dukker opp når en skal prøve å lage en publikumstjeneste av dette. Hvordan ser teknologien ut under panseret og hvilke problemer må løses for å kunne gi verdi til publikum. Hvor robuste tjenester kan en lage med denne teknologien?",
+"title": "Å telle kjøretøy i webkamerabilder med maskinlæring, hvor vanskelig kan det egentlig være?",
+"room": "Room 3",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T11:05",
+"video": "861594919",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T09:05:00Z",
+"id": "a64780e5-3009-4597-9010-d841d7c6c58f",
+"sessionId": "a64780e5-3009-4597-9010-d841d7c6c58f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "Hans Petter H. Bauhr",
+"twitter": "",
+"bio": "Jeg er en senior utvikler og har jobbet med programvareutvikling i 22 år. Jeg har jobbet i mange roller og flere ulike domener, men jeg trives best når jeg kan være med å utvikle nye løsninger, lære ny teknologi og å få bryne meg på nye og vanskelige ting ;-)\n\nI de siste årene har det blitt mye Kubernetes (verktøystøtte-team på intern skyplatform), API-er (backend i java) og maskinlæring (objektgjenkjenning)\n\nJeg bor i Solbergelva i Drammen og har bodd her på \"Østlandet\"  de siste 22 årene. Jeg er født og oppvokst på Nordmøre og migrerte fra Masterstudiet i Kybernetikk på NTNU til Kongsberg (Kongsberg Defence & Aerospace). Deretter ble det 7 år i Oslo som konsulent i Ergogroup, Acando og Steria. I de 9 siste årene har jeg vært i Statens vegvesen i Drammen (som nå er det nye hovedsete for IT-divisjonen i Vegvesenet :-) )"
+}
+]
+},
+{
+"intendedAudience": "Alle som jobber med digitalisering",
+"length": "60",
+"format": "presentation",
+"language": "no",
+"abstract": "Desentralisert identitet er et paradigmskifte innen elektronisk identitet. Den fjerner de sentraliserte aspektene ved dagens ID-løsninger og gir brukeren i full kontroll over sin egen identitet. Desentralisert identitet løser dagens problemer med ID-tyveri, persondata på avveie og manglende brukerkontroll. Samtidig åpner det for helt nye anvendelser av eID og skaper nye forretningsmodeller. I dette foredraget ser vi på de sentrale konseptene innen desentralisert identitet og digitale lommebøker. Jeg snakker om hvordan vi kan ta i bruk digitale lommebøker og teknologien som gjør det mulig.",
+"title": "Desentralisert identitet - elektronisk ID gjort riktig",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T10:00",
+"room": "Room 5",
+"video": "861593997",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T08:00:00Z",
+"id": "335e1a55-b8a7-4fd7-ae64-5e3ebc331ae6",
+"sessionId": "335e1a55-b8a7-4fd7-ae64-5e3ebc331ae6",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Erling Skard",
+"twitter": "",
+"bio": "Erling Skard er seniorkonsulent og medeier i Kantega. Han er en erfaren utvikler og arkitekt og en ekspert på elektronisk identitet. Erling er ansvarlig for Kantegas strategi for digitale lommebøker"
+}
+]
+},
+{
+"intendedAudience": "The talk does not assume any experience in any particular technology or paradigm. In fact, there are tales of people being introduced to (functional) programming through live coding music, so really any background is welcome.\n\nPeople interested in playing with technology, creative computation, music composition, functional programming, or anything in between will likely be the ones benefiting most from this talk.",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "The talk will introduce the audience to live coding music in Haskell through the TidalCycles framework. The goal is to demonstrate how functional programming can be applied to make music in untraditional ways, and to introduce the perspective that music-making is a model for understanding function composition. The talk will also briefly touch on the Algorave movement, events where people dance to music generated on the fly by algorithms by performers on stage.\n\nThe talk aims to motivate that learning through playing is valuable, and that there are interesting connections between concepts and patterns in the musical domain and in the more traditional software development domain.",
+"title": "Music can be functions too: an introduction to live-coding in Haskell",
+"room": "Room 2",
+"startTime": "2023-09-06T09:20",
+"endTime": "2023-09-06T09:40",
+"video": "861593988",
+"startTimeZulu": "2023-09-06T07:20:00Z",
+"endTimeZulu": "2023-09-06T07:40:00Z",
+"id": "a697c07e-62b6-47d4-abd4-4af43a8750e0",
+"sessionId": "a697c07e-62b6-47d4-abd4-4af43a8750e0",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Ulrik Antoniussen Halmøy",
+"twitter": "",
+"bio": "Ulrik is a software developer, currently working on algorithmic journalism in NTB. He has a background in music, and enjoys working with code in a variety of  mediums."
 }
 ]
 },
@@ -2433,206 +1288,1267 @@ pub fn program() -> String {
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "Starting a new project, launching a new platform, releasing a new workflow. There is a plethora of documents out there suggesting best practices, considerations, patterns and possible solutions for how and when to start a project or process. Interestingly, however, there is not enough focus on retiring outdated and costly legacy applications in a way that meets business and compliance needs.\n\nConducting an assessment based on factors such as the value of the application to the business, the cost of retiring it, and the potential savings that can be achieved is the first step at the project level. What else can we do at application development and even more so at operations?\n\nIn this session we will discuss what challenges every project should consider when thinking about the entire software application lifecycle.",
-"title": "Killing me softly..",
-"id": "9ea5eb29-4592-4637-a36e-335c068543d2",
-"sessionId": "9ea5eb29-4592-4637-a36e-335c068543d2",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "To make sense of the world, we rely on our brains' capability to form fictions that we call \"categories\" of things and experiences. This capability is both automatic and hidden: we can't avoid doing it, yet we don't know exactly how we do it. We know that differences and similarities play a role, but how? When we try to be more deliberate about the process, for instance because we want to write software based on our categories, we call it modelling. In the process, we tend to replace our intuitive but ill-defined common-sense categories with more precise technical categories. But precision comes at a cost. In this talk, we'll look at different perspectives on categorization, see that nothing remains the same for long, and that edge cases are just regular cases that got unlucky.",
+"title": "Modelling vs Reality",
+"room": "Room 7",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T15:20",
+"video": "861668497",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T13:20:00Z",
+"id": "149df097-f90d-45b7-9601-0fa02a541719",
+"sessionId": "149df097-f90d-45b7-9601-0fa02a541719",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
 "speakers": [
 {
-"name": "Ixchel Ruiz",
-"twitter": "@ixchelruiz",
-"bio": "Ix-chel Ruiz has developed software application & tools since 2000. Her research interests include Java, dynamic languages, client-side technologies and testing. Java Champion, Oracle ACE pro, Testcontainers Community Champion, CDF Ambassador, Hackergarten enthusiast, Open Source advocate, public speaker and mentor."
+"name": "Einar W. Høst",
+"twitter": "@einarwh",
+"bio": "Einar W. Høst has been a software developer for a long time. He enjoys collaborative modelling, API design and computer programming. He is working as a socio-technical facilitator at the Norwegian Labour and Welfare Administration."
 }
 ]
 },
 {
-"intendedAudience": "Java programmers, new or experienced with GenAI.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "A run-through of building, and operating in production, java-built Generative AI apps using the new Spring-AI framework.\n\nIt is super easy today to build AI Agents of all types, and you can do it in Java.  We'll start here and evolve the building blocks that lead to the concept an AI Capable Data Platform in your stack. \n\nMore…\nWriting GenAI apps is incredibly simple, often with only a few lines of code, introducing a whole new world of possibilities and commoditising many forms of data science, but presents serious challenges in the broader DevOps and capacity planning contexts. \n\nThe big picture for Systems Designs is now brand new, there are significant paradigm shifts from Product Ideation, to engineering and Operations. \n\nIdeation with GenAI requires fresh thinking.  Product Managers are typically overly excited with the possibilities, and you'll see this excitement at any of your local AI meetup groups.  The problem here is product folks are often thinking too grand, where the ROI wins are often way simple mundane ideas that were technically infeasible or costly before.\n\nProgramming with GenAI requires us to stop thinking in classical mathematical terms.  There is no right or wrong answers to the output, and many things no longer can be deterministic, or even probabilistically, correct.  Expectations on the correctness and quality of the output is a trap here. Building small ideas that involved closed-loop systems are a great place to start. Post-processing caching and validation of LLM results is another entry level requirement, in building out a production capable Evaluations framework.\n\nOperations in production is difficult. There are lessons from ML platforms to take. Mick can share production experience on Observability, CD/CI, Capacity Planning, Quality+Performance metrics, and A/B and Regression Testing.\n\nGenAI requires a fresh mindset: from product ideation, to programming and not being not stuck in classical mathematical thinking, to addressing all the production concerns in a brand new systems designs world.\n\nI hope you'll join me in sharing how to make GenAI java smooth and elegant.",
-"title": "Production Generative AI apps – building an AI Brain in Spring-AI",
-"id": "aa4b0909-1555-4afb-b5e2-a97a4b07f84e",
-"sessionId": "aa4b0909-1555-4afb-b5e2-a97a4b07f84e",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Mick Semb Wever",
-"twitter": "mck_sw",
-"bio": "Mick is an Apache Cassandra committer and previous PMC Chair of multiple Apache projects.  An avid open source contributor where ever the itch scratches, recently writing the Spring-AI Vector store for Cassandra, DSE and Astra DB.\n\nApache Cassandra has proven itself to be the most relevant and performant Vector database of all thanks to the innovation gone into the JVector library.\n\nAs an engineer on DataStax database internals, Mick has worked closely with the largest companies around the world building their GenAI apps and building out their AI-capable data platforms."
-}
-]
-},
-{
-"intendedAudience": "Anyone interested in telemetry and observability for cloud-native Java apps.\nThis session will very briefly cover logs and metrics (for any audience members who may not be overly familiar with these), but will primarily focus on distributed tracing. Attendees will gain insight into how these work, how Open Telemetry helps to provide a standard format for this and how they can make use of this within their own applications through MicroProfile Telemetry. There will be a live coding demo within this session where I will demo how to add distributed tracing to a cloud-native Java application using MicroProfile Telemetry through different implementations (i.e. automatic, manual and agent).\nAudience members can have a go with this coding demo afterwards through our OSS interactive Open Liberty guides, enabling audience members to reinforce this learning, see the source code and further investigate how they could add this to their own applications.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Our cloud-native environments are more complex than ever before! So how can we ensure that the applications we’re deploying to them are behaving as we intended them to? This is where effective observability is crucial. It enables us to monitor our applications in real-time and analyse and diagnose their behaviour in the cloud. However, until recently, we were lacking the standardization to ensure our observability solutions were applicable across different platforms and technologies. In this session, we’ll delve into what effective observability really means, exploring open source technologies and specifications, like OpenTelemetry, that can help us to achieve this while ensuring our applications remain flexible and portable. ",
-"title": "Through the looking glass: Effective observability for cloud native applications",
-"id": "ba84e481-b4ed-46ba-86df-e6d267d707fb",
-"sessionId": "ba84e481-b4ed-46ba-86df-e6d267d707fb",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Grace Jansen",
-"twitter": "@gracejansen27",
-"bio": "Grace is a Java Champion and Developer Advocate at IBM, working with Open Liberty, MicroProfile and Cloud Technologies. She has been with IBM since graduating from Exeter University with a Degree in Biology. Grace enjoys bringing a varied perspective to her projects and using her knowledge of biological systems to simplify complex software patterns and architectures. As a developer advocate, Grace builds POC’s, demos and sample applications, and writes guides and tutorials. She is a regular presenter at international technology conferences and has authored a book on reactive systems. Grace also has a keen passion for encouraging more women into STEM and especially Technology careers."
-}
-]
-},
-{
-"intendedAudience": "1. Java developers interested in GraalVM Native Image technology.\n2. Developers or DevOps engineers who are looking for ways to monitor non-JVM applications.\n3. Individuals interested in application performance monitoring and telemetry.\n4. Users of OpenTelemetry or those interested in learning about it.",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "GraalVM Native Image is an excellent technology for reducing the startup time and memory footprint of Java applications, offering significant benefits to businesses. It is now becoming a popular choice for the creation of Java-based microservices. Though GraalVM Native Image applications are not executed on a standard JVM, several Java profilers, such as JDK Flight Recorders, assist users in diagnosing application issues as they arise. From an end-to-end monitoring perspective, however, how can we proceed? Fortunately, we have a powerful tool in our arsenal – OpenTelemetry!\n\nIn this session, I will demonstrate how to monitor GraalVM Native Image applications with OpenTelemetry. I'll also share valuable insights from real-world scenarios. Attendees will walk away from this session with the confidence to leverage OpenTelemetry effectively for monitoring GraalVM Native Image applications.",
-"title": "End-to-end Monitoring of GraalVM Native Image applications with OpenTelemetry",
-"id": "2f66e46b-3990-4e61-a8e5-41d062bb2532",
-"sessionId": "2f66e46b-3990-4e61-a8e5-41d062bb2532",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Akihiro Nishikawa",
-"twitter": "logico_jp",
-"bio": "Working for Microsoft as a Cloud Solution Architect, based in Japan. Conference speaker at not only local conferences but also outside Japan. Expertise in application development with Java and application integration, including API management and EDI. Also, a board member of JJUG (Japan Java Users Group)."
-}
-]
-},
-{
-"intendedAudience": "Teammedlemmer, teamledere, alle som er opptatt av godt samspill i team",
+"intendedAudience": "Anyone who works with frontend web programming should benefit from this talk. Not a lot of experience is required, but well seasoned developers should also find the ideas in the talk of interest. Participants will be introduced to some new ways to approach component-driven UI development, and learn to enumerate the pros and cons of different approaches.",
 "length": "45",
 "format": "presentation",
-"language": "no",
-"abstract": "Lytting spiller en sentral rolle i å skape og opprettholde velfungerende utviklingsteam. Lytting er mye mer enn bare å høre, det handler om å forstå, respektere og verdsette andres perspektiv og synspunkter. Etter presentasjonen skal tilhøreren ha en forståelse av viktigheten av god lytting, og kjenne til verktøy for å ta det i bruk i eget utviklingsteam. \n\nVi kommer til å presentere lyttestigen og nivåene i den, et konkret verktøy for å fremme lytting i utviklingsteam. Vi vil også fortelle om konsekvensene som manglende lytting kan ha i et utviklingsteam. \n\nAvslutningsvis ønsker vi å utfordre publikum til å implementere lyttende praksiser i sine egne utviklingsteam.  ",
-"title": "Lytting som nøkkel til effektive utviklingsteam",
-"id": "38ff6c84-5b86-4ee9-88ba-5025fcc46b58",
-"sessionId": "38ff6c84-5b86-4ee9-88ba-5025fcc46b58",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"language": "en",
+"abstract": "React put component-driven UIs on the agenda a decade ago. Since then my approach to web development has become increasingly more data-driven to the point where my UI code is almost entirely stateless. I will show you how to successfully build data-driven components and what they're good at, and we'll explore the possibilities that open up when our UIs stop being so darn clever.",
+"title": "Stateless, Data-driven UIs",
+"room": "Room 5",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T11:05",
+"video": "861600197",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T09:05:00Z",
+"id": "85f23370-440f-42b5-bf50-4cb811fef44d",
+"sessionId": "85f23370-440f-42b5-bf50-4cb811fef44d",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
 "speakers": [
 {
-"name": "Hilde Nielsen",
-"twitter": "",
-"bio": "Hilde jobber som avdelingsleder i Kantega. Hun har lang fartstid både fra IT-prosjekter og med ledelse, og har klare ledelsesfilosofier og ledestjerner."
-},
-{
-"name": "Stine-Aileen Strand",
-"twitter": "",
-"bio": "Stine-Aileen jobber som avdelingsleder i Kantega. Hun har lang fartstid både fra IT-prosjekter og med ledelse, og har klare ledelsesfilosofier og ledestjerner."
+"name": "Christian Johansen",
+"twitter": "cjno",
+"bio": "I am a jack-of-all trades programmer with more than 20 years of experience. I've done web development since pure CSS table-less designs were cutting edge, I've written my share of JavaScript (and a book about testing it), Ruby, and for the past 10 years, Clojure and ClojureScript. I've done infrastructure, backends, integrations, web frontends and native apps. I love it all, and I particularly enjoy working across the entire stack."
 }
 ]
 },
 {
-"intendedAudience": "Managers, team leads, developers, anyone who works in a product team that could benefit from our lessons learned the hard way. No experience is required.",
+"intendedAudience": "Developers and architects.",
 "length": "20",
 "format": "lightning-talk",
 "language": "en",
-"abstract": "Our development team was steadily delivering according to expectations, until unexpected external events forced several key resources to leave on short notice. Our team´s accumulated years of experience within our own portfolio would be reduced from 32 to 8 years in a matter of three months. News about this got to us in late May. Summer holidays were fast approaching. The upcoming seasons looked all but worry free. Why did it happen? How did we handle the challenges? Did we manage to keep the boat afloat? This talk contains food for thought and hopefully some good advice for teams that aim to be robust and sustainable in a fast-paced industry.",
-"title": "A Nightmare on Efm Street: Building a Team in the Aftermath",
-"id": "8677d392-69c3-4225-9958-57b2a65762f7",
-"sessionId": "8677d392-69c3-4225-9958-57b2a65762f7",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Norwegian Air Shuttle ASA is Norway's largest airline, and the fourth largest low-cost carrier in Europe. Every year millions of customers travel with Norwegian Air Shuttle. This ambitious company has been exploring innovative payment system for years to boost revenues and improve customer experiences. \n\nJoin this talk to learn how we built custom settlement system to settle millions payment transactions of Norwegian Air Shuttle customers and how we achieve scalability and reliability by using AWS serverless technologies and which challenges serverless technologies help to solve and at the same time how it enables future possibilities for data engineering and advanced analysis.",
+"title": "How We Settle Millions Of Payment Transactions At Norwegian Air",
+"room": "Room 2",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T13:20",
+"video": "861676504",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T11:20:00Z",
+"id": "d74c4264-9ac6-4b79-9801-0eec65ea7a5b",
+"sessionId": "d74c4264-9ac6-4b79-9801-0eec65ea7a5b",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
 "speakers": [
 {
-"name": "Johannes Molland",
+"name": "Dapeng Han",
 "twitter": "",
-"bio": "Senior developer at Digitaliseringsdirektoratet, currently acting as team leader for the eFormidling team. Also a herder of cows and sheep, and a dedicated husband and father who loves spending time in the outdoors with his half-Japanese family."
-},
-{
-"name": "Lars Bårdgard Åstveit",
-"twitter": "",
-"bio": "Lars is a senior developer at Digitaliseringsdirektoratet, still trying to learn what his job is actually about. Lars is a charismatic presenter, and has experience presenting at several conferences, including Sunndalskonferansen. Lars also wants to own cows."
+"bio": "Dapeng Han is a senior consultant from Webstep. He is mainly working with system development, but also has interest in AI/machine learning, cloud and finance domain knowledge. He has been working with different domains in finance industry, e.g. pension, payment, settlement, reconciliation. Apart from work, he likes playing innebandy and power lifting."
 }
 ]
 },
 {
-"intendedAudience": "Any developer working in a staticly typed programming language should be able to benefit from this talk. The technique is not commonly known, but also not particularly hard to grasp.\n\nThe technique allows the developer to use the type system to enforce a contract without any runtime overhead.",
+"intendedAudience": "people who like building server-side applications with java",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": " Bootiful Spring Boot 3\nSpring Framework 6 and Spring Boot 3 are here, and you know what that means. New baselines and new possibilities! Spring Framework implies a Java 17 and Jakarta EE baseline and offers new support for building GraalVM-native images and a compile-time component model in the new Spring AOT engine. It also offers a new observability layer, declarative HTTP and RSocket clients, preliminary Project Loom and CRaC support, Problem-Details support, and so much more. Join me, Spring Developer Advocate Josh Long (@starbuxman), and we'll look at next-gen Spring.\n\n",
+"title": "Bootiful Spring Boot 3",
+"room": "Room 6",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T15:20",
+"video": "861664924",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T13:20:00Z",
+"id": "334dd20b-e11b-4981-8a7b-b02886b35ade",
+"sessionId": "334dd20b-e11b-4981-8a7b-b02886b35ade",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Josh Long",
+"twitter": "starbuxman",
+"bio": "Josh (@starbuxman) has been the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 6 books (including \"Reactive Spring\") and numerous best-selling video training (including \"Building Microservices with Spring Boot Livelessons\" with Spring Boot co-founder Phil Webb), and an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin, etc), a Youtuber (\"Coffee + Software with Josh Long\" as well as my Spring Tips series ), and a podcaster (\"A Bootiful Podcast\")."
+}
+]
+},
+{
+"intendedAudience": "Everyone interested in understanding how the field of AI probably will develop, in a broader perspective :-)",
+"length": "60",
+"format": "presentation",
+"language": "no",
+"abstract": "Evolusjonsteoriske innsikter har vært sentrale i utviklingen av kunstig intelligens. Men kan evolusjonsteori hjelpe oss å tenke litt klarere på hva som kommer til å skje rundt kunstig intelligens i årene fremover?\nEvolusjonsbiologen kommer med fem overraskende spådommer. ",
+"title": "Evolusjonsbiologens fem spådommer om kunstig intelligens",
+"room": "Room 3",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:40",
+"video": "861653811",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:40:00Z",
+"id": "a1bb624e-017d-4bd1-933c-6081e4fe32ab",
+"sessionId": "a1bb624e-017d-4bd1-933c-6081e4fe32ab",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Jens Andreas Huseby",
+"twitter": "",
+"bio": "Jens Andreas Huseby jobber i Bekk Consulting med digital produkt- og forretningsutvikling. Han er utdannet evolusjonsbiolog og har deltatt som ekspert i flere programmer på TV og radio; blant annet i Trygdekontoret, Brille, Ekko og Gift ved første blikk. Han skrev om \"evolusjonsteknologi\" (genetiske algoritmer) i 2005 og har fulgt med på modningen av kunstig intelligens siden 1995."
+}
+]
+},
+{
+"intendedAudience": "Talk is very relevant for developers, data engineers and architects. All are welcome.\nThe audience will learn many unique and special aspects of cloud native architectures including best of class design principles and design patterns.\n",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "In my session, I will take the audience on a special and unique journey across the Cloud native architectural landscape.\nI will introduce them to the design principles underlying cloud native architectures.\nI will also tell them about the various design patterns that are generally used.\n",
+"title": "Mastering the Skies: Navigating Cloud Native Architecture with Design Principles and Patterns",
+"room": "Room 2",
+"startTime": "2023-09-06T12:10",
+"endTime": "2023-09-06T12:30",
+"video": "861649905",
+"startTimeZulu": "2023-09-06T10:10:00Z",
+"endTimeZulu": "2023-09-06T10:30:00Z",
+"id": "3e5d4f56-196c-4bb5-9b9f-cc03347a1b9c",
+"sessionId": "3e5d4f56-196c-4bb5-9b9f-cc03347a1b9c",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Soumitra Bhattacharya",
+"twitter": "",
+"bio": "Soumitra Bhattacharya is Head of Software Architecture at Capra Consulting AS.\nHe is also their AWS and Kotlin community lead.\nHe has a passion for internet, architecture, quantum computing and AWS and helps customers worldwide on AWS related projects.\nHe loves to share his expertise with people.\nDuring his stellar career he has worked for companies like Opera Software, Onecall and Cxense.\nHobbies include reading and meditation.\n"
+}
+]
+},
+{
+"intendedAudience": "Just about all Java developers use the collections framework, so anyone with minimal experience of Java programming should benefit from this talk.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "The classes of the Java Collections Framework are arguably the most heavily used data structures on the planet. In their 25 year lifetime, they’ve become part of the everyday vocabulary of millions of programmers. But, actually, how good are they? And how have they changed, along with the changing priorities of the language?\n\nTo answer these questions, this session will preview some of the material in the upcoming second edition of Java Generics and Collections: the new SequencedXxx interfaces, use cases for the unmodifiable collections of Java 9, best practices for using the framework, and a design retrospective distilling the experience of a quarter-century’s use of the Framework and comparing it with alternatives like Eclipse Collections and Guava. You should leave this session with a better understanding of the design forces that shaped the Framework and an improved understanding of how to get the very best out of it.",
+"title": "Return to Planet Collections",
+"room": "Room 4",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T14:00",
+"video": "861643448",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T12:00:00Z",
+"id": "7841a7ec-2f37-49d2-8321-b7559055226c",
+"sessionId": "7841a7ec-2f37-49d2-8321-b7559055226c",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
+"speakers": [
+{
+"name": "Maurice Naftalin",
+"twitter": "@mauricenaftalin",
+"bio": "Five decades working in IT:  developer, designer, architect, manager, teacher, and author. Working with Java since 1.0. Author, Mastering Lambdas; co-author, Java Generics and Collections (2e in preparation). Disorganises the unconference JAlba. Java Champion, Oracle Ace Pro. Speaks at conferences a lot.\n"
+}
+]
+},
+{
+"intendedAudience": "Developers working with Elasticsearch or any other full-text search engine. The topic could be of interest to both beginners interested in performance tuning and to mid-level or senior engineers trying to optimize their systems.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Elasticsearch is a full-text search engine rather than your typical database. This means its query performance can be surprising at times. In this talk I will discuss what happens when Elastic handles a query, and from this I will derive general rules about what kinds of queries Elastic can handle efficiently and with which it will struggle. Since the underlying principles are very similar, these hints should mostly be applicable to Solr or any other full-text search engine just as well as to Elasticsearch.",
+"title": "Elasticsearch Performance",
+"room": "Room 5",
+"startTime": "2023-09-06T13:00",
+"endTime": "2023-09-06T14:00",
+"video": "861641786",
+"startTimeZulu": "2023-09-06T11:00:00Z",
+"endTimeZulu": "2023-09-06T12:00:00Z",
+"id": "4bfde3bb-3c1e-479a-9f19-e0fdd6fcebb7",
+"sessionId": "4bfde3bb-3c1e-479a-9f19-e0fdd6fcebb7",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
+"speakers": [
+{
+"name": "Michał Kosmulski",
+"twitter": "mkosmul",
+"bio": "Software Engineer turned Team Leader, turned Software Engineer again. I work mostly with Kotlin, and I'm interested in distributed systems and high performance. Editor-in-chief of company tech blog at https://blog.allegro.tech/"
+}
+]
+},
+{
+"intendedAudience": "Passer for alle, litt tekniske detaljer ",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Det siste året har interessen for NRK.no økt blant utenlandske stormakter. Selv om det er hyggelig å være populær kan det noen ganger bli litt for mye. I denne presentasjonen skal vi gå gjennom hvordan DDoS-angrep oppleves hos NRK.no og hvordan vi prøver å minske konsekvensene når angrepene skjer. Vi skal også se at ikke alle angrep er fiendtlige eller kommer utenifra.  ",
+"title": "Ikke alle angrep er slemme: DDoS innenfra og utenfra ",
+"room": "Room 1",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:25",
+"video": "861641166",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:25:00Z",
+"id": "75bcefdc-0f1c-45c7-a4e7-54c720f46c0f",
+"sessionId": "75bcefdc-0f1c-45c7-a4e7-54c720f46c0f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Ingrid G. Guren",
+"twitter": "",
+"bio": "Ingrid er tech lead for Javascript på NRK.no, og har kjørt disaster recovery av forsida klokka tre om natta."
+},
+{
+"name": "John Arne S. Pedersen",
+"twitter": "",
+"bio": "John Arne er tech lead for Java på NRK.no, og var på vakt da MGP gikk ned i 2020."
+}
+]
+},
+{
+"intendedAudience": "This is for Java developers who want to learn how to monitor their applications with OpenTelemetry and Grafana.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "OpenTelemetry is a collection of standards and tools to make it easy to get metrics, distributed traces, and logs out of applications. For example, OpenTelemetry's Java agent will instrument Java applications out-of-the-box, with no code change required.\n\nThis talk shows how to use these signals for application monitoring. We will introduce Grafana's open source databases: Loki for logs, Tempo for traces, and Mimir for metrics. And we will show how to use Grafana to explore the telemetry data for an example application running on Kubernetes.\n\nGrafana and Prometheus metrics have been popular among platform engineers for monitoring Kubernetes clusters for a long time. \n\nthis talk will show how application developers can benefit from Grafana as well, using open standards like OpenTelemetry, and open source monitoring backends like Loki, Tempo, and Mimir.",
+"title": "Application Monitoring with Grafana and OpenTelemetry",
+"room": "Room 6",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T11:05",
+"video": "861623888",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T09:05:00Z",
+"id": "fa0469ab-f13c-417d-bf68-d7818ed02aa3",
+"sessionId": "fa0469ab-f13c-417d-bf68-d7818ed02aa3",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "Fabian Stäber",
+"twitter": "",
+"bio": "Dr. Fabian Stäber is engineering manager and monitoring enthusiast at Grafana. He is a member of the Prometheus open source project, where he is maintainer of the Prometheus Java client library and the JMX exporter. At Grafana Fabian has his focus on application monitoring with OpenTelemetry."
+}
+]
+},
+{
+"intendedAudience": "Dette er beregnet på systemarkitekter, ledende utviklere og andre som designer tekniske løsninger",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "I Tolletaten har vi mange interessenter på utsiden, og mange løsninger av ulike generasjoner på innsiden. Erfaring har vist oss at ulike partnere har ulike teknologipreferanser, ulik endringstakt og -vilje, og behov som ikke nødvendigvis går i takt med våre egne. Dermed har vi prøvd å få til et isolasjonslag mellom ulike teknologisfærer – eller et anti-corruption layer om man er oppvokst med domenedrevet design.",
+"title": "Teknologisirkus med mange tilskuere",
+"room": "Room 2",
+"startTime": "2023-09-06T10:50",
+"endTime": "2023-09-06T11:10",
+"video": "861621233",
+"startTimeZulu": "2023-09-06T08:50:00Z",
+"endTimeZulu": "2023-09-06T09:10:00Z",
+"id": "7017e9f6-74af-40e1-b966-7a8815e5ffe3",
+"sessionId": "7017e9f6-74af-40e1-b966-7a8815e5ffe3",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "Lars Reed",
+"twitter": "",
+"bio": "Arkitekt med over 30 års erfaring i IT-bransjen, ikke rent få av dem i Tolletaten. Tidvis teknologisirkusdirektør og tidvis digital vaktmester."
+}
+]
+},
+{
+"intendedAudience": "Dette foredraget passer for alle som er interessert i CI, CD eller pull requests. Om dere bruker Pull requests i dag på teamet deres, så er det kanskje spesielt interessant for å høre hvorfor dette ikke nødvendigvis gir bedre kodekvalitet. Og er du allerede litt skeptisk, så kanskje jeg kan hjelpe med noen argumenter for å jobbe på andre måter.",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Pull requests brukes mer og mer, og har nå nærmest blitt standard i dagens utviklingsteam. De fleste sier også at de har Continuous Integration, samt at de har eller ønsker Continuous Delivery og Continuous Deployment. Pull Requests og Continuous Integration jobber mot hverandre og det er i praksis er umulig å ha begge deler. Jeg skal snakke om fordeler og ulemper det ene gir i forhold til det andre og hvorfor du bør ta et bevisst valg rundt hva som gir verdi i ditt team og ikke bare velge “begge deler” fordi det er \"Best Practice\". Jeg mener Pull Requests for de fleste team er en dårlig idé og at de fleste team bør velge andre måter å gjøre code reviews og sikre kvaliteten på kodebasen. ",
+"title": "Pull Requests eller Continuous Integration, du kan bare velge én!",
+"room": "Room 2",
+"startTime": "2023-09-06T10:40",
+"endTime": "2023-09-06T10:50",
+"video": "861619774",
+"startTimeZulu": "2023-09-06T08:40:00Z",
+"endTimeZulu": "2023-09-06T08:50:00Z",
+"id": "dac6f6ba-f66a-47af-96cc-0a2bac60b1f6",
+"sessionId": "dac6f6ba-f66a-47af-96cc-0a2bac60b1f6",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "Gaute Magnussen",
+"twitter": "@gautema",
+"bio": "Gaute er en erfaren utvikler med mer enn 20 års erfaring med fullstack-utvikling. Han har jobbet med blant annet .NET, Elixir, Ruby, Javascript og Typescript i titalls prosjekter og sett mange former og variasjoner av team og smidige prosesser. Gaute jobber nå som CTO i Boitano."
+}
+]
+},
+{
+"intendedAudience": "Utviklar, Ops",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Standardisert sporing på tvers av java applikasjonar med minimalt vedlikehold? Møt opp her.\nMe fortel kort om kva distribuert tracing er og w3c standarden for trace context med døme frå ny arkitektur i ID-porten. Me har skrive om ID-porten frå monolitt til microservice arkitektur og me måtte ha tracing. \nFokuset vil vera på korleis me teknisk løyste dette med OpenTelemetry og ulike hinder på vegen. \nDu vil høyre om OpenTelemetry java-agent og korleis ein applikasjon importerer denne via OpenTelemetry operator for Kubernetes. Her får du eit godt utgongspunkt for å ta i bruk tracing i dag, frå javakode til køyrande applikasjon i Kubernetes. ",
+"title": "Distribuert tracing i ID-porten med OpenTelemetry",
+"room": "Room 2",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T10:40",
+"video": "861616555",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T08:40:00Z",
+"id": "dafefe51-de36-490a-962e-e535a145de4f",
+"sessionId": "dafefe51-de36-490a-962e-e535a145de4f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "Randi Øyri",
+"twitter": "",
+"bio": "Randi jobbar med ID-porten i Digdir og har vore utviklar i snart fleire ti-år. Har drive med logging og sporing sporadisk med ulike verktøy og teknologiar i mange år, men vil eigentleg berre at det skal funke fint og vera enkelt å bruke!"
+},
+{
+"name": "Bjørn-Erik Strand",
+"twitter": "",
+"bio": "Bjørn-Erik brenn for å sjå smilande utviklarar i friksjonslaus samhandling med teknologi og prosess. Har jobba med dette som mål i snart 10 år. Mest erfaring fra operations via Evry, men no litt tettare på utvikling via plattformteam i Digdir."
+}
+]
+},
+{
+"intendedAudience": "Developer, Architect",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Developers have had extraordinary experiences and taken stunning capabilities while they were developing Java microservices from local to the cloud using Quarkus for the past 4 years. But there is more to come with their journey since we have just arrived in Quarkus 3 which provides good, better, and even excellent features and capabilities in terms of developer experience, performance, scalability, and cloud integration. Especially, Quarkus 3 simplifies asynchronous concurrent applications using virtual threads (Project Loom) for high scalability. \nIn this session, we take you through how Quarkus integrates Loom for developers to make concurrent applications easier, have cheaper memory, and have high performance using virtual threads. You can also learn about what’s new in Quarkus 3 such as JakartaEE 10, MicroProfile 6, Hibernate ORM 6, and more.",
+"title": "Quarkus 3: The Road to Loom for Cheaper, Faster, and Easier Concurrent Applications",
+"room": "Room 7",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:40",
+"video": "861614422",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:40:00Z",
+"id": "808094c6-0893-4d9d-8fe2-533c6442c9b8",
+"sessionId": "808094c6-0893-4d9d-8fe2-533c6442c9b8",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Daniel Oh",
+"twitter": "danieloh30",
+"bio": "Daniel Oh is a Java Champion and Senior Principal Developer Advocate at Red Hat. He works to evangelize building cloud-native microservices and serverless functions with cloud-native runtimes to developers. He also continues to contribute to various open-source cloud projects and ecosystems as a Cloud Native Computing Foundation (CNCF) ambassador for accelerating DevOps adoption in enterprises. Daniel also speaks at technical seminars, workshops, and meetups to elaborate on new emerging technologies for enterprise developers, SREs, platform engineers, and DevOps teams."
+}
+]
+},
+{
+"intendedAudience": "You will learn from scratch how the Lightning Network works as an off-chain add-on to Bitcoin. No previous Bitcoin, blockchain or distributed ledger technology knowledge required.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "In January of 2009 the Bitcoin network saw the light of day. The Bitcoin network is many things, one of which is a challenger to the established money and payment system. However, the Bitcoin network has a capacity of approx. 7 transactions per second. In comparison, the VISA network claims to have a capacity of 65,000+ transactions per second.\n\nMany solutions to this low capacity problem have been proposed and tried: amendments to the Bitcoin protocol, launching of new blockchains, and off-chain solutions. The Lightning Network is an off-chain solution. It lets actors operate with transactions not all recorded on the blockchain.\n\nIn this talk we'll start off with the basics of the Bitcoin network. Then we'll explain how the Lightning Network is a solution to the scaling problem and how in detail the network works.",
+"title": "Money at the Speed of Lightning",
+"room": "Room 5",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:40",
+"video": "861613193",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:40:00Z",
+"id": "987aacd9-c334-4c56-9fb1-ee0b32e9dcae",
+"sessionId": "987aacd9-c334-4c56-9fb1-ee0b32e9dcae",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Jørn K Baltzersen",
+"twitter": "@jkBaltzersen",
+"bio": "Jorn K Baltzersen has been a professional developer for more than two decades. He is also an experienced speaker and trainer from conferences and other events in Norway and abroad. He recently graduated with the distinction of summa cum laude from the MSc program in blockchain and digital currency at the University of Nicosia. He is a Principal Solution Consultant at Tietoevry."
+}
+]
+},
+{
+"intendedAudience": "Denne kosetimen passer for alle. Man trenger ikke kunne noe om programmering.",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Bli med på en vill og underholdende reise inn i de mer betente delene av open source-miljøet! Etter en lang dag med faglige presentasjoner, kan du ta med deg noe leskende drikke og litt snacks for en saftig skravletime. Vi går gjennom noen av de mest juicy konfliktene som har oppstått blant utviklere i open source-verdenen. Historier om alt fra spektakulære GitHub-angrep, OCD-krangler om kodestil, \"shitstorms\" og drapstrusler, til opphetet diskusjon om tekanner. Men kan vi lære noe av alt det her? Jeg tror det. Kanskje.",
+"title": "Tid for popcorn: de heteste dramaene i open-source-miljøet",
+"room": "Room 4",
+"startTime": "2023-09-06T18:20",
+"endTime": "2023-09-06T19:05",
+"video": "861734362",
+"startTimeZulu": "2023-09-06T16:20:00Z",
+"endTimeZulu": "2023-09-06T17:05:00Z",
+"id": "d2c69806-66f2-4211-9950-9574348af14e",
+"sessionId": "d2c69806-66f2-4211-9950-9574348af14e",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T18:20",
+"startSlotZulu": "2023-09-06T16:20:00Z",
+"speakers": [
+{
+"name": "Eirik Sletteberg",
+"twitter": "eirikobo",
+"bio": "Eirik er en allsidig utvikler som for tiden jobber frilans i sitt eget AS. Til vanlig er han en stort sett seriøs utvikler, som nå for tiden jobber mest med frontend. Gjennom karrieren har han vært borti alt fra React, TypeScript, JSP, Kotlin, Java, Linux, til Kubernetes og Docker. Han foretrekker indentering med fire mellomrom.\n\nNår han ikke skriver kode, jobber han ofte som musiker, og spiller konserter med klassisk eller eksperimentell musikk rundt omkring. Han spiller obo (derav Twitter-brukernavnet)."
+}
+]
+},
+{
+"intendedAudience": "Denne presentasjonen treffer alle som bruker smarttelefon, og etter å ha sett og lagt merke til hvor mange som faktisk er suuuper avhengig uten å ville innrømme det selv, tror jeg at vi alle trenger en liten påminnelse på at livet skjer nå, over skjermen. Vi blir regelrett lurt av de store selskapene som lager produktene og systemene vi bruker hver dag, og vi vet det ikke selv en gang.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "I en verden hvor det meste skjer på digitale plattformer er det lett å bli avhengig av det vi bruker mest, nemlig smarttelefonene våre. Vi bruker timesvis hver dag på apper som gir hjernen vår litt ekstra dopamin, men er vi egentlig klar over skaden vi påfører oss selv? Trenger vi egentlig å vise til alle på sosiale medier at vi er på konsert? Eller at vi er ute og spiser middag på en dyr restaurant?\nJeg ønsker å gjøre dere oppmerksomme på hvor avhengige vi er, samt prøve å forklare hvorfor dette er skadelig for oss, hvordan det oppleves for barn og unge i dag, og hva de store selskapene har gjort for å lure oss inn i den fella vi sitter i i dag. Jeg skal forklare metoder og teknikker som du lett kan ta i bruk og du skal få høre mine 3 beste tips til hvordan dette kan gjøres i praksis.",
+"title": "Legg vekk telefonen!",
+"room": "Room 2",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T17:20",
+"video": "861732616",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T15:20:00Z",
+"id": "b98ceb1b-e015-45eb-b1de-3593bea3fff4",
+"sessionId": "b98ceb1b-e015-45eb-b1de-3593bea3fff4",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Tania Holst",
+"twitter": "HolstTania",
+"bio": "Tania har jobbet som frontendutvikler for interne systemer i NAV siden 2019, og elsker å bidra til at veilederne får en enklere hverdag ved å utforme gode systemer til dem. \nPå fritiden er hun opptatt med samboer, hund og trening, og prøver å holde seg oppdatert på alt fra Marvel, Star Wars og resten av det Disney eier, i tillegg til å lære seg italiensk som en unnskyldning for å reise til Italia for å spise pasta og pizza."
+}
+]
+},
+{
+"intendedAudience": "Ingen forkunnskaper kreves. Du vil forhåpentligvis få lyst til å bygge ditt eget tastatur!",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Siden skrivemaskinens opprinnelse har designet preget tastaturene vi bruker selv i 2022. I denne presentasjonen vil jeg fortelle om hvorfor og hvordan jeg gikk vekk fra QWERTY og piltaster, og endte opp med å bygge mitt eget tastatur med bare 36 taster.",
+"title": "Ergosplit og hersk: fra QWERTY til selvbygget tastatur",
+"room": "Room 2",
+"startTime": "2023-09-06T17:30",
+"endTime": "2023-09-06T17:50",
+"video": "861730271",
+"startTimeZulu": "2023-09-06T15:30:00Z",
+"endTimeZulu": "2023-09-06T15:50:00Z",
+"id": "7577776c-c098-4699-9044-6e2367cd0802",
+"sessionId": "7577776c-c098-4699-9044-6e2367cd0802",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Mats Faugli",
+"twitter": "",
+"bio": "Erfaren utvikler med lidenskap for hjemmelagde mekaniske tastaturer, linux og progrock."
+}
+]
+},
+{
+"intendedAudience": "Ledere som vil maksimere verdiskaping og glede i organisasjonen, utviklere og arkitekter som vil lære noe nytt, eller de som synes arkitektrollen er forvirrende og unødvendig kan tjene godt av å bli med. Det hjelper om man har erfaring fra industrien og kjenner til autonome team, accelerate boken, eller domain driven design konsepter. ",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Ta del i en innsiktsfull presentasjon med Magnus, der han utforsker IT-utviklingen i Norge og hvordan \"Arkitekt 1.0\" ble til. Han belyser også hvorfor denne rollen har endret seg og blitt presset ut over tid, i takt med at innovasjoner som autonome, tverrfaglige team har blitt mer fremtredende. Magnus viser til hvorfor slike team fungerer, men belyser samtidig hvilke utfordringer som følger dem. \"Arkitekt 2.0\" er en oppdatert arkitektrolle som er designet for å utnytte og styrke de fremskrittene vi nyter daglig. Lær hvordan din organisasjon kan implementere denne nye oppdateringen og gjøre jobben mer givende for alle mens man leverer enda mer verdi.",
+"title": "Arkitekt 2.0 - En oppdatert arkitekt for en oppdatert verden",
+"room": "Room 1",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T17:45",
+"video": "861725688",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T15:45:00Z",
+"id": "f2395670-fd16-4689-a644-6e4df50c4361",
+"sessionId": "f2395670-fd16-4689-a644-6e4df50c4361",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Magnus Elden",
+"twitter": "",
+"bio": "Fra irritasjon til inspirasjon, Magnus har gått en lang vei i sin arkitekturkarriere. I løpet av de siste fem årene har han dykket dypt inn i dyre og komplekse prosjekter, jobbet med sensitive data og ledet tverrfaglige, autonome team. Denne erfaringen har gitt ham et nytt perspektiv på hvordan en arkitekt i dagens raske teknologiske landskap kan videre styrke moderne team-orienterte organisasjoner. Magnus har utviklet en ny, fremtidsrettet forståelse for arkitektrollen, og ser stort potensiale i å kombinere gode team med innsiktsfulle arkitekter."
+}
+]
+},
+{
+"intendedAudience": "This talk is meant to be intractive. The idea is to give the audience some ideas on what they should think about before committing to implementing a Service Mesh-based architecture. I wrote an article about this (https://medium.com/me/stats/post/1a44abdeea31) and also recorded some podcasts and videos on the same topics. This would be my first time adapting the content into a conference format.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Service Mesh is becoming a key component in the Cloud Native world. It allows teams to connect, secure, and observe complex microservices environments built on containers and container orchestration tools. But most Service Mesh tools are also very complex and require a lot of engineering overhead to deploy and maintain. In this talk, we will explore the considerations you have to take into account before you commit to a Service Mesh-based stack. I had the opportunity to help customers design around Istio (one of the most famous Mesh tools) and learned a lot through the years. This talk is a distilled experience of the learnings I had.\n",
+"title": "You probably DON’T need a Service Mesh!",
+"room": "Room 4",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T18:00",
+"video": "861721087",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T16:00:00Z",
+"id": "99e52eec-ccd5-4e1d-8bb2-e02ba713812a",
+"sessionId": "99e52eec-ccd5-4e1d-8bb2-e02ba713812a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Abdel Sghiouar",
+"twitter": "",
+"bio": "Abdel Sghiouar is a senior Cloud Developer Advocate @Google Cloud. His focused areas are GKE/Kubernetes, Service Mesh and Serverless. Abdel started his career in datacenters and infrastructure in Morocco where he is originally. Before moving to Google's largest EU datacenter in Belgium. Then in Sweden he joined Google Cloud Professional Services and spent 5 years working with Google Cloud customers on architecting and designing large scale distributed systems before turning to advocacy and community work.\n"
+}
+]
+},
+{
+"intendedAudience": "Developer, Architects who are new to Domain Driven Design (DDD)  or know little bit about DDD",
+"length": "240",
+"format": "workshop",
+"language": "en",
+"abstract": "This Hands-on workshop would help with learning Domain-Driven Design fundamentals and how to apply them for better microservices architecture. We will also cover how to decide on boundaries of microservices and how/when to split microservices using Domain-Driven Design.\n\nWhy Domain-Driven Design?\n\nDDD is very useful for designing scalable systems and platforms and the basis for designing better microservices architecture. On the data side, DDD is useful for building distributed data architectures including data mesh. DDD also helps with organizing a large team.\n\nThis one-day workshop will help you learn how to use domain-driven design to split domain and to design better microservice-style architectures. You’ll learn the DDD vocabulary and strategic patterns. Throughout the workshop, you’ll complete exercises in which the name of the domain-driven design concept is initially hidden until you code the problem statement, and then it will be revealed. Using simple coding use cases, you’ll learn DDD from the bottom-up to understand how current and existing code bases can be refactored to use DDD.\n\nYou will learn -\n\nThe relationship between DDD and microservices\n\nTactical and strategic DDD patterns\n\nDomain model as the primary and most important layer in three-tier/three-layer and hexagonal architecture\n\nDomain events, which are the basis for event-driven architecture\n\nAnd you will be able to -\n\nCome up with a microservice using the DDD aggregate concept\n\nDesign and evolve better boundaries for microservices using DDD\n\nUnderstand the domain layer and its importance in the overall success of a project\n\nApply DDD tactical patterns to existing code bases\n\nTopics Covered :\n\nThe what/why/when of domain-driven design; domain-driven design and friends\n\nWhat is a domain layer in the context of 3-tier/3-layer and hexagonal architecture?\n\nHands-on exercises- Problems 1 , 2 and showcase\n\nHands-on exercises- Problems 3 ,4, 5 and showcase\n\nDDD Concept 1\n\nHands-on exercises- Problems 6 and showcase\n\nDDD Concept 2\n\nHands-on exercises- Problems 7 and showcase\n\nDDD Concept 3\n\nHands-on exercises- Problems 8 and showcase\n\nDDD Concept 4\n\nHands-on exercises- Problems 9 & 10 and showcase\n\nDDD Concept 5\n\nRelationship to microservices architecture. Demo of microservice code using DDD. Covers when to split microservices. Sagas, microservices communication patterns.\n\nHands-on exercises- Problems 11 and showcase. Demo of microservice code\n\nDDD Concept 6\n\nRelationship to microservices architecture. Demo of microservice code using DDD\n\nDDD Concept 7 & 8\n\nRelationship to team topology,etc.\n\nModular monolith\n\nBrief on Event sourcing, CQRS,\n\nBrief on Event storming and Domain Storytelling - Technique to find bounded contexts.\n\nBrief on Data Mesh and its relation to Domain-Driven Design.",
+"title": "Domain-Driven Design and microservices Hands-on workshop",
+"workshopPrerequisites": "A computer set up with the IDE of your choice e.g IntelliJ IDEA community edition, VC Code or other. You can use any programming language for the workshop (Java, C#, Python, Ruby, Kotlin, Scala, Javascript, TypeScript, Go). Please create a repository for the language of your choice before joining the live event . You should preferably have 4+ years of software development experience (such as Java, C#, JavaScript, TypeScript, Kotlin, Scala, Ruby, Python, Go, etc.)\n\n( Please see sample repository for Java/gradle) \nhttps://github.com/ddd-workshop-org/ddd-sample-uc1\n\nPlease try to write code for the following four code problems before a workshop in the programming language of your choice. This workshop uses Object Oriented Paradigm for Domain Driven Design, so please use Object Oriented  programming.\n\nCode Problem 1\n Add a “Apple Pencil” to a Cart \n Note:  Please do not create a User class.  Please do not create ProductCategory, Variant, Colour, etc classes.\nSample implementation:\nhttps://github.com/ddd-workshop-org/ddd-sample-uc1\n\nCode Problem 2\nAdd a “Sony Wireless headphone” to a Cart\nhttps://github.com/ddd-workshop-org/ddd-sample-uc2\n\nCode Problem 3\nAdd 2 quantities of “Apple Pencil” to a Cart. \nhttps://github.com/ddd-workshop-org/ddd-sample-uc3\n\nCode Problem 4\nRemove already added Item “Apple Pencil” (with all its quantities) from Cart.\nhttps://github.com/ddd-workshop-org/ddd-sample-uc4",
+"startTime": "2023-09-05T09:00",
+"endTime": "2023-09-05T13:00",
+"room": "Workshop B",
+"registerLoc": "https://moosehead.javazone.no/#/register/domaindriven_design_and_microservices_handson_workshop",
+"startTimeZulu": "2023-09-05T07:00:00Z",
+"endTimeZulu": "2023-09-05T11:00:00Z",
+"id": "b88ac7b7-4036-4609-9886-69480ae16064",
+"sessionId": "b88ac7b7-4036-4609-9886-69480ae16064",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T09:00",
+"startSlotZulu": "2023-09-05T07:00:00Z",
+"speakers": [
+{
+"name": "Sandeep Jagtap",
+"twitter": "sandeep_jagtap",
+"bio": "Sandeep Jagtap is principal consultant for Thoughtworks India, where he has worked for 16 years. He’s a proponent, enthusiast, and practitioner of domain-driven design, with experience in building scalable systems using DDD, event sourcing and CQRS. During his 24 years of experience in the industry, he’s also served in roles such as developer, tech lead, tech principal, and architect. Please see LinkedIn profile for details https://www.linkedin.com/in/sandeepsjagtap/"
+}
+]
+},
+{
+"intendedAudience": "Denne lyntalen er relevant for alle som bruker eller vurderer å bruke 1Password, og spesielt for de som jobber med hemmeligheter og/eller SSH-nøkler. Det kan også være relevant for brukere av andre passordbehandlere som har lignende funksjonalitet.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Lagrer du bare passord i 1Password? Det er på tide å utnytte verktøyet til det fulle! I denne presentasjonen viser jeg deg noen av de offisielle, men lite kjente, måtene 1Password kan hjelpe deg som utvikler.\n​\nMed praktiske eksempler viser jeg deg hvordan du kan bruke 1Password til å:\n​\n- dele SSH-nøkler mellom maskiner uten å måtte kopiere dem manuelt\n- låse opp SSH-nøkler med fingeravtrykk i stedet for passord\n- bruke hemmeligheter i kommandolinjen og konfigurasjonsfiler\n- dele hemmeligheter med teamet ditt\n​\nDisse teknikkene kan spare en enkelt utvikler for mye tid. Men når hele teamet benytter seg av dem, kan man spare enda mer – spesielt ved håndtering av hemmeligheter og onboarding av nye teammedlemmer. Ikke bare vil du jobbe mer effektivt, men også øke sikkerheten ved å bruke 1Password til å administrere sensitive data.\n​\nPresentasjonen passer for utviklere på alle erfaringsnivåer, uansett om man bruker Mac, Windows eller Linux. Bli med og lær hvordan du kan ta i bruk 1Password for å øke produktiviteten og sikkerheten i arbeidet ditt!",
+"title": "Utnytt 1Password til det fulle som utvikler",
+"room": "Room 2",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:00",
+"video": "861720630",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:00:00Z",
+"id": "ccbe6b82-d110-41af-8c1c-3e91d607fd6a",
+"sessionId": "ccbe6b82-d110-41af-8c1c-3e91d607fd6a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Henrik Dæhli",
+"twitter": "",
+"bio": "Henrik er en erfaren konsulent med ekspertise innen utvikling. Han har en ekstra interesse innen sikkerhet. Henrik trives med å samarbeide tett med forretningssiden for å finne de beste løsningene og hans erfaring spenner fra små, til store samfunnskritiske systemer."
+}
+]
+},
+{
+"intendedAudience": "Utviklere og team som er ansvarlige for utvikling og forvaltning av applikasjoner og løsninger som bruker npm-pakker som en del av løsningen, enten de brukes i byggetrinn eller i produksjon. ",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Forrest Gump sa engang: \"Livet er som npm install - du vet ikke alltid hva du får\". Neida. Men de siste årene har npm stadig oftere hatt utfordringer med sikkerhetshendelser som viser oss at det å ta i bruk npm-pakker kan være en risikosport! Hvordan kan vi som utviklere sikre oss? Hvordan kan vi skape større trygghet når vi installerer nye pakker eller oppgraderer eksisterende?\n\nTerje snakker om konkrete utfordringer, mekanismer, verktøy og rutiner i tillegg til god praksis som gjør at utviklere og team som bruker npm i applikasjonene sine kan sikre seg så godt det lar seg gjøre.",
+"title": "NPM - lettvint, helt til det smeller!",
+"room": "Room 2",
+"startTime": "2023-09-06T16:10",
+"endTime": "2023-09-06T16:30",
+"video": "861718527",
+"startTimeZulu": "2023-09-06T14:10:00Z",
+"endTimeZulu": "2023-09-06T14:30:00Z",
+"id": "5abca95f-3176-44e3-8e18-a014f5214e83",
+"sessionId": "5abca95f-3176-44e3-8e18-a014f5214e83",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Terje Karlsen",
+"twitter": "",
+"bio": "Terje har jobbet som utvikler med fokus på frontend og web-basert teknologi i 20 år. I den tiden har han sett både teknologi og metoder utvikle seg og selv opplevd hvor tidkrevende og usikkert håndtering av avhengigheter i store applikasjoner kan være."
+}
+]
+},
+{
+"intendedAudience": "All front end developers or people interested in frontend development",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "The last couple of years, the frontend community has gone from spitting out single page applications with huge JavaScript bundles to yet again embracing the server model, with server side rendering, server components and static site generation. \n\nBut what's the right tool for you? What are the tradeoffs, both in complexity, user experience and developer experience? This talk will take you on a tour through history, the current landscape – and of course – give you the answer to what you should choose.",
+"title": "The battle of the frontend frameworks",
+"room": "Room 6",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T17:45",
+"video": "861717284",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T15:45:00Z",
+"id": "25478e42-4f96-4d63-9829-7a82746da67e",
+"sessionId": "25478e42-4f96-4d63-9829-7a82746da67e",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Kristofer Giltvedt Selbekk",
+"twitter": "selbekk",
+"bio": "Kristofer is an experienced frontend developer, React advocate and a father of two. He's been using lots of different frameworks through his 10 years of experience, and is looking forward to telling you a bit about his takeaways."
+}
+]
+},
+{
+"intendedAudience": "Utviklere både med og uten erfaring",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "I tidligere Javazone iterasjoner har der vært enkelte innlegg som lot til å argumentere for at man burde være hyggelig og holde en kollegial tone når man forfatter en Pull Request (PR) review. Fordelene med dette er ting som at det kan bidra til bedre arbeidsmiljø og at kolleger blir tryggere på seg selv og hverandre. I denne lyntalen ønsker jeg å illustrere, via egen erfaring, at PR reviews oftere enn ikke er for hyggelige og at dette kan gå utover kvaliteten på en kodebase. Jeg vil gjøre dette ved å vise kontrasten mellom PR review og den akademiske peer review prosessen. Jeg vil vise at det er store likheter i formålet mellom disse to prosessene, men at resultatet kan divergere noe når det kommer til resultatet av disse prosessene. Videre vil jeg fremsette en hypotese om at hyggelig tone og korte tilbakemeldinger i PR utgjør en tapt mulighet for å lage enda bedre kode. Den vil jeg så underbygge med nøye utvalgte eksempler på både PR og akademisk peer reviews.",
+"title": "Er våre Pull Request reviews altfor hyggelige?",
+"room": "Room 2",
+"startTime": "2023-09-06T16:00",
+"endTime": "2023-09-06T16:10",
+"video": "861717023",
+"startTimeZulu": "2023-09-06T14:00:00Z",
+"endTimeZulu": "2023-09-06T14:10:00Z",
+"id": "e58dc48f-aee0-4349-b176-34b083f7b5bc",
+"sessionId": "e58dc48f-aee0-4349-b176-34b083f7b5bc",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Kent Inge Fagerland Simonsen",
+"twitter": "",
+"bio": "Kent Inge har 20 års erfaring som programvareutvikler og forsker innen samme emne. Han har dermed mottatt tilstrekkelig med både Pull Request og akademiske peer reviews til å kunne ane likheter og noen systematiske forskjeller."
+}
+]
+},
+{
+"intendedAudience": "Developers familiar with Maven",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Apache Maven is an ubiquitous build tool in the Java ecosystem, some even claim it's the defacto standard build tool. Configuring Maven is deceptively simple, after all it's just a matter of writing XML, isn't it? Things look differently when the rubber meets the road. One must know the intricacies of the build lifecycle; how plugins, goals (mojos), and phases come together; rules for dependency resolution; configuration inheritance between parent - child POM files; enhancing the build with profiles; and more. These features may trip you over if the rules that govern them are unclear. We'll present a series of scenarios to test your knowledge on Maven rules. we guarantee you'll leave this session with a few bits of new information and better understanding of the Maven build tool.",
+"title": "Maven Puzzlers",
+"room": "Room 4",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:40",
+"video": "861707277",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:40:00Z",
+"id": "ca873dbe-7389-4ee7-a71f-7327860106c7",
+"sessionId": "ca873dbe-7389-4ee7-a71f-7327860106c7",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Andres Almiray",
+"twitter": "@aalmiray",
+"bio": "Andres is a Java/Groovy developer and a Java Champion with more than 2 decades of experience in software design and development. Andres is a true believer in Open Source."
+},
+{
+"name": "Ixchel Ruiz",
+"twitter": "@ixchelruiz",
+"bio": "Ixchel Ruiz has developed software applications and tools since 2000. Her research interests include Java, dynamic languages, client-side technologies, DevSecOps, and testing.Ixchel travels around the world (sometimes virtually) sharing knowledge. "
+}
+]
+},
+{
+"intendedAudience": "Java programmers working on web backend applications with or without the Spring framework.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Does Java backend development need to require lots of magic formulas and automatic behavior to be simple?\n\n20 years ago Java development (J2EE) was dominated by complex application servers and Enterprise Java Beans (EJBs) which were cumbersome to use. In response, the Spring framework was launched with the motto \"J2EE without EJBs\". But all cures become the new disease and even though it simplified the development experience at the time, as the Spring framework has become more mature and more popular, it has also become more complex and started obscuring the task.\n\nDeveloping Java backend solutions require you to understand issues of packaging and deployment, configuration, request routing, transactions and connection management and security. Popular frameworks seek to \"deal with this for you\", but unless you understand what the frameworks do, you will create hard to test, buggy and insecure applications anyway.\n\nThere are alternatives with fewer dependencies that don't really involve more coding or more learning, but that makes the resulting application easier to understand and the code easier to navigate.\n\nIn this talk, I will demonstrate how to code for the technologies I use to set up applications that let me develop with twice the speed of a Spring programmer. Along the way, we will organize and understand the parts that go into creating any Java web backend application with any framework on a containerized platform",
+"title": "Java EE simplified without Spring",
+"room": "Room 6",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:40",
+"video": "861706245",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:40:00Z",
+"id": "09a1ecb3-1a44-4c9c-a998-5e83909a5e45",
+"sessionId": "09a1ecb3-1a44-4c9c-a998-5e83909a5e45",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Johannes Brodwall",
+"twitter": "jhannes",
+"bio": "Johannes Brodwall is an experienced programmer and solution architect who was responsible for one of the first large scale adoptions of the Spring framework in the early 2000s. He has spent the last 20 years learning and adjusting to better alternatives that he so far has kept secret to get ahead of the competition."
+}
+]
+},
+{
+"intendedAudience": "Alle som lytter til podkaster og som har kjent på utfordringene med å måtte forholde seg til mange lukkede plattformer. Det tekniske vil være mest interessant for utviklere.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "I 2021 begynte NRK å publisere podkastene sine én uke senere på andre plattformer enn egen app, og en del podkaster er nå kun tilgjengelig i appen. For at jeg selv og andre lyttere skal kunne høre på dem som før, publiserer jeg åpne RSS-feeds. Men hvorfor må jeg det? Og hva er en podkast egentlig?\n\nJeg viser frem løsningen jeg har satt opp for å automatisk oppdage og publisere podkaster, basert på NRKs åpne APIer. I tillegg vil jeg belyse noen av utfordringene med å begrense tilgjengeligheten til podkaster, hvorfor podkast er et fantastisk format, og hvorfor jeg fortsatt er ganske glad i NRK, tross alt.",
+"title": "Hvorfor jeg må gjøre jobben til NRK",
+"room": "Room 2",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T14:40",
+"video": "861697003",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T12:40:00Z",
+"id": "a0b0a006-6b4e-446a-b04c-658f256ab2fe",
+"sessionId": "a0b0a006-6b4e-446a-b04c-658f256ab2fe",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Sindre Lindstad",
+"twitter": "@sindreli",
+"bio": "Sindre Lindstad is a die-hard automation enthusiast. He's currently a Tech Lead at Entur AS, and once set a record as the fastest 60 meter runner in primary school."
+}
+]
+},
+{
+"intendedAudience": "Alle som interesserer seg for data og hvordan skape kunnskap av dataene",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Politiet har en enormt viktig rolle i samfunnet vårt for å ivareta lov, orden og trygghet, og data går som en rød tråd gjennom alle deler av politiets arbeid som spenner seg fra de mest kritiske situasjonene, til etterforskning, cyberkrim og forebyggende arbeid. Politiet jobber til alle døgnets tider, hver eneste dag. Det genereres store mengder data som kan være vanskelig å få oversikt over og ofte er tilgang til oppdatert data avgjørende for å kunne løse politiets oppdrag. Bli med på denne talken og lær mer om hvordan Politiets IT-enhet jobber med å skape fremtidens IT-systemer og produkter for et politi der datadeling står sentralt, hvordan vi ivaretar sikkerhet i deling av data og hvordan vi skal jobbe med å forstå dataene våre bedre. Du vil også kunne lære mer om hvordan vi kan bygge ny kunnskap av data og vi skal vise aktuelle caser som du vil kunne dra nytte av. ",
+"title": "Det datadrevne politiet",
+"room": "Room 2",
+"startTime": "2023-09-06T14:50",
+"endTime": "2023-09-06T15:10",
+"video": "861694952",
+"startTimeZulu": "2023-09-06T12:50:00Z",
+"endTimeZulu": "2023-09-06T13:10:00Z",
+"id": "7c5fb42f-f015-4e18-9262-b532771b01df",
+"sessionId": "7c5fb42f-f015-4e18-9262-b532771b01df",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Audun Vindenes Egge",
+"twitter": "",
+"bio": "Audun bygger dataplattformer i politiet, og er opptatt av å bryte ned siloer, dele kunnskap og legge tilrette for fart, flyt og morro!"
+},
+{
+"name": "Anthony Lærdahl",
+"twitter": "",
+"bio": "Anthony (Tony) jobber med data i politiet. Han har vært utvikler, arkitekt, prosjektleder og teamleder. Men nå er han mest opptatt av semantisk teknologi og modernisering av data- og informasjonsarkitekturen i politiet."
+}
+]
+},
+{
+"intendedAudience": "This session is for anyone who is interested in the life of a digital nomad, whether you're already living the nomadic lifestyle, considering it, or just curious about how it all works. Participants can expect to gain insight in to what it actually means to be working remotely and traveling. ",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "I will share my experiences traveling and working as a nomadic software engineer across 30+ countries on 4 continents. As someone who went straight from a traditional office job to working for a startup while traveling the world, I learned a lot about the joys and challenges of being a digital nomad. I'll talk about the unique aspects of working remotely, the importance of flexibility and adaptability, and how to balance work and play while constantly on the move. My aim is to inspire others to try the nomadic lifestyle while also helping them understand whether it's the right fit for them.",
+"title": "Breaking Free: The Joys and Challenges of Being a Digital Nomad Engineer",
+"room": "Room 1",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T15:05",
+"video": "861690439",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T13:05:00Z",
+"id": "b20b29b0-0904-4572-a571-dffa666297c5",
+"sessionId": "b20b29b0-0904-4572-a571-dffa666297c5",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Nemanja Aksic",
+"twitter": "",
+"bio": "Nemanja is a digital nomad and software engineer working for SafetyWing, a Silicon Valley-based startup that operates with fully remote teams. Since becoming a nomad he's traveled to and worked from more than 30 countries across four continents and has experience working as a consultant in Oslo. With a passion for remote work and location independence, Nemanja is excited to share his practical insights and firsthand experience with the joys and challenges of being a digital nomad."
+}
+]
+},
+{
+"intendedAudience": "Developers and systems architects. Main benefit is understanding that regular DNS can be a powerful and useful way to deal with service discovery, without having to add complicated infrastructure beyond a regular DNS server. Having experience with setting up microservices using other tools or services would be good.",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "One of the key architectural decisions when building systems is how to deal with service discovery. In this talk I will present the option of using dynamic DNS techniques to register services during lifecycle phases, and then use DNS-aware clients to take advantage of this. In particular I will show how to use SRV records to enable client-side load-balancing and failover, and how this enables clients to be configured with logical DNS names, and only the physical mappings change in DNS to make the system as a whole come alive.\n",
+"title": "Using dynamic DNS for service discovery",
+"room": "Room 2",
+"startTime": "2023-09-06T13:30",
+"endTime": "2023-09-06T13:50",
+"video": "861678772",
+"startTimeZulu": "2023-09-06T11:30:00Z",
+"endTimeZulu": "2023-09-06T11:50:00Z",
+"id": "9a4299ba-f631-44b6-9668-49d8198b3a08",
+"sessionId": "9a4299ba-f631-44b6-9668-49d8198b3a08",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T13:00",
+"startSlotZulu": "2023-09-06T11:00:00Z",
+"speakers": [
+{
+"name": "Rickard Öberg",
+"twitter": "",
+"bio": "I have been working on Java projects, products, and services since 1996. Founder and creator of several OpenSource Java projects, including XDoclet, WebWork (now Apache Struts 2), JBoss Application Server, the AOP Qi4j framework, and many other smaller libraries. \nMy focus is event based enterprise software and architectures, including integration between systems and services using REST based APIs. My general process is application of systems thinking in relating technology to business and customer needs, and understanding how various parts of a system functions together, including backends, frontends, metrics, and integration services."
+}
+]
+},
+{
+"intendedAudience": "This talk is for experienced Java developers who want to get to start optimizing their Java applications: analyzing performance bottlenecks using open-source tools.\nThe participants will get an overview of profilers and their basic concepts, allowing them to add profilers to their toolbox.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Profilers help to analyze performance bottlenecks of your application - if you know which to use and how to work with them.\n\nThere are many open-source profilers, like async-profiler or JMC. This talk will give you insights into these tools, focusing on:\n\n- Understanding the basic concepts of profiling like flame graphs, ...\n- Usage of async-profiler and JMC\n- Advantages and disadvantages of the different tools\n\n",
+"title": "Unleash the Power of Open Source Java Profilers",
+"room": "Room 1",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T10:00",
+"video": "861946709",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T08:00:00Z",
+"id": "d69ca0c0-fbce-4a36-8f92-21b39456c0bd",
+"sessionId": "d69ca0c0-fbce-4a36-8f92-21b39456c0bd",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Johannes Bechberger",
+"twitter": "parttimen3rd",
+"bio": "Johannes Bechberger is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP last year after almost 3 years of research studies at the KIT in the field of Java security analyses. His work today is comprised of contributing to various profiling-related open-source projects and fixing bugs in profiling APIs, working on his API in the JEP Candidate 435."
+}
+]
+},
+{
+"intendedAudience": "No prior knowledge of video editing or programming needed! You'll probably enjoy the content a lot more if you have some experience with the command line. But the talk is meant to be lighthearted, give you some \"aha\"s and focus on the demystifying parts.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Most people, when asked to edit a video, use programs like Premiere Pro, Final Cut, or (😬) Windows Movie Maker. But that takes time. And clicking. Also, we're developers! We love the command line! If we could, we'd probably control our whole lives with iTerm2, kitty or the Visual Studio Code console.\n\nThe story of this talk started an afternoon when I was just trying to compress a video file I had lying around. Of course I wanted to do it from the command line. This ended up pulling me down into a rabbit hole of digital video, codecs and compression schemes. I'm now poking my head up to tell you all about it! Everything from how to edit video in your favourite shell and with your favourite coding language, to the inner workings of video and what makes it so clever. And just a little about how all of this is heavily used in the products that surround us every day. Live demos included.\n\nWhile being a complex topic, it's not as magic as you might think. Let's demystify video together!",
+"title": "Video editing on the command line aka. what happens when you ask a programmer to edit your video",
+"room": "Room 7",
+"startTime": "2023-09-07T17:00",
+"endTime": "2023-09-07T18:00",
+"video": "862098964",
+"startTimeZulu": "2023-09-07T15:00:00Z",
+"endTimeZulu": "2023-09-07T16:00:00Z",
+"id": "135e2753-1653-490d-af06-640f669e87d1",
+"sessionId": "135e2753-1653-490d-af06-640f669e87d1",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T17:00",
+"startSlotZulu": "2023-09-07T15:00:00Z",
+"speakers": [
+{
+"name": "Benedicte Emilie Brækken",
+"twitter": "benedebr",
+"bio": "Benedicte lives for the command line! 👩‍💻 She's one of those people who still use mutt 😅 And for those of you in the know, that should be enough ethos. When COVID hit, she got super passionate about home office video conferencing gear 🎥, and spent most of her paycheck on DACs, microphones and cameras. This, among other things, sparked a deep passion for all things video, streaming, and recording, which she's looking forward to share with you all! 🎉"
+}
+]
+},
+{
+"intendedAudience": "Everyone",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "In this talk we'll go on a journey through the history of music made with code. We'll meet the pioneers who invented computer music, visit classic video game soundtracks, learn how computer musicians made big sounds with tiny tech, how algorithms create never-ending soundtracks and the huge impact computer music has had on popular culture. Expect lots of nostalgia, vintage code on vintage computers and a musical experience of epic proportions.",
+"title": "The History of Computer Music 2023 REMIX!",
+"room": "Room 6",
+"startTime": "2023-09-07T17:00",
+"endTime": "2023-09-07T18:00",
+"video": "862097159",
+"startTimeZulu": "2023-09-07T15:00:00Z",
+"endTimeZulu": "2023-09-07T16:00:00Z",
+"id": "52ceebb6-3feb-4106-b8b9-0a220e7d5955",
+"sessionId": "52ceebb6-3feb-4106-b8b9-0a220e7d5955",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T17:00",
+"startSlotZulu": "2023-09-07T15:00:00Z",
+"speakers": [
+{
+"name": "Anders Norås",
+"twitter": "anoras",
+"bio": "Director of Software Engineering (CTO) at Avanade\n\nOriginally educated in arts and design, Anders has spent the last twenty years writing code.\n\nHe has given numerous talks and keynotes at conferences such as JavaZone, NDC, J-Fall, Øredev and many more. Have given 100+ conference talks to a variety of audiences including media, design and hardcore computer science. Known for an energetic and highly engaging presentations."
+}
+]
+},
+{
+"intendedAudience": "Foredraget passer for tekniske personer som kjenner til programmering. Foredraget handler om å fortelle hvordan en virtuell datmaskin klarer å kjøre et program, og hvordan man kan bruke Python til å løse en programmeringsoppgave med bruk av bl.a. boolean-operatoren XOR.\n\nFor de i publikum som er utviklere til vanlig vil foredraget forhåpentligvis inspirere til å ha det gøy med ferdighetene de allerede besitter, og å vise de at f.eks. kodeknekking er et av områdene kan kan begi seg ut på for å få nye utfordringer. Det kreves ikke at publikum trenger å forstå alt innholdet, målet er å demonstrere og inspirere til å lære mer på egen hånd.\n\nUtover en grunnleggende forståelse for programmering så trenger man ingen forkunnskaper, jeg vil forklare underveis konseptene som kodeoppgaven løser.",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Hver påske legger PST (Politiets Sikkerhetstjeneste) ut en Capture the Flag-konkurranse (CFT), og i 2020 hadde de en ekstra morsom oppgave på 2. påskedag som jeg gjerne vil dele med deg.\n\nVi har foran oss et bilde med påskekyllingbetjenter, et merkelig Python-skript og en hel haug med emojier - hva kan dette være? Og forresten, hvordan starter og kjører et program på en datamaskin egentlig? \n\nBli med på litt påskenøttknekking og finn ut sammen med meg!",
+"title": "Påskenøttknekking med emojier 🐇",
+"room": "Room 4",
+"startTime": "2023-09-07T17:00",
+"endTime": "2023-09-07T17:45",
+"video": "862095935",
+"startTimeZulu": "2023-09-07T15:00:00Z",
+"endTimeZulu": "2023-09-07T15:45:00Z",
+"id": "9d67c296-85a2-4806-ac23-6f190f3e9bc2",
+"sessionId": "9d67c296-85a2-4806-ac23-6f190f3e9bc2",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T17:00",
+"startSlotZulu": "2023-09-07T15:00:00Z",
+"speakers": [
+{
+"name": "Henrik Walker Moe",
+"twitter": "",
+"bio": "Henrik er sentral i sikkerhetsfagområdet i Bekk, og har over 17 års erfaring i bransjen. Når han finner noe han brenner for å dele med bransjen så kommer det gjerne i form av innlegg på en blogg, i et debattinnlegg eller fra talerstolen på konferanser.\n\nFaglig fokus de siste årene har vært på IT-sikkerhet, hvor Henrik bruker fritiden på å bl.a. være en \"White Hat\"-hacker som tester sikkerheten til fiktive nettløsninger i Capture-The-Flag oppgaver. I rollen som temaeier for Sikkerhet i Bekk jobber han for å skape et miljø rundt faglig engasjement, sikkerhetsbevissthet og bygge opp sikkerhetskompetansen hos kollegaer og kunder."
+}
+]
+},
+{
+"intendedAudience": "This talk is intended for software developers to learn about how security reporting and research works to give a greater appreciation for this space and hopefully generate excitement to learn more. Developers will take away some simple practical steps to think about to write safer code and have safer team processes.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Ever wonder about the mindset of a hacker? What is a Zero day attack? When does the clock start ticking?\n\nAs cyber Attacks become an existential threat it’s critical that all software developers understand the role the CVE process plays in helping us keep our defenses strong - and where it can go wrong or be subverted.\n\nIn this session, we’ll cover how the CVE process works, explore the timelines of a few famous CVEs, and uncover the truth about ethical reporting. We'll then discuss the practical steps you can take as a developer to write safer software. From bug bounties and bad actors to unsung developer heroes and incredible researchers, it’s time to buckle up for a wild ride as we show you what CVEs are all about.",
+"title": "CVE 101: A Developer's Guide to the World of Application Security",
+"room": "Room 7",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:25",
+"video": "862082493",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:25:00Z",
+"id": "5cde4f58-77f2-4295-9cd5-00ee65c410f0",
+"sessionId": "5cde4f58-77f2-4295-9cd5-00ee65c410f0",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
+"speakers": [
+{
+"name": "Theresa Mammarella",
+"twitter": "t_mammarella",
+"bio": "Theresa Mammarella is a software engineer at IBM, specializing in Eclipse OpenJ9 JVM and native image prototyping. She enjoys helping developers harness the full potential of their tools to create innovative solutions. Theresa actively contributes to the open-source community collaborating on various projects and is a regular conference speaker.\nWhen she's not coding, Theresa loves to spend her time volunteering with animal rescues and exploring the great outdoors, where she can often be found hiking, camping, or simply soaking up nature's beauty."
+}
+]
+},
+{
+"intendedAudience": "This talk is designed for gamers who participate in team-based raids and want to improve their effectiveness and efficiency. The talk focuses on the importance of breaking down larger goals into smaller, more manageable tasks and provides practical tips on how to do so.\n\nDuring the presentation, attendees will learn how to organize a raid team, set up a schedule, and assign roles and responsibilities to team members. The talk will also include examples of tasks that might be included in a raid plan, such as gathering resources, scouting locations, and establishing communication protocols.\n\nBy the end of the talk, attendees will have a better understanding of how to approach raid goals and will be equipped with practical strategies for breaking down larger objectives into smaller, actionable tasks. The ultimate goal of the talk is to help gamers work more effectively as a team, improve their raid performance, and ultimately achieve success in their gaming endeavors.",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Are you tired of endless project plans that seem to go nowhere? Do you feel like your team is struggling to hit its goals, no matter how much you plan ahead? You know I am talking about wow raids, right? Let's take a lesson from a project management framework: breaking down raid goals into smaller, actionable tasks.\n\nAs a gamer and developer, I have seen how effective it can be to think like a project manager when approaching complex group setup. Just like in a raid, you need to organize your team, set up a schedule, and assign roles and responsibilities. \n\nIn this 10-minute talk, I will share practical tips and examples from my experience raiding in world of warcraft, and how i used scrum methodologies to accomplish this. Whether you're leading a team of developers or coordinating to storm raszageth, by breaking down larger goals into smaller, more manageable tasks, you can make progress towards your objectives and build a sense of momentum that can carry you to success.\n",
+"title": "Scrumming the WoW Raid: Boosting Efficiency and Fun",
+"room": "Room 2",
+"startTime": "2023-09-07T16:00",
+"endTime": "2023-09-07T16:10",
+"video": "862067344",
+"startTimeZulu": "2023-09-07T14:00:00Z",
+"endTimeZulu": "2023-09-07T14:10:00Z",
+"id": "a4e42984-f085-49c1-9740-851669789921",
+"sessionId": "a4e42984-f085-49c1-9740-851669789921",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
+"speakers": [
+{
+"name": "Malin Jakobsen",
+"twitter": "",
+"bio": "Front-end developer with a love for gaming and user experience working for Miles in Bergen"
+}
+]
+},
+{
+"intendedAudience": "Everyone interested in new and disruptive technology. (or a good story) ",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "This talk will be about technology and life, about being passionate about something and make (or force) your company and maybe even your country to adapt. But where do you start when no one shares or even understand the thing you truly belive is the future for yourself, your company, your nation - heck, the very world itself?",
+"title": "Quantumania - an unexpected journey",
+"room": "Room 2",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:00",
+"video": "862066474",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:00:00Z",
+"id": "05d3a51e-1bd7-4df1-b884-aa42c0bdabfc",
+"sessionId": "05d3a51e-1bd7-4df1-b884-aa42c0bdabfc",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
+"speakers": [
+{
+"name": "Andreas Ahlgren",
+"twitter": "",
+"bio": "Andreas is a multifaceted professional who combines his role as a manager with his expertise in frontend technology as well as demonstrating a fervent passion for Quantum Computing among other cutting-edge technologies. His interests extend far beyond the digital world, reflected in his collection of heavy-weight board games, numbering at least ten weighing over 10 kilograms each. An engaging speaker, Andreas relishes the opportunity to give talks, sharing his knowledge and passion. He's firmly anchored in the belief that stagnation equals decline, and with this mindset, he continually strives to stay abreast of the latest developments, whether it's in the realm of technological frameworks or the intricate lore of Warhammer 40K."
+}
+]
+},
+{
+"intendedAudience": "Inspirational and entertaining session for programmers",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "Advent of Code (AoC) is like a winter holiday party for programmers! Except instead of drinking gløgg and exchanging presents, participants solve daily programming puzzles that become increasingly difficult as the event progresses. It’s a joyful way to sharpen your coding skills, where the reward for each day is the satisfaction of solving the challenges with the language of your choice.\n\nDuring this talk, we’ll take a look at some funny and mind-blowing solutions to these puzzles from the AoC subreddit, as well as jokes and memes that were born from failures and focused endeavors to collect fifty \"stars\" and save Christmas. Get ready to be inspired by the creativity and perseverance of programmers who often intentionally overcomplicate things but still manage to find solutions. Let their stories reignite your passion for coding.\n\nThis talk is intended for programmers, nerds, and elves alike.",
+"title": "AdventOfCode for the Brave and True!",
+"room": "Room 2",
+"startTime": "2023-09-07T16:10",
+"endTime": "2023-09-07T16:30",
+"video": "862065794",
+"startTimeZulu": "2023-09-07T14:10:00Z",
+"endTimeZulu": "2023-09-07T14:30:00Z",
+"id": "e00614d6-55c2-45b0-a542-2de2d7e5e90a",
+"sessionId": "e00614d6-55c2-45b0-a542-2de2d7e5e90a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
+"speakers": [
+{
+"name": "Artur Zabeyvorota",
+"twitter": "",
+"bio": "As a passionate backend developer who loves a good challenge, I'm proud to have completed the \"Advent of Code\" in both 2020 and 2022 using Python and Kotlin."
+}
+]
+},
+{
+"intendedAudience": "This presentation is for frontend developers, tech team leaders. It is a topic that covers a trend that group of people might find interesting to adopt for their own teams.\n\n\n\n",
 "length": "10",
 "format": "lightning-talk",
 "language": "en",
-"abstract": "There are times where it would be helpful to restrict operations on types based on where an object comes from, or what the state of the object is. Examples include which database table an integer id came from, whether a Map of strings represents validated values or if a particular branch of your code has read or write access to a file.\n\nThe obvious solution is to create dedicated types for each state, but this requires a bit of boilerplate and extra runtime overhead.\n\nIn this talk we'll look at a technique to enforce the constraints we want, with a minimum amount of code and no runtime overhead.",
-"title": "Phantom Types in Java",
-"id": "a03c35b1-f5aa-4b07-b5ba-5857beae672b",
-"sessionId": "a03c35b1-f5aa-4b07-b5ba-5857beae672b",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Dealing with the limitations and headaches of using monolithic architectures in our web applications can be tiring. As developers, it's crucial that we're informed early in our careers about different paradigms that offer improved flexibility and faster deployment and development times! That's why you should join me to discover why micro frontends are the S#@T and why everyone should try them in their teams. Through examples, we'll demonstrate how this approach can help you break down your frontend into smaller, independent pieces and develop and deploy new features more quickly. \n",
+"title": "Why micro frontends are the s#@t",
+"room": "Room 2",
+"startTime": "2023-09-06T12:00",
+"endTime": "2023-09-06T12:10",
+"video": "861652906",
+"startTimeZulu": "2023-09-06T10:00:00Z",
+"endTimeZulu": "2023-09-06T10:10:00Z",
+"id": "b030dde9-783f-453f-8eca-0bb1c570946d",
+"sessionId": "b030dde9-783f-453f-8eca-0bb1c570946d",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
 "speakers": [
 {
-"name": "Robin Heggelund Hansen",
-"twitter": "",
-"bio": "Robin is a consultant at Kodemaker and the creator of the Gren programming language. He enjoys programming languages in general, and is always looking for a way to improve the way we develop software today."
+"name": "George Harakis",
+"twitter": "https://twitter.com/GHarakis",
+"bio": "I am a full-stack Oslo based web developer (originally from Cyprus) with a focus on React and Java Spring Boot. I also hold a Bachelor's degree in Computer Science.\nAside from my professional work, I am passionate about teaching and sharing my knowledge with others. In my spare time, I create educational YouTube videos covering topics such as React and various aspects of web development. I find it incredibly rewarding to interact with people from all over the world.\n"
 }
 ]
 },
 {
-"intendedAudience": "Utviklere og alle som liker et post-mortem",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "4. juni 1996 skjer verdens (hittil) dyreste programvarefeil. Etter mange suksessfulle oppskytninger med Ariane 4 raketten er ESA – Europas svar på NASA – endelig klar for å ta i bruk sin nye og moderne rakett, Ariane 5. Raketten har tatt mange år å utvikle, men nå er den endelig klar for sin første ferdsel. I 37 sekunder går reisen feilfritt, helt til én enkelt kodelinje skaper katastrofale problemer.\n\nForedraget gir en lett innføring i romraketter: dens historie fra tidlig fransk sci-fi, til tyske adelsmenn med behov for fart og spenning. \nVi ser på hvordan disse menneskene formet romkappløpet i det 20. århundre og hvordan romfarten igjen spilte en kritisk rolle i utformingen av moderne datamaskiner og programmeringsspråk.\n\nTil slutt tar vi for oss selve buggen og dens eksplosive konsekvenser på den heldigvis ubemannede raketten. Kan vi i 2024 lære noe av en bug som skjedde for 28 år siden?",
-"title": "Verdens (hittil) dyreste programvarefeil",
-"id": "b494492e-e0ac-4875-8b48-9676afe57d97",
-"sessionId": "b494492e-e0ac-4875-8b48-9676afe57d97",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Håvard Opheim",
-"twitter": "",
-"bio": "Jeg er en utvikler med forkjærlighet for hvordan mennesker samhandler med digitale systemer. Jeg har jobbet som utvikler siden 2020, har livslang erfaring som nerd, og jobber for tiden hos Capra Consulting. De siste årene har jeg hengt meg veldig opp i hvorfor det tilsynelatende er så vanskelig å lage gode digitale systemer, selv hvor mye tid og penger vi måtte bruke på det. Sammen med gode venner produserer jeg podcasten \"EDB er dyrt og vanskelig\": en samling av hendelser gjennom tidene hvor IT og systemene rundt har sviktet oss, og hva vi kan lære av det. "
-}
-]
-},
-{
-"intendedAudience": "Dette er en presentasjon for alle på teamet med og uten fotballinteresse. Vi kommer innom tema fra prosess og metodikk, ux og design samt litt av det tekniske som ligger under. Men uten å dykke dypere enn at alle kan henge med.",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "Hva skjer egentlig på innsiden av VAR-rommet? I år ble video-assistert dømming (VAR) innført i Eliteserien. Under generalprøvene to måneder før seriestart oppdaget Norges Fotballforbund at de trengte en løsning for å kommunisere mellom VAR-dommerne og medieproduksjonen.\n\nVi går gjennom prosjektet fra avspark 3. februar til seriestart i Eliteserien 10. april når systemet måtte være live. Akkurat som dommerne selv måtte vi ta viktige avgjørelser under press, og med begrenset tid til å revurdere valgene. Hvilke konsekvenser dette fikk for prosess og teknologivalg kommer til å være hovedfokuset vårt. Vi ser på hvilke (dommer)avgjørelser tatt i kampens hete som var gode og ikke, hvordan alt holdt på å rakne i overtiden og ekstraomgangene vi måtte gjennom for å bli klare til cupfinalefesten.",
-"title": "Fra null til cupgull - VAR på 2 måneder",
-"id": "77505b89-e5cc-46d0-abb0-f54223866aa1",
-"sessionId": "77505b89-e5cc-46d0-abb0-f54223866aa1",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Brage Breivik",
-"twitter": "",
-"bio": "Brage er den på laget som aldri klarer å holde seg i posisjon men virrer over hele banen, men som likevel bidrar til et godt resultat. UX, frontend, backend - alt er gøy og må prøves, noen ganger med godt resultat"
-},
-{
-"name": "Jørgen Langemyr",
-"twitter": "",
-"bio": "Jørgen trives best litt bak på banen der han kan drive med sine backend og database-ting, men når kampbildet krever det så bidrar han også fremover på banen."
-}
-]
-},
-{
-"intendedAudience": "I would expect this session to be useful for those who have tried some things with GraalVM, or are considering using it in production, but have concerns or questions, more specifically around production-readiness and library availability -- this session will address those",
+"intendedAudience": "Developers, data engineers, architects",
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "In the past few years GraalVM got widely adopted by the Java ecosystem, and even more more since Native Image becoming officially supported by many frameworks. Now it's hard to imagine starting a new project, especially for the cloud, without at least considering going native. However, taking a new technology to production requires research and preparation. What is the best way to build and deploy such native executables? Once deployed, how can I monitor them? Can I test them as I do with regular Java applications? What if startup is less important, how do I optimize for peak performance and latency? How do I use 3rd-party libraries? In this session, we'll go through all those aspects and illustrate them with demos.",
-"title": "Going AOT: Everything you need to know about GraalVM for Java applications",
-"id": "dd3f9bec-9f81-4fbe-b19a-a74335d8950f",
-"sessionId": "dd3f9bec-9f81-4fbe-b19a-a74335d8950f",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Analytics is arguably the oldest task of digital computers, and has remained an important part of business computing during its 80-year history. What could possibly be new in this space? A better way to serialize data? A better way to run distributed queries over a data lake? An exciting new integration technology? We need all these things urgently, but to be ready for the future, we something even more: we need analytics that can deliver results to users in real time, in the interaction layer, not to internal decision makers seconds or minutes later. We need what Apache Pinot delivers.\n\nPinot is a database optimized to serve analytical queries at extremely high levels of concurrency, at latencies measured in the tens of milliseconds, on data ingested from the streaming pipeline that underlies more and more of the systems we're building. It's an OLAP database, but one engineered from the ground up to power user-facing features, not executive-facing dashboards. In this talk, we'll look at how it's built, how to get data into it, how to query it, and the typical role it plays in a next-generation system exposing analytics-powered features to its users.",
+"title": "Real-Time Analytics With Apache Pinot",
+"room": "Room 6",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:40",
+"video": "862005649",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:40:00Z",
+"id": "d3342333-40da-4bbf-be1a-ca0ea98def73",
+"sessionId": "d3342333-40da-4bbf-be1a-ca0ea98def73",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
 "speakers": [
 {
-"name": "Alina Yurenko",
-"twitter": "@alina_yurenko",
-"bio": "Alina is a developer advocate for GraalVM at Oracle. Loves both programming & natural languages, compilers, and open source."
+"name": "Tim Berglund",
+"twitter": "tlberglund",
+"bio": "Tim is a teacher, author, and technology leader with StarTree, where he serves as the VP of Developer Relations. He is a regular speaker at conferences and a presence on YouTube explaining complex technology topics in an accessible way. He tweets as @tlberglund, blogs every few years at http://timberglund.com, and lives in Littleton, CO, USA. He has three grown children and two grandchildren, with a third on the way."
 }
 ]
 },
 {
-"intendedAudience": "Alle som er nysgjerrige på Staff+ engineer karrierespor",
+"intendedAudience": "This talk is geared towards folks (software engineers, architects, tech leads) who want to learn about processing changes in their data in real-time, using the open-source stack of Apache Kafka (for data streaming), Apache Flink (for stream processing), and Debezium (for log-based change data capture). Attendees should have some understanding of the fundamentals of Kafka.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Log-based change data capture (CDC) is a key component of the modern data streaming stack, used for data replication, feeding search indexes, low-latency data warehouse updates, and more.\n\nMerely taking data from A to B often isn't enough though; instead, change event streams, as for instance created using Debezium, may need to be filtered or routed based on event contents, multiple streams be joined, continuous queries be updated, etc. Enter Apache Flink: it lets you do stateful stream processing on change event feeds. Join us for this session and learn about\n\n* Implementing streaming queries on CDC events with the Flink data stream API and Flink SQL\n* Aggregating and enriching change data events\n* Different deployment options: Kafka Connect vs. Flink CDC\n\nIn a demo we'll put all these open-source components into action, showing how to set up a data streaming pipeline from your operational database to a live dashboard within minutes.\n\n",
+"title": "Real-time Change Stream Processing with Apache Flink",
+"room": "Room 3",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T15:20",
+"video": "862061927",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T13:20:00Z",
+"id": "355869fa-5aa0-43a7-abd2-7c5250e10bcd",
+"sessionId": "355869fa-5aa0-43a7-abd2-7c5250e10bcd",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Gunnar Morling",
+"twitter": "@gunnarmorling",
+"bio": "Gunnar Morling is a software engineer and open-source enthusiast by heart, currently working at Decodable on stream processing based on Apache Flink. In his prior role as a software engineer at Red Hat, he led the Debezium project, a distributed platform for change data capture. He is a Java Champion and has founded multiple open source projects such as JfrUnit, kcctl, and MapStruct. Gunnar is an avid blogger (morling.dev) and has spoken at a wide range of conferences like QCon, Java One, and Devoxx. He lives in Hamburg, Germany."
+}
+]
+},
+{
+"intendedAudience": "De som er interessert i å få til kunstig intelligens i praksis, og høre om erfaringer fra Posten. Ingen forkunnskap nødvendig.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Digital transformasjon i et 375 år gammelt selskap er ikke bare enkelt. Posten har vokst fra levering med hest og kjerre til helautomatisk brevsortering og samlebåndsproduksjon av millioner av pakker hvert år. I foredraget vil jeg beskrive hvordan vi bruker data, maskinlæring og tverrfaglige team for å gjøre Posten mer datadrevet, og skissere noen av utfordringene man møter når man bruker datavitenskap i industriell skala.",
+"title": "Fra hest og kjerre til digital transformasjon",
+"startTime": "2023-09-07T14:50",
+"endTime": "2023-09-07T15:10",
+"room": "Room 2",
+"video": "862046129",
+"startTimeZulu": "2023-09-07T12:50:00Z",
+"endTimeZulu": "2023-09-07T13:10:00Z",
+"id": "423053a5-e577-4c07-8db3-e8d4aae36738",
+"sessionId": "423053a5-e577-4c07-8db3-e8d4aae36738",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Heidi Dahl",
+"twitter": "",
+"bio": "Heidi Dahl er Senior Data Scientist i Posten, og har 15 års erfaring som forsker i SINTEF. Hun startet og ledet Tekna Big Data i 5 år, og startet Women in Data Science Oslo som arrangerer sin 7. årskonferanse i år. Med en bakgrunn i matematisk modellering, brenner hun for å skape verdi med datavitenskap i praksis."
+}
+]
+},
+{
+"intendedAudience": "Alle som er involvert i bruk eller utvikling av maskinlæringssystemer",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "\n\nEn maskinlæringsmodell blir aldri rettferdig. I alle fall ikke mer rettferdig en de data den er trent på. Og datasettene vi benytter foreslår som hovedregel at vi diskriminerer.\n\nSå kanskje vi rett og slett må akseptere at vi ruller ut ‘urettferdige’ maskinlæringssystemer? Men hvor mye skal vi tåle? Og hvordan beholder vi kontrollen, og sikrer at systemene våre holder seg under denne smertegrensen for diskriminering?",
+"title": "Anta bias. Alltid",
+"startTime": "2023-09-07T14:40",
+"endTime": "2023-09-07T14:50",
+"room": "Room 2",
+"video": "862045805",
+"startTimeZulu": "2023-09-07T12:40:00Z",
+"endTimeZulu": "2023-09-07T12:50:00Z",
+"id": "bb09b21f-4993-4a49-b821-6235adb121ac",
+"sessionId": "bb09b21f-4993-4a49-b821-6235adb121ac",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Nora Gjøen-Gjøsæter",
+"twitter": "",
+"bio": "Nora Gjøen-Gjøsæter er Data Scientist i Kantega, og brenner for ansvarlig AI. Hun har bakgrunn som statistiker, og erfaring med maskinlæring fra blant annet offentlig sektor, energisektoren, forsikringsbransjen og startups – i tillegg til en tidligere karriere som profesjonell fotballspiller."
+}
+]
+},
+{
+"intendedAudience": "In this Live coding example, I will show the audience how to improve API quality & minimize the risk of breaking changes using Spring RestDocs & Spring Cloud Contract in Spring Boot 3.\n",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "This live code talk will show you how to use Spring RestDocs and Spring Cloud Contract to easily create and maintain API documentation and contract tests for your Spring Boot 3 applications. We will demonstrate how to use Spring RestDocs to automatically generate API documentation from your tests and use Spring Cloud Contract to ensure that your API adheres to the agreed-upon contracts. You will learn how to use these tools to improve the quality of your API documentation, increase confidence in changes made to your API, and minimize the risk of introducing breaking changes. With this talk, you'll be able to improve your API development process and create more robust, reliable, and maintainable APIs.",
+"title": "Bootiful RESTful API Contracts and Restdocs",
+"room": "Room 6",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T15:20",
+"video": "862043663",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T13:20:00Z",
+"id": "933b8f56-29f8-4ce0-8c6a-5cc00ff23927",
+"sessionId": "933b8f56-29f8-4ce0-8c6a-5cc00ff23927",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Mario Gray",
+"twitter": "@mariogray",
+"bio": "Mario is a principal technologist at VMware with more than 20 years of experience in software development and software architecture. He is co-author of Pro Spring Integration (Apress, 2011). He’s helped organizations large and small build service-based architectures in a number of different runtimes and platforms over the decades, but adopting Spring in 2004, and using it whenever possible since, was a no-brainer that culminated in joining the Spring team in 2017. As a Spring developer advocate, Mario loves to engage and inspire developers and businesses in the Pivotal ecosystem."
+}
+]
+},
+{
+"intendedAudience": "The target audience are developers who have some understanding of Spring and some understanding of Kotlin",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "As a seasoned developer, you’re likely already familiar with Spring. But Kotlin can take your developer experience with Spring to the next level!\nJoin this webinar and learn how to:\n- Add new functionality to existing classes with Kotlin extension functions.\n- Use Kotlin bean definition DSL.\n- Better configure your application using lateinit.\n- Use sequences and default argument values to write more expressive code.\nBy the end of this talk, you’ll have a deeper understanding of the advanced Kotlin techniques available to you as a Spring developer and be able to use them effectively in your projects.\n",
+"title": "Advanced Kotlin Techniques for Spring Developers",
+"room": "Room 4",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T15:20",
+"video": "862042771",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T13:20:00Z",
+"id": "15876f1b-30a5-45c3-9f3c-b1f69f27b3ff",
+"sessionId": "15876f1b-30a5-45c3-9f3c-b1f69f27b3ff",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Pasha Finkelshteyn",
+"twitter": "asm0di0",
+"bio": "Pasha Finkelshteyn is a developer advocate for Kotlin at JetBrains. With over 14 years of experience in the IT industry, he has used Kotlin in production for various tasks, including backend development, since 2015. In addition to his expertise with Kotlin, Pasha also has experience in software quality assurance, system administration, and data engineering. He’s passionate about using technology to improve the world and is excited to share his knowledge and experience with Kotlin"
+}
+]
+},
+{
+"intendedAudience": "In this session the attendees will have a chance to meet Apache Pulsar. What is it, and why should you use it? In the talk we're combining Pulsar with Kafka, to use the best of both Worlds.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Which streaming technology is right for me? Do I need to use Apache Pulsar or do I choose Apache Kafka?\n\nThat is mostly the question, but did you also knew that you can combine them? \n\nIn this session we will show how to use best of both worlds. Let's compare both architectures and Java Client Implementations and decide what's best for you!\n\nDo you pick the battle? Or are you making allies?\nIt's up to you!",
+"title": "Best of Both Worlds: Apache Pulsar and Apache Kafka",
+"room": "Room 1",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T15:05",
+"video": "862042724",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T13:05:00Z",
+"id": "4f17861c-bb56-4545-a690-fe4420d4ffd1",
+"sessionId": "4f17861c-bb56-4545-a690-fe4420d4ffd1",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Ko Turk",
+"twitter": "@KoTurk77",
+"bio": "Ko Turk is an experienced developer working for Blue4IT. He is focussing on Java, Kotlin and isn't afraid to code in Typescript. \n\nHe likes to write articles for the Dutch NLJUG JavaMagazine. Also he is regularly speaking at international conferences about Green Software Engineering,\n\nKafka, Micrometer and Kotlin. Because he doesn't like bull it slide presentations, you can find him (live) coding at stage.\n\nYou can also find him at the UtrechtJUG and love to have a chat!\n\nHe is always available at Twitter @KoTurk77"
+},
+{
+"name": "Mary Grygleski",
+"twitter": "@mgrygles",
+"bio": "Streaming Developer Advocate at DataStax, Java Champion, President of Chicago-JUG\n\nMary is a Java Champion and a passionate Senior Developer Advocate at DataStax, a leading data management company that champions Open Source software and specializes in Big Data, DB-as-a-service, Streaming, and Cloud-Native systems. She spent 3.5 years as a very effective advocate at IBM, focusing on Java, Jakarta EE, OpenJ9, Open Source, Cloud, and Distributed Systems. She transitioned from Unix/C to Java around 2000 and has never looked back since then. She considers herself a polyglot and loves to continue learning new and better ways to solve real-life problems. She is an active tech community builder outside of her day job, and currently the President of the Chicago Java Users Group (CJUG), as well as a co-organizer for several IBM-sponsored meetup groups in the Greater Chicago area."
+}
+]
+},
+{
+"intendedAudience": "Alle",
 "length": "60",
 "format": "presentation",
 "language": "no",
-"abstract": "Tenker du ofte at problemet du sliter med ikke lar seg løse av kode alene? \n\nSelv om det er mest gøy å kode, vil du heller løse rotårsaken til problemet. Og det er kanskje en dysfunksjon i teamet, i arkitekturen eller til og med i hele organisasjonen. Kanskje du egentlig vil bli teknologiprinsipal?\n\nMen hva jobber en teknologiprinispal egentlig med? Sånn helt konkret? Og hvordan blir man det, og hvem kan egentlig bli det? Det er det vi skal snakke om i dag. Vi vil snakke om spennet i rollen, fra koding i team til bygging av kompetansemiljøer og virksomhetsarkitektur.  \n\nVi har vært teknologiprinisipaler i NAV siden før NAV ble kult. I takt med at NAV har endret seg, har rollen vår også endret seg. Vi vil dele, åpent og ærlig hvordan vi har løst rollen da og nå. Vi vil også dele eksempler på teknologiprinsipaloppgaver fra andre andre steder, både nasjonalt og internasjonalt. \n\nBasert på vår egen erfaring og samtaler med andre med tilsvarende roller vil vi komme med våre aller beste tips for kunne ta en slik rolle. Hvilken teknisk erfaring bør du bygge og hvilke mellommenneskelige egenskaper bør du søke? ",
-"title": "Hva er en teknologiprinsipal, og hvordan kan du bli en i tre enkle steg!",
-"id": "79a91a12-e582-4a5a-8cd8-d5d73a5c8734",
-"sessionId": "79a91a12-e582-4a5a-8cd8-d5d73a5c8734",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Det største tekniske systemet i NAV er et stormaskinsystem fra 70-tallet. NAV har jobbet i til sammen 17 år med å skru det av. Ikke bare har vi holdt på lenge, men vi har også med jevne mellomrom - ca hvert skuddår - fått ekstraordinære bevilgninger for å finansiere jobben. Nå er det siste prosjektet i planen ferdig, men systemet er fremdeles ikke skrudd av. Denne presentasjonen skal fortelle hvorfor - og også hvorfor vi likevel er stolte av den jobben som er gjort.  \n\nPå veien kommer vi innom statens prosjektmodell, konsulenter vs eierskap, arkitektur og kode, etterlevelse av lovverk, systemutvikling vs organisasjonsutvikling, smidig vs Smidig.",
+"title": "Software er fortsatt politikk",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:40",
+"room": "Room 4",
+"video": "862007321",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:40:00Z",
+"id": "81df4b91-2573-48b4-bbe4-091f28647e47",
+"sessionId": "81df4b91-2573-48b4-bbe4-091f28647e47",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
 "speakers": [
 {
 "name": "Truls Jørgensen",
@@ -2642,339 +2558,1153 @@ pub fn program() -> String {
 {
 "name": "Audun Fauchald Strand",
 "twitter": "audunstrand",
-"bio": "Audun er principal engineer i NAV. Dermed får han oppfylt drømmen sin om å få kode og bestemme samtidig. Han blir glad av utviklingsfart og tullete navn, og elsker å høre om når ting gikk galt."
+"bio": "Audun er principal engineer i NAV. Dermed får han oppfylt drømmen sin om å få kode og bestemme samtidig. Han blir glad av utviklingsfart og tullete navn, og elsker å høre om når ting gikk galt.  "
 }
 ]
 },
 {
-"intendedAudience": "Anyone that enjoys something different. A little bit of experience in coding is probably good especially in C like languages like Java.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "I want to introduce you to the beauty of shader coding. Harness the Teraflops on the GPU to produce beautiful and complex patterns. Get some real-life usage of your old high school math. I show how to use the powerful shader IDE kodelife to do basic shapes using distance fields and then spicing them up with various transforms. I hope to incorporate some suggestions from the audience. Finally let's publish what we do on shadertoy for the world the marvel at.\n\nExample: https://www.shadertoy.com/view/DsXcWn",
-"title": "Literally beautiful code",
-"id": "af1d7f5f-dbf9-4db0-a220-101931a92fb7",
-"sessionId": "af1d7f5f-dbf9-4db0-a220-101931a92fb7",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Mårten Rånge",
-"twitter": "@range_marten",
-"bio": "I want to introduce you to the beauty of shader coding. Harness the Teraflops on the GPU to produce beautiful and complex patterns. Get some real-life usage of your old high school math. I show how to use the powerful shader IDE kodelife to do basic shapes using distance fields and then spicing them up with various transforms. I hope to incorporate some suggestions from the audience. Finally let's publish what we do on shadertoy for the world the marvel at.\n\nExample: https://www.shadertoy.com/view/DsXcWn"
-}
-]
-},
-{
-"intendedAudience": "Basically anyone can attend who has some experiences building web applications.",
+"intendedAudience": "This talk would benefit any Java developer who has some familiarity with Spring and Spring Boot. No previous knowledge of Quarkus is required.",
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "Spring is typically only used for JSON API backend development, while the web frontend is built with a JavaScript framework.\n\nhtmx enables us to create interactive web applications with server-side rendered templates without JavaScript.\n\nIn this talk you will get an introduction to htmx and server-side rendering with Spring.\n\nYou will learn to use patterns you know and love from building backends to create a full-stack application with reusable components.",
-"title": "Building server-side web applications with htmx and Spring",
-"id": "28528536-99c2-4bb9-a539-e225b62d6c56",
-"sessionId": "28528536-99c2-4bb9-a539-e225b62d6c56",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "In this session, I will show concepts and conventions familiar to Spring developers and how those same concepts and conventions can be implemented in Quarkus, all while highlighting similarities and differences between them. Additionally, I will show similarities and differences in how testing is done, highlighting Quarkus Dev Services.\n\nThis session will be mostly code while minimizing the number of slides. I will introduce an existing Spring application with a full test suite and build a Quarkus equivalent version of it, live.",
+"title": "Quarkus for Spring Developers",
+"room": "Room 7",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:40",
+"video": "862003843",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:40:00Z",
+"id": "72a562c9-9cd9-43db-80e7-735ce5472de4",
+"sessionId": "72a562c9-9cd9-43db-80e7-735ce5472de4",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
 "speakers": [
 {
-"name": "Thomas Schühly",
-"twitter": "tschuehly",
-"bio": "My server-side rendering journey started as a developer trying to make life easier while developing my first product in my free time.\nCreating Spring ViewComponent enabled me to be the youngest Speaker at the largest European Spring conference while also enabling me to build awesome software full-time with my open-source library.\nI'm discovering new ways to build enterprise web applications on the Spring Framework for one of the largest Austrian infrastructure providers."
+"name": "Eric Deandrea",
+"twitter": "edeandrea",
+"bio": "Eric Deandrea is a Senior Principal Developer Advocate at Red Hat, focusing on application development technologies. Eric has over 20 years of experience designing and building Java-based solutions and developer training programs for the financial services and insurance industries. He is also a contributor to various Open Source projects, including Quarkus and Spring. Eric recently put his Quarkus and Spring knowledge to use by publishing his first book, “Quarkus for Spring Developers.” He enjoys using DevOps-focused automation technologies to make life easy. Outside of work, Eric enjoys boating on the lakes of New Hampshire, ice hockey, and martial arts, in which he holds a black belt in Kempo Karate."
 }
 ]
 },
 {
-"intendedAudience": "Java developers, devops, security experts, ops teams, in short everyone who wants to learn about eBPF.",
+"intendedAudience": "Anyone with an interest in AI and that would like to learn about practical use cases, and the reality behind training your own models with your own data. ",
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "eBPF is buzzing all over the cloud native world, as the cutting-edge technology reshaping the way we understand performance, security, and observability within kernel space. Java, with its recent strides in modernization and optimization, from enhancing startup times to facilitating native execution and advancing machine learning applications, stands at the cusp of this transformative era.\n\n\nJoin us in this journey, where we will embark on an ambitious challenge to write and build a high-throughput firewall leveraging the combined power of eBPF and Java. We'll start with a deep dive into eBPF's capabilities for kernel-level packet manipulation, then transition to how Java's latest advancements, particularly through Project Panama, enable seamless native code invocation and interoperability. Our focus will then converge to a hands-on demonstration of building a simple firewall using eBPF and Java, integrating kernel-level operations with high-level programming for real-time performance enhancements. \n\nAttendees will gain practical insights into deploying eBPF programs from Java using the hello-ebpf library, managing packet flows efficiently, and implementing firewall rules with precision, leveraging the strengths of both worlds.",
-"title": "Building a Lightning Fast Firewall with Java & eBPF",
-"id": "60571529-7dcf-4613-9441-361cdb50545e",
-"sessionId": "60571529-7dcf-4613-9441-361cdb50545e",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "At Norkart we aim to develop the best AI models for automatic mapping of objects from aerial imagery. With a wealth of already labeled objects, such as buildings, we find ourselves in a somewhat unique position - we have too much training data!\n\nI know what you’re thinking! There’s no such thing as too much training data. However, a large amount of irrelevant data can impede the development of a well-balanced training dataset. For example, when training a building-detection model, we need to be selective in the examples we use, focusing on a diverse range of building types rather than non-relevant data such as oceans, forests, and roads.\n\nSo how can we ensure an ideal selection of training data in order to get a model that is robust enough to analyze any part of Norway and recognize any sort of building?\n\nJoin us as we present our training rig where we dynamically select and produce training data while training and evaluating the model - to get the best AI for building detection",
+"title": "GeoAi – How to handle the luxury of having too much training data",
+"room": "Room 3",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T18:00",
+"video": "861736155",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T16:00:00Z",
+"id": "1a30b1fc-6243-4a1f-90c7-46ba9af75426",
+"sessionId": "1a30b1fc-6243-4a1f-90c7-46ba9af75426",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
 "speakers": [
 {
-"name": "Johannes Bechberger",
-"twitter": "@parttimen3rd",
-"bio": "Johannes Bechberger is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP in 2022 after two years of research studies at the KIT in Java security analyses. His work today comprises many open-source contributions and his blog, where he regularly writes on in-depth profiling and debugging topics. He also works on hello-ebpf, the first eBPF library for Java.\nSince 2023, he's been touring Europe's Java User Groups and conferences, like JavaZone and Devoxx Belgium, to speak on various topics."
-},
-{
-"name": " Mohammed Aboullaite",
-"twitter": "@laytoun",
-"bio": "Mohammed is a community catalyst, a true open-source believer who has contributed to many open-source projects. Mohammed has extensive hands-on, cross-industry experience in designing, building and evolving distributed applications at scale. He's one of Google developer experts in cloud, and work @Spotify as Sr Backend engineer."
-}
-]
-},
-{
-"intendedAudience": "Mid+ engineers up to architects, inclusive?\nPeople making changes to organisations, scaling and reorganising should enjoy this.\nPeople who have fixed a number of broken organisation will say \"yeah\" or \"I know that already\".",
-"length": "60",
-"format": "presentation",
-"language": "en",
-"abstract": "Forget about the spine-chilling tales of managing large-scale systems. It doesn't have to be a daunting task. We're here to advocate for battle's proven simplicity with a pinch of fun. We'll slice through the Gordian knot of complexity, juggle scalability patterns while uncovering their dark sides, and turn time modelling into a time-travel adventure.\n\nNo sale of silver bullets here; instead, we arm you with practical solutions and actionable strategies based on real-world examples and the dark sides of rapid-scaling problems.\n\nJoin us to transform your approach to evolving system architecture, leaving you with insights immediately applicable to your work.",
-"title": "Architecture Uncomplicated: tools for simplified large scale systems",
-"id": "98f88938-3109-47fd-ab70-88415d74ae11",
-"sessionId": "98f88938-3109-47fd-ab70-88415d74ae11",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Andrzej Grzesik",
-"twitter": "ags313",
-"bio": "ags likes distributed systems in all shapes and form. Coding since the age of 8, loves simplicity and continuous delivery. While he has written in many languages, he favours the JVM. Since „most software problems are people problems”, he stirs communities, organizes and speaks at conferences (proud to be a JavaONE Rockstar!). He is passionate about all things data, because science! In his spare time… cycling, photography and books. And he is a Java Champion!"
-},
-{
-"name": "Wojtek Ptak",
+"name": "Mathilde Ørstavik",
 "twitter": "",
-"bio": "Wojtek works as Head of Product Engineering and Engineering Executive at Revolut. Before, he worked as CTO for several companies, provided consulting, training, and assisted in building various data collecting, analytics, and applied ML/AI solutions, including Big Data implementations, data stream processing systems, and data insight projects. He worked with multiple Forbes 500 brands in the US, UK, and the Netherlands, including The Coca-Cola Company, the American Bankers Association, Macy's, Bloomingdales, Heineken, Saks 5th Avenue, BP, Boots, Polo Ralph Lauren, Porsche, HSBC, and others."
+"bio": "Mathilde is the head of geospatial AI at Norkart. She has a broad experience in applied Ai on geospatial data, in particular in semantic segmentation from aerial high-resolution data."
 }
 ]
 },
 {
-"intendedAudience": "This is for anyone associated with a team, either as a manager, developer, team lead, UX, test, dev-ops. It's also relevant for students or people who have just joined the IT industry. Both experienced people and inexperienced people will get value from this talk. ",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "We’ve all been the newcomer; we don’t know if something is vitally important or a minor detail. When is it OK to ask for help? When do you become “productive”? More knowledge is always better, right?\n\nBeing a newcomer is an asset! This talk is about what newcomers have to offer, and how we can work with our newest colleagues, and create a better working place at the same time. \n\nAre you experienced? Inexperinced? Are you a manager or a member of a team? This talk is for you. ",
-"title": "Is your team complete without inexperience?",
-"id": "237e03e8-c55b-4ee8-9c83-ddedeb139dfd",
-"sessionId": "237e03e8-c55b-4ee8-9c83-ddedeb139dfd",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Siv Midtun Hollup",
-"twitter": "",
-"bio": "Siv loves creating software, preferably together with other people. She works both as a developer, mentor and team lead, and has been teaching and mentoring for over 20 years. Her passion for teaching and outreach led her to help found the Nerdschool meetup, help create technical onboarding courses and teach fundamental software engineering skills at the University of Bergen. She is actively engaged in teaching newcomers to our field about craftsmanship of developing software and also spends time encouraging girls to choose tech and IT as a career path. "
-}
-]
-},
-{
-"intendedAudience": "Medium/Highly experienced Java devs, anyone who works with Java (or with Kotlin to some extent). The most value would be for people struggling with writing some boilerplate code or who want to do some compile time checks that other libraries don't provide.",
-"length": "20",
-"format": "lightning-talk",
-"language": "en",
-"abstract": "I've crafted an annotation processor at work, improving our efficiency. It tackled our issue by automatically generating boilerplate code, a task no other tool could handle in that case. Dealing with boilerplate is a common challenge that many could encounter. You may be facing it now.\n\nI enjoyed writing the annotation processor and consider it a very educational experience. It was the time I had found interest in the annotation processing.\n\nDespite annotation processing being a feature of Java since 1.6, I've observed that it remains somewhat esoteric to the Java community and has only recently started gaining attention. For example, Micronaut and Quarkus, new players in the framework market, utilize it extensively, from Dependency Injection to Aspect-Oriented Programming.\n\nGiven this, I'm eager to introduce it to you so you can incorporate it into your toolbox.",
-"title": "Annotation Processor: Solved my problem and can solve yours!",
-"id": "8a274848-6f83-472d-897e-984664172bc5",
-"sessionId": "8a274848-6f83-472d-897e-984664172bc5",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Jacek Dubikowski",
-"twitter": "",
-"bio": "Senior Software Engineer at Virtuslab with 7+ years of experience in Java and Kotlin. Interested in a vast number of IT-related topics. However, he would love to learn Haskell and Rust. Becoming a team leader is his dream.\n\nTo learn more about annotation processing, he created an educational framework that supports essential DI, @Transactional and creating controllers by using an annotation processor, which can be found on GitHub in the build-your-own-framework public repository with readme describing everything step by step."
-}
-]
-},
-{
-"intendedAudience": "Alle som har en interesse av å forstå utfordringene som ligger i å bruke virksomhetens data på tvers og vanskeligheten av å kjøre maskinlærte modeller i produksjon for å skape reell verdi for virksomheten. Alt fra ledere som ønsker å bedre forstå til system utviklere og data scientists som ønsker å høre mer om hvordan disse to verdenen nå krasjer sammen på godt og vondt.",
+"intendedAudience": "Ledere, smidig coacher, arkitekter, systemtenkere, teamene.",
 "length": "60",
 "format": "presentation",
 "language": "no",
-"abstract": "Er det galskap å se for seg en fremtid hvor systemutviklere støtter data scientists i produksjonen av dataprodukter? Dataprodukter som kan benyttes i risikovurderinger understøttet av alt fra enkle til komplekse maskinlærte modeller. Et paradigmeskifte for å smelte to miljøer sammen for endelig å kunne smidig og effektivt levere og forvalte KI i produksjon. Vi ønsker å fortelle om en slik reise og hva vi har lært underveis, samt hvor vi står og hvor vanskelig det er og har vært. Er vi på riktig vei - eller er det vi holder på med galskap?",
-"title": "Hvordan en av Skatteetatens tilnærminger til dataprodukter og maskinlæring i produksjon enten er genial eller galskap!",
-"id": "b009c654-539a-4378-97b0-a13d95fd5754",
-"sessionId": "b009c654-539a-4378-97b0-a13d95fd5754",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Begrepet \"sosioteknisk\" ser ut til å ha fått en renessanse den siste tiden, noe som er oppløftende med tanke på den positive effekten denne tilnærmingen har hatt for organisasjoner og deres ansatte verden rundt siden starten i de britiske kullgruvene på 50-tallet. For oss nordmenn er det enda mer relevant siden den mest betydningsfulle forskningen på denne nye måten å organisere arbeidet på ble gjort her i Norge på 60-tallet og ble til en av pilarene i norsk arbeidsliv. Spørsmålet er da hvor relevant dette er i IT, hvor vi allerede har smidig, DevOps, og andre arbeidsprosesser. Men hva med hele systemet, som organiseringen, tilpasningsdyktigheten og trivselen? \n\nI denne presentasjonen skal vi derfor se nærmere på hva sosioteknisk systemtenkning er, spesielt den grenen som kaller åpent systemteori. Vi skal både se på hvordan disse overlapper med smidig og hvor det er forskjeller. Tesen presentert her er at forskningen fra samfunnsvitenskapene med teknikkene og tilnærmingene brukt for å radikalt endre en organisasjons fra et byråkrati til et fullt deltagerne demokrati hvor alle bidrar produktivt er vel så relevant for oss i de \"digitale kullgruvene\" - antagelig enda mer.",
+"title": "Sosioteknisk systemdesign for “digitale kullgruver”",
+"room": "Room 7",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T11:20",
+"video": "861989662",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T09:20:00Z",
+"id": "e3c0c356-035f-495b-99c5-d781ab560d72",
+"sessionId": "e3c0c356-035f-495b-99c5-d781ab560d72",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
 "speakers": [
 {
-"name": "Sigve Albretsen",
-"twitter": "albretsen",
-"bio": "Sigve Albretsen is a digital transformation catalyst at Diforma with a Master of Technology and Computer Science from Norwegian University of Science and Technology (NTNU) and an Executive Master of Technology Management (MTM) from \nMassachusetts Institute of Technology - MIT Sloan School of Management, Norwegian School of Economics (NHH) and Norwegian University of Science and Technology (NTNU)"
-},
-{
-"name": "Per Harald Barkost",
-"twitter": "",
-"bio": "Per Harald Barkost is a data scientist at Skatteetaten with a Master of Science in Physics from UiT - The Arctic University of Norway."
+"name": "Trond Hjorteland",
+"twitter": "trondhjort",
+"bio": "Trond er en IT-arkitekt og sosioteknisk utøver fra konsulentselskapet Scienta med mange års erfaring fra store, komplekse og forretningskritiske applikasjoner, primært som utvikler og arkitekt på mellomvare- og backendsystemer. Hans hovedinteresser er tjenesteorientering, domene-drevet design, hendelsesdrevet arkitektur og åpne sosiotekniske systemer, da benyttet i bransjer som telekom, media, TV-distribusjon og det offentlige. Mantra: Gode produkter blir til gjennom tett designsamarbeid."
 }
 ]
 },
 {
-"intendedAudience": "This talk is relevant for developers of all backgrounds, as our primary focus is on architectural principles rather than specific programming languages and tools.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "On a beautiful summer day in 2020, Entur’s entire sales system went down, leaving all of Norway unable to purchase train tickets. But did we let the Norwegian people travel for free on that fateful day? Perhaps a few, but not all! Those who managed to board a train still had to pay for tickets via the app used by train conductors.\n\nSo how do you go about developing a robust application which can withstand downtime in the backend systems, and act as a backup in case of critical failures? How do you build something that survives without internet in 2024?\n\nA potential solution to this challenge is offline-first architecture, a design principle which assumes the lack of internet connectivity as the default state in software development.\n\nDuring this presentation, we’ll share our insights from building a complex ticketing application based on offline-first architecture, discuss the challenges encountered along the way, and highlight some of the solutions we’ve discovered.",
-"title": "Offline-first Architecture - How to survive without internet?",
-"id": "b302ad74-9495-4313-b7c5-528c7fc369bc",
-"sessionId": "b302ad74-9495-4313-b7c5-528c7fc369bc",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Ahlam Aatif",
-"twitter": "",
-"bio": "Ahlam is a software developer currently working for team ombord at Entur. Other than making sure that people are fined when they're caught without a valid ticket (I'm terribly sorry), she enjoys bouldering during her freetime (even though she's kinda scared of heights).  "
-},
-{
-"name": "Zi Liu",
-"twitter": "",
-"bio": "Zi worked as a software developer and team lead for Team Ombord at Entur, and has as a result worked extensively with building an offline-first application for the Norwegian public transportation system. Team Ombord is part of the reason you have to (sometimes) pay fines when you forget to buy tickets on public transportation...even when there is no internet. Even when the backend systems are down. "
-}
-]
-},
-{
-"intendedAudience": "Denne presentasjonen krever ingen forkunnskaper og er ment for utviklere og andre som er interessert i kunstig intelligens, backendsystemer, automasjon og kodebasen i et stort norsk selskap. Presentasjonen vil fokusere på hvordan man kan lage \"llm-agenter\" som utfører oppgaver et menneske vanligvis ville gjort. ",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Kan man integrere en Open Source Large Language Model med systemmeldinger fra en IBMi Power maskin ved hjelp av AI-agenter som forstår feilmeldinger, går inn i relevant program, foreslår en løsning i kode og varsler riktig utvikler på Teams med denne informasjonen?\n\nHer kan du få se og lære om hvordan vi i Fremtind jobber med å integrerer kunstig intelligens i våre backendsystemer for å hjelpe oss med å utføre kjernekritiske oppgaver, raskere. Systemet til Fremtind håndterer en årlig omsetning på NOK 20 mrd. ",
-"title": "Hvordan LLM-agenter løser kjernekritiske oppgaver hos Fremtind",
-"id": "c7c9f32d-d79f-4e32-8b4d-0ce17bbcf984",
-"sessionId": "c7c9f32d-d79f-4e32-8b4d-0ce17bbcf984",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Torstein Frogner Knutson",
-"twitter": "",
-"bio": "Torstein Frogner Knutson er en selvlært utvikler og jobber i Fremtind med kjernesystemet. Før han ble utvikler startet og drev han Påfuglen - Norges største kunstnerkollektiv på Grünerløkka. Mulighetene kunstig intelligens tilbyr er i hans øyne grenseløse og har mange lavthengende frukter. Bli med på denne spennende reisen i hvordan man integrerer en lokal AI med et stort backendsystem - uten forkunnskaper.  "
-}
-]
-},
-{
-"intendedAudience": "Developers who want less manual hassle when deploying to production.",
+"intendedAudience": "Denne lyntalen passer for de som har kjent på smerten i store alt-i-ett erstatningsprosjekter. Det finnes en bedre vei som gir kontroll og løpende feedback. Men det kommer til å være slitsomt til tider. \n\nForhåpentligvis får du med noen teknikker fra denne lyntalen som gjør det litt hyggeligere.",
 "length": "10",
 "format": "lightning-talk",
+"language": "no",
+"abstract": "Kontinuerlige leveranser gjør det mulig å kunne endre ting gradvis og kontrollert. Men hva gjør du hvis du har en gigantisk monolitt med gammel teknologi? Må du ikke bare skrive om alt på én gang?\n\nJa og nei. Det finnes alltid en mulighet for å dele opp problemet. Men du må ta noen vanskelige valg under veis og kanskje gjøre ting du ikke ellers ville gjort.\n\nI denne lyntalen vil jeg fortelle om noen strategier, og et par ganger vi har måttet bytte ut motoren i fart.",
+"title": "To kill a legacy system",
+"room": "Room 2",
+"startTime": "2023-09-07T12:00",
+"endTime": "2023-09-07T12:10",
+"video": "861989386",
+"startTimeZulu": "2023-09-07T10:00:00Z",
+"endTimeZulu": "2023-09-07T10:10:00Z",
+"id": "c171355c-47ed-4dd0-9b92-d1b743ebbd31",
+"sessionId": "c171355c-47ed-4dd0-9b92-d1b743ebbd31",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
+"speakers": [
+{
+"name": "Anders Sveen",
+"twitter": "anderssv",
+"bio": "Anders har lang erfaring som utvikler, arkitekt, team lead og drifter. Han ser alltid etter bedre måter å utvikle på, for å redusere risiko og maksimere verdi. Han snakker veldig gjerne om kontinuerlige leveranser, TDD og operations.\n\nEtter mange år i konsulentbransjen, har han de siste årene har lært utrolig mye av å gå rett i produksjon hos start-upene Porterbuddy og ZTL Payments.\n"
+}
+]
+},
+{
+"intendedAudience": "Java programmers with experience in concurrent programming",
+"length": "60",
+"format": "presentation",
 "language": "en",
-"abstract": "When deploying your application, you may run into manual hassle for compliance reasons. Many organisations use Jira or similar systems to record workflows and changes made to production. That doesn't need to slow you down! Learn how BankID sped up deployments and reduced manual tasks by delegating the job of creating Jira issues and pushing them through the workflow to our CI/CD setup with GitHub Actions. Integrating with Slack as well kept everybody in the loop. While this use case focuses on Jira, Slack, and GHA, our approach is applicable to many other setups.",
-"title": "Cutting Red Tape with GitHub Actions",
-"id": "b8797000-6f68-4485-bed6-d3fae80d4993",
-"sessionId": "b8797000-6f68-4485-bed6-d3fae80d4993",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Project Loom, expected to be delivered in final form in Java 21, brings \"virtual\" threads to the Java platform. After an introduction to the concepts of virtual threads, structured concurrency, and extent locals, the talk focuses on the implications for programmers. Why should you care about Loom if you will never run a million concurrent tasks? How do you choose between virtual and platform threads? When blocking is cheap, is there still a benefit to reactive programming? Which parts of \"Concurrency in Practice\" are now outdated, and what is still relevant? What concurrent synchronization mechanisms and design patterns should you favor?  How do you debug and profile virtual threads? What pitfalls do you need to recognize when transforming your current code to take advantage of virtual threads? How do you structure new code? This pragmatic presentation provides a perspective beyond the \"what\" of Project Loom and into the \"why\" and \"how\". ",
+"title": "Looming Changes in Java Concurrency",
+"room": "Room 6",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T11:20",
+"video": "861988939",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T09:20:00Z",
+"id": "43753472-40fc-49ff-9bcd-2348b9193190",
+"sessionId": "43753472-40fc-49ff-9bcd-2348b9193190",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Cay Horstmann",
+"twitter": "",
+"bio": "Cay grew up in Northern Germany but scholarships lured him to earn a M.S. in computer science from Syracuse University and a Ph.D. in mathematics from the University of Michigan. He taught computer science at San Jose State University for almost thirty years and held visiting appointments at universities in Germany, Switzerland, Vietnam, and Macau. He was the CEO of a pre-internet software company, and VP and CTO of a dot com startup that went from three people in a tiny office to a public company. In his copious spare time he writes books, including the international best-seller Core Java, and develops online learning experiences for beginning and professional programmers. He has followed and written about Project Loom since its earliest releases."
+}
+]
+},
+{
+"intendedAudience": "This talk is relevant and interesting for all audiences. No prior experience is needed.",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "In this lightning talk I will show how you can be onboarded a complex data engineering project in 5 minutes.\nThen I will proceed in delivering the first pull request following al the standards of the project. All live!\nData Engineering consistency, speed and agility can be achieved by using a cloud development environments like Gitpod and GitHub Codespaces. Be inspired.",
+"title": "Onboard a developer to your project in 5 minutes flat by using Gitpod.",
+"startTime": "2023-09-07T12:10",
+"endTime": "2023-09-07T12:30",
+"room": "Room 2",
+"video": "861988428",
+"startTimeZulu": "2023-09-07T10:10:00Z",
+"endTimeZulu": "2023-09-07T10:30:00Z",
+"id": "03783e0e-aedd-4494-b77f-4d688899f985",
+"sessionId": "03783e0e-aedd-4494-b77f-4d688899f985",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
+"speakers": [
+{
+"name": "Fredrik Hoem Grelland",
+"twitter": "@grelland",
+"bio": "I work as an Innovation advisor and have built several data platforms over the last few years designed for data engineering, data science and data mesh applications. I have focused on reducing the technology friction and helping analysts and other data savvy people onto code-oriented platforms in order to achieve greater agility, speed and quality of work."
+}
+]
+},
+{
+"intendedAudience": "Anyone with an interest in GoLang and generics is sure to gain some helpful insights with this talk 😊",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "Learn Golang Generics and become the talk of the town!\n\nThis talk covers everything you need to know to master Golang Generics, including writing generic functions and interfaces. I'll keep things interesting with practical examples, all explained in plain English so even your grandma can follow along (assuming she knows Go).\n\nWhether you're a beginner or a seasoned pro, join me to learn how to write more efficient, reusable, and impressive code in Go.",
+"title": "GoLang Generics: Simplifying Programming Concepts So Well, Even Your Grandma Will Want to Code!",
+"room": "Room 2",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:00",
+"video": "861987672",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:00:00Z",
+"id": "0d44df06-c0f3-459a-9e42-30b8822ea4c5",
+"sessionId": "0d44df06-c0f3-459a-9e42-30b8822ea4c5",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
+"speakers": [
+{
+"name": "Meimona Hakim",
+"twitter": "",
+"bio": "Meimona Hakim, an avid programming enthusiast, has been coding for nearly 7 years and continues to explore the potential of the GoLang programming language. With a passion for sharing knowledge, she is excited to impart what she has learned to others."
+}
+]
+},
+{
+"intendedAudience": "Java developers, tech-leads og arkitekter som jobber med objektorienterte språk. ",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Applikasjonsarkitektur. For mange et gammelt utdatert konsept som man forbinder med endeløse UML diagrammer og kompleksitet. Eller et konsept som bare senker all hastighet i utviklingen?\nEr du en av dem som grøsser ved tanken på applikasjonsarkitektur? Eller ikke skjønner poenget med den tradisjonelle lagdelte tre-lags-arkitekturen? Høres det ut som mye arbeid for lite nytte, og noe som driver kompleksiteten opp?\n\nGode nyheter. Du er ikke alene! \n\nGlem UML, glem tre-lags-arkitekturen og hiv ut arkitekten! I denne presentasjonen skal vi se nærmere på hvordan du som utvikler tar kontroll over applikasjonsarkitekturen på en enkel, ren og rett frem måte. ",
+"title": "Hjelp! Applikasjonen vår er et eneste stort kaos",
+"room": "Room 1",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:25",
+"video": "861986610",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:25:00Z",
+"id": "3572508a-4789-49ab-b07b-b3f49d9c5754",
+"sessionId": "3572508a-4789-49ab-b07b-b3f49d9c5754",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
+"speakers": [
+{
+"name": "Erik Dahl",
+"twitter": "dahlsdata",
+"bio": "Erik er java-programmer / techlead / arkitekt med et stort hjerte for arkitektur. Til daglig jobber han som uavhengig freelance-konsulent på offentlige og private prosjekter i Oslo-regionen. Han er alltid på utkikk etter nye perspektiver, ny forbedret forståelse og elsker å ha diskusjoner om arkitektur. \n"
+}
+]
+},
+{
+"intendedAudience": "Architects, developers, data handlers, people interested in the knowledge graph hype",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Put simply, knowledge graphs are a smart way of organizing data. They connect different pieces of information, making it easier to understand complex topics. Knowledge graphs are useful in a wide range of fields, including artificial intelligence, data management, and natural language processing. They can help improve search results, integrate data, and even uncover new insights. Additionally, knowledge graphs are valuable for decision-making, as they provide individuals and organizations with a more in-depth understanding of their information domain. So, if you're dealing with large amounts of complex (or easy) data, knowledge graphs could be a game-changer for you.",
+"title": "What are knowledge graphs, and why should you care?",
+"room": "Room 3",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T11:05",
+"video": "861984781",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T09:05:00Z",
+"id": "b133b301-524a-4f2f-b1da-25212658f802",
+"sessionId": "b133b301-524a-4f2f-b1da-25212658f802",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Veronika Heimsbakk",
+"twitter": "veronikaheim",
+"bio": "Veronika is a knowledge graph nerd at Capgemini, with 8+ years of experience in the field of knowledge graphs. She adores the wonders of logic and linked data, and helping clients create order in their chaotic data chaos."
+},
+{
+"name": "Miriam Næss Jørstad",
+"twitter": "",
+"bio": "Miriam is a wizard in the field of natural language processing and computational linguistics. She sees the huge potential of combining linguistic madness together with semantics and knowledge graphs, to provide data solutions with high integrity for her clients."
+}
+]
+},
+{
+"intendedAudience": "Any Java dev. ALthough me might get in a bit deeper to explain certain threads, it will be valuable to both Junior and Senior Java Devs.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "As a Java developer, you understand the importance of writing code that is functional, scalable, and maintainable. But how about secure code? Even the most seasoned developer can make common security mistakes that leave your code vulnerable to attack. In this session, we'll explore the most common and sometimes unknown security pitfalls made by Java developers and provide practical tips for avoiding them. We'll cover everything from input validation errors to injection to file overwrites and arbitrary code execution. We'll show real-world examples of insecure code and demonstrate how attackers exploit these vulnerabilities before showing you how to fix these code constructions. By understanding how these mistakes get exploited, you'll be better equipped to write secure, bulletproof code that can withstand attacks. Whether you're a junior developer just starting out or a seasoned pro looking to brush up on your skills, this session is a must-attend for anyone concerned with the security of their Java applications. Let’s start writing secure Java code and learn how to avoid security mistakes.",
+"title": "Don't Get Burned! Secure Coding Essentials in Java to protect your application",
+"room": "Room 4",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T11:20",
+"video": "861986282",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T09:20:00Z",
+"id": "1423c0cd-f75a-4cc4-aa4d-2112fead7b11",
+"sessionId": "1423c0cd-f75a-4cc4-aa4d-2112fead7b11",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Brian Vermeer",
+"twitter": "BrianVerm",
+"bio": "Brian is a Staff Developer Advocate for Snyk, Java Champion, and Software Engineer with over a decade of hands-on experience in creating and maintaining (web)applications. He is passionate about Java, (Pure) Functional Programming and Cybersecurity. Brian is a JUG leader for the Virtual JUG and the NLJUG. He also co-leads the DevSecCon community and is a community manager for Foojay. He is a regular international speaker on mostly Java-related conferences like JavaOne, Devnexus, Devoxx, Jfokus, JavaZone and many more. Besides all that, Brian is a military reserve for the Royal Netherlands Air Force and a Taekwondo Master / Teacher.\n\n"
+}
+]
+},
+{
+"intendedAudience": "All,",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "Are you a leader or a team member and want to get the best from yourself and others, as well as keep everyone happy and safe at work? Then you don’t want to miss out on this!\nYou’ll get insight into how psychological safety is related to economic efficiency for organizations, as well as some great ideas that will benefit not only the team, but the entire company.\nI will share stories about psychological safety. Can you guess which ones are fake and which ones are based on real-life events?",
+"title": "Is  psychological safety just a lie?",
+"startTime": "2023-09-07T10:50",
+"endTime": "2023-09-07T11:10",
+"room": "Room 2",
+"video": "861984071",
+"startTimeZulu": "2023-09-07T08:50:00Z",
+"endTimeZulu": "2023-09-07T09:10:00Z",
+"id": "82428c41-353f-4d0f-900e-e2f3fa126fe2",
+"sessionId": "82428c41-353f-4d0f-900e-e2f3fa126fe2",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Malaz Alkoj",
+"twitter": "",
+"bio": "Full Stack developer with experience in both government and private sectors. Also both in Norway and other countries. Educated as Software engineer from BAATH university. "
+}
+]
+},
+{
+"intendedAudience": "Alle og enhver. Både de som har knekt prod, de som er redde for at de en dag gjør det, og de som er redde for at kollegene deres en dag knekker prod.",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Aleks opplevde å knekke prod i en av Norges største nettbanker. \nMed følelsen av å være en bankraner, var han forberedt på å miste jobben. \n\nI en stirrekamp med avgrunnen, i møtet med en utstrakt arm fra den siste personen han forventet skulle hjelpe ham. ",
+"title": "Da jeg knakk prod og det nesten knakk meg",
+"startTime": "2023-09-07T10:40",
+"endTime": "2023-09-07T10:50",
+"room": "Room 2",
+"video": "861982940",
+"startTimeZulu": "2023-09-07T08:40:00Z",
+"endTimeZulu": "2023-09-07T08:50:00Z",
+"id": "82da2120-2d56-43a7-984f-19c85a9935c3",
+"sessionId": "82da2120-2d56-43a7-984f-19c85a9935c3",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Aleks Gisvold",
+"twitter": "gisvold",
+"bio": "Aleks Gisvold er et smidighode, CDFO og teamleder i Aztek. \nHan brenner for smidige arbeidsmetoder, omtanke, samarbeid og diskgolf. Gjennom sine 10 år i bransjen har han opplevd større nedturer og større suksesser enn mange opplever i løpet av en karriere. Heldigvis er han glad i berg-og-dalbaner. Aleks er en aktiv kommentator i det norske utviklermiljøet, og tar ofte til ordet, særlig dersom det handler om å skape inklusjon."
+}
+]
+},
+{
+"intendedAudience": "Utviklere og designere som ønsker å lære om hverandre",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Hva skjer når UX og utvikling går hånd i hånd? Er det som å se en giraff og en flodhest danse tango sammen? Eller kan det faktisk føre til lykkelige brukere og økt suksess for virksomheten? Hvordan kan vi jobbe sammen for å identifisere og løse problemer knyttet til brukeropplevelser, og hvordan kan dette føre til mer effektive produkter og tjenester? Bli med og lær om hvordan samarbeidet mellom UX og utviklere kan føre til en episk dansefest på kontoret!",
+"title": "Når UX og utvikling forenes: Om å skape lykkelige og effektive opplevelser",
+"startTime": "2023-09-07T09:30",
+"endTime": "2023-09-07T09:50",
+"room": "Room 2",
+"video": "861948177",
+"startTimeZulu": "2023-09-07T07:30:00Z",
+"endTimeZulu": "2023-09-07T07:50:00Z",
+"id": "b313a2a7-e84a-4464-a6c5-fa8830ab3959",
+"sessionId": "b313a2a7-e84a-4464-a6c5-fa8830ab3959",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Nadia Tokerud",
+"twitter": "nakrissimo",
+"bio": "Nadia er UX Lead i Buypass og har en lidenskap for å skape brukervennlige og helhetlige digitale opplevelser. Hun omtaler seg selv tidvis som en samarbeidsekstremist, og mener de beste løsningene kommer når man leker sammen på tvers av fagfelt."
+}
+]
+},
+{
+"intendedAudience": "Alle som er redd for å bli avslørt som en bedrager. Og alle som jobber med de.",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Bedragersyndromet er kanskje noe alle har kjent på en gang i livet, men hva er det og hvordan oppstår det egentlig? Jeg vil ta et lite dykk i ulike temaer som hvordan det ble oppdaget, hvilke trekk en bedrager kanskje har, ulike typer bedragere som finnes og litt til. Kan man gjøre noe for å føle seg mindre som en bedrager eller bli kvitt det? Dette skal alt krydres med egne erfaringer fra SpareBank 1 Utvikling.",
+"title": "Det er en bedrager blant oss",
+"room": "Room 5",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:25",
+"video": "863082656",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:25:00Z",
+"id": "2f46feed-c5e2-4032-a54f-819a792ac80e",
+"sessionId": "2f46feed-c5e2-4032-a54f-819a792ac80e",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
+"speakers": [
+{
+"name": "Karianne Kristiansen",
+"twitter": "",
+"bio": "Karianne har jobbet som utvikler i SpareBank 1 Utvikling i litt over tre år. Selvom hun er ansatt som fullstackutvikler, er det frontend og UU hun finner mest engasjerende. I løpet av de siste årene har også psykisk helse på arbeidsplassen blitt et område hun ønsker å sette fokus på."
+}
+]
+},
+{
+"intendedAudience": "Anyone interessert in doing anything Data Science related, Data Scientist, Leaders, Teamleads, Techleads, Data managers etc.",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "AI har potensiale til å skape stor verdi for din bedrift, men mange data scientister har en akademisk bakgrunn som fokuserte mer på forskningsresultater enn på kodekvalitet og dokumentasjon.\nSom et resultat ser man ofte kode som er dårlig dokumentert, utestet og vanskelig å lese, noe som skaper teknisk gjeld og frustrasjon i data science-miljøene. Dette kan i verste fall føre til at bedriftene mister verdifulle data og kunder, samt at de bruker mye tid og ressurser på å rydde opp i kodeproblemer.\nHeldigvis kan data science lære av sine kollegaer innen programvareutvikling, der fokuset ligger på kodekvalitet, dokumentasjon, testing og å gjøre koden forståelig for andre.\nI denne talken vil du lære hvordan du kan unngå vanlige feil og jobbe på en forsvarlig måte med AI i din bedrift",
+"title": "Data Science og Programvareutvikling: Når venner blir bestevenner",
+"room": "Room 3",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T09:45",
+"video": "861598350",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T07:45:00Z",
+"id": "a6a11d02-5e53-4a65-af54-3433f0e0ee99",
+"sessionId": "a6a11d02-5e53-4a65-af54-3433f0e0ee99",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Alexander Amiri",
+"twitter": "",
+"bio": "Alexander Amiri is a data Scientist at Ruter with a degree in astrophysics and a keen interest in anything tech. He has previously worked at NAV as a data scientist and team lead and more recently worked in the financial world at Nordea as a data scientist. He has a broad technical background and is driven to create a better world by letting computers do most of the work."
+}
+]
+},
+{
+"intendedAudience": "Any Java developer willing to follow the main projects currently been under development in the OpenJDK. ",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "The two years realese cadence of LTS versions gives the entire Java ecosystem the opportunity to accelerate. It also brings the new features Java has to offer faster, so that developers can improve applications readability, maintainability as well as development productivity. \nThis presentation covers three of the new features of the JDK: Amber, Loom and Valhalla. Amber is about bringing pattern matching to the Java language. It's currently added bit by bit: records, pattern matching for instanceof, for switch, and record pattern matching. Loom offers a new concurrent programming model. With Loom, you can write your code in a synchronous way, without any callback, and execute it asynchronously, with all the performances benefits you may expect. It is a preview feature of the JDK 19. Valhalla brings a new kind of objects to the language, so that you do not have to choose between performances and abstraction. Valhalla will add user defined primitive types to the Java language as well value types.",
+"title": "From Java 17 to 21 and beyond: Loom, Amber and Valhalla",
+"room": "Room 4",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T11:20",
+"video": "861599116",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T09:20:00Z",
+"id": "6e34ec29-e444-4851-bde1-da728f5d304e",
+"sessionId": "6e34ec29-e444-4851-bde1-da728f5d304e",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "José Paumard",
+"twitter": "JosePaumard",
+"bio": "José works as Java Developer Advocate at Oracle. PhD in applied maths and computer science, assistant professor at the University Sorbonne Paris Nord for 25 years, he is a Java Champion Alumni and JavaOne Rockstar. He is a member of the french Paris Java User Group, has been a co-organizer of the conference Devoxx France, and is a disorganizer of JChateau, an unconference held in the Chateau of the Loire Valley. He works on the dev.java documentation and community website, publishes the JEP Café, a monthly video cast on YouTube, and maintains a french YouTube channel with more than 80 hours of Java courses. He is also a Pluralsight author in the Java space."
+}
+]
+},
+{
+"intendedAudience": "This talk is suitable for anyone who is interested in system architecture, distributed databases, scalability, and optimization. As an attendee, you will learn numerous tricks for working with large-scale distributed databases and developing your own solutions on top of FoundationDB, such as: setting up tiered storage to enable both high write throughput and high read throughput, introducing sharding and versioning schemes, using custom compression, reducing your code's garbage collection footprint, and doing preaggregation with segment trees. No familiarity with any particular language is needed. Some familiarity with databases in general will be helpful.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Cognite's customers have trillions of historical data points from industrial sensors, and they are continuously ingesting new values into millions of time series in real time. This talk will explore the architecture of Cognite's custom timeseries database, showing how it is able to query both real time data and terabytes of historical data with low latency while still providing strong consistency and high availability. The talk takes place at a conceptual level (no code), and is structured as a series of challenges that we faced during development and the solution we arrived at for each challenge.",
+"title": "Developing a Large-Scale Time Series Database",
+"room": "Room 7",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:40",
+"video": "861703795",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:40:00Z",
+"id": "85eae038-49b5-4f32-83c6-0779d252d0e9",
+"sessionId": "85eae038-49b5-4f32-83c6-0779d252d0e9",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
+"speakers": [
+{
+"name": "Åsmund Eldhuset",
+"twitter": "@AasmundEldhuset",
+"bio": "Åsmund Eldhuset is a geek of all trades who got a taste for teaching and public speaking when he TA'd the algorithms class at the Norwegian University of Science and Technology. After seven years in Silicon Valley, he is back home in Norway, and is now a Principal Software Engineer at Cognite."
+}
+]
+},
+{
+"intendedAudience": "I expect this session to be attended by people who tried building a few simple applications with GraalVM, or heard some things about it, but not sure about how to approach it for production applications, where you need testing, libraries, monitoring, reflection. My plan is to show demos making each of those aspects work.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "You've probably heard of GraalVM, and how great it is for reducing startup time and memory consumption of Java applications, but do you know how to use it to the fullest in practice? In this hands-on session you'll see how to develop and test Native Image applications, optimize their performance, configure them to use popular libraries, monitor, and more!",
+"title": "Supercharge your GraalVM applications in 5 steps",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T13:45",
+"room": "Room 4",
+"video": "862028728",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T11:45:00Z",
+"id": "33cda76f-9a11-4b57-ac82-bdbcca533b9f",
+"sessionId": "33cda76f-9a11-4b57-ac82-bdbcca533b9f",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Alina Yurenko",
+"twitter": "alina_yurenko",
+"bio": "Alina is a developer advocate for GraalVM at Oracle Labs, a research & development organization at Oracle. A big believer in open source and communities, community organizer in the past. Love both programming & natural languages."
+}
+]
+},
+{
+"intendedAudience": "Architects and developers who are considering moving into, out of, or across the cloud, and would like practical advice based on experience.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "More and more systems are moving into the cloud, with Amazon Web Services, Azure, and Google Cloud Platform as the leading providers. Should you, too, be in the cloud? If so, how should you design your systems to make the most of it? Which vendor is the right for you, and what are the differences?\n\nIn this presentation, you will get an overview of the essential services offered by the leading cloud providers and how to design your systems to make the most out of them. You will hear lessons learned from a decade of running systems in the cloud, and get pointers on whether you should be in the cloud at all, how to pick your cloud, and whether you should be using multiple clouds.",
+"title": "Across the Clouds",
+"room": "Room 6",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T14:00",
+"video": "862025265",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T12:00:00Z",
+"id": "06b3800c-9155-44a4-8cdb-35b2fc4df160",
+"sessionId": "06b3800c-9155-44a4-8cdb-35b2fc4df160",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
 "speakers": [
 {
 "name": "Markus Krüger",
 "twitter": "markusbk",
-"bio": "Markus Krüger is a developer at BankID BankAxept AS. He has worked as a developer, architect, and tech lead for over 20 years, and has been running systems on various cloud platforms since 2011. He has held several presentations at JavaZone and other venues previously, on various subjects such as performance testing, scheduling, scaling systems, and cloud architectures. He likes making large things go fast."
+"bio": "Markus Krüger has worked as a developer, architect, and tech lead for over 20 years, and has been running systems on various cloud platforms since 2011. He has held several presentations at JavaZone and other venues previously, on various subjects such as performance testing, scheduling, scaling systems, and cloud architectures. He likes making large things go fast."
 }
 ]
 },
 {
-"intendedAudience": "Dette foredraget er rettet mot av utviklere og teknologi-entusiaster som ønsker å utforske eller er interessert i webanimasjon og hvordan vi har laget Origo sin Oslo-loader med SMIL ✨. https://punkt.oslo.kommune.no/latest/komponenter/loader/",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Bli med å utforsk hva du kan gjøre med SVG sin native animasjonsteknologi, SMIL! 😄🌸\nTruet ikke Google med å deprecate SMIL i 2016 - hvordan lever SMIL enda? Hvorfor skal man gidde å bruke SMIL fremfor andre alternativer? 🕵🏻‍♀️\n\nI dette foredraget skal gi den en introdiksjon til SMIL animering av SVG elementer, når det er hensiktsmessig å bruke, hvordan SMIL kan brukes - og hvordan vi har brukt det til å lage en gøyal loader i Origo sitt designsystem 🌊",
-"title": "SVG og SMIL-animasjon 🦋✨",
-"id": "e5be9db5-81c4-47b0-b5b0-b2dd798a71fb",
-"sessionId": "e5be9db5-81c4-47b0-b5b0-b2dd798a71fb",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "My Thao Nguyen",
-"twitter": "ItWasntMy",
-"bio": "Til det daglige, jobber My som utvikler i Oslo Origo,og mer spesifikt med designsystemet Punkt 💙 \nFormelt sett har My har en informatikk utdannelse fra NTNU, og har en 5,5 år erfaring som konsulent (Bekk og Dfind) før hun til slutt har slått seg til ro i Oslo Origo 🏡.  My brenner for å brukerorienterte og tilgjengelige løsninger, og er spesielt glad i samarbeid med designere og visuell grafisk moro 🤪. \nEllers er hun glad i karaoke, gaming, og kattene sine - Nala og Luffy 🐈"
-}
-]
-},
-{
-"intendedAudience": "Utviklar",
-"length": "10",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Rotårsaka til nedetid er ca 8 av 10 gonger ein ekstern avhengigheit utanfor vår kontroll som utviklar. Dette kan vera nettverk, database, cache eller api.\n\nKorleis som utviklar enkelt og fort lage metrics frå exception som fortel om kvar rotårsaka er. Korleis utnytte exceptions godt. Definere kategoriar av feil som gir overblikk (database, remote cache, eksternt api, internt api) over heile løysinga di eller visualiseringer som gir innblikk i korleis kvar enkelt applikasjon har det mot omverda.\n\nDømer frå verkelegheita utan og med desse metricane ved nedtid i ID-porten. ID-porten er i dag bygd opp av rundt 15-20 små applikasjonar med eit par større unntak.\n\nHands-on med visning av java-kode og grafana visualiseringer.\n\nTeknologi: Spring Boot,  Micrometer, Prometheus, Grafana og muligens Alerts i Kubernetes.\n\nBonus: Helsesjekk som metrics i Spring Boot?",
-"title": "ID-porten gjekk ned! Kvar er feilen!?",
-"id": "009acff4-011c-4898-8150-31ee1835ec23",
-"sessionId": "009acff4-011c-4898-8150-31ee1835ec23",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Randi Øyri",
-"twitter": "",
-"bio": "Randi jobbar med ID-porten i Digdir og har vore utviklar i snart fleire ti-år. Har også jobba mykje i grensesnittet mot ops og gledar seg over at me endeleg nærmar oss ei verd der ein enkelt kan observere og få feedback frå produksjon utan mykje jobb."
-}
-]
-},
-{
-"intendedAudience": "Arkitekter og utviklere ",
-"length": "45",
-"format": "presentation",
-"language": "no",
-"abstract": "En elefant av gangen, bit for bit. Hadde det bare vært så enkelt… \nCargoNet er et togselskap og et terminalselskap og har i over 20 år basert driften på et felles, egenutviklet IT-system som nå må erstattes. CargoNet ønsker å innføre et nytt hyllevare-system for booking. I tillegg innfører BaneNor et nytt IT-system på alle godsterminalene. I praksis betyr dette at tilnærmet hele systemporteføljen skal byttes ut omtrent samtidig. \n\nDet blir konkrete eksempler og hvilke erfaringer vi har med et konkret pattern eller tilnærming. \n\nUnngå big bang - strangler pattern og alternativer \n\nUbiquitous language i kode og i hodet \n\nPatterns for endringsdyktighet (systemarkitektur og i kode)",
-"title": "Hvordan spise tre elefanter på en gang?",
-"id": "94c884b4-ddaa-49aa-abfd-f1990a266b91",
-"sessionId": "94c884b4-ddaa-49aa-abfd-f1990a266b91",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Erik Drolshammer ",
-"twitter": "",
-"bio": "Teknisk arkitekt \n17 års erfaring\nJobbet for Vy de siste 5 årene "
-}
-]
-},
-{
-"intendedAudience": "Dette er relevant for utviklere som arbeider med mikrotjenester. Både erfarne utviklere som kanskje allerede bruker fellesbiblioteker, og de som er nye innen dette konseptet og ønsker å lære mer før de eventuelt vurdere å implementere det i sitt eget arbeid. Ingen spesielle forhåndskunnskaper er nødvendig.",
-"length": "20",
-"format": "lightning-talk",
-"language": "no",
-"abstract": "Bruken av mikrotjeneste-arkitektur har skapt en debatt rundt bruken av fellesbiblioteker. Er det egentlig effektivt, eller bare en annen form for kodeduplikasjon? Gjennom eksempler og personlige refleksjoner, vil jeg i denne presentasjonen vise hvordan velutformede fellesbiblioteker kan være et verktøy for effektiv utvikling. Fra å håndtere konsistens til å fremme samarbeid, vil jeg gjennomgå best practices og mulige fallgruver. Kom og hør hvordan riktig bruk av fellesbiblioteker kan være med å effektivisere deres utviklingsteam og legge til rette for fremtidig suksess.",
-"title": "Fellesbiblioteker og mikrotjenester, effektivitet eller kodeduplikasjon?",
-"id": "8b8824df-7ea7-4b08-87fa-fa388609bf52",
-"sessionId": "8b8824df-7ea7-4b08-87fa-fa388609bf52",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Magne Kjellesvik",
-"twitter": "",
-"bio": "Magne, utvikler i Oslo. Jobber for tiden med en portefølje som består av mange mikrotjenester. "
-}
-]
-},
-{
-"intendedAudience": "Developers who are curious about passwordless authentication or authentication in general. No prerequisite knowledge required.",
-"length": "45",
-"format": "presentation",
-"language": "en",
-"abstract": "Learn how we at BankID implemented Passkeys in order to offer fast, secure, phishing-resistant passwordless authentication, directly from the browser using WebAuthn over platform-native, hardware-backed FIDO2 authenticators, without having to handle or store biometric data. The talk also includes the necessary technical know-how needed to implement your own passwordless authentication solution using Passkeys and WebAuthn.",
-"title": "Passwordless BankID with Passkeys and WebAuthn",
-"id": "eadedaea-a72f-438f-94cd-de438b4fb295",
-"sessionId": "eadedaea-a72f-438f-94cd-de438b4fb295",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
-"speakers": [
-{
-"name": "Tarald Riise",
-"twitter": "",
-"bio": "Tarald is a dedicated full stack developer who's been working for BankID with FIDO2 and Passkeys since 2021. With a background in cryptography and secure development, he's passionate about offering the next level of authentication as widely as possible."
-}
-]
-},
-{
-"intendedAudience": "I think people who have a fair amount of experience working in the data ecosystem will benefit the most, since this talk gives them a perspective on the work they're giving this part of their lives to. However, any intellectually curious developer should enjoy this talk.",
+"intendedAudience": "everyone, you will learn about discrimination and get a proposal to fix it.",
 "length": "60",
 "format": "presentation",
 "language": "en",
-"abstract": "Data professionals and software developers of every stripe are moving rapidly into the world of real time, streaming data. There's no question that this is our future, and that its promises are already being realized, but how did we get here? Is real-time really the natural evolution of batch processing? When did we start thinking of what we call \"data\" itself, and has has that influenced the way we build systems how have our data management tools evolved from the earliest days?\n\nWe'll start with a frustrated Belgian astronomer who went on a quest to compute the statistics of the \"average man.\" Then we'll follow automated computing technology as it proceeds from the Difference Engine to tabulating machines to the first digital computers to mainframes to data warehouses to Hadoop to Kafka to Apache Pinot. As we tell the stories of the main technologies along the way, we'll look at how developments in data storage, information management, and computation all conspired to give us not just just the data stack we have now, but the very ideas we use to think about data, put it to use, and move its associated technologies forward.",
-"title": "A Brief History of Data",
-"id": "3597c820-90d7-453c-aa41-0942046d89a8",
-"sessionId": "3597c820-90d7-453c-aa41-0942046d89a8",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Marion and Dennie join forces to shed light on the issue of discrimination and its effects on individuals. Marion, a French immigrant residing in Norway, and Dennie, an individual on the autism spectrum without a paid job, both appear to be \"integrated\" into society. However, despite their seemingly \"normal\" appearances and situations, they face microaggressions on a daily basis. Dennie frequently hears the statement that anyone can have a paid job if they want, while Marion is told there is no gender gap, no culture privileges or glass ceiling. This serves as a reminder that discrimination can occur even to those who may not fit the traditional stereotype of a minority.\n\nThrough sharing their experiences, Marion and Dennie aim to raise awareness and promote empathy towards those who face discrimination. They also aim to teach people how to recognize and combat microaggressions, encouraging a more inclusive and equitable society for all.",
+"title": "Embark on Your Diversity Allyship Journey  to End Discrimination in Tech",
+"room": "Room 5",
+"startTime": "2023-09-06T15:40",
+"endTime": "2023-09-06T16:40",
+"video": "861704867",
+"startTimeZulu": "2023-09-06T13:40:00Z",
+"endTimeZulu": "2023-09-06T14:40:00Z",
+"id": "22cda0b8-7244-4748-8d1b-7ae034a1819b",
+"sessionId": "22cda0b8-7244-4748-8d1b-7ae034a1819b",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T15:40",
+"startSlotZulu": "2023-09-06T13:40:00Z",
 "speakers": [
 {
-"name": "Tim Berglund",
-"twitter": "tlberglund",
-"bio": "Tim is a teacher, author, and technology leader with StarTree, where he serves as the VP of Developer Relations, working with his team to make Apache Pinot and real-time analytics accessible to all developers. He is a regular speaker at conferences and a presence on YouTube explaining complex technology topics in an accessible way. He tweets as @tlberglund, and lives with his wife and stepdaughter in Mountain View, CA, USA. He has three grown children and four grandchildren."
+"name": "Marion Løken",
+"twitter": "",
+"bio": "Empathic digitalization leader. Helping organizations being digital and data-empowered with analytics and technology. Engaged to make our workplaces inclusive and safe."
+},
+{
+"name": "Dennie Declercq",
+"twitter": "@DennieDeclercq",
+"bio": "Dennie is Microsoft MVP Developer Technologies and has experience in accessibility with Microsoft technologies. In daily life Dennie is president and developer at DDSoft, a nonprofit that connects IT to People who are less tech-savvy. Dennie invented technical solutions and systems to help people with disabilities to participate in their daily life. Thanks to his autism he's the right man at the right spot to contribute as a volunteer in function of people with disabilities."
 }
 ]
 },
 {
-"intendedAudience": "Utviklere som ønsker å komme igang med å bruke enkle Maskinlæringsfunksjoner.\nMange kodeksempler i workshoppen, så deltakere bør kunne forstå enkle programmer i forskjellige programmeringsspråk.\n",
-"length": "240",
-"format": "workshop",
+"intendedAudience": "Presentasjonen er rettet mot alle som jobber med kode og/eller arkitektur, og som er opptatt av endringsdyktig software.",
+"length": "60",
+"format": "presentation",
 "language": "no",
-"abstract": "Denne presentasjonen er for de som kjører elektrisk, vurderer å kjøre elektrisk, eller er på jakt etter argumenter for å ikke kjøpe en elektrisk bil.\nIkke interesert i elektriske biler ? men hvis du er interessert i å komme igang med maskinlæring på en enkel måte, eller du har lyst til å programmere litt på en liten Microcontroller – er denne workshoppen for deg.  \nVi vil sette opp en ESP32 med temperatursensor, (som du får med deg hjem etterpå), programmerer litt Python hvor vi bruker JSON/REST for å koble opp mot bakenforliggende tjenester.\nVi vil  benytte gratis skytjenester og/eller  fritt tilgjengelig programvare for on-premiss til å analysere og predikere med enkel maskinlæring (generalized linear model (GLM) og Support Vecotor Machine (SVM), og hvilke som gir best nøyaktighet), og vi vil se på hva AutoML kan hjelpe oss med.\nTil slutt vil vi bygge en enkel applikasjon for å presentere analysene med plattformens Low Code verktøy.\n\n",
-"title": "Tre myter om Elektriske Biler – Analysert med gratis Cloud Tjenester, ESP32 Microcontroller  JSON/REST og Maskinlæring",
-"workshopPrerequisites": "Deltaker må stille med PC/MAC og en USB kabel med USB C, for å koble til Microcontroller, vi kommer med microcontrollere og sensorer, som dere får med hjem etterpå.",
-"id": "02b8d1cc-ce11-464e-8c7d-171f6e9f4316",
-"sessionId": "02b8d1cc-ce11-464e-8c7d-171f6e9f4316",
-"conferenceId": "ad82e461-9444-40a4-a9d5-cc4885f9107a",
+"abstract": "Regelmessig hører jeg utviklere uttrykke ønske om å lage nye microtjenester. Enten ved å implementere nye features som noe selvstendig, eller skille ut eksisterende funksjonalitet som noe eget.\n\nMen er dette alltid det rette valget, hvilke andre alternativer har en, og hva er prosessen for å komme frem til et valg? Jeg har nå begynt å spørre meg selv og andre; har microtjenester nå blitt den nye \"silver bullet\"?\n\nJeg ønsker at publikum skal stoppe opp litt, reflektere litt over hvordan arkitekturen ser ut hos dem, og i hvilken grad valgene deres tar de nærmere målet sitt eller bare et steg til siden (same-but-different). \n\nPåstand: Jeg opplever samtidig at vi snakker stadig mindre om arkitektur, samtidig som arkitektur bare blir viktigere i en microtjenesteverden.",
+"title": "Er microtjenester den nye \"silver bullet\"?",
+"room": "Room 4",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:40",
+"video": "862082860",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:40:00Z",
+"id": "c0e112d8-a229-4339-8f22-412f6d12fadb",
+"sessionId": "c0e112d8-a229-4339-8f22-412f6d12fadb",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
 "speakers": [
 {
-"name": "Frode Pedersen",
-"twitter": "",
-"bio": "More than 35 years experience in Technical Sales Support : Oracle database, Middelware, Linux etc.\n\nAttended Java Zone multiple times, also involved with planning and worked on the Oracle Stand."
+"name": "Terje Heen",
+"twitter": "tlheen",
+"bio": "Utvikler hos NAV med 20+ års erfaring.\n\nJeg har i mer enn 10 år fokusert på design av applikasjonsarkitektur, med særlig fokus på package-by-feature fremfor package-by-layers. Dette er noe jeg fremdeles opplever som uvant/ukjent hos mange. De senere år har jeg også begynt å kombinere det mer aktivt med Domain-driven-design og Hexaortogonal arkitektur eller Ports and adapters. Jeg opplever at det gir en god separation-of-concerns, og god endringsevne."
+}
+]
 },
 {
-"name": "Inge Os",
+"intendedAudience": "Enthusiastic developers and product managers which feel hindered daily in their attempt to make great software. ",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "The consultancy business and similar entities frequently use the term best practice - but let us sit back and analyse the major flaws in the idea and concept for a bit. Because it is utterly meaningless.   ",
+"title": "Best practice -WTF!",
+"room": "Room 2",
+"startTime": "2023-09-06T17:20",
+"endTime": "2023-09-06T17:30",
+"video": "861729230",
+"startTimeZulu": "2023-09-06T15:20:00Z",
+"endTimeZulu": "2023-09-06T15:30:00Z",
+"id": "c8f202c7-791d-405d-9ce9-f3e5d884e26d",
+"sessionId": "c8f202c7-791d-405d-9ce9-f3e5d884e26d",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Totto",
+"twitter": "@javatotto",
+"bio": "https://desktop.quadim.ai/profile/0fd4a1b7-5b1d-46c6-93bd-d8ef657f7f07"
+}
+]
+},
+{
+"intendedAudience": "Ledere eller ikke-tekniske\nTeknologer på overordnet nivå\nTeknologer som jobber med tekniske detaljer\nFolk flest er opptatt av kulturbygging og cybersikkerhet",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "God sikkerhetskultur er utfordrende å bygge. Vi vil gjerne dele våre seire, nederlag og drømmer om reisen til god sikkerhetskultur i Oslo Origo, Oslo kommunes digitaliseringsetat.\nNoen reisetips vi deler i innlegget utover å ta med sikkerhetspass, penger og digitaliseringspiller er:\n* Hvordan skape engasjement for sikkerhets gjennom entusiasme, medvirkning og ikke tvang.\n* Hva skal til for å få utviklingsteam til å ansvar for sikkerheten i egen produktutvikling.\n* Hvordan skape en kultur som deler og lærer av feil.\n* Hva sikkerhetsteamets rolle er innen rådgivning, sikkerhetstesting og støtte.\n* Hvordan få til “Sikkerhetstesting as a Service”.\n* Hvilke forbedringspunkter har vi, og hvor vil vi være i fremtiden.",
+"title": "From zero to hero: en reise i sikkerhetskultur for Oslo Origo",
+"room": "Room 7",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T09:45",
+"video": "861950296",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T07:45:00Z",
+"id": "60ee8480-2ae4-487f-8d58-a511e0e4d753",
+"sessionId": "60ee8480-2ae4-487f-8d58-a511e0e4d753",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Rune Schumann",
+"twitter": "@rune7mann",
+"bio": "Rune Schumann er ansatt som principal security engineer i Oslo Origo, Oslo kommunes digitaliseringsetat. Rune har lang erfaring som sikkerhetsspesialist, rådgiver, virksomhetsarkitekt, løsningsarkitekt og systemutvikler både i offentlig og privat sektor. Den faglige interessen de siste 10 årene har dreid seg mer over mot informasjonssikkerhet og personvern, men med et holistisk syn på sikkerheten. Rune er opptatt av samspillet mellom teknologi, mennesker og organisasjon som forutsetninger til et godt informasjonssikkerhet og personvern."
+},
+{
+"name": "Ingvild Løes Nilsson",
 "twitter": "",
-"bio": "More than 35 years experience in Technical Sales Support : Oracle database, Middelware, Linux, Security, Java.\n\nAttended Java Zone multiple times, also worked on the Oracle Stand."
+"bio": "Ingvild Løes Nilsson er seniorkonsulent i EY og har erfaring som sikkerhetstester og sikkerhetsrådgiver fra en rekke prosjekter. Ingvild har fra januar 2022 vært fast hos Origo som sikkerhetstester og -rådgiver. Hun er utdannet sivilingeniør i kommunikasjonsteknologi ved Norges Teknisk-Naturvitenskapelig Universitet (NTNU) i Trondheim. Ingvild har også sertifiseringene Offensive Security Certified Professional (OSCP), AWS Certified Solutions Architect Associate og ITIL Foundation."
+}
+]
+},
+{
+"intendedAudience": "Intermediate Java experience recommended\n\nWe will get some exposure to OpenJDK development loop and make friends with Jtreg test harness\nThis session is useful for anyone considering to become a contributor on OpenJDK.",
+"length": "120",
+"format": "workshop",
+"language": "en",
+"abstract": "One of the recurrent themes from my other compiler workshops is “can you debug it ?” , so in an attempt at getting that sorted I simply ended up running and writing tests ! No spoilers, we will all discover together whether or not I got that debugger attached :) \n\nSo in my series of hacking on the Java compiler, we will focus this session on adding simple syntax updates and explore Jtreg the unit/regression test harness for OpenJDK.",
+"title": "A little taste of testing the Java compiler",
+"workshopPrerequisites": "Necessary Tools\n- GitHub account , I will give the audience access to Codespaces with ready environments so we spend more time on the code and less time on the local setup ceremonials\n\n- Codespaces can be used with different IDEs, but the main fallback is VSCode in the browser, so getting acquainted with that would be appreciated\n",
+"room": "Workshop A",
+"startTime": "2023-09-05T15:45",
+"endTime": "2023-09-05T17:45",
+"registerLoc": "https://moosehead.javazone.no/#/register/a_little_taste_of_testing_the_java_compiler",
+"startTimeZulu": "2023-09-05T13:45:00Z",
+"endTimeZulu": "2023-09-05T15:45:00Z",
+"id": "d6afaf53-c57b-4f86-b186-e5ccc1a37011",
+"sessionId": "d6afaf53-c57b-4f86-b186-e5ccc1a37011",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T15:45",
+"startSlotZulu": "2023-09-05T13:45:00Z",
+"speakers": [
+{
+"name": "Hasnae Rehioui",
+"twitter": "@dviqueen",
+"bio": "Staff Engineer at SafetyCulture, once upon a time maker of Confluence at Atlassian.\n\nHasnae is known as viqueen among her peers in Sydney, she is a Java architect by trade and a Maven connoisseur; yet with her 16 years of Java experience, Hasnae decided to keep life interesting by spicing things up a bit and switching to new tech stacks such as Node/Typescript and Golang."
+}
+]
+},
+{
+"intendedAudience": "Passer alle utviklere uavhengig av erfaringsnivå, ingen forkunnskaper er nødvendig",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Hva er verdien av å tilgjengeliggjøre data i det øyeblikket de faktisk oppstår ?  Å motta viktig informasjon før det er for seint ? For Politiet kan dette i ytterste konsekvens utgjøre forskjellen mellom liv og død.\n\nVi, i Politiets IT-enhet, har fått et nytt verktøy i verktøykassa vår, og det\nheter Apache Kafka. Vi startet med en gammel monolitt, og forvandlet denne \ntil moderne løsning med bruk av hendelser og mikrotjenester. Fra starten av hadde vi mål om økt ytelse og skalerbarhet, men lite visste vi at det var på helt andre områder den store gevinsten egentlig skulle komme.\n\nOg det er nettopp dette foredraget skal handle om.\nOm hvordan vi bruker Kafka topics som \"samlebånd\" for enklere kunne dele data på tvers av applikasjoner og fagområder. Apache Kafka er i dag en kjent teknologi for mange, og har kanskje sitt største største bruksområde innenfor prosessering av store datamengder. I dette foredraget ser vi på alternative bruksområder, og fortelle om våre erfaringer med Kafka som et verktøy for å dele data på tvers av mikrotjenester.",
+"title": "Catching Criminals with help of Apache Kafka",
+"room": "Room 1",
+"startTime": "2023-09-07T15:40",
+"endTime": "2023-09-07T16:25",
+"video": "862064425",
+"startTimeZulu": "2023-09-07T13:40:00Z",
+"endTimeZulu": "2023-09-07T14:25:00Z",
+"id": "fdb32c4e-4fe8-41b0-a99c-ad00a9e6d03e",
+"sessionId": "fdb32c4e-4fe8-41b0-a99c-ad00a9e6d03e",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T15:40",
+"startSlotZulu": "2023-09-07T13:40:00Z",
+"speakers": [
+{
+"name": "Rune Liseth Høivik",
+"twitter": "",
+"bio": "Rune er en lidenskapelig utvikler som elsker å løse komplekse problemer med enkle løsninger. Han er stolt utvikler i Politiets IT-enhet og motiveres av å forbedre og effektivisere det norske politiet. Rune har vært sentral i arbeidet med å ta i bruk Apache Kafka i Politiets IT-enhet og han gleder seg til å dele sine erfaringer med å utvikle løsninger basert på Kafka. Etter arbeidstid liker han best å være med familie og venner, brygge øl og løpe lange turer i østmarka."
+}
+]
+},
+{
+"intendedAudience": "Utviklere som vil levere kode raskt, med høy kvalitet og samtidig med hvilepuls. Og ledere og team ledere som lurer på hvordan det fungerer i praksis",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Høsten 2021 bestemte SpareBank 1 Utvikling seg for å prøve en ny retning gjennom å kraftig øke hvor mye man jobber sammen i par. Dette har vist seg avgjørende for å oppnå økt fart, fokus og flyt. Samtidig har vi redusert antall feil og fått mer fornøyde utviklere. For å forstå effekten av parprogrammeringen har vi jobbet tett med forskere i SINTEF mens vi implementerte den nye strategien. \n\nI dette foredraget vil vi forklare  hvordan vi gikk frem for å endre kursen, hvordan vi testet ut kontinuerlig prodsetting med bittesmå endringer og hvordan antallet produksjonssettinger økte dramatisk. Du vil lære om de positive effektene vi opplevde på pull requests, testmiljøer, parprogrammering, kvalitet, fokus, flyt, psykologisk trygghet m.fl - uten at det var et mål i seg selv.\n\nEn viktig inspirasjonskilde er NAV som også har fokusert på parprogrammering og ikke bruker annet testmiljø enn produksjon. Nav sluttet med pull requests og argumenterer med at det  samtidig gav økt kvalitet og færre feil. Kunne vi få til det samme i en bank? I denne presentasjonen skal vi dele vår erfaring og forskningsbaserte funn med nettopp dette.\n\nI denne presentasjonen  forklarer vi hvorfor produksjonssetting av små endringer mens du utvikler, har blitt avgjørende hvis du skal gjøre  moderne utvikling. \n",
+"title": "Hypereffektiv flyt med parprogrammering og kontinuerlige prodsettinger i SpareBank 1",
+"room": "Room 7",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T09:45",
+"video": "861601828",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T07:45:00Z",
+"id": "a7d74140-a07c-4b82-8d45-a90beb9b08e4",
+"sessionId": "a7d74140-a07c-4b82-8d45-a90beb9b08e4",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Asgaut Mjølne",
+"twitter": "",
+"bio": "Utvikler i SpareBank 1 Utvikling. Elsker svensk mörkrost kaffi og koding sammen med andre. 17 års erfaring med utvikling og parprogrammering fra bla FINN, Bouvet, TietoEVRY, Telia, egen startup Cityhotels, Sparebank1 Utvikling"
+},
+{
+"name": "Nils Brede Moe",
+"twitter": "",
+"bio": "Sjefforsker på SINTEF Digital med godt humør. \nHan forsker på virtuelt arbeid, hjemmekontor, prosessforbedring, autonome team og global systemutvikling. Han jobber tett med mange globalt firma innen bransjene energi, telekom, transport og finans. I tillegg jobber han med flere konsulentfirma, programvarehus og offentlig sektor i Norge. Han har også en forskningsstilling ved Blekinge Institute of Technology i Sverige og er fast spaltist i e24.\n"
+}
+]
+},
+{
+"intendedAudience": "Workshopen passer for alle som er opptatt av hvordan man jobber sammen som team, og workshopen passer enten man har prøvd mobb-programmering før eller ikke. Det er heller ikke påkrevd med noen bestemt programmeringsbakgrunn eller erfaring, men det kan være en fordel å ha erfaring med å jobbe i team med utvikling.",
+"length": "120",
+"format": "workshop",
+"language": "no",
+"abstract": "Mobb-programmering er når hele teamet jobber om å løse én oppgave, på samme tid, samme sted og med én datamaskin. Det høres kanskje merkelig ut om man ikke har prøvd arbeidsmåten før, men vi mener at mobb-programmering skaper drivkraft og fokus, gir god kvalitet, og gjør teamet mer robust. \n\nOpplevelsen av mobb-programmering blir ulik avhengig av personene i mobben og oppgaven som skal løses. I denne workshopen vil vi derfor utforske og reflektere over mangfold og utfordringer man kan erfare i en mobb.\n\nFørst gir vi en introduksjon til mobb-programmering, og vi definerer noen enkle kjøreregler for mobben. Deretter deler vi oss i flere mobber og løser en liten programmeringsoppgave, samtidig som vi øver på å arbeide etter mobb-reglene. Det finnes ulike strategier og mønstre for samarbeid i mobb. I siste del av workshopen vil vi prøve å identifisere hvilke mønstre og strategier vi erfarte i mobben, og diskutere hvilke mønstre som kunne ha løst eventuelle utfordringer.\n\nEnten mobb-programmering er helt nytt for deg, eller du har prøvd det før og har mye å diskutere, vil du både kunne bidra og lære av denne workshopen!",
+"title": "Den mangfoldige mobben",
+"workshopPrerequisites": "",
+"room": "Workshop D",
+"startTime": "2023-09-05T15:45",
+"endTime": "2023-09-05T17:45",
+"registerLoc": "https://moosehead.javazone.no/#/register/den_mangfoldige_mobben",
+"startTimeZulu": "2023-09-05T13:45:00Z",
+"endTimeZulu": "2023-09-05T15:45:00Z",
+"id": "49a61620-808c-461a-b06d-b8e252e99e01",
+"sessionId": "49a61620-808c-461a-b06d-b8e252e99e01",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T15:45",
+"startSlotZulu": "2023-09-05T13:45:00Z",
+"speakers": [
+{
+"name": "Heidi Mork",
+"twitter": "@heidicmork",
+"bio": "Heidi jobber som utvikler i NRK, og har over 10 års erfaring fra ulike team og ulike teknologier. Hun studerte opprinnelige matematikk, men oppdaget på et tidspunkt at programmering var minst like gøy, og har vært en entusiastisk programmerer siden. Heidi er interessert i det meste som har med programmering å gjøre og lar ikke muligheten til å lære noe nytt gå fra seg."
+},
+{
+"name": "Lars Jørgen Tvedt",
+"twitter": "",
+"bio": "Systemutviklar i 30 år, mykje backend dei siste åra. Har jobba både inhouse og som konsulent, og på mange ulike prosjekt og med masse ulik teknologi."
+}
+]
+},
+{
+"intendedAudience": "This session is for people working in cloud environments and want to design a robust and flexible system using modern cloud technologies without a big operations team. No particular experience is required.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "As we started to work on the software for Bobsled, we quickly came to the fundamental question: Which core concepts should we apply for our architecture?\nSome of us had very positive experience running Kubernetes operators and liked the concept of the reconciliation pattern, since their robustness and flexibility. But we wanted a leaner approach, which does not include the usual operational burden of running Kubernetes at a scale which would suit our team size a bit better. Especially since our application runs in three clouds simultaneously and for a number of databases, we didn't wanted a lot of pre-provisioned compute infrastructure running the whole time. So we quickly settled on serverless functions and the idea of borrowing a lot of concepts from Kubernetes. \n\nOk, but how did we got all those wishes covered?\nIn this session, we talk about the reconciliation programming pattern and we will have a closer look at how Kubernetes operators are implemented. Then we will check out how we will gain those benefits outside of Kubernetes land and see how some smart choices of technology like firebase, cloud functions and pub/sub helped us implement this.\n\nOn top of that we will discuss how OIDC and OAuth will help us implement a truly cross cloud app that is not only nice and shiny, but also very secure and does not have the need to store a single password.",
+"title": "How we build a scalable and truly cross cloud SaaS without Kubernetes",
+"room": "Room 1",
+"startTime": "2023-09-06T10:20",
+"endTime": "2023-09-06T11:20",
+"video": "861606511",
+"startTimeZulu": "2023-09-06T08:20:00Z",
+"endTimeZulu": "2023-09-06T09:20:00Z",
+"id": "7576afbf-4260-407a-8a1c-60a837de1a3d",
+"sessionId": "7576afbf-4260-407a-8a1c-60a837de1a3d",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T10:20",
+"startSlotZulu": "2023-09-06T08:20:00Z",
+"speakers": [
+{
+"name": "Johannes Unterstein",
+"twitter": "unterstein",
+"bio": ""
+}
+]
+},
+{
+"intendedAudience": "Architects and engineers working with Kafka. This is useful for anyone wanting to understand how to set up a data pipeline centered around Kafka providing resilience in a production environment with real-time processing. Some basic Kafka knowledge from before is useful but not required.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "It might not be what first comes to mind that shipping goods and processing data have some similar traits and challenges but I am telling you that is absolutely the case. Among these are the stress of delivering on time, all the weird requirements for how to deliver their precious package, and the absolute havoc a single error can have.\n\nIt can be daunting to have many needs to cater to and face the risk of errors that can halt entire operations. However, some actions can be taken when setting up the architecture to minimize this. \n\nI will walk you through how we have divided our pipeline on an architecture level through Apache Kafka and on a software level through threads to handle backpressure and other failure scenarios. We have successfully used this design for years but as with all designs, it has its limitations. I’ll share both the good and the bad of this design. Finally, it’s not enough to talk about dividing a pipeline without talking about what this actually means and how you define your division because it’s not as obvious as it might first seem. You will be introduced to what the terms “tenant” and “tenant isolation” can mean in this context.\n",
+"title": "Streaming without stress: flexibility and error-handling in a data distribution pipeline",
+"room": "Room 3",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T13:45",
+"video": "862030881",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T11:45:00Z",
+"id": "fac5c27a-2d7a-4d63-81eb-76879ab3a0b4",
+"sessionId": "fac5c27a-2d7a-4d63-81eb-76879ab3a0b4",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Joanna Eriksson",
+"twitter": "",
+"bio": "Joanna Eriksson works as a data engineer at the Norwegian company Schibsted. She holds a master's degree in Computer Science and has been working as a software engineer for almost a decade. Her career has been focused on architecture and code for JVM-based applications with big data technologies such as Kafka and Spark. Having found a true passion in data engineering she enjoys sharing this with others who want to evolve in the data engineering domain."
+}
+]
+},
+{
+"intendedAudience": "Alle som drømmer om noe men kanskje ikke helt vet hva det er enda.",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Etter å ha vært leder i 15 år, fikk jeg min første jobb som programmerer. I dag kan jeg endelig si at jeg jobber med det jeg egentlig vil, men slik har ikke alltid vært. Så, hvorfor ble det slik? Dette er min historie om hvordan jeg etter mange år endelig forsto hva jeg ønsket å bruke tiden min på, og hvordan jeg gikk frem for å oppnå det. \n\nKom og hør hva jeg lærte om meg selv og hva som må til for å både forstå og akseptere ens egentlige drømmer, samt hva man kan gjøre for å nå dem. Målet med historien min er både å inspirere andre til å følge drømmene sine, men også dele erfaringer om hva slags støtte man trenger underveis i denne prosessen. Jeg har oppnådd min drøm, men jeg gjorde det ikke alene.",
+"title": "Fra powerpoint til programmering - jobber du med det du egentlig vil? ",
+"startTime": "2023-09-07T14:20",
+"endTime": "2023-09-07T14:40",
+"room": "Room 2",
+"video": "862046913",
+"startTimeZulu": "2023-09-07T12:20:00Z",
+"endTimeZulu": "2023-09-07T12:40:00Z",
+"id": "52273d93-c92f-4a19-9ac2-75e19a7dc81a",
+"sessionId": "52273d93-c92f-4a19-9ac2-75e19a7dc81a",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T14:20",
+"startSlotZulu": "2023-09-07T12:20:00Z",
+"speakers": [
+{
+"name": "Jens-Christian Bjerkek",
+"twitter": "",
+"bio": "Jens-Christian har jobbet med ledelse av utviklere og utviklingsprosjekter i 15 år, før han for 3 år siden ble programmerer på fulltid. "
+}
+]
+},
+{
+"intendedAudience": "Dette er et tema som relevant for alle - vi skal jo alle bli gamle. Bevissthet rundt digitalt utenforskap er viktig for alle som jobber innenfor IT-bransjen. Dette gjelder utviklere, forretningsutviklere, designere, UX'ere, data scientists, produkteiere, teamledere. Vi skal alle bli gamle, og kommer alle til å kjenne på både de fysiske og kognitive utfordringene alderdom medbringer. \n\nDerfor vil nok ikke digitalt sterke voksne mennesker i dag, nødvendigvis være digitalt sterke eldre i fremtiden. For digital kompetanse - det er dessverre ikke er noe vi klarer å opprettholde hele livet. \n\nDette er også et tema som har fått mye mediedekning den siste tiden, og berører hele IT-bransjen.\n\nVi holdt dette foredraget under Booster 2023 i Bergen, hvor det var en godt og blandet publikum fra ulike deler og roller i IT-bransjen. Dette var en av tilbakemeldinger, fra en test-leder:\n\n\"Rett før påske var jeg så heldig å få bli med på Booster konferansen i Bergen. Det var skikkelig gøy, inspirerende og lærerikt. For min del ble det to dager med gode presentasjoner, lyntaler og experience reports. Flere av de jeg så på inspirerte meg og fikk meg til å tenke, men det spesielt 1 som utpekte seg ekstra. Det var \"Vi skal alle bli gamle - husk å designe for eldre\". Det som fikk meg til å tenke var det de fortalte om at den oppegående digitale voksne i dag, også en dag vil bli \"akterutseilt\" og mindre digital kompetent. Vi har fokus på universell utforming i arbeidet vi gjør, men det er ikke nok. Den universelle utforming vil ikke hjelpe på de kognitive problemene som oppstår når man sakte men sikkert blir eldre og mindre digital kompetent.\"  \n",
+"length": "20",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Det snakkes mye om digitalt utenforskap. Vi har jo som mål å være digitalt inkluderende, men det finnes dessverre mange som faller utenfor. Eldre er en av gruppene hvor flere opplever digitalt utenforskap. Vi skal også bli mange flere eldre i nær fremtid: Statistisk Sentralbyrå estimerer at det i 2030 vil være flere eldre (65+) enn barn og unge (0-19), og at det i 2040 kommer til å være ca 50% flere eldre sammenlignet med i dag. En stor eldrebølge er på vei!\n\nDessverre er det mange som har oppfatningen om at eldres digitaliseringsutfordringer er et generasjonsproblem som bokstavelig talt vil dø ut. Når dagens eldre går bort, vil neste generasjon eldre være digitalt modne og kompetente, ikke sant? Dette er nok dessverre ønsketenkning. For hva skjer når neste generasjon eldre møter neste generasjon med med ny teknologi? Hva skjer når dagens unge i fremtiden møter alderdommens fysiske og kognitive anstrengelser?\n\nFor det er kjipt å bli gammel; Du får forverret syn, hørsel og mobilitet. Likevel medfører alderdom også mange usynlige endringer. Kognitive funksjonsnedsettinger kan medføre store utfordringer og påvirker blant annet korttidshukommelsen. Det blir vanskeligere å lære seg nye ting, problemløse, være effektiv og gjenta eller bevare informasjon. Alt dette påvirker eldres evne til å navigere det digitale samfunnet. \n\nVi ønsker å fremme empati og kaste lys på hva som skjer med digitale brukere når de blir eldre. Målet er å hjelpe skapere av digitale løsninger å navigere og bistå den fortsettende eldrebølgen, og konsekvensene dette kan få for vårt digitale samfunn. Vi vil dele våre erfaringer og komme med praktiske tips til hvordan designe for eldre.\n",
+"title": "Vi skal alle bli gamle – husk å designe for eldre",
+"startTime": "2023-09-07T09:00",
+"endTime": "2023-09-07T09:20",
+"room": "Room 2",
+"video": "861949053",
+"startTimeZulu": "2023-09-07T07:00:00Z",
+"endTimeZulu": "2023-09-07T07:20:00Z",
+"id": "00f77863-cc58-41b4-b092-a07668b7af53",
+"sessionId": "00f77863-cc58-41b4-b092-a07668b7af53",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Elen Haksø",
+"twitter": "",
+"bio": "Elen jobber i dag hos Kantega i Oslo, og er for tiden utleid til Sparebank 1. Hun har en Master i Interaksjonsjonsdesign fra Norges teknisk-naturvitenskapelige universitet, og Bachelor i Mediedesign fra Høyskolen i Volda og Griffith University. Hun har også studert UX Design hos Noroff. "
+}
+]
+},
+{
+"intendedAudience": "Hvis du kan litt JavaScript eller ønsker å følge med på det nyeste.",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Hvert år kommer ny funksjonalitet til språket JavaScript. La meg gå gjennom hva som er nytt i 2023.",
+"title": "Nyheter i JavaScript - ES2023",
+"startTime": "2023-09-07T09:20",
+"endTime": "2023-09-07T09:30",
+"room": "Room 2",
+"video": "861948019",
+"startTimeZulu": "2023-09-07T07:20:00Z",
+"endTimeZulu": "2023-09-07T07:30:00Z",
+"id": "96fbeec6-c7df-4e14-aa47-0c99fb789ebf",
+"sessionId": "96fbeec6-c7df-4e14-aa47-0c99fb789ebf",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T09:00",
+"startSlotZulu": "2023-09-07T07:00:00Z",
+"speakers": [
+{
+"name": "Gaute Meek Olsen",
+"twitter": "GauteMeekOlsen",
+"bio": "Gaute jobber som utvikler i Capra. Ellers har han som regel et hobby prosjekt på siden og liker å holde seg oppdatert innenfor programmering."
+}
+]
+},
+{
+"intendedAudience": "The talk is aimed for engineers that work with data.\nIt is not for beginners, because it assumes pre-existing knowledge of database concepts. However, no knowledge of ClickHouse or columnar-oriented databases is required.\n",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "An open source columnar database ClickHouse is in many ways exceptional - it is exceptionally fast, exceptionally efficient, but also, at times exceptionally confusing. \n\nIts approach to handling data goes against many principles and concepts that we use in other databases. To give some examples: its primary index doesn't index each row and doesn't guarantee uniqueness; a secondary index is used to skip data and doesn't point to specific rows; JOINS is a complex topic and transactions are supported partially, not to mention that its SQL dialect holds a couple of surprises up its sleeve. \n\nBut, all that said, if used correctly, ClickHouse is a superb solution for online analytical processing (OLAP).\n\nThe goal of this talk is to help you get the most of ClickHouse and avoid the pitfalls. We'll talk about OLAP and columnar databases. We'll touch topics of indexing, searching and disk storage. We'll look at the reasons behind the most puzzling concepts of ClickHouse, so that by the end of the talk you find them not only logical, but maybe even fascinating.\n\nIf your challenge is analysing terabytes of data - this talk is for you. If you're a data scientist looking for tools to work with big data - this talk is for you. And, of course, if you are just curious about what makes ClickHouse crazy fast - this talk is for you as well.",
+"title": "ClickHouse: what is behind the fastest columnar database",
+"room": "Room 4",
+"startTime": "2023-09-06T09:00",
+"endTime": "2023-09-06T09:45",
+"video": "861597565",
+"startTimeZulu": "2023-09-06T07:00:00Z",
+"endTimeZulu": "2023-09-06T07:45:00Z",
+"id": "620aa954-1a6c-4c8f-8525-a99735a6f2ca",
+"sessionId": "620aa954-1a6c-4c8f-8525-a99735a6f2ca",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T09:00",
+"startSlotZulu": "2023-09-06T07:00:00Z",
+"speakers": [
+{
+"name": "Olena Kutsenko",
+"twitter": "@OlenaKutsenko",
+"bio": "Olena is a Sr. Developer Advocate at Aiven. With a background in software engineering, she's led teams and developed mission-critical applications at Nokia, HERE Technologies, and AWS. Currently, she works at Aiven where she supports developers and customers in using open-source data technologies such as Apache Kafka, ClickHouse, and OpenSearch. She is also an international public speaker and regularly present at conferences around the world. She holds AWS Developer and Solutions Architect certifications, and is also a Confluent Catalyst."
+}
+]
+},
+{
+"intendedAudience": "The lecture is addressed to people involved mainly in design activities (employees and owners of creative agencies, design teams, etc). However it will be also interesting for programmers, who seek inspiration and insight.",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "If AI within seconds can create a high quality image, write a program code, or generate texts that are indistinguishable from human-made text articles then... what is the point of learning and self-development? Is there any?\n\nThe wide adoption of AI-based systems will boost productivity in many fields, but who will benefit? We will probably pay for this with an irreversible loss of competence, intellectual degradation and perhaps impossible to reproduce, accompanying mankind from the beginning of civilization, the ability to express oneself through art and creativity.\n\nBut maybe there are human qualities that are irreplaceable by AI which are worth developing and nurturing? Are products devoid of the human factor becoming our new reality, or maybe the whole AI revolution is an opportunity to start to notice and appreciate what is truly human?\n\nGoals of my talk:\n- describe changes in the creative ecosystem caused by generative AIs (current and trends),\n- consider the benefits and costs of these changes (from the perspective of the individual and the market),\n- discuss which qualities of human creative work are inimitable by AI and how it might motivates to further learning, development and building competences (from the perspective of the individual and market opportunities),\n- discuss the changes in standards of work and education that universities and business should think about,\n- consider alternative models of creative activity in a world dominated by generative AI models.",
+"title": "Human factor. Design, creativity and meaning in the AI era.",
+"room": "Room 3",
+"startTime": "2023-09-06T14:20",
+"endTime": "2023-09-06T15:20",
+"video": "861701263",
+"startTimeZulu": "2023-09-06T12:20:00Z",
+"endTimeZulu": "2023-09-06T13:20:00Z",
+"id": "4e652d2b-b51d-4da3-97c4-7729cdfcf0e2",
+"sessionId": "4e652d2b-b51d-4da3-97c4-7729cdfcf0e2",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T14:20",
+"startSlotZulu": "2023-09-06T12:20:00Z",
+"speakers": [
+{
+"name": "Paweł Nowak",
+"twitter": "https://twitter.com/nowy_me",
+"bio": "Paweł Nowak has been working as a Service Designer and UX Designer since 2008. He is a founder of NOWY - research and design agency (2016) and a founder of WUD Silesia conference - the biggest non-profit design conference in Poland (2010). His professional mission is to design interventions and technologies that empower people and enhance their potential and competencies. He uses complexity science as a lens for gaining new perspectives in the design field. Paweł is a lecturer at the University of Social Sciences and Humanities in Katowice and Sektor 3.0 Fund startup incubation program manager. After work he supports as a mentor, teacher and designer social and educational initiatives."
+}
+]
+},
+{
+"intendedAudience": "Denne talken er for alle som er avhengige av andre mennesker for at det endelige resultatet av jobben man gjør skal bli bra. Du får mest glede av talken hvis du er opptatt av, eller ønsker å reflektere over, hvilken betydning kvaliteten på relasjoner har for resultatene man oppnår i en teknologisk hverdag, og hva du selv kan gjøre for å øke kvaliteten. Utviklere, arkitekter, domeneeksperter og ledere vil alle ha nytte av denne erfaringsdelingen.",
+"length": "45",
+"format": "presentation",
+"language": "no",
+"abstract": "Gull er ettertraktet og verdifullt. Veien til gullet er ofte kronglete, kaotisk og konfliktfylt. Jeg deler noen av mine mest lærerike øyeblikk som utvikler, forsker og teknologileder - og hvordan jeg fant gull. Gullet, altså innsikten og verktøyene som du skal få, fant jeg som regel i møte med mennesker. Både fine og, noen ganger, ganske friksjonsfylte menneskemøter - ofte litt bortenfor kode, nord for rammeverk og bakenfor metodikk. Om du også innimellom støter (på) folk i jobbhverdagen din, er denne talken for deg.",
+"title": " Jakten på gull - verdifull lærdom fra menneskelige sammenstøt",
+"room": "Room 5",
+"startTime": "2023-09-07T10:20",
+"endTime": "2023-09-07T11:05",
+"video": "861988293",
+"startTimeZulu": "2023-09-07T08:20:00Z",
+"endTimeZulu": "2023-09-07T09:05:00Z",
+"id": "226dd399-249a-4bf7-b74d-d643321b78f5",
+"sessionId": "226dd399-249a-4bf7-b74d-d643321b78f5",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T10:20",
+"startSlotZulu": "2023-09-07T08:20:00Z",
+"speakers": [
+{
+"name": "Heidi Brovold",
+"twitter": "",
+"bio": "Heidi er informatiker, teknologileder og \"design tenker\". Hun er opptatt av samspillet mellom innovasjon, læring og ledelse. Læring er forutsetningen for all utvikling. Derfor leter Heidi etter læring i de fleste situasjoner. Hun har hatt roller som utvikler, forskningsleder, prosjekt- og programleder og CTO. Nå er hun CPO i Capra Consulting."
+}
+]
+},
+{
+"intendedAudience": "The talk is suitable for everyone interested in JavaScript, and especially for those who want to know how to suggest a new language feature and participate in implementing it.\nThe talk will present a step-by-step outline of what is needed to implement a (small) language feature.",
+"length": "20",
+"format": "lightning-talk",
+"language": "en",
+"abstract": "JavaScript is an actively evolving language, and its design is overseen by ECMA Technical Committee TC39. We'll explain briefly how TC39 works and give a concrete outline of the steps needed to implement a new language feature. The talk is based on our own experience implementing `array.group()` for the SpiderMonkey engine.",
+"title": "How you can participate in evolving JavaScript",
+"startTime": "2023-09-06T11:40",
+"endTime": "2023-09-06T12:00",
+"room": "Room 2",
+"video": "861647808",
+"startTimeZulu": "2023-09-06T09:40:00Z",
+"endTimeZulu": "2023-09-06T10:00:00Z",
+"id": "6ccc0670-330a-40cc-bd97-803ab9a30ff9",
+"sessionId": "6ccc0670-330a-40cc-bd97-803ab9a30ff9",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T11:40",
+"startSlotZulu": "2023-09-06T09:40:00Z",
+"speakers": [
+{
+"name": "Mikhail Barash",
+"twitter": "mikhail_barash",
+"bio": "Mikhail is a delegate at ECMA TC39, and works as a researcher at the University of Bergen, where he leads the language tooling team of Bergen Language Design Laboratory. Mikhail enjoys designing and implementing (domain-specific) languages, and likes to inspire people to participate in impactful projects."
+},
+{
+"name": "Rolf Martin Glomsrud",
+"twitter": "",
+"bio": "Rolf is a master student at the Bergen Language Design Laboratory at UiB. He has been onboard implementing the `array.group()` feature already during his bachelor degree studies. Rolf enjoys solving difficult programming challenges using modern features of programming languages."
+}
+]
+},
+{
+"intendedAudience": "By attending this talk, the participants will gain a deeper understanding of the benefits and challenges associated with synthetic tabular data generation. They will learn about the different techniques used for synthetic data generation and how to evaluate the quality of generated data. The talk will also explore how federated learning benefits synthetic data generation and highlight the challenges associated with it and ways to address it. \n\nData Scientists, Software Developers with a basic understanding of data science concepts will benefit the most from this talk. Familiarity with data privacy regulations and experience working with cancer data would be an added advantage but not necessary. The talk is designed to be informative and accessible to a wide range of participants, including researchers, data scientists, software developers and healthcare professionals interested in leverage synthetic data for their own use cases. ",
+"length": "60",
+"format": "presentation",
+"language": "en",
+"abstract": "Generating Synthetic Cancer data is a critical innovation focus area at the Cancer Registry of Norway due to various benefits offered by synthetic data, such as easier data sharing for promoting cancer research, improved data quality for building better prediction models, better privacy protection for patients, and better developer productivity through easier software testing. \nIn this talk, first, I focus on different synthetic cancer data generation techniques explored at the Cancer Registry for various use cases. Additionally, I share our view on why no synthetic data generation technique is best for all our use cases. Furthermore, I talk about evaluating the quality of synthetic data and the challenges in answering the following questions:\na) How good is the generated synthetic data compared to the real data? \nb) How well does the generated synthetic data preserve patient privacy? \nc) Does the synthetic data satisfy the purpose for which it is generated? \nd) How much bias is introduced by synthetic data? Furthermore, I also talk about how federated learnings add more benefits to generating synthetic data and the new challenges that federated learning introduces regarding security, privacy, accountability and auditability. Finally, I will talk about our efforts towards addressing these challenges. \n",
+"title": "Ready to Enhance your Data Practices? Explore Synthetic Data Generation for Improved Data Sharing, Data Quality, Privacy, and Developer Productivity ",
+"room": "Room 3",
+"startTime": "2023-09-07T11:40",
+"endTime": "2023-09-07T12:40",
+"video": "861989649",
+"startTimeZulu": "2023-09-07T09:40:00Z",
+"endTimeZulu": "2023-09-07T10:40:00Z",
+"id": "c8846eb8-65ac-4ce0-a0a9-97347cc0d311",
+"sessionId": "c8846eb8-65ac-4ce0-a0a9-97347cc0d311",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T11:40",
+"startSlotZulu": "2023-09-07T09:40:00Z",
+"speakers": [
+{
+"name": "Narasimha Raghavan Veeeraragavan",
+"twitter": "",
+"bio": "Narasimha Raghavan Veeraragavan is currently a Special Adviser with the Cancer Registry of Norway. He is a key player in delivering technical architecture and innovative solutions to continuously strengthen the security and privacy of cancer patients’ datasets in Norway. Additionally, as part of his role, he is involved in several national and international research projects and collaborates with many reputed national and international partners. Before, he led several technical initiatives in global companies. He has four patents and a few peer-reviewed research papers in reputed conferences and journals. His initiatives resulted in large-scale software products launched globally with millions of users worldwide. From 2017 to 2022, Narasimha was invited to teach courses at the Department of Informatics at the University of Oslo. The audience to his course where professional software developers working in public and private sectors who wanted to be architects. His course has received best rating from the participants.  "
+}
+]
+},
+{
+"intendedAudience": "Utviklere som er interessert i kompetansebygging og hvordan et felles fagmiljø styrkes ved at vi både lærer av hverandre og lære bort til hverandre.  Og de som er interessert i å høre om at tenåringer med stor IT-interesse snart kommer til å puste dem i ryggen med et ferskt fagbrev i lommen.  Hvis det er noen rekrutterere og andre \"suits\" i salen vil de ha nytte av å høre om en ny gruppe utviklere som snart dukker opp i søkebunken deres.",
+"length": "10",
+"format": "lightning-talk",
+"language": "no",
+"abstract": "Vi trenger flere utviklere i bransjen vår, og et nytt sted å finne dem er den nye utdanningsretningen i videregående skole hvor ungdom tar to år på yrkesfaglig skole, og deretter jobber som lærlinger ute i arbeidslivet i to år. \n Utdanningen avsluttes med fagprøve og kandidatene som lykkes har da et fagbrev som systemutvikler.  De fleste kjenner til yrkesfaglig utdanning for IKT-Drift, men dette er en ny linje som retter seg mot de som ønsker å bli systemutviklere.\n\nDet første kullet har nå vært ute i lærlingjobben i ett år, og to av dem er hos oss i Statnett.  To til starter i august og vi har dermed fire lærlinger tilsammen.  På JavaZone stiller vi med en vaskekte lærling og med faglig leder for lærlingene våre.\n\nVi ønsker å fortelle om våre erfaringer med lærlinger, både hva de lærer hos oss og hvordan de bidrar til vårt fagmiljø for systemutviklere.\nVed å være med på utdanningsløpet for ungdom med stor interesse for systemutvikling og IT generelt kan vi også være med på å påvirke hva de skal lære.  Vårt mål er at disse lærlingene skal fungere som systemutviklere i våre team når de er ferdige med utdannelsen, da vil de også kunne konkurrere med utviklere med lengre utdanning og dermed bidra til å få opp antallet systemutviklere i Norge. \n \nVi tror at med god veiledning og to års erfaring som lærling vil disse være et interessant bidrag til fagmiljøene for systemutvikling.  \n",
+"title": "Erfaringer med lærlinger i IT-Utviklerfaget",
+"room": "Room 2",
+"startTime": "2023-09-07T13:20",
+"endTime": "2023-09-07T13:30",
+"video": "862028839",
+"startTimeZulu": "2023-09-07T11:20:00Z",
+"endTimeZulu": "2023-09-07T11:30:00Z",
+"id": "897a17c2-a925-44f1-bc09-97a2ae3e2d76",
+"sessionId": "897a17c2-a925-44f1-bc09-97a2ae3e2d76",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Tore Skjulstad Bryhni",
+"twitter": "@torebryhni",
+"bio": "Leder i dag et fagmiljø med ca 70 systemutviklere med både ansatte og innleide i Statnett, har tidligere gjort ting som ligner i Politiets IT-tjeneste.  Før dette var han utvikler i 12 år og jobbet med å lage digitale kart.  Er mest opptatt av å lage fagmiljø \"av utviklere, for utviklere\" og mener at teknisk forståelse for systemutvikling er en viktig egenskap når du leder slike fagfolk."
+},
+{
+"name": "Mads Pettersen Vengnes",
+"twitter": "",
+"bio": "Mads er lærling i IT-Utviklerfaget.  Etter to år som elev på Kuben VGS innen IT-Utvikling er han nå lærling hos Statnett og vil fortelle om erfaringene derfra."
+}
+]
+},
+{
+"intendedAudience": "Målgruppen for denne workshopen er utviklere som ikke har noen erfaring med OIDC fra før, eller utviklere som har litt erfaring men ønsker en dypere forståelse av flytene. ",
+"length": "120",
+"format": "workshop",
+"language": "no",
+"abstract": "Du har kanskje oppdaget at flere nettsider og apper de siste årene lar deg logge inn med tredjeparts aktører, som Google, Facebook, Vipps, osv. I denne workshopen skal vi gå gjennom hvordan dette gjøres i praksis med å ta en titt under panseret til OpenID Connect (OIDC) standarden, og hvordan den åpner opp for å gi en tredjeparts aktør ansvaret for å gjennomføre autentiseringen av brukeren.\n\nAutentisering med OIDC er noe som vanligvis bør løses med å bruke biblioteker. I denne workshopen kommer vi derimot til å gjøre alt manuelt for å få en grundig forståelse for hvordan flyten fungerer.",
+"title": "Hvordan gjøres en autentisering med Openid Connect sånn egentlig",
+"workshopPrerequisites": "Vi har laget støttekode i Python, men det er ingen problemer å enten løse oppgaven i et annet språk eller med cURL, Postman, osv. \nDersom du ønsker å bruke støttekoden vil vi få utnyttet tiden bedre dersom du har lastet den ned og verifisert at du får kjørt programmet på maskinen du tar med deg. \nRepoet til workshopen finner du her: \nhttps://github.com/kantega/oidc-workshop-public",
+"room": "Workshop B",
+"startTime": "2023-09-05T15:45",
+"endTime": "2023-09-05T17:45",
+"registerLoc": "https://moosehead.javazone.no/#/register/hvordan_gjores_en_autentisering_med_openid_connect_sann_egentlig",
+"startTimeZulu": "2023-09-05T13:45:00Z",
+"endTimeZulu": "2023-09-05T15:45:00Z",
+"id": "28bf955e-43fc-45f3-b5d4-43f39a34c467",
+"sessionId": "28bf955e-43fc-45f3-b5d4-43f39a34c467",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T15:45",
+"startSlotZulu": "2023-09-05T13:45:00Z",
+"speakers": [
+{
+"name": "Øyvind Kallevik Grutle",
+"twitter": "",
+"bio": "Øyvind er en utvikler med lidenskap for å finne ut hvem du er på nett, og har jobbet i BankID og Vipps de siste 7 årene med nettopp det."
+},
+{
+"name": "Isak Eriksen Bjørn",
+"twitter": "",
+"bio": "Isak er en utvikler med variert erfaring med OAuth2.0 og OIDC. Både som utvikler på Oidc-tjenester hos BankId og Vipps og som bruker av OIDC tjenester i andre prosjekter.\nFor tiden er han å finne hos Statens Pensjonskasse der han beregner premier."
+}
+]
+},
+{
+"intendedAudience": "Audience:\n- Developers/DevOps engineers working or interested with Kubernetes. \n- Basic understanding of Kubernetes.\nBenefits:\n- understanding OWASP Kubernetes Top 10\n- understanding how a series of simple misconfigurations/issues can lead to a successful cyberattack\n- \"feeling\" the danger in practise, which is much more useful than the theoretical slides\n- understanding best practices of hardening k8s clusters/workloads\n\n",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "Do you want to see live Kubernetes hacking? Come to see interactive demos where your newly registered accounts in a k8s application are hijacked.\n\nThis talk guides you through various security risks of Kubernetes, focusing on OWASP Kubernetes Top 10 list. In live demos, you will find out how to exploit a range of vulnerabilities or misconfigurations in your k8s clusters, attacking containers, pods, network, or k8s components, leading to an ultimate compromise of user accounts in an exemplary web application. \n\nYou will learn about common mistakes and vulnerabilities along with the best practices for hardening your Kubernetes systems.\n",
+"title": "The Hacker's Guide to Kubernetes",
+"room": "Room 7",
+"startTime": "2023-09-06T17:00",
+"endTime": "2023-09-06T17:45",
+"video": "861717794",
+"startTimeZulu": "2023-09-06T15:00:00Z",
+"endTimeZulu": "2023-09-06T15:45:00Z",
+"id": "7cfdea78-c212-47b5-b8e5-229eba756492",
+"sessionId": "7cfdea78-c212-47b5-b8e5-229eba756492",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-06T17:00",
+"startSlotZulu": "2023-09-06T15:00:00Z",
+"speakers": [
+{
+"name": "Patrycja Wegrzynowicz",
+"twitter": "yonlabs",
+"bio": "Patrycja is a lead engineer at Form3, working on reliability and performance of UK payments. She is also the founder of Yon Labs, a startup focusing on automated tools for detection and refactoring of security vulnerabilities, performance anti-patterns, or cloud issues and providing consultancy in Java, C++, Go, and cloud technologies.\n \nShe is a regular speaker at software conferences, including CodeOne, JavaOne, Devoxx, JFokus, and others. She was awarded an Oracle Groundbreaker Ambassador title in 2020 and 2021. She was also named as one of Top 10 Women in Tech in Poland in 2016.\n\nHer interests focus on automated software engineering, mainly static and dynamic analysis techniques to support software verification, optimization, and deployment.\n \nThe link to the slides: https://www.slideshare.net/patrycjawegrzynowicz3/the-hackers-guide-to-kubernetes\n"
+}
+]
+},
+{
+"intendedAudience": "Security Proffesionals, Architects, Tech Leads",
+"length": "120",
+"format": "workshop",
+"language": "en",
+"abstract": "“Software supply chain” is a term describing everything that happens to code from the time it leaves the developers fingers until it runs in production. The code needs to be compiled, tested, packaged and deployed, and these steps take place in a variety of systems and use lots of complex third party solutions. Our apps also depend on an increasing number of third party libraries and frameworks that we often know next to nothing about.\n\nSeveral initiatives have been started in an attempt to address the issues surrounding supply chain integrity, the most noticeable one being Supply chain Levels for Software Artifacts - SLSA. SLSA aims to be vendor neutral and is backed by major players like the Cloud Native Computing Foundation and Google in addition to startups such as Chainguard.\n\nCosign - Sigstore is a Linux Foundation project which is developing Cosign, a container signing, verification and storage in an Open Container Initiative (OCI) registry, making signatures invisible infrastructure.\nKyverno - Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies.\n\nIn this workshop we will make a practical approach to securing your container applications and verify that the container has not been tampered with since it was built.",
+"title": "Securing the Container Supply Chain Workshop",
+"workshopPrerequisites": "Laptop\nGitHub account\nDocker\nLocal Kubernetes cluster\n* https://kubernetes.io/docs/tutorials/hello-minikube/\n* https://kind.sigs.k8s.io/\n* https://github.com/abiosoft/colima\n\nFull workshop install guide: https://github.com/nais/salsa-workshop/blob/main/labs/lab-0/README.md",
+"room": "Workshop B",
+"startTime": "2023-09-05T13:30",
+"endTime": "2023-09-05T15:30",
+"registerLoc": "https://moosehead.javazone.no/#/register/securing_the_container_supply_chain_workshop",
+"startTimeZulu": "2023-09-05T11:30:00Z",
+"endTimeZulu": "2023-09-05T13:30:00Z",
+"id": "bec70ca4-6db2-49ff-9049-52a8fa0f9e7d",
+"sessionId": "bec70ca4-6db2-49ff-9049-52a8fa0f9e7d",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-05T13:30",
+"startSlotZulu": "2023-09-05T11:30:00Z",
+"speakers": [
+{
+"name": "Hans Kristian Flaatten",
+"twitter": "",
+"bio": " Platform Engineering at the Norwegian Labour and Welfare Administration (NAV) responsible for the NAIS platform. NAIS is an application platform built to increase development speed by providing our developers at NAV with the best possible tools to develop and run their applications."
+},
+{
+"name": "Jan-Kåre Solbakken",
+"twitter": "",
+"bio": "Developer with occasional strays to the security side for 20+ years, for the most part on the JVM. "
+},
+{
+"name": "Youssef Bel Mekki",
+"bio": "Platform/Devops developer at NAV. I have a pretty short career. I've started my journey late, learning development in university in an age of 30. Been working in NAV ever sense, never regretted my decision towards programming. I love working with people and with the combination of programming to come up with cleaver and user friendly solutions.",
+"twitter": ""
+}
+]
+},
+{
+"intendedAudience": "Java developers, or anyone running code on the JVM, who cares about performance, lowering operational costs, or carbon footprint of their service.\nThe topic is fairly advanced but I'm going to try my best to make sure anyone who is familiar with Java idioms can understand what's going on.",
+"length": "45",
+"format": "presentation",
+"language": "en",
+"abstract": "In this talk, we’ll discuss a severe JVM performance issue, the methodology leading to its discovery, how it affects the whole Java ecosystem, and what you could do to avoid it in your code.\n\nThis scalability bottleneck has existed in OpenJDK for decades; the most surprising aspect is how such an impactful problem has been undetected for so long, eluding existing diagnostic tooling, while many common idioms will trigger the issue. Chances are high that your code is affected as well.\n\nAfter explaining the issue, we’ll show some real-world code from popular OSS libraries and how we worked around the problem in several popular OSS Java libraries with simple, small changes, leading to significant efficiency improvements.",
+"title": "Cracking the scalability wall",
+"room": "Room 5",
+"startTime": "2023-09-07T13:00",
+"endTime": "2023-09-07T13:45",
+"video": "862026246",
+"startTimeZulu": "2023-09-07T11:00:00Z",
+"endTimeZulu": "2023-09-07T11:45:00Z",
+"id": "6bcfb467-baaf-4920-b11d-6603e0efd4dc",
+"sessionId": "6bcfb467-baaf-4920-b11d-6603e0efd4dc",
+"conferenceId": "5c979d4b-9f92-43e3-a8c2-e3de0298d8de",
+"startSlot": "2023-09-07T13:00",
+"startSlotZulu": "2023-09-07T11:00:00Z",
+"speakers": [
+{
+"name": "Sanne Grinovero",
+"twitter": "SanneGrinovero",
+"bio": "Sanne Grinovero has been a member of the Hibernate team for about 15 years and contributed to many other OSS Java projects as well; among others he was a member of the R&D team creating Quarkus, Hibernate Search, Infinispan, Hibernate OGM, Hibernate Reactive.\n\nDeeply interested in performance and concurrency challenges around data access, scalability, and exploring integration with new storage technologies, distributed systems and search engines.\n\nHe lived in Holland, Italy, the Caribbean Islands, Chile, Portugal and currently hacks in the countryside near London.\n"
 }
 ]
 }

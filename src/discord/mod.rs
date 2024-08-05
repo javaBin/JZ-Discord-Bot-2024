@@ -2,10 +2,11 @@ use std::env;
 use poise::serenity_prelude as serenity;
 use utils::next_time_slot::{ find_sessions_for_next_timeslot, make_embed_for_timeslot};
 use utils::models::Program;
-use utils::{fetch, parse_json, get_program_url};
+use utils::parse_json;
 use chrono::{Datelike, Utc};
 
 use crate::utils;
+use crate::utils::program::program;
 
 struct Data {} // User data, which is stored and accessible in all command invocations
 type Error = Box<dyn std::error::Error + Send + Sync>;
@@ -36,15 +37,13 @@ async fn age(
 
 // Simple command from example
 #[poise::command(slash_command)]
-async fn next(
-    ctx: Context<'_>,
-    #[description = "Selected user"] user: Option<serenity::User>,
-) -> Result<(), Error> {
-    let time =  &Utc::now().with_year(2023).unwrap();
+async fn next(ctx: Context<'_>) -> Result<(), Error> {
+    let time =  &Utc::now().with_year(2023).unwrap().with_timezone(&chrono_tz::UTC);
     let time_string = time.to_rfc3339();
-    let program: Program = parse_json(fetch(get_program_url().unwrap().as_str()).await.unwrap().as_str()).unwrap();
+    let program: Program = parse_json(&program()).unwrap();
     let sessions = find_sessions_for_next_timeslot(&program.sessions, &time_string);
-    let embed = make_embed_for_timeslot(&sessions, &time);
+    
+    let embed = make_embed_for_timeslot(&sessions, time);
 
     ctx.send(poise::CreateReply::default()
         .embed(embed)
