@@ -1,5 +1,7 @@
-use chrono::Datelike;
-use serenity::all::CreateEmbed;
+use core::time;
+
+use chrono::{Datelike, Duration};
+use serenity::all::{CreateActionRow, CreateButton, CreateEmbed};
 use crate::utils::models::Session;
 use crate::utils::{get_datetime_from_string, get_session_url_prefix};
 
@@ -22,11 +24,6 @@ pub fn find_sessions_for_next_timeslot(sessions: &Vec<Session>, time: &String ) 
         None => return vec![], // Return an empty vector if no timeslot after the next is found
     };
 
-    println!("Next timeslot: {}", next_timeslot);
-    println!("Timeslot after next: {}", timeslot_after_next);
-    println!("timeslots: {:?}", timeslots);
-
-
     // List of sessions that are happening in the next timeslot including lightning talks
     let mut result: Vec<Session> = sessions.iter()
         .filter(|session| session.start_time_zulu.is_some())
@@ -35,9 +32,7 @@ pub fn find_sessions_for_next_timeslot(sessions: &Vec<Session>, time: &String ) 
         .map(|session| session.clone())
         .collect::<Vec<Session>>();
 
-    result.sort_by(|a: &Session, b: &Session| a.room.cmp(&b.room));
-
-    println!("{:?}", result.iter().map(|session|session.start_slot_zulu.clone().unwrap()).collect::<Vec<String>>());        
+    result.sort_by(|a: &Session, b: &Session| a.room.cmp(&b.room));    
 
     result
 
@@ -61,7 +56,7 @@ pub fn find_next_timeslot(start_times: &Vec<chrono::DateTime<chrono_tz::Tz>>, ti
         .min()
 }
 
-fn find_previous_timeslot(start_times: &Vec<chrono::DateTime<chrono_tz::Tz>>, time: chrono::DateTime<chrono_tz::Tz>) -> Option<&chrono::DateTime<chrono_tz::Tz>> {
+pub fn find_previous_timeslot(start_times: &Vec<chrono::DateTime<chrono_tz::Tz>>, time: chrono::DateTime<chrono_tz::Tz>) -> Option<&chrono::DateTime<chrono_tz::Tz>> {
     start_times.iter()
         .filter(|start_time| time.gt(start_time))
         .max()
@@ -93,12 +88,13 @@ fn format_session_to_string(session: &Session) -> String {
     format!("***{}***\n{}\n{}", room, title, speakers)
 }
 
-pub fn make_embed_for_timeslot(sessions: &Vec<Session>, time_slot: &chrono::DateTime<chrono_tz::Tz>) -> CreateEmbed {
+pub fn make_embed_for_timeslot(sessions: &Vec<Session>, current_time: &chrono::DateTime<chrono_tz::Tz>) -> CreateEmbed {
     let sessions_start_time = sessions.iter()
         .filter(|session| session.start_time_zulu.is_some())
         .map(|session| get_datetime_from_string_with_local_tz(&session.start_time_zulu.clone().unwrap()).unwrap())
+        .filter(|time| time.gt(current_time))
         .min()
-        .unwrap_or_else(|| time_slot.clone());
+        .unwrap_or_else(|| current_time.clone());
 
     let embed = poise::serenity_prelude::CreateEmbed::default()
         .title(format!("{} {}", sessions_start_time.weekday(), sessions_start_time.format("%H:%M")))
@@ -108,5 +104,21 @@ pub fn make_embed_for_timeslot(sessions: &Vec<Session>, time_slot: &chrono::Date
             .join("\n"));
 
     embed
+}
+
+pub fn make_buttons(next_timeslot: chrono::DateTime<chrono_tz::Tz>, previous_timeslot: chrono::DateTime<chrono_tz::Tz>) -> CreateActionRow {
+    let adjusted_next_timeslot = next_timeslot + chrono::Duration::minutes(1);
+    let adjusted_previous_timeslot = previous_timeslot - chrono::Duration::minutes(1);
+    
+    let next_button = poise::serenity_prelude::CreateButton::new(format!("next_{}", adjusted_next_timeslot.to_rfc3339()))
+        .label("▶️")
+        .style(poise::serenity_prelude::ButtonStyle::Primary);
+
+    let previous_button = poise::serenity_prelude::CreateButton::new(format!("previous_{}", adjusted_previous_timeslot.to_rfc3339()))
+        .label("◀️")
+        .style(poise::serenity_prelude::ButtonStyle::Primary);
+
+
+    poise::serenity_prelude::CreateActionRow::Buttons(vec![previous_button, next_button])
 }
 

@@ -58,7 +58,7 @@ pub fn get_sessions_with_speakers(program: &Program) -> String {
     .join("\n")
 }
 
-fn get_datetime_from_string(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz>> {
+pub fn get_datetime_from_string(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz>> {
     let date = chrono::DateTime::parse_from_rfc3339(date);
 
     match date {
@@ -67,7 +67,7 @@ fn get_datetime_from_string(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz
     }
 }
 
-fn get_datetime_from_string_with_local_tz(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz>> {
+pub fn get_datetime_from_string_with_local_tz(date: &str) -> Option<chrono::DateTime<chrono_tz::Tz>> {
     let date = chrono::DateTime::parse_from_rfc3339(date);
 
     match date {
